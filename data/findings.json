@@ -98,17 +98,17 @@
   "sources": [
    "echo_sdwa"
   ],
-  "asof": "2026-11-05T01:43:37Z"
+  "asof": "2026-11-05T13:57:00Z"
  },
  {
   "id": "wqp",
   "title": "Water Quality Portal groundwater results since 2010 compared with EPA reference values",
-  "text": "tds: 22,875 sites, 7,867 exceed the EPA reference value on a median basis; chloride: 30,603 sites, 2,839 exceed the EPA reference value on a median basis; nitrate: 13,756 sites, 1,459 exceed the EPA reference value on a median basis; arsenic: 20,748 sites, 2,963 exceed the EPA reference value on a median basis; pfoa: 429 sites, 213 exceed the EPA reference value on a median basis; pfos: 376 sites, 159 exceed the EPA reference value on a median basis. Counts are per monitoring site using the site median; sites are not a random sample of wells.",
+  "text": "tds: 22,875 sites, 7,867 exceed the EPA reference value on a median basis; chloride: 30,603 sites, 2,839 exceed the EPA reference value on a median basis; nitrate: 11,854 sites, 1,281 exceed the EPA reference value on a median basis; arsenic: 12,744 sites, 1,541 exceed the EPA reference value on a median basis; pfoa: 429 sites, 213 exceed the EPA reference value on a median basis; pfos: 113 sites, 38 exceed the EPA reference value on a median basis. Counts are per monitoring site using the site median; sites are not a random sample of wells.",
   "label": "ANALYTIC ASSESSMENT",
   "sources": [
    "wqp"
   ],
-  "asof": "2026-11-05T01:58:57Z"
+  "asof": "2026-11-05T14:25:11Z"
  },
  {
   "id": "ca_dwa",
@@ -153,7 +153,7 @@
    "pwdb",
    "rrc"
   ],
-  "asof": "2026-11-05T02:10:12Z"
+  "asof": "2026-11-05T14:26:21Z"
  },
  {
   "id": "dc",

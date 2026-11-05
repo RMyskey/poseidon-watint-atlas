@@ -96,7 +96,7 @@
   "role": "US active public water systems: counts, source type, population served, health-based violation flag",
   "cadence": "monthly",
   "layer": "sdwa_state",
-  "asof": "2026-11-05T01:43:37Z",
+  "asof": "2026-11-05T13:57:00Z",
   "records": 142155
  },
  "echo_npdes": {
@@ -106,7 +106,7 @@
   "role": "Active major NPDES dischargers (POTW and industrial)",
   "cadence": "monthly",
   "layer": "npdes_majors",
-  "asof": "2026-11-05T01:32:36Z",
+  "asof": "2026-11-05T13:59:19Z",
   "records": 6991
  },
  "wqp": {
@@ -116,8 +116,8 @@
   "role": "Groundwater well chemistry since 2010 (TDS, chloride, nitrate, arsenic, PFOA, PFOS) aggregated by county and HUC8",
   "cadence": "monthly",
   "layer": "wqp_county",
-  "asof": "2026-11-05T01:58:57Z",
-  "records": 88787
+  "asof": "2026-11-05T14:25:11Z",
+  "records": 78618
  },
  "datacenters": {
   "name": "FracTracker Alliance U.S. Data Centers Tracker (ArcGIS layer mirror)",
@@ -206,7 +206,7 @@
   "role": "SWUI metric, Longview scenario (abstract and press coverage only; full text not accessed)",
   "cadence": "reference",
   "layer": "siting_tx",
-  "asof": "2026-11-05T02:10:12Z",
+  "asof": "2026-11-05T14:26:21Z",
   "records": 1036
  },
  "ut_news": {

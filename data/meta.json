@@ -40,7 +40,7 @@
   "CURATED": "Analyst-entered in data/source/. Never changed by feeds; feed findings go to the review queue."
  },
  "footer": "Poseidon NARINT concept prototype: open, unclassified public data only. Not an official product of the Department of War, USACE, or the Army Geospatial Center.",
- "built_at": "2026-11-05T02:52:41Z",
+ "built_at": "2026-11-05T14:26:22Z",
  "feeds": {
   "gdacs": {
    "label": "GDACS drought/flood/cyclone events",
@@ -54,7 +54,7 @@
    "items": 64,
    "message": "GDACS events in 21 days",
    "last_success": "2026-11-05T02:10:01Z",
-   "status_note": "not selected"
+   "status_note": "not due"
   },
   "quakes": {
    "label": "USGS earthquakes (global M4.5+, North America M2.5+)",
@@ -68,14 +68,18 @@
    "items": 727,
    "message": "727 global M4.5+ in 30 d; 24071 North America M2.5+ in 5 y",
    "last_success": "2026-11-05T02:10:10Z",
-   "status_note": "not selected"
+   "status_note": "not due"
   },
   "gdelt": {
    "label": "GDELT DOC 2.0 news alerts",
    "cadence": "daily",
    "url": "https://api.gdeltproject.org/api/v2/doc/doc",
    "outputs": [],
-   "status_note": "not selected"
+   "status": "partial",
+   "last_attempt": "2026-11-05T13:54:32Z",
+   "items": 0,
+   "message": "2/5 queries ok; HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc",
+   "last_success": "2026-11-05T13:54:32Z"
   },
   "gnews": {
    "label": "Google News RSS alerts",
@@ -87,7 +91,7 @@
    "items": 34,
    "message": "15 queries; ",
    "last_success": "2026-11-05T02:05:32Z",
-   "status_note": "not selected"
+   "status_note": "not due"
   },
   "usdm": {
    "label": "US Drought Monitor weekly map",
@@ -101,7 +105,7 @@
    "items": 5,
    "message": "map date 2026-10-27",
    "last_success": "2026-11-05T02:05:35Z",
-   "status_note": "not selected"
+   "status_note": "not due"
   },
   "datacenters": {
    "label": "FracTracker data center register",
@@ -115,7 +119,7 @@
    "items": 1757,
    "message": "1757 records, 703 with MW",
    "last_success": "2026-11-05T02:05:35Z",
-   "status_note": "not selected"
+   "status_note": "not due"
   },
   "isc_dwa": {
    "label": "ISC First Nations drinking water advisories",
@@ -129,7 +133,7 @@
    "items": 39,
    "message": "755 communities, 39 active advisories",
    "last_success": "2026-11-05T02:05:36Z",
-   "status_note": "not selected"
+   "status_note": "not due"
   },
   "wser": {
    "label": "ECCC WSER wastewater systems",
@@ -138,7 +142,11 @@
    "outputs": [
     "ca_wser.json"
    ],
-   "status_note": "not selected"
+   "status": "ok",
+   "last_attempt": "2026-11-05T13:54:33Z",
+   "items": 2538,
+   "message": "2538 systems, 2537 with coordinates",
+   "last_success": "2026-11-05T13:54:33Z"
   },
   "rrc": {
    "label": "Texas RRC wells and injection/disposal (ArcGIS REST)",
@@ -148,7 +156,11 @@
     "tx_wells_grid.json",
     "tx_swd.json"
    ],
-   "status_note": "not selected"
+   "status": "error",
+   "last_attempt": "2026-11-05T13:55:31Z",
+   "items": 0,
+   "message": "Showing previous data. HTTPError: <urlopen error [Errno 111] Connection refused> for https://gis.rrc.texas.gov/server/rest/services/rrc_public/RRC_Public_Viewer_Srvs/MapServer/1/query",
+   "stale": true
   },
   "og_nm": {
    "label": "New Mexico OCD wells and injection volumes (ArcGIS REST)",
@@ -162,7 +174,8 @@
    "last_attempt": "2026-11-05T02:45:50Z",
    "items": 142469,
    "message": "142469 wells, 3537 injection/disposal, 2946 with injection volumes",
-   "last_success": "2026-11-05T02:45:50Z"
+   "last_success": "2026-11-05T02:45:50Z",
+   "status_note": "not due"
   },
   "og_ok": {
    "label": "Oklahoma OCC wells, UIC wells and injection volumes",
@@ -176,7 +189,8 @@
    "last_attempt": "2026-11-05T02:46:05Z",
    "items": 457402,
    "message": "457402 wells, 9899 UIC wells, 382 commercial, volumes 2025",
-   "last_success": "2026-11-05T02:46:05Z"
+   "last_success": "2026-11-05T02:46:05Z",
+   "status_note": "not due"
   },
   "og_ab": {
    "label": "Alberta AER ST37 list of wells",
@@ -190,7 +204,8 @@
    "last_attempt": "2026-11-05T02:47:39Z",
    "items": 541190,
    "message": "541190 licences, 11378 injection/disposal",
-   "last_success": "2026-11-05T02:47:39Z"
+   "last_success": "2026-11-05T02:47:39Z",
+   "status_note": "not due"
   },
   "og_bc": {
    "label": "British Columbia BCER well surface holes (WFS)",
@@ -204,7 +219,8 @@
    "last_attempt": "2026-11-05T02:47:42Z",
    "items": 34441,
    "message": "34441 surface holes, 478 injection/disposal",
-   "last_success": "2026-11-05T02:47:42Z"
+   "last_success": "2026-11-05T02:47:42Z",
+   "status_note": "not due"
   },
   "og_sk": {
    "label": "Saskatchewan petroleum wells (ArcGIS REST)",
@@ -218,7 +234,8 @@
    "last_attempt": "2026-11-05T02:47:53Z",
    "items": 96574,
    "message": "96574 wells, 4243 injection/disposal",
-   "last_success": "2026-11-05T02:47:53Z"
+   "last_success": "2026-11-05T02:47:53Z",
+   "status_note": "not due"
   },
   "mx_wells": {
    "label": "Mexico SENER completed-wells CSV (blocked from this network)",
@@ -226,7 +243,7 @@
    "url": "https://www.datos.gob.mx/dataset/coordenadas_pozos_terminados_2026",
    "outputs": [],
    "status": "error",
-   "last_attempt": "2026-11-05T02:47:53Z",
+   "last_attempt": "2026-11-05T13:55:31Z",
    "items": 0,
    "message": "RuntimeError: SENER completed-wells CSV not retrievable: HTTP 403 for https://repodatos.atdt.gob.mx/api_update/sener/coordenadas_pozos_terminados_2026/dgace_pozos_terminados_ago"
   },
@@ -238,7 +255,11 @@
     "sdwa_state.json",
     "sdwa_county.json"
    ],
-   "status_note": "not selected"
+   "status": "ok",
+   "last_attempt": "2026-11-05T13:57:00Z",
+   "items": 142155,
+   "message": "142155 systems (48811 CWS), 51 states, 0 state errors",
+   "last_success": "2026-11-05T13:57:00Z"
   },
   "echo_npdes": {
    "label": "EPA ECHO / ICIS-NPDES major dischargers",
@@ -247,7 +268,11 @@
    "outputs": [
     "npdes_majors.json"
    ],
-   "status_note": "not selected"
+   "status": "ok",
+   "last_attempt": "2026-11-05T13:59:19Z",
+   "items": 6991,
+   "message": "6991 major permittees, 0 state errors",
+   "last_success": "2026-11-05T13:59:19Z"
   },
   "wqp": {
    "label": "Water Quality Portal groundwater aggregates (county, HUC8)",
@@ -258,7 +283,11 @@
     "wqp_huc8.json",
     "wqp_top_sites.json"
    ],
-   "status_note": "not selected"
+   "status": "partial",
+   "last_attempt": "2026-11-05T14:25:12Z",
+   "items": 78618,
+   "message": "57 state/parameter pulls failed",
+   "last_success": "2026-11-05T14:25:12Z"
   },
   "igrac": {
    "label": "IGRAC GGMN global monitoring registry (WFS)",
@@ -267,7 +296,11 @@
    "outputs": [
     "ggmn_global.json"
    ],
-   "status_note": "not selected"
+   "status": "ok",
+   "last_attempt": "2026-11-05T14:25:45Z",
+   "items": 374934,
+   "message": "374934 GGMN points",
+   "last_success": "2026-11-05T14:25:45Z"
   },
   "conagua": {
    "label": "CONAGUA datos abiertos (Mexico)",
@@ -276,7 +309,11 @@
    "outputs": [
     "mx_aquifers.geojson"
    ],
-   "status_note": "not selected"
+   "status": "error",
+   "last_attempt": "2026-11-05T14:25:45Z",
+   "items": 0,
+   "message": "Showing previous data. RuntimeError: CONAGUA files unavailable: Acuiferos_Disponibilidad_09-11-2023.zip (HTTP Error 403: Forbidden for https://sinav30.conagua.gob.mx); Datos_de_calidad_del_agua_de_5000_sitios_de_monitoreo.zip (HTTP Error 302: The HTTP server returned a redirect error th); Resultados_de_calidad_del_agua_de_5000_sitios_de_monitoreo.zip (HTTP Error 302: The HTTP server returned a red",
+   "stale": true
   },
   "pwdb": {
    "label": "USGS Produced Waters Geochemical Database",
@@ -285,7 +322,11 @@
    "outputs": [
     "pwdb_basins.json"
    ],
-   "status_note": "not selected"
+   "status": "ok",
+   "last_attempt": "2026-11-05T14:25:54Z",
+   "items": 113135,
+   "message": "113135 records, 71 basins",
+   "last_success": "2026-11-05T14:25:54Z"
   },
   "nbga": {
    "label": "USGS National Brackish Groundwater Assessment database",
@@ -294,7 +335,11 @@
    "outputs": [
     "nbga_grid.json"
    ],
-   "status_note": "not selected"
+   "status": "ok",
+   "last_attempt": "2026-11-05T14:26:11Z",
+   "items": 379653,
+   "message": "379653 TDS samples",
+   "last_success": "2026-11-05T14:26:11Z"
   },
   "boundaries": {
    "label": "Census county/state boundaries",
@@ -303,7 +348,11 @@
    "outputs": [
     "us_counties.geojson"
    ],
-   "status_note": "not selected"
+   "status": "ok",
+   "last_attempt": "2026-11-05T14:26:12Z",
+   "items": 1,
+   "message": "boundaries rebuilt",
+   "last_success": "2026-11-05T14:26:12Z"
   },
   "limits_watch": {
    "label": "Watch: PFAS limits (Federal Register) and USGS dataset releases",
@@ -315,7 +364,7 @@
    "items": 0,
    "message": "0 review items",
    "last_success": "2026-11-05T02:05:55Z",
-   "status_note": "not selected"
+   "status_note": "not due"
   },
   "siting": {
    "label": "DERIVED: Texas data-center siting model and logistics",
@@ -326,11 +375,10 @@
     "logistics_tx.json"
    ],
    "status": "ok",
-   "last_attempt": "2026-11-05T02:10:12Z",
+   "last_attempt": "2026-11-05T14:26:22Z",
    "items": 1036,
    "message": "Longview cell rank 537 of 1036; 238 Texas data centers in logistics",
-   "last_success": "2026-11-05T02:10:12Z",
-   "status_note": "not selected"
+   "last_success": "2026-11-05T14:26:22Z"
   }
  },
  "layers": [
@@ -558,7 +606,7 @@
    "precision": "C",
    "label": "OBSERVED",
    "records": 142155,
-   "asof": "2026-11-05T01:43:37Z",
+   "asof": "2026-11-05T13:57:00Z",
    "size_kb": 12,
    "note": "Active systems: CWS, NTNCWS, TNCWS."
   },
@@ -570,7 +618,7 @@
    "precision": "C",
    "label": "OBSERVED",
    "records": 3087,
-   "asof": "2026-11-05T01:43:37Z",
+   "asof": "2026-11-05T13:57:00Z",
    "size_kb": 68,
    "note": "A system is attributed to every county in its FIPS list."
   },
@@ -582,7 +630,7 @@
    "precision": "F",
    "label": "OBSERVED",
    "records": 6991,
-   "asof": "2026-11-05T01:32:36Z",
+   "asof": "2026-11-05T13:59:19Z",
    "size_kb": 734,
    "note": "Major permittees only."
   },
@@ -593,9 +641,9 @@
    "source": "wqp",
    "precision": "C",
    "label": "OBSERVED",
-   "records": 88787,
-   "asof": "2026-11-05T01:58:57Z",
-   "size_kb": 278,
+   "records": 78618,
+   "asof": "2026-11-05T14:25:11Z",
+   "size_kb": 245,
    "note": "Medians, maxima and exceedance counts against EPA limits; aggregation hides individual wells."
   },
   {
@@ -605,9 +653,9 @@
    "source": "wqp",
    "precision": "C",
    "label": "OBSERVED",
-   "records": 88787,
-   "asof": "2026-11-05T01:58:57Z",
-   "size_kb": 329,
+   "records": 78618,
+   "asof": "2026-11-05T14:25:11Z",
+   "size_kb": 285,
    "note": ""
   },
   {
@@ -617,9 +665,9 @@
    "source": "wqp",
    "precision": "M",
    "label": "OBSERVED",
-   "records": 88787,
-   "asof": "2026-11-05T01:58:57Z",
-   "size_kb": 58,
+   "records": 78618,
+   "asof": "2026-11-05T14:25:11Z",
+   "size_kb": 56,
    "note": "Top 200 sites per parameter, individual results."
   },
   {
@@ -642,7 +690,7 @@
    "precision": "G",
    "label": "MODELED",
    "records": 1036,
-   "asof": "2026-11-05T02:10:12Z",
+   "asof": "2026-11-05T14:26:21Z",
    "size_kb": 85,
    "note": "MODELED screening inspired by the SWUI concept; not the published method."
   },
@@ -654,7 +702,7 @@
    "precision": "A",
    "label": "ANALYTIC ASSESSMENT",
    "records": 238,
-   "asof": "2026-11-05T02:10:12Z",
+   "asof": "2026-11-05T14:26:21Z",
    "size_kb": 88,
    "note": "Great-circle distances; not haul routes."
   },
