@@ -165,49 +165,96 @@
     10,
     15
    ],
-   "zoom": 1.6
+   "zoom": 1.6,
+   "label": "World"
   },
   "na": {
    "center": [
     -100,
     38
    ],
-   "zoom": 3.1
+   "zoom": 3.1,
+   "label": "North America"
   },
   "permian": {
    "center": [
     -102.3,
     31.8
    ],
-   "zoom": 6.2
+   "zoom": 6.2,
+   "label": "Permian Basin"
   },
   "texas": {
    "center": [
     -99.3,
     31.4
    ],
-   "zoom": 5.2
+   "zoom": 5.2,
+   "label": "Texas"
   },
   "mexico": {
    "center": [
     -102,
     23.5
    ],
-   "zoom": 4.4
+   "zoom": 4.4,
+   "label": "Mexico"
   },
   "canada": {
    "center": [
     -98,
     54
    ],
-   "zoom": 3.0
+   "zoom": 3.0,
+   "label": "Canada"
   },
   "longview": {
    "center": [
     -94.74,
     32.5
    ],
-   "zoom": 8.2
+   "zoom": 8.2,
+   "label": "Longview TX"
+  },
+  "newmexico": {
+   "center": [
+    -105.9,
+    34.4
+   ],
+   "zoom": 5.4,
+   "label": "New Mexico"
+  },
+  "oklahoma": {
+   "center": [
+    -97.5,
+    35.6
+   ],
+   "zoom": 5.6,
+   "label": "Oklahoma"
+  },
+  "alberta": {
+   "center": [
+    -113.8,
+    54.3
+   ],
+   "zoom": 4.6,
+   "label": "Alberta"
+  },
+  "bc": {
+   "center": [
+    -122.0,
+    56.3
+   ],
+   "zoom": 5.2,
+   "label": "British Columbia"
+  },
+  "saskatchewan": {
+   "center": [
+    -106.0,
+    52.5
+   ],
+   "zoom": 4.9,
+   "label": "Saskatchewan"
   }
  }
 }

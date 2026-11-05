@@ -10,8 +10,19 @@ def _n(k):
     return lambda j: len(j.get(k) or [])
 
 LAYER_DEFS = [
- ('tx_wells_grid', 'Texas wells by 0.1 degree cell (producing, shut-in, plugged, injection/disposal, other)', 'tx_wells_grid.json', 'rrc', 'G', 'OBSERVED', lambda j: j.get('records'), 'Counts per cell from RRC well locations. Texas only: NM, OK and Canada well layers are not in this build.'),
+ ('tx_wells_grid', 'Texas wells by 0.1 degree cell (producing, shut-in, plugged, injection/disposal, other)', 'tx_wells_grid.json', 'rrc', 'G', 'OBSERVED', lambda j: j.get('records'), 'Counts per cell from RRC well locations (the densest well layer). Other jurisdictions are separate layers below.'),
  ('tx_swd', 'Texas injection/disposal wells and commercial disposal sites', 'tx_swd.json', 'rrc', 'F', 'OBSERVED', lambda j: (j.get('n_injection_disposal') or 0) + (j.get('n_commercial') or 0), 'Layer 4 includes EOR injection as well as saltwater disposal; the service does not separate them.'),
+ ('nm_wells_grid', 'New Mexico wells by 0.1 degree cell (New Mexico OCD)', 'nm_wells_grid.json', 'nm_ocd', 'G', 'OBSERVED', lambda j: j.get('records'), 'Counts per cell; the class mapping from regulator status codes is in the layer file note. Locations are regulator-reported.'),
+ ('nm_swd', 'New Mexico injection/disposal wells', 'nm_swd.json', 'nm_ocd', 'F', 'OBSERVED', lambda j: (j.get('n_injection_disposal') or 0) + (j.get('n_commercial') or 0), 'Injection and disposal wells that are not abandoned. Rolling 12-month volumes (read as barrels; unit not stated by the service) where joined.'),
+ ('ok_wells_grid', 'Oklahoma wells by 0.1 degree cell (Oklahoma OCC)', 'ok_wells_grid.json', 'ok_occ', 'G', 'OBSERVED', lambda j: j.get('records'), 'Counts per cell; the class mapping from regulator status codes is in the layer file note. Locations are regulator-reported.'),
+ ('ok_swd', 'Oklahoma injection/disposal wells and commercial disposal', 'ok_swd.json', 'ok_occ', 'F', 'OBSERVED', lambda j: (j.get('n_injection_disposal') or 0) + (j.get('n_commercial') or 0), 'Injection and disposal wells that are not abandoned. 2025 monthly volumes (read as barrels; unit not stated in the workbook) where joined.'),
+ ('ab_wells_grid', 'Alberta wells by 0.1 degree cell (Alberta AER ST37)', 'ab_wells_grid.json', 'ab_aer', 'G', 'OBSERVED', lambda j: j.get('records'), 'Counts per cell; the class mapping from regulator status codes is in the layer file note. Locations are regulator-reported.'),
+ ('ab_swd', 'Alberta injection/disposal wells', 'ab_swd.json', 'ab_aer', 'F', 'OBSERVED', lambda j: (j.get('n_injection_disposal') or 0) + (j.get('n_commercial') or 0), 'Injection and disposal wells that are not abandoned. No volumes in this layer.'),
+ ('bc_wells_grid', 'British Columbia wells by 0.1 degree cell (BC Energy Regulator)', 'bc_wells_grid.json', 'bc_bcer', 'G', 'OBSERVED', lambda j: j.get('records'), 'Counts per cell; the class mapping from regulator status codes is in the layer file note. Locations are regulator-reported.'),
+ ('bc_swd', 'British Columbia injection/disposal wells', 'bc_swd.json', 'bc_bcer', 'F', 'OBSERVED', lambda j: (j.get('n_injection_disposal') or 0) + (j.get('n_commercial') or 0), 'Injection and disposal wells that are not abandoned. No volumes in this layer.'),
+ ('sk_wells_grid', 'Saskatchewan wells by 0.1 degree cell (Saskatchewan Energy and Resources)', 'sk_wells_grid.json', 'sk_er', 'G', 'OBSERVED', lambda j: j.get('records'), 'Counts per cell; the class mapping from regulator status codes is in the layer file note. Locations are regulator-reported.'),
+ ('sk_swd', 'Saskatchewan injection/disposal wells', 'sk_swd.json', 'sk_er', 'F', 'OBSERVED', lambda j: (j.get('n_injection_disposal') or 0) + (j.get('n_commercial') or 0), 'Injection and disposal wells that are not abandoned. No volumes in this layer.'),
+ ('og_na_summary', 'North America oil and gas: records, classes and reported injection volumes by jurisdiction', 'og_na_summary.json', 'rrc', 'C', 'ANALYTIC ASSESSMENT', lambda j: sum((x.get('records') or 0) for x in j.get('jurisdictions', [])), 'Cross-jurisdiction table built from the layers above; volume totals only for NM and OK.'),
  ('quakes', 'USGS earthquakes: global M4.5+ 30 d; North America M2.5+ 5 y by 0.5 degree cell', 'quakes.json', 'usgs_quakes', 'G', 'OBSERVED', lambda j: (j.get('na_window') or {}).get('events'), 'Events are not labelled natural or induced by USGS.'),
  ('pwdb_basins', 'Produced-water chemistry by basin (USGS PWDB v3.0)', 'pwdb_basins.json', 'pwdb', 'C', 'OBSERVED', lambda j: j.get('records'), 'Medians of reported TDS and chloride per basin.'),
  ('pwdb_grid', 'Produced-water TDS by 0.25 degree cell', 'pwdb_grid.json', 'pwdb', 'G', 'OBSERVED', lambda j: j.get('records_with_tds'), ''),
@@ -206,12 +217,26 @@ def build_findings(flow):
     if w:
         t = w['totals']
         add('tx_wells', 'Texas well records: %s in the RRC layer' % format(w['records'], ','),
-            'By symbol class: %s producing, %s shut-in, %s plugged, %s injection or disposal and %s other (RRC GIS symbols). Texas only; no complete North American well layer was collected.' % tuple(format(t[k], ',') for k in ('producing', 'shut_in', 'plugged', 'injection_disposal', 'other')),
+            'By symbol class: %s producing, %s shut-in, %s plugged, %s injection or disposal and %s other (RRC GIS symbols). The densest layer in the atlas; NM, OK, Alberta, BC and Saskatchewan are separate layers.' % tuple(format(t[k], ',') for k in ('producing', 'shut_in', 'plugged', 'injection_disposal', 'other')),
             'OBSERVED', ['rrc'], w.get('asof'))
     s = load(LAYERS + '/tx_swd.json')
     if s:
         add('tx_swd', 'Texas has %s injection/disposal well records and %s commercial disposal sites' % (format(s['n_injection_disposal'], ','), format(s['n_commercial'], ',')),
-            'Counts include enhanced-oil-recovery injection, which the service does not separate from saltwater disposal. Per-well disposal volumes are not in the layer, so well counts are used as a proxy for produced-water handling activity (MODELED siting uses this proxy).', 'OBSERVED', ['rrc'], s.get('asof'))
+            'Counts include enhanced-oil-recovery injection, which the service does not separate from saltwater disposal. The Texas RRC layers carry no per-well volumes, so well counts are used as a proxy for produced-water handling activity (MODELED siting uses this proxy).', 'OBSERVED', ['rrc'], s.get('asof'))
+    og = load(LAYERS + '/og_na_summary.json')
+    if og:
+        js = og['jurisdictions']
+        tot_rec = sum(x['records'] or 0 for x in js)
+        tot_inj = sum(x.get('injection_disposal_points') or 0 for x in js)
+        add('na_wells', 'North American well layers: %s well records in %d jurisdictions' % (format(tot_rec, ','), len(js)),
+            '; '.join('%s %s' % (x['name'], format(x['records'] or 0, ',')) for x in js) + '. Together they hold %s injection/disposal wells that are not abandoned (Texas counts the RRC injection layer). Mexico has no open coordinate registry reachable from this build (SENER completed-wells CSVs are denied to automated clients) and is shown only through CONAGUA water layers.' % format(tot_inj, ','),
+            'OBSERVED', ['rrc', 'nm_ocd', 'ok_occ', 'ab_aer', 'bc_bcer', 'sk_er'], og.get('asof'))
+        vols = [x for x in js if x.get('volume')]
+        if vols:
+            add('og_vol', 'Reported injection volumes: New Mexico and Oklahoma publish per-well figures, Texas does not',
+                '; '.join('%s %s bbl (%s; %s wells with volume; saltwater-disposal wells alone %s bbl)' % (x['name'], format(x['volume']['total'], ','), x['volume']['kind'], format(x['volume']['wells'] or 0, ','), format(x['volume']['swd_only_total'], ',')) for x in vols)
+                + '. The services do not state a unit; the magnitude (about %.1f million bbl/day for NM and %.1f million bbl/day for OK if read as barrels) is plausible for barrels (Permian produced water across Texas and New Mexico is about 20 million bbl/day per Texas Tech/TAWC), so the atlas reads them as barrels; the regulators have not confirmed the unit in the services. Totals include enhanced-oil-recovery injection unless marked saltwater disposal.' % (vols[0]['volume']['total'] / 365e6, vols[1]['volume']['total'] / 365e6 if len(vols) > 1 else 0),
+                'ANALYTIC ASSESSMENT', ['nm_ocd', 'ok_occ'], og.get('asof'))
     q = load(LAYERS + '/quakes.json')
     if q:
         n = tot = 0

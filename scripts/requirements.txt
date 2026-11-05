@@ -1,1 +1,2 @@
 pyshp>=2.3
+openpyxl>=3.1

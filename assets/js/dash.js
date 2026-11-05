@@ -106,21 +106,33 @@
   function initOilGas() {
     var el = $('#ogMap');
     U.whenVisible(el, function () {
-      var dm = dashMap({ id: 'ogMap', center: [-102.3, 31.8], zoom: 6.2, readout: '#ogReadout', box: '#ogLayers', legend: null, layers: ['wells', 'swd', 'quakes_na', 'pwdb', 'nbga'], on: ['wells', 'swd', 'quakes_na'] });
+      var dm = dashMap({ id: 'ogMap', center: [-102.3, 31.8], zoom: 6.2, readout: '#ogReadout', box: '#ogLayers', legend: '#ogLegend', layers: ['wells', 'swd', 'swd_vol', 'quakes_na', 'pwdb', 'nbga'], on: ['wells', 'swd', 'quakes_na'] });
       if (!dm) return;
       $$('#ogPreset button').forEach(function (b) { b.onclick = function () { $$('#ogPreset button').forEach(function (x) { x.classList.toggle('on', x === b); }); var r = REF.regions[b.dataset.r]; dm.map.flyTo({ center: r.center, zoom: r.zoom, duration: 1000 }); }; });
       window.__ogmap = dm.map;
     });
-    Promise.all([U.layer('tx_wells_grid.json'), U.layer('quakes.json')]).then(function (d) {
-      var w = d[0], t = w.totals, names = [['producing', 'Producing'], ['shut_in', 'Shut-in'], ['plugged', 'Plugged'], ['injection_disposal', 'Injection / disposal'], ['other', 'Other / unclassified']];
+    var OGF = [['tx', 'Texas'], ['nm', 'New Mexico'], ['ok', 'Oklahoma'], ['ab', 'Alberta'], ['bc', 'British Columbia'], ['sk', 'Saskatchewan']];
+    Promise.all([U.layer('og_na_summary.json'), U.layer('quakes.json')].concat(OGF.map(function (o) { return U.layer(o[0] + '_wells_grid.json').catch(function () { return null; }); }))).then(function (d) {
+      var sm = d[0], grids = d.slice(2), names = [['producing', 'Producing', '#3ddc97'], ['shut_in', 'Shut-in', '#ffb547'], ['plugged', 'Plugged / abandoned', '#7d8aa3'], ['injection_disposal', 'Injection / disposal', '#38c7ff'], ['other', 'Other / unclassified', '#5b6a85']];
+      var J = sm.jurisdictions.slice().sort(function (a, b) { return a.records - b.records; });
       U.whenVisible($('#ogBars'), function () {
-        U.chart('ogBars').setOption({ tooltip: Object.assign({}, U.TIP, { trigger: 'axis', axisPointer: { type: 'shadow' } }), grid: { left: 130, right: 30, top: 10, bottom: 24 }, xAxis: Object.assign({ type: 'value' }, U.AX), yAxis: Object.assign({ type: 'category', data: names.map(function (n) { return n[1]; }).reverse() }, U.AX),
-          series: [{ type: 'bar', data: names.map(function (n) { return t[n[0]]; }).reverse(), itemStyle: { color: '#38c7ff' }, label: { show: true, position: 'right', color: '#a3b2c8', formatter: function (p) { return U.n(p.value); } } }] });
+        U.chart('ogBars').setOption({ tooltip: Object.assign({}, U.TIP, { trigger: 'axis', axisPointer: { type: 'shadow' } }), legend: { data: names.map(function (n) { return n[1]; }), textStyle: { color: '#a3b2c8', fontSize: 10 }, top: 0, itemWidth: 10, itemHeight: 8 }, grid: { left: 100, right: 40, top: 40, bottom: 24 }, xAxis: Object.assign({ type: 'value' }, U.AX), yAxis: Object.assign({ type: 'category', data: J.map(function (x) { return x.name; }) }, U.AX),
+          series: names.map(function (n) { return { name: n[1], type: 'bar', stack: 'c', data: J.map(function (x) { return x.by_class[n[0]]; }), itemStyle: { color: n[2] } }; }) });
       });
-      $('#ogBarsNote').innerHTML = esc('Total ' + U.n(w.records) + ' records. ') + U.srcLink('rrc') + ', as of ' + esc(U.stamp(w.asof)) + '. ' + U.lbl('OBSERVED');
-      // top disposal cells
-      var top = w.rows.slice().sort(function (a, b) { return b[5] - a[5]; }).slice(0, 12);
-      $('#ogTop').innerHTML = '<thead><tr><th>Cell centre</th><th>MGRS</th><th>Inj./disposal</th><th>Producing</th></tr></thead><tbody>' + top.map(function (r) { return '<tr><td>' + r[0].toFixed(2) + ', ' + r[1].toFixed(2) + '</td><td class="mono">' + G.mgrs(r[0], r[1]).slice(0, 9) + '…</td><td class="num">' + U.n(r[5]) + '</td><td class="num">' + U.n(r[2]) + '</td></tr>'; }).join('') + '</tbody>';
+      $('#ogBarsNote').innerHTML = esc('Total ' + U.n(J.reduce(function (t, x) { return t + x.records; }, 0)) + ' records. Class grouping is the atlas\'s mapping of each regulator\'s status codes. Sources: ') + J.slice().reverse().map(function (x) { return U.srcLink(x.src); }).join(', ') + esc('; as of ' + U.stamp(sm.asof) + '. ') + U.lbl('OBSERVED');
+      // top disposal cells, all jurisdictions
+      var all = []; grids.forEach(function (g, i) { if (g) g.rows.forEach(function (r) { all.push([r, OGF[i][1]]); }); });
+      var top = all.sort(function (a, b) { return b[0][5] - a[0][5]; }).slice(0, 12);
+      $('#ogTop').innerHTML = '<thead><tr><th>Cell centre</th><th>Region</th><th>MGRS</th><th>Inj./disposal</th><th>Producing</th></tr></thead><tbody>' + top.map(function (x) { var r = x[0]; return '<tr><td>' + r[0].toFixed(2) + ', ' + r[1].toFixed(2) + '</td><td>' + esc(x[1]) + '</td><td class="mono">' + G.mgrs(r[0], r[1]).slice(0, 9) + '…</td><td class="num">' + U.n(r[5]) + '</td><td class="num">' + U.n(r[2]) + '</td></tr>'; }).join('') + '</tbody>';
+      // volumes (NM, OK)
+      var tv = sm.top_volume_wells.slice(0, 15), vj = sm.jurisdictions.filter(function (x) { return x.volume; });
+      U.whenVisible($('#ogVol'), function () {
+        U.chart('ogVol').setOption({ tooltip: Object.assign({}, U.TIP, { formatter: function (p) { var w = tv[tv.length - 1 - p.dataIndex]; return esc(w.jur + ' ' + w.subtype) + '<br>' + w.lat.toFixed(3) + ', ' + w.lon.toFixed(3) + '<br>' + U.n(w.vol) + ' bbl (unit read as barrels)'; } }), grid: { left: 150, right: 30, top: 8, bottom: 26 },
+          xAxis: Object.assign({ type: 'value', name: 'million bbl', nameLocation: 'middle', nameGap: 20 }, U.AX), yAxis: Object.assign({ type: 'category', data: tv.map(function (w) { return w.jur + ' ' + w.lat.toFixed(2) + ', ' + w.lon.toFixed(2); }).reverse() }, U.AX),
+          series: [{ type: 'bar', data: tv.map(function (w) { return { value: +(w.vol / 1e6).toFixed(2), itemStyle: { color: w.jur === 'NM' ? '#ffb547' : '#b06cff' } }; }).reverse() }] });
+      });
+      $('#ogVolNote').innerHTML = esc('Top 15 wells by reported injection volume: New Mexico (OCD, rolling 12 months) and Oklahoma (OCC, calendar 2025). ') + vj.map(function (x) { return esc(x.name + ' total ' + U.n(x.volume.total) + ' bbl (' + x.volume.kind + ', ' + U.n(x.volume.wells) + ' wells; saltwater disposal alone ' + U.n(x.volume.swd_only_total) + ' bbl)'); }).join('; ') + esc('. The services do not state a unit; it is read as barrels (' + vj.map(function (x) { return x.name + ' about ' + (x.volume.total / 365e6).toFixed(1) + ' million bbl/day'; }).join(', ') + ' if so, plausible against the Permian figure of about 20 million bbl/day from Texas Tech/TAWC). Not regulator-confirmed. ') + U.srcLink('nm_ocd') + ', ' + U.srcLink('ok_occ');
+      $('#ogJur').innerHTML = '<thead><tr><th>Region</th><th>Inj./disp. wells</th><th>Per-well volume</th><th>As of</th></tr></thead><tbody>' + sm.jurisdictions.map(function (x) { return '<tr><td>' + esc(x.name) + '</td><td class="num">' + U.n(x.injection_disposal_points) + '</td><td>' + (x.volume ? esc(x.volume.kind) : 'not published in layer') + '</td><td>' + esc(U.date(x.asof)) + '</td></tr>'; }).join('') + '</tbody>';
       // quakes box
       var q = d[1], cells = q.na_grid.filter(function (r) { return r[0] >= 30 && r[0] <= 33.5 && r[1] >= -105 && r[1] <= -100; });
       var tot = cells.reduce(function (s, r) { return s + r[2]; }, 0), mx = Math.max.apply(null, cells.map(function (r) { return r[3]; }));

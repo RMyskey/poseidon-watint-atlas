@@ -20,7 +20,7 @@ import traceback
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from wtatlas import build as B  # noqa: E402
-from wtatlas import (boundaries, canada, datacenters, epa, groundwater, hazards, igrac, mexico, news, rrc, siting, watch, wqp)  # noqa: E402
+from wtatlas import (boundaries, canada, datacenters, epa, groundwater, hazards, igrac, mexico, news, ognam, rrc, siting, watch, wqp)  # noqa: E402
 from wtatlas.common import DATA, STATE, LAYERS, iso, load, log, now, parse_iso, save  # noqa: E402
 
 H = 24
@@ -34,6 +34,12 @@ FEEDS = {
     'isc_dwa': {'label': 'ISC First Nations drinking water advisories', 'cadence': 'weekly', 'url': 'https://isc.gc.ca/eng/1620925418298/1620925434679', 'out': ['ca_dwa.json']},
     'wser': {'label': 'ECCC WSER wastewater systems', 'cadence': 'monthly', 'url': 'https://open.canada.ca/data/en/dataset/9e11e114-ef0d-4814-8d93-24af23716489', 'out': ['ca_wser.json']},
     'rrc': {'label': 'Texas RRC wells and injection/disposal (ArcGIS REST)', 'cadence': 'monthly', 'url': 'https://gis.rrc.texas.gov/server/rest/services/rrc_public/RRC_Public_Viewer_Srvs/MapServer', 'out': ['tx_wells_grid.json', 'tx_swd.json']},
+    'og_nm': {'label': 'New Mexico OCD wells and injection volumes (ArcGIS REST)', 'cadence': 'monthly', 'url': 'https://gis.emnrd.nm.gov/arcgis/rest/services/OCDView', 'out': ['nm_wells_grid.json', 'nm_swd.json']},
+    'og_ok': {'label': 'Oklahoma OCC wells, UIC wells and injection volumes', 'cadence': 'monthly', 'url': 'https://gis.occ.ok.gov/server/rest/services/Hosted', 'out': ['ok_wells_grid.json', 'ok_swd.json']},
+    'og_ab': {'label': 'Alberta AER ST37 list of wells', 'cadence': 'monthly', 'url': 'https://www.aer.ca/providing-information/data-and-reports/statistical-reports/st37', 'out': ['ab_wells_grid.json', 'ab_swd.json']},
+    'og_bc': {'label': 'British Columbia BCER well surface holes (WFS)', 'cadence': 'monthly', 'url': 'https://catalogue.data.gov.bc.ca/dataset/well-surface-hole-status', 'out': ['bc_wells_grid.json', 'bc_swd.json']},
+    'og_sk': {'label': 'Saskatchewan petroleum wells (ArcGIS REST)', 'cadence': 'monthly', 'url': 'https://gis.saskatchewan.ca/arcgis/rest/services/Petroleum/MapServer/0', 'out': ['sk_wells_grid.json', 'sk_swd.json']},
+    'mx_wells': {'label': 'Mexico SENER completed-wells CSV (blocked from this network)', 'cadence': 'monthly', 'url': 'https://www.datos.gob.mx/dataset/coordenadas_pozos_terminados_2026', 'out': []},
     'echo_sdwa': {'label': 'EPA ECHO / SDWIS public water systems', 'cadence': 'monthly', 'url': 'https://echo.epa.gov/tools/web-services/facility-search-drinking-water', 'out': ['sdwa_state.json', 'sdwa_county.json']},
     'echo_npdes': {'label': 'EPA ECHO / ICIS-NPDES major dischargers', 'cadence': 'monthly', 'url': 'https://echo.epa.gov/tools/web-services/facility-search-water', 'out': ['npdes_majors.json']},
     'wqp': {'label': 'Water Quality Portal groundwater aggregates (county, HUC8)', 'cadence': 'monthly', 'url': 'https://www.waterqualitydata.us/', 'out': ['wqp_county.json', 'wqp_huc8.json', 'wqp_top_sites.json']},
@@ -161,6 +167,12 @@ def main():
               'isc_dwa': (canada.dwa, lambda r: ('ok', r['active'], '%d communities, %d active advisories' % (r['communities'], r['active']))),
               'wser': (canada.wser, lambda r: ('ok', r['systems'], '%d systems, %d with coordinates' % (r['systems'], r['with_coords']))),
               'rrc': (rrc.run, lambda r: ('ok', r['wells'], '%d wells, %d injection/disposal, %d commercial disposal' % (r['wells'], r['injection_disposal'], r['commercial_disposal']))),
+              'og_nm': (ognam.nm, lambda r: ('ok', r['wells'], '%d wells, %d injection/disposal, %d with injection volumes' % (r['wells'], r['injection_disposal'], r['volume_wells']))),
+              'og_ok': (ognam.ok, lambda r: ('ok', r['wells'], '%d wells, %d UIC wells, %d commercial, volumes %s' % (r['wells'], r['injection_disposal'], r['commercial_disposal'], r['volume_year']))),
+              'og_ab': (ognam.ab, lambda r: ('ok', r['wells'], '%d licences, %d injection/disposal' % (r['wells'], r['injection_disposal']))),
+              'og_bc': (ognam.bc, lambda r: ('ok', r['wells'], '%d surface holes, %d injection/disposal' % (r['wells'], r['injection_disposal']))),
+              'og_sk': (ognam.sk, lambda r: ('ok', r['wells'], '%d wells, %d injection/disposal' % (r['wells'], r['injection_disposal']))),
+              'mx_wells': (ognam.mx_probe, lambda r: ('ok', 0, '')),
               'echo_sdwa': (epa.sdwa, lambda r: (('partial' if r['errors'] else 'ok'), r['systems'], '%d systems (%d CWS), %d states, %d state errors' % (r['systems'], r['cws'], r['states'], r['errors']))),
               'echo_npdes': (epa.npdes, lambda r: (('partial' if r['errors'] else 'ok'), r['facilities'], '%d major permittees, %d state errors' % (r['facilities'], r['errors']))),
               'wqp': (wqp.run, lambda r: (('partial' if r['errors'] else 'ok'), sum(v.get('sites', 0) for v in r['summary'].values()), '%d state/parameter pulls failed' % r['errors'])),
@@ -198,6 +210,11 @@ def main():
         except Exception as e:
             traceback.print_exc()
             record(k, 'error', 0, '%s: %s' % (type(e).__name__, e))
+    if ran_ok & {'og_nm', 'og_ok', 'og_ab', 'og_bc', 'og_sk', 'rrc'} or not os.path.exists(LAYERS + '/og_na_summary.json'):
+        try:
+            ognam.summary()
+        except Exception as e:
+            log('og summary failed: %s' % e)
     # derived siting runs when forced/selected, or after any of its inputs refreshed, or when outputs are missing
     need = ('siting' in only) or (not only and a.force) or bool(ran_ok & INPUTS_OF_SITING) or not os.path.exists(LAYERS + '/siting_tx.json')
     if need and not (only and 'siting' not in only):

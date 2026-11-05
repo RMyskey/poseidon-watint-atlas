@@ -13,7 +13,7 @@ Map, Intel feed, Network, Supply flow, Oil & gas, Sample explorer, Data-center s
 | Required analytic | Where |
 |---|---|
 | Global WATINT COP layer (country threat index, news clusters, GDACS, USDM, live USGS quakes) | Map |
-| NA oil & gas wells density, produced water, Class II / SWD, induced seismicity | Oil & gas, Map |
+| NA oil & gas wells density (TX, NM, OK, AB, BC, SK), produced water, Class II / SWD, per-well injection volumes (NM, OK), induced seismicity | Oil & gas, Map |
 | Municipal supply chains | Supply flow, Map (SDWIS, WSER, ISC advisories, CONAGUA) |
 | Sewage / wastewater | Map layers: NPDES majors, ECCC WSER, Mexico PTAR (table only; no coordinates published) |
 | Wells + water samples vs EPA / Health Canada / NOM-127 | Sample explorer (WQP aggregated by county and HUC8; CONAGUA RNMCA sites) |
@@ -56,6 +56,12 @@ scripts/pipeline.py      orchestrator; scripts/wtatlas/*  one module per feed fa
 | gdacs, quakes, gdelt, gnews | daily | GDACS, USGS FDSN, GDELT DOC 2.0, Google News RSS |
 | usdm, datacenters, isc_dwa, limits_watch | weekly | US Drought Monitor, FracTracker data-center register, ISC advisories, Federal Register + ScienceBase release watch |
 | rrc, echo_sdwa, echo_npdes, wqp, igrac, conagua, wser | monthly | Texas RRC ArcGIS REST, EPA ECHO (SDWIS, ICIS-NPDES), Water Quality Portal, IGRAC GGIS WFS, CONAGUA, ECCC WSER |
+| og_nm | monthly | New Mexico OCD ArcGIS REST: Wells_Public (142k wells) + Well_Injection (per-well rolling 12-month injection totals) |
+| og_ok | monthly | Oklahoma OCC ArcGIS REST: RBDMS_WELLS (457k), ALL_UIC_WELLS, COMMERCIAL_UIC_WELLS + annual Form 1012 UIC volume workbook (needs openpyxl) |
+| og_ab | monthly | Alberta Energy Regulator ST37 List of Wells (Excel package, 541k licences; needs openpyxl; about 184 MB download) |
+| og_bc | monthly | BC Energy Regulator via BC Data Catalogue WFS: OG_SURFACE_HOLE_STATUS_SP (34k) |
+| og_sk | monthly | Saskatchewan Petroleum Wells ArcGIS REST layer (97k) |
+| mx_wells | monthly | Mexico SENER completed-wells CSV (datos.gob.mx): probe only. The file host returns Access Denied to automated clients from the build network, so the feed reports `error` and no layer is made |
 | pwdb, nbga, boundaries | annual | USGS PWDB v3.0 (10.5066/P9DSRCZJ), USGS NBGA (10.5066/F72F7KK1), Census cartographic boundaries |
 | siting | derived | Texas data-center siting model, rebuilt when its inputs refresh |
 
@@ -81,8 +87,9 @@ The reel's "8 billion gallons per day" Permian produced-water figure is not supp
 
 ## Known limitations
 
-- Wells layers cover Texas only (RRC). New Mexico, Oklahoma, Canada and Mexico well registries are not scriptable open feeds in this build.
-- RRC does not publish per-well produced-water volumes; disposal density is a proxy.
+- Well layers: Texas (RRC), New Mexico (OCD), Oklahoma (OCC), Alberta (AER), British Columbia (BCER) and Saskatchewan. Not collected: other US states (CO, ND, WY, PA...), Manitoba and other provinces, and Mexico (CNH portal times out with HTTP 522; SENER's 2026 completed-wells CSVs return Access Denied to automated clients here, and they list only 2026 development wells).
+- Class counts apply the atlas's own grouping of each regulator's status codes (mapping in each `*_wells_grid.json` note); regulators define active/plugged/shut-in differently, so compare within a jurisdiction. Alberta and Saskatchewan injection counts include EOR, steam and solvent injection.
+- Per-well injection volumes exist only for New Mexico (OCD rolling 12 months) and Oklahoma (OCC calendar 2025). Neither service states a unit; the atlas reads them as barrels (ANALYTIC ASSESSMENT, magnitude plausible against about 20 million bbl/day Permian produced water) and has not had this confirmed by the regulators. Texas, Alberta, BC and Saskatchewan layers carry no volumes, so disposal well counts are a proxy there.
 - WQP aggregates use the site median since 2010; monitoring sites are not a random sample. Percent-above-limit is precomputed against the EPA value only.
 - GGMN is a registry of points (counts of level and quality series), not chemistry. UNEP GEMStat has no public bulk API (portal limit 675 stations) and is not ingested.
 - Mexico PTAR / potabilization plants have no published coordinates; shown in tables only.

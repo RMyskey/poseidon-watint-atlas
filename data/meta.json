@@ -40,7 +40,7 @@
   "CURATED": "Analyst-entered in data/source/. Never changed by feeds; feed findings go to the review queue."
  },
  "footer": "Poseidon NARINT concept prototype: open, unclassified public data only. Not an official product of the Department of War, USACE, or the Army Geospatial Center.",
- "built_at": "2026-11-05T02:10:13Z",
+ "built_at": "2026-11-05T02:52:41Z",
  "feeds": {
   "gdacs": {
    "label": "GDACS drought/flood/cyclone events",
@@ -53,7 +53,8 @@
    "last_attempt": "2026-11-05T02:10:01Z",
    "items": 64,
    "message": "GDACS events in 21 days",
-   "last_success": "2026-11-05T02:10:01Z"
+   "last_success": "2026-11-05T02:10:01Z",
+   "status_note": "not selected"
   },
   "quakes": {
    "label": "USGS earthquakes (global M4.5+, North America M2.5+)",
@@ -66,7 +67,8 @@
    "last_attempt": "2026-11-05T02:10:10Z",
    "items": 727,
    "message": "727 global M4.5+ in 30 d; 24071 North America M2.5+ in 5 y",
-   "last_success": "2026-11-05T02:10:10Z"
+   "last_success": "2026-11-05T02:10:10Z",
+   "status_note": "not selected"
   },
   "gdelt": {
    "label": "GDELT DOC 2.0 news alerts",
@@ -147,6 +149,86 @@
     "tx_swd.json"
    ],
    "status_note": "not selected"
+  },
+  "og_nm": {
+   "label": "New Mexico OCD wells and injection volumes (ArcGIS REST)",
+   "cadence": "monthly",
+   "url": "https://gis.emnrd.nm.gov/arcgis/rest/services/OCDView",
+   "outputs": [
+    "nm_wells_grid.json",
+    "nm_swd.json"
+   ],
+   "status": "ok",
+   "last_attempt": "2026-11-05T02:45:50Z",
+   "items": 142469,
+   "message": "142469 wells, 3537 injection/disposal, 2946 with injection volumes",
+   "last_success": "2026-11-05T02:45:50Z"
+  },
+  "og_ok": {
+   "label": "Oklahoma OCC wells, UIC wells and injection volumes",
+   "cadence": "monthly",
+   "url": "https://gis.occ.ok.gov/server/rest/services/Hosted",
+   "outputs": [
+    "ok_wells_grid.json",
+    "ok_swd.json"
+   ],
+   "status": "ok",
+   "last_attempt": "2026-11-05T02:46:05Z",
+   "items": 457402,
+   "message": "457402 wells, 9899 UIC wells, 382 commercial, volumes 2025",
+   "last_success": "2026-11-05T02:46:05Z"
+  },
+  "og_ab": {
+   "label": "Alberta AER ST37 list of wells",
+   "cadence": "monthly",
+   "url": "https://www.aer.ca/providing-information/data-and-reports/statistical-reports/st37",
+   "outputs": [
+    "ab_wells_grid.json",
+    "ab_swd.json"
+   ],
+   "status": "ok",
+   "last_attempt": "2026-11-05T02:47:39Z",
+   "items": 541190,
+   "message": "541190 licences, 11378 injection/disposal",
+   "last_success": "2026-11-05T02:47:39Z"
+  },
+  "og_bc": {
+   "label": "British Columbia BCER well surface holes (WFS)",
+   "cadence": "monthly",
+   "url": "https://catalogue.data.gov.bc.ca/dataset/well-surface-hole-status",
+   "outputs": [
+    "bc_wells_grid.json",
+    "bc_swd.json"
+   ],
+   "status": "ok",
+   "last_attempt": "2026-11-05T02:47:42Z",
+   "items": 34441,
+   "message": "34441 surface holes, 478 injection/disposal",
+   "last_success": "2026-11-05T02:47:42Z"
+  },
+  "og_sk": {
+   "label": "Saskatchewan petroleum wells (ArcGIS REST)",
+   "cadence": "monthly",
+   "url": "https://gis.saskatchewan.ca/arcgis/rest/services/Petroleum/MapServer/0",
+   "outputs": [
+    "sk_wells_grid.json",
+    "sk_swd.json"
+   ],
+   "status": "ok",
+   "last_attempt": "2026-11-05T02:47:53Z",
+   "items": 96574,
+   "message": "96574 wells, 4243 injection/disposal",
+   "last_success": "2026-11-05T02:47:53Z"
+  },
+  "mx_wells": {
+   "label": "Mexico SENER completed-wells CSV (blocked from this network)",
+   "cadence": "monthly",
+   "url": "https://www.datos.gob.mx/dataset/coordenadas_pozos_terminados_2026",
+   "outputs": [],
+   "status": "error",
+   "last_attempt": "2026-11-05T02:47:53Z",
+   "items": 0,
+   "message": "RuntimeError: SENER completed-wells CSV not retrievable: HTTP 403 for https://repodatos.atdt.gob.mx/api_update/sener/coordenadas_pozos_terminados_2026/dgace_pozos_terminados_ago"
   },
   "echo_sdwa": {
    "label": "EPA ECHO / SDWIS public water systems",
@@ -247,7 +329,8 @@
    "last_attempt": "2026-11-05T02:10:12Z",
    "items": 1036,
    "message": "Longview cell rank 537 of 1036; 238 Texas data centers in logistics",
-   "last_success": "2026-11-05T02:10:12Z"
+   "last_success": "2026-11-05T02:10:12Z",
+   "status_note": "not selected"
   }
  },
  "layers": [
@@ -261,7 +344,7 @@
    "records": 1398026,
    "asof": "2026-11-05T01:32:52Z",
    "size_kb": 157,
-   "note": "Counts per cell from RRC well locations. Texas only: NM, OK and Canada well layers are not in this build."
+   "note": "Counts per cell from RRC well locations (the densest well layer). Other jurisdictions are separate layers below."
   },
   {
    "id": "tx_swd",
@@ -274,6 +357,138 @@
    "asof": "2026-11-05T01:32:52Z",
    "size_kb": 930,
    "note": "Layer 4 includes EOR injection as well as saltwater disposal; the service does not separate them."
+  },
+  {
+   "id": "nm_wells_grid",
+   "title": "New Mexico wells by 0.1 degree cell (New Mexico OCD)",
+   "file": "data/layers/nm_wells_grid.json",
+   "source": "nm_ocd",
+   "precision": "G",
+   "label": "OBSERVED",
+   "records": 142469,
+   "asof": "2026-11-05T02:45:50Z",
+   "size_kb": 34,
+   "note": "Counts per cell; the class mapping from regulator status codes is in the layer file note. Locations are regulator-reported."
+  },
+  {
+   "id": "nm_swd",
+   "title": "New Mexico injection/disposal wells",
+   "file": "data/layers/nm_swd.json",
+   "source": "nm_ocd",
+   "precision": "F",
+   "label": "OBSERVED",
+   "records": 3537,
+   "asof": "2026-11-05T02:45:50Z",
+   "size_kb": 115,
+   "note": "Injection and disposal wells that are not abandoned. Rolling 12-month volumes (read as barrels; unit not stated by the service) where joined."
+  },
+  {
+   "id": "ok_wells_grid",
+   "title": "Oklahoma wells by 0.1 degree cell (Oklahoma OCC)",
+   "file": "data/layers/ok_wells_grid.json",
+   "source": "ok_occ",
+   "precision": "G",
+   "label": "OBSERVED",
+   "records": 457402,
+   "asof": "2026-11-05T02:46:02Z",
+   "size_kb": 45,
+   "note": "Counts per cell; the class mapping from regulator status codes is in the layer file note. Locations are regulator-reported."
+  },
+  {
+   "id": "ok_swd",
+   "title": "Oklahoma injection/disposal wells and commercial disposal",
+   "file": "data/layers/ok_swd.json",
+   "source": "ok_occ",
+   "precision": "F",
+   "label": "OBSERVED",
+   "records": 10281,
+   "asof": "2026-11-05T02:46:02Z",
+   "size_kb": 279,
+   "note": "Injection and disposal wells that are not abandoned. 2025 monthly volumes (read as barrels; unit not stated in the workbook) where joined."
+  },
+  {
+   "id": "ab_wells_grid",
+   "title": "Alberta wells by 0.1 degree cell (Alberta AER ST37)",
+   "file": "data/layers/ab_wells_grid.json",
+   "source": "ab_aer",
+   "precision": "G",
+   "label": "OBSERVED",
+   "records": 541190,
+   "asof": "2026-11-05T02:47:38Z",
+   "size_kb": 188,
+   "note": "Counts per cell; the class mapping from regulator status codes is in the layer file note. Locations are regulator-reported."
+  },
+  {
+   "id": "ab_swd",
+   "title": "Alberta injection/disposal wells",
+   "file": "data/layers/ab_swd.json",
+   "source": "ab_aer",
+   "precision": "F",
+   "label": "OBSERVED",
+   "records": 11378,
+   "asof": "2026-11-05T02:47:38Z",
+   "size_kb": 320,
+   "note": "Injection and disposal wells that are not abandoned. No volumes in this layer."
+  },
+  {
+   "id": "bc_wells_grid",
+   "title": "British Columbia wells by 0.1 degree cell (BC Energy Regulator)",
+   "file": "data/layers/bc_wells_grid.json",
+   "source": "bc_bcer",
+   "precision": "G",
+   "label": "OBSERVED",
+   "records": 34441,
+   "asof": "2026-11-05T02:47:42Z",
+   "size_kb": 38,
+   "note": "Counts per cell; the class mapping from regulator status codes is in the layer file note. Locations are regulator-reported."
+  },
+  {
+   "id": "bc_swd",
+   "title": "British Columbia injection/disposal wells",
+   "file": "data/layers/bc_swd.json",
+   "source": "bc_bcer",
+   "precision": "F",
+   "label": "OBSERVED",
+   "records": 478,
+   "asof": "2026-11-05T02:47:42Z",
+   "size_kb": 14,
+   "note": "Injection and disposal wells that are not abandoned. No volumes in this layer."
+  },
+  {
+   "id": "sk_wells_grid",
+   "title": "Saskatchewan wells by 0.1 degree cell (Saskatchewan Energy and Resources)",
+   "file": "data/layers/sk_wells_grid.json",
+   "source": "sk_er",
+   "precision": "G",
+   "label": "OBSERVED",
+   "records": 96574,
+   "asof": "2026-11-05T02:47:53Z",
+   "size_kb": 65,
+   "note": "Counts per cell; the class mapping from regulator status codes is in the layer file note. Locations are regulator-reported."
+  },
+  {
+   "id": "sk_swd",
+   "title": "Saskatchewan injection/disposal wells",
+   "file": "data/layers/sk_swd.json",
+   "source": "sk_er",
+   "precision": "F",
+   "label": "OBSERVED",
+   "records": 4243,
+   "asof": "2026-11-05T02:47:53Z",
+   "size_kb": 120,
+   "note": "Injection and disposal wells that are not abandoned. No volumes in this layer."
+  },
+  {
+   "id": "og_na_summary",
+   "title": "North America oil and gas: records, classes and reported injection volumes by jurisdiction",
+   "file": "data/layers/og_na_summary.json",
+   "source": "rrc",
+   "precision": "C",
+   "label": "ANALYTIC ASSESSMENT",
+   "records": 2670102,
+   "asof": "2026-11-05T02:47:53Z",
+   "size_kb": 5,
+   "note": "Cross-jurisdiction table built from the layers above; volume totals only for NM and OK."
   },
   {
    "id": "quakes",

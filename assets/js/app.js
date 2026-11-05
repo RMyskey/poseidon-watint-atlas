@@ -244,12 +244,13 @@
     $('#fGo').onkeydown = function (e) { if (e.key === 'Enter') $('#fGoBtn').click(); };
   }
 
+  function sumRec(suffix) { return (D.meta.layers || []).reduce(function (t, x) { return t + (x.id.slice(-suffix.length) === suffix && x.id.indexOf('og_') !== 0 ? (x.records || 0) : 0); }, 0); }
   function renderKPIs() {
     var L = {}; D.meta.layers.forEach(function (x) { L[x.id] = x; });
     var st = D.sdwa_state, cws = 0, hv = 0; Object.keys(st).forEach(function (k) { cws += st[k].cws; hv += st[k].cws_health_viol; });
     var k = [
-      [U.n(L.tx_wells_grid && L.tx_wells_grid.records), 'Texas well records', 'RRC GIS, ' + U.date(L.tx_wells_grid && L.tx_wells_grid.asof)],
-      [U.n(L.tx_swd && L.tx_swd.records), 'Disposal records (TX)', 'Injection/disposal plus commercial'],
+      [U.n(sumRec('_wells_grid')), 'Oil and gas well records', 'TX, NM, OK, AB, BC, SK regulators'],
+      [U.n(sumRec('_swd')), 'Injection / disposal records', 'Volumes published for NM and OK only'],
       [U.n(cws), 'US community water systems', U.n(hv) + ' carry the health-based violation flag'],
       [U.n(L.npdes_majors && L.npdes_majors.records), 'Major NPDES dischargers', 'EPA ECHO, ' + U.date(L.npdes_majors && L.npdes_majors.asof)],
       [U.n(L.ggmn_global && L.ggmn_global.records), 'GGMN registry points', 'IGRAC; not a complete global set'],
@@ -300,8 +301,8 @@
   var NET = {
     nodes: [
       ['bw', 'Brackish groundwater (NBGA)', 0, 'nbga_grid'], ['mxaq', 'Mexico aquifers (CONAGUA)', 0, 'mx_aquifers'], ['ggmn', 'Monitoring wells (IGRAC GGMN)', 0, 'ggmn_global'],
-      ['pw', 'Produced water (PWDB)', 1, 'pwdb_grid'], ['wells', 'Oil and gas wells (RRC)', 1, 'tx_wells_grid'],
-      ['swd', 'Injection / disposal (RRC)', 2, 'tx_swd'], ['pot', 'Potabilization plants (MX)', 2, 'mx_plants'], ['wser', 'Wastewater systems (WSER)', 2, 'ca_wser'], ['npdes', 'Major dischargers (NPDES)', 2, 'npdes_majors'],
+      ['pw', 'Produced water (PWDB)', 1, 'pwdb_grid'], ['wells', 'Oil and gas wells (TX, NM, OK, AB, BC, SK)', 1, 'tx_wells_grid'],
+      ['swd', 'Injection / disposal wells', 2, 'tx_swd'], ['pot', 'Potabilization plants (MX)', 2, 'mx_plants'], ['wser', 'Wastewater systems (WSER)', 2, 'ca_wser'], ['npdes', 'Major dischargers (NPDES)', 2, 'npdes_majors'],
       ['cws', 'US community water systems', 3, 'sdwa_county'], ['dwa', 'First Nations advisories (CA)', 3, 'ca_dwa'],
       ['dc', 'Data centers (US register)', 4, 'datacenters'], ['eu', 'End users: people served', 4, 'sdwa_county'], ['quake', 'Seismicity (USGS)', 5, 'quakes'], ['drought', 'Drought (USDM)', 5, 'usdm']
     ],
@@ -320,7 +321,7 @@
     var ch = U.chart('graph'); if (!ch) return;
     var focus = $('#gMode .on').dataset.m === 'pw', keep = focus ? { pw: 1, wells: 1, swd: 1, dc: 1, bw: 1, quake: 1, cws: 1 } : null;
     var nodes = NET.nodes.filter(function (n) { return !keep || keep[n[0]]; }).map(function (n) {
-      var rec = recordsFor(n[3]) || 100;
+      var rec = (n[3] === 'tx_wells_grid' ? sumRec('_wells_grid') : n[3] === 'tx_swd' ? sumRec('_swd') : recordsFor(n[3])) || 100;
       return { id: n[0], name: n[1], category: n[2], symbolSize: 16 + 7 * Math.log10(Math.max(rec, 10)), value: rec, itemStyle: { color: NET_COL[n[2]], borderColor: '#06101c' }, label: { show: true, color: '#e9eff8', fontSize: 11 } };
     });
     var ids = {}; nodes.forEach(function (n) { ids[n.id] = 1; });
@@ -372,8 +373,9 @@
     'Live browser feeds: USGS earthquakes (CORS allowed) refresh on load when online. GDACS blocks cross-origin browser requests, so GDACS is refreshed by the scheduled pipeline. GDELT is rate-limited, so headlines come from the pipeline.'
   ];
   var GAPS = [
-    'North America wells: only Texas (RRC). New Mexico, Oklahoma, Colorado, North Dakota, Canadian provinces and Mexico well layers were not collected. The IM3 (PNNL) atlas has no scriptable open endpoint here, so RRC is used.',
-    'Produced-water volumes by well, county or operator are not in the open layers used; disposal-well counts are a proxy and are labelled as such. Treatment-plant intake or capacity for US utilities is not in SDWIS.',
+    'North America wells: Texas (RRC), New Mexico (OCD), Oklahoma (OCC), Alberta (AER ST37), British Columbia (BCER) and Saskatchewan are collected. Not collected: Colorado, North Dakota, Wyoming, Pennsylvania and other US states, Manitoba and the other provinces, and Mexico. Mexico has no open coordinate registry reachable here: the CNH hydrocarbon portal (hidrocarburos.gob.mx) timed out (HTTP 522), and the SENER completed-wells CSVs on datos.gob.mx (2026 development wells only) return Access Denied to automated clients from this network. The IM3 (PNNL) atlas has no scriptable open endpoint here.',
+    'Well class counts apply the atlas\'s own grouping of each regulator\'s status codes (mapping is in each layer file note); regulators define "plugged", "shut-in" and "active" differently, so counts are comparable within a jurisdiction, not exactly across them. Alberta and Saskatchewan injection counts include EOR, steam and solvent injection as well as disposal.',
+    'Produced-water volumes: only New Mexico (OCD rolling 12-month) and Oklahoma (OCC 2025 Form 1012 workbook) publish per-well injection volumes in the layers used, and neither service states a unit (read here as barrels, ANALYTIC ASSESSMENT). Texas RRC, Alberta, British Columbia and Saskatchewan layers carry no volumes, so disposal-well counts are a proxy there. Produced-water generation by well or operator is not in any open layer used. Treatment-plant intake or capacity for US utilities is not in SDWIS.',
     'Mexico: CONAGUA datos abiertos are reachable only from some networks (TLS/WAF); this build holds a dated local copy and the live refresh degrades to "stale" if blocked. Treatment-plant catalogues have no coordinates, so plants appear as state totals only.',
     'Canada: ISC advisories cover First Nations on-reserve public systems only; provincial and municipal advisories are not aggregated. WSER lists systems that discharge 100 m³/day or more.',
     'Worldwide wells and samples: no complete global dataset exists. IGRAC GGMN is a registry that the open WFS serves point by point (no chemistry values here); UNEP GEMStat has no public bulk API (its portal caps a request at 675 stations); national networks differ in definitions, depth, methods and openness. The atlas shows what is open and treats coverage as a floor.',
@@ -396,7 +398,7 @@
     window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
     $('#navToggle').onclick = function () { var o = $('#nav').classList.toggle('open'); this.setAttribute('aria-expanded', o); };
     $$('#nav a').forEach(function (a) { a.onclick = function () { $('#nav').classList.remove('open'); }; });
-    var sel = $('#fRegion'); sel.innerHTML = Object.keys(REF.regions).map(function (k) { return '<option value="' + k + '">' + k.charAt(0).toUpperCase() + k.slice(1) + '</option>'; }).join('');
+    var sel = $('#fRegion'); sel.innerHTML = Object.keys(REF.regions).map(function (k) { return '<option value="' + k + '">' + esc(REF.regions[k].label || k) + '</option>'; }).join('');
     sel.value = 'na'; sel.onchange = function () { flyRegion(sel.value); document.getElementById('map').scrollIntoView(); };
     $('#fbToggle').onclick = function () { var o = $('#fbBody').classList.toggle('open'); this.setAttribute('aria-expanded', o); };
   }

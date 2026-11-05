@@ -298,5 +298,65 @@
   "layer": "flow",
   "asof": null,
   "records": null
+ },
+ "nm_ocd": {
+  "name": "New Mexico OCD Wells_Public and Well_Injection (ArcGIS REST)",
+  "publisher": "New Mexico Energy, Minerals and Natural Resources Department, Oil Conservation Division",
+  "url": "https://gis.emnrd.nm.gov/arcgis/rest/services/OCDView",
+  "role": "142,469 New Mexico well records with type and status; per-well rolling 12-month injection totals for 7,247 injection wells",
+  "cadence": "monthly",
+  "layer": "nm_wells_grid",
+  "asof": "2026-11-05T02:45:50Z",
+  "records": 142469
+ },
+ "ok_occ": {
+  "name": "Oklahoma Corporation Commission RBDMS_WELLS, UIC wells and annual UIC injection volumes",
+  "publisher": "Oklahoma Corporation Commission, Oil and Gas Conservation Division",
+  "url": "https://gis.occ.ok.gov/server/rest/services/Hosted",
+  "role": "457,402 Oklahoma well records; 9,899 active Class II UIC wells and 382 commercial disposal wells; 2025 monthly injection volumes per well (Form 1012)",
+  "cadence": "monthly",
+  "layer": "ok_wells_grid",
+  "asof": "2026-11-05T02:46:02Z",
+  "records": 457402
+ },
+ "ab_aer": {
+  "name": "AER ST37: List of Wells in Alberta (Excel package)",
+  "publisher": "Alberta Energy Regulator",
+  "url": "https://www.aer.ca/providing-information/data-and-reports/statistical-reports/st37",
+  "role": "Alberta well licences with surface-hole coordinates and production-string status (fluid, mode, type)",
+  "cadence": "monthly",
+  "layer": "ab_wells_grid",
+  "asof": "2026-11-05T02:47:38Z",
+  "records": 541190
+ },
+ "bc_bcer": {
+  "name": "BC Oil and Gas Well Surface Hole Status (BC Data Catalogue WFS)",
+  "publisher": "BC Energy Regulator, Province of British Columbia",
+  "url": "https://catalogue.data.gov.bc.ca/dataset/well-surface-hole-status",
+  "role": "British Columbia well surface holes with activity, bore fluid and operation type",
+  "cadence": "monthly",
+  "layer": "bc_wells_grid",
+  "asof": "2026-11-05T02:47:42Z",
+  "records": 34441
+ },
+ "sk_er": {
+  "name": "Saskatchewan Petroleum Wells (ArcGIS REST layer)",
+  "publisher": "Government of Saskatchewan, Ministry of Energy and Resources",
+  "url": "https://gis.saskatchewan.ca/arcgis/rest/services/Petroleum/MapServer/0",
+  "role": "Saskatchewan petroleum well locations with fluid category and mode",
+  "cadence": "monthly",
+  "layer": "sk_wells_grid",
+  "asof": "2026-11-05T02:47:53Z",
+  "records": 96574
+ },
+ "mx_sener": {
+  "name": "SENER completed development wells with coordinates (datos.gob.mx)",
+  "publisher": "Secretaria de Energia (SENER), Mexico",
+  "url": "https://www.datos.gob.mx/dataset/coordenadas_pozos_terminados_2026",
+  "role": "Monthly CSVs of completed development wells for 2026 only. Not ingested: the file host denies automated downloads from this network",
+  "cadence": "monthly",
+  "layer": null,
+  "asof": null,
+  "records": null
  }
 }

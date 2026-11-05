@@ -110,20 +110,24 @@
 </section>
 
 <section id="oilgas" class="sec">
-  <div class="sec-head"><div><h2>North America oil &amp; gas: wells, produced water, disposal, seismicity</h2><p>Texas wells by class (Railroad Commission of Texas), injection/disposal wells, USGS produced-water chemistry, and USGS earthquakes M2.5+ for North America. Only Texas has a well layer in this build; New Mexico, Oklahoma, Canada and Mexico well layers are listed as gaps in Method.</p></div>
-    <div class="seg" id="ogPreset"><button data-r="permian" class="on">Permian</button><button data-r="texas">Texas</button><button data-r="na">North America</button></div></div>
+  <div class="sec-head"><div><h2>North America oil &amp; gas: wells, produced water, disposal, seismicity</h2><p>Well records by class and injection/disposal wells from the regulators of Texas, New Mexico, Oklahoma, Alberta, British Columbia and Saskatchewan (Texas is the densest layer), per-well injection volumes where published (New Mexico, Oklahoma), USGS produced-water chemistry, and USGS earthquakes M2.5+. Mexico has no open well registry reachable from this build; see Method.</p></div>
+    <div class="seg" id="ogPreset"><button data-r="permian" class="on">Permian</button><button data-r="texas">Texas</button><button data-r="newmexico">New Mexico</button><button data-r="oklahoma">Oklahoma</button><button data-r="alberta">Alberta</button><button data-r="bc">BC</button><button data-r="saskatchewan">Saskatchewan</button><button data-r="na">North America</button></div></div>
   <div class="dash">
     <div class="dmap"><div id="ogMap" class="mapcv"></div>
       <div class="m-panel dlayers"><div class="m-body" id="ogLayers"></div></div>
-      <div class="m-readout" id="ogReadout">Move the cursor over the map</div></div>
+      <div class="m-panel dlegend" id="ogLegend"></div><div class="m-readout" id="ogReadout">Move the cursor over the map</div></div>
     <div class="dside">
-      <div class="card pad"><h3>Texas well records by class</h3><div id="ogBars" class="chart sm"></div><p class="small" id="ogBarsNote"></p></div>
+      <div class="card pad"><h3>Well records by class and jurisdiction</h3><div id="ogBars" class="chart sm"></div><p class="small" id="ogBarsNote"></p></div>
       <div class="card pad"><h3>Produced-water salinity by basin (USGS PWDB)</h3><div id="ogTds" class="chart sm"></div><p class="small">Median total dissolved solids, with the 10th to 90th percentile range. Log scale. EPA secondary limit for drinking water is 500 mg/L.</p></div>
     </div>
   </div>
   <div class="grid2 mt">
-    <div class="card pad"><h3>Top disposal-density cells <span class="lbl">ANALYTIC ASSESSMENT</span></h3><table class="dt small" id="ogTop"></table><p class="small">Injection/disposal well records per 0.1 degree cell (about 11 km). The layer mixes EOR injection with disposal.</p></div>
+    <div class="card pad"><h3>Top disposal-density cells <span class="lbl">ANALYTIC ASSESSMENT</span></h3><table class="dt small" id="ogTop"></table><p class="small">Injection/disposal well records per 0.1 degree cell (about 11 km), all six jurisdictions. Counts mix EOR injection with disposal where the regulator does not separate them.</p></div>
     <div class="card pad"><h3>Earthquakes M2.5+ near the Permian <span class="lbl">ANALYTIC ASSESSMENT</span></h3><div id="ogQuake" class="chart sm"></div><p class="small" id="ogQuakeNote"></p></div>
+  </div>
+  <div class="grid2 mt">
+    <div class="card pad"><h3>Reported injection volume by well, New Mexico and Oklahoma <span class="lbl">ANALYTIC ASSESSMENT</span></h3><div id="ogVol" class="chart sm"></div><p class="small" id="ogVolNote"></p></div>
+    <div class="card pad"><h3>Where per-well volumes exist <span class="lbl">OBSERVED</span></h3><table class="dt small" id="ogJur"></table><p class="small">Texas, Alberta, British Columbia and Saskatchewan layers carry no per-well injection volumes, so their disposal wells are shown by count only. Mexico: no open registry reachable (Method &gt; gaps).</p></div>
   </div>
 </section>
 

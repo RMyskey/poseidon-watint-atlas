@@ -35,10 +35,15 @@
   H.quakes_recent = function (p) { return { title: 'M' + p.mag + ' ' + p.place, kick: 'USGS earthquake', label: 'OBSERVED', src: 'usgs_quakes', asof: p.time, prec: 'F', rows: [row('Depth', p.depth + ' km'), row('Time', p.time)], links: [['USGS event', 'https://earthquake.usgs.gov/earthquakes/eventpage/' + p.id]] }; };
   H.quakes_na = function (p) { return { title: 'Earthquake cell ' + p.lat + ', ' + p.lon, kick: 'M2.5+ events in 5 years, 0.5° cell', label: 'OBSERVED', src: 'usgs_quakes', asof: U.asofOf('quakes'), prec: 'G',
     rows: [row('Events M2.5+', p.n), row('Largest magnitude', p.max), row('Latest event', U.date(p.last * 1000))], note: 'USGS does not label events as natural or induced.' }; };
-  H.wells = function (p) { return { title: 'Texas well cell ' + p.lat + ', ' + p.lon, kick: 'Wells per 0.1° cell (RRC)', label: 'OBSERVED', src: 'rrc', asof: U.asofOf('tx_wells_grid'), prec: 'G',
-    rows: [row('Producing', U.n(p.producing)), row('Shut-in', U.n(p.shut_in)), row('Plugged', U.n(p.plugged)), row('Injection / disposal', U.n(p.inj)), row('Other', U.n(p.other))] }; };
-  H.swd = function (p) { return { title: p.kind === 'com' ? 'Commercial disposal site' : 'Injection / disposal well', kick: 'Texas RRC record', label: 'OBSERVED', src: 'rrc', asof: U.asofOf('tx_swd'), prec: 'F',
-    rows: [], note: 'The service layer carries location only; EOR injection and saltwater disposal are not separated. No volume is published here.' }; };
+  var OGJ = [['tx', 'Texas', 'rrc'], ['nm', 'New Mexico', 'nm_ocd'], ['ok', 'Oklahoma', 'ok_occ'], ['ab', 'Alberta', 'ab_aer'], ['bc', 'British Columbia', 'bc_bcer'], ['sk', 'Saskatchewan', 'sk_er']];
+  var OGSRC = { tx: 'Railroad Commission of Texas', nm: 'New Mexico OCD', ok: 'Oklahoma Corporation Commission', ab: 'Alberta Energy Regulator (ST37)', bc: 'BC Energy Regulator', sk: 'Saskatchewan Energy and Resources' };
+  function ogLoad(kind) { return Promise.all(OGJ.map(function (o) { return U.layer(o[0] + '_' + kind + '.json').then(function (g) { return { j: o, g: g }; }).catch(function () { return null; }); })).then(function (a) { return a.filter(Boolean); }); }
+  H.wells = function (p) { return { title: p.name + ' well cell ' + p.lat + ', ' + p.lon, kick: 'Wells per 0.1° cell (' + OGSRC[p.jur] + ')', label: 'OBSERVED', src: p.sid, asof: U.asofOf(p.jur + '_wells_grid'), prec: 'G',
+    rows: [row('Producing', U.n(p.producing)), row('Shut-in', U.n(p.shut_in)), row('Plugged / abandoned', U.n(p.plugged)), row('Injection / disposal', U.n(p.inj)), row('Other', U.n(p.other))], note: 'Class grouping is the atlas\'s mapping of the regulator\'s status codes (see Method).' }; };
+  H.swd = function (p) { return { title: p.kind === 'com' ? 'Commercial disposal site' : 'Injection / disposal well', kick: OGSRC[p.jur] + ' record', label: 'OBSERVED', src: p.sid, asof: U.asofOf(p.jur + '_swd'), prec: 'F',
+    rows: [row('Type', p.sub || ''), row(p.volk || 'Reported volume', p.vol ? U.n(p.vol) + ' bbl (unit read as barrels)' : (p.vol === 0 ? '0' : ''))],
+    note: p.jur === 'tx' ? 'The Texas service layer carries location only; EOR injection and saltwater disposal are not separated. No volume is published here.' : (p.vol !== undefined && p.vol !== null ? 'Volume as published by the regulator; the service does not state a unit (ANALYTIC ASSESSMENT: read as barrels).' : 'This regulator layer carries no per-well volume.') }; };
+  H.swd_vol = H.swd;
   H.pwdb = function (p) { return { title: 'Produced water cell ' + p.lat + ', ' + p.lon, kick: 'USGS PWDB, 0.25° cell', label: 'OBSERVED', src: 'pwdb', asof: U.asofOf('pwdb_grid'), prec: 'G',
     rows: [row('Samples with TDS', U.n(p.n)), row('Median TDS', fmtMg(p.med)), row('Maximum TDS', fmtMg(p.max)), row('Ratio to EPA 500 mg/L SMCL', U.n(p.med / 500, 0) + '×  (ANALYTIC ASSESSMENT)')] }; };
   H.nbga = function (p) { return { title: 'Groundwater salinity cell ' + p.lat + ', ' + p.lon, kick: 'USGS NBGA, 0.25° cell (samples to 2013)', label: 'OBSERVED', src: 'nbga', asof: U.asofOf('nbga_grid'), prec: 'G',
@@ -135,24 +140,39 @@
       add({ qna: { type: 'geojson', data: fc(f) } }, [circ('q-na', 'qna', 'quakes_na', { 'circle-radius': ['interpolate', ['linear'], ['get', 'n'], 1, 2.5, 10, 5, 100, 10, 1000, 18], 'circle-color': U.stepExpr('max', [3, 3.5, 4, 5], ['#7d8aa3', '#ffd37a', '#ff9f43', '#ff5c6c', '#ff2d55']), 'circle-opacity': 0.55, 'circle-stroke-width': 0.6, 'circle-stroke-color': '#06101c' })]);
     },
     legend: function () { return U.legendSteps('Largest event in cell (M)', [3, 3.5, 4, 5], ['#7d8aa3', '#ffd37a', '#ff9f43', '#ff5c6c', '#ff2d55'], String, 'OBSERVED') + '<div class="lg-row small">Size follows event count. USGS does not label natural vs induced.</div>'; } });
-  reg({ id: 'wells', grp: 'Oil and gas', label: 'Texas wells density (RRC, 0.1° cells)', tag: 'OBSERVED', ids: ['wells-heat', 'wells-c'], hi: ['wells-c'],
-    load: function () { return U.layer('tx_wells_grid.json'); },
-    build: function (g) {
-      var f = g.rows.map(function (r) { var tot = r[2] + r[3] + r[4] + r[5] + r[6]; return pt(r[1], r[0], { lat: r[0], lon: r[1], producing: r[2], shut_in: r[3], plugged: r[4], inj: r[5], other: r[6], tot: tot }); });
+  reg({ id: 'wells', grp: 'Oil and gas', label: 'North America oil and gas wells (TX, NM, OK, AB, BC, SK; 0.1° cells)', tag: 'OBSERVED', ids: ['wells-heat', 'wells-c'], hi: ['wells-c'],
+    load: function () { return ogLoad('wells_grid'); },
+    build: function (list) {
+      var f = [];
+      list.forEach(function (x) { x.g.rows.forEach(function (r) { var tot = r[2] + r[3] + r[4] + r[5] + r[6]; f.push(pt(r[1], r[0], { lat: r[0], lon: r[1], producing: r[2], shut_in: r[3], plugged: r[4], inj: r[5], other: r[6], tot: tot, jur: x.j[0], name: x.j[1], sid: x.j[2] })); }); });
       add({ wl: { type: 'geojson', data: fc(f) } }, [
         { id: 'wells-heat', type: 'heatmap', source: 'wl', maxzoom: 9, paint: { 'heatmap-weight': ['interpolate', ['linear'], ['get', 'tot'], 0, 0, 500, 0.6, 3000, 1], 'heatmap-intensity': 1.2, 'heatmap-radius': ['interpolate', ['linear'], ['zoom'], 3, 9, 8, 30], 'heatmap-opacity': 0.75, 'heatmap-color': ['interpolate', ['linear'], ['heatmap-density'], 0, 'rgba(0,0,0,0)', 0.2, 'rgba(60,30,120,0.6)', 0.45, 'rgb(190,50,130)', 0.7, 'rgb(250,140,60)', 1, 'rgb(255,245,170)'] } },
         circ('wells-c', 'wl', 'wells', { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 6, 3, 10, 12], 'circle-color': ['interpolate', ['linear'], ['get', 'tot'], 0, '#2b1a4f', 400, '#c0398b', 1500, '#ffb547', 4000, '#fff3a8'], 'circle-opacity': 0.5, 'circle-stroke-width': 0.4, 'circle-stroke-color': '#06101c' }, { minzoom: 6.5 })]);
     },
-    legend: function () { return '<div class="lg-t">Texas well records per 0.1° cell ' + U.lbl('OBSERVED') + '</div><div class="lg-grad" style="background:linear-gradient(90deg,#3c1e78,#be3282,#fa8c3c,#fff5aa)"></div><div class="lg-ticks"><span>few</span><span>1,500+</span><span>4,000+</span></div>'; } });
-  reg({ id: 'swd', grp: 'Oil and gas', label: 'Texas injection/disposal wells and commercial disposal', tag: 'OBSERVED', ids: ['swd-i', 'swd-c'], hi: ['swd-i', 'swd-c'],
-    load: function () { return U.layer('tx_swd.json'); },
-    build: function (g) {
-      var a = g.injection_disposal.map(function (p) { return pt(p[0], p[1], { kind: 'swd' }); }), b = g.commercial_disposal.map(function (p) { return pt(p[0], p[1], { kind: 'com' }); });
-      add({ swd1: { type: 'geojson', data: fc(a) }, swd2: { type: 'geojson', data: fc(b) } }, [
-        circ('swd-i', 'swd1', 'swd', { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 5, 1.2, 10, 4], 'circle-color': '#38c7ff', 'circle-opacity': 0.55 }),
-        circ('swd-c', 'swd2', 'swd', { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 5, 3, 10, 7], 'circle-color': '#ff5c6c', 'circle-opacity': 0.9, 'circle-stroke-width': 1, 'circle-stroke-color': '#fff' })]);
+    legend: function () { return '<div class="lg-t">Well records per 0.1° cell ' + U.lbl('OBSERVED') + '</div><div class="lg-grad" style="background:linear-gradient(90deg,#3c1e78,#be3282,#fa8c3c,#fff5aa)"></div><div class="lg-ticks"><span>few</span><span>1,500+</span><span>4,000+</span></div><div class="lg-row small">Texas, New Mexico, Oklahoma, Alberta, British Columbia, Saskatchewan. Mexico: no open registry reachable (see Method).</div>'; } });
+  function swdBuild(list) {
+    var a = [], b = [];
+    list.forEach(function (x) {
+      var subs = x.g.subtypes || [];
+      x.g.injection_disposal.forEach(function (p) { var o = { kind: 'swd', jur: x.j[0], sid: x.j[2] }; if (p.length > 2) { o.vol = p[2]; o.sub = subs[p[3]] || ''; o.volk = x.j[0] === 'nm' ? 'Injection, rolling 12 months' : 'Injection, calendar 2025'; } a.push(pt(p[0], p[1], o)); });
+      x.g.commercial_disposal.forEach(function (p) { b.push(pt(p[0], p[1], { kind: 'com', jur: x.j[0], sid: x.j[2] })); });
+    });
+    add({ swd1: { type: 'geojson', data: fc(a) }, swd2: { type: 'geojson', data: fc(b) } }, [
+      circ('swd-i', 'swd1', 'swd', { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 5, 1.2, 10, 4], 'circle-color': '#38c7ff', 'circle-opacity': 0.55 }),
+      circ('swd-c', 'swd2', 'swd', { 'circle-radius': ['interpolate', ['linear'], ['zoom'], 5, 3, 10, 7], 'circle-color': '#ff5c6c', 'circle-opacity': 0.9, 'circle-stroke-width': 1, 'circle-stroke-color': '#fff' })]);
+  }
+  reg({ id: 'swd', grp: 'Oil and gas', label: 'Injection/disposal wells and commercial disposal (TX, NM, OK, AB, BC, SK)', tag: 'OBSERVED', ids: ['swd-i', 'swd-c'], hi: ['swd-i', 'swd-c'],
+    load: function () { return ogLoad('swd'); }, build: swdBuild,
+    legend: function () { return '<div class="lg-t">Disposal ' + U.lbl('OBSERVED') + '</div><div class="lg-row"><span class="lg-sw" style="background:#38c7ff"></span>Injection / disposal well (not abandoned)</div><div class="lg-row"><span class="lg-sw" style="background:#ff5c6c"></span>Commercial disposal site (TX, OK)</div>'; } });
+  reg({ id: 'swd_vol', grp: 'Oil and gas', label: 'Reported injection volume per well (NM rolling 12 mo, OK 2025)', tag: 'ANALYTIC ASSESSMENT', ids: ['swdv-c'], hi: ['swdv-c'],
+    load: function () { return Promise.all([U.layer('nm_swd.json'), U.layer('ok_swd.json')]).then(function (a) { return [{ j: OGJ[1], g: a[0] }, { j: OGJ[2], g: a[1] }]; }); },
+    build: function (list) {
+      var f = [];
+      list.forEach(function (x) { var subs = x.g.subtypes || []; x.g.injection_disposal.forEach(function (p) { if (p[2] > 0) f.push(pt(p[0], p[1], { kind: 'swd', jur: x.j[0], sid: x.j[2], vol: p[2], sub: subs[p[3]] || '', volk: x.j[0] === 'nm' ? 'Injection, rolling 12 months' : 'Injection, calendar 2025' })); }); });
+      f.sort(function (a, b) { return b.properties.vol - a.properties.vol; });
+      add({ swdv: { type: 'geojson', data: fc(f) } }, [circ('swdv-c', 'swdv', 'swd_vol', { 'circle-radius': ['interpolate', ['linear'], ['get', 'vol'], 1000, 2, 1e6, 5, 5e6, 11, 1.5e7, 20], 'circle-color': ['match', ['get', 'jur'], 'nm', '#ffb547', '#b06cff'], 'circle-opacity': 0.6, 'circle-stroke-width': 0.6, 'circle-stroke-color': '#06101c' })]);
     },
-    legend: function () { return '<div class="lg-t">Disposal ' + U.lbl('OBSERVED') + '</div><div class="lg-row"><span class="lg-sw" style="background:#38c7ff"></span>Injection / disposal well</div><div class="lg-row"><span class="lg-sw" style="background:#ff5c6c"></span>Commercial disposal site</div>'; } });
+    legend: function () { return '<div class="lg-t">Injection volume per well ' + U.lbl('ANALYTIC ASSESSMENT') + '</div><div class="lg-row"><span class="lg-sw" style="background:#ffb547"></span>New Mexico (OCD, rolling 12 months)</div><div class="lg-row"><span class="lg-sw" style="background:#b06cff"></span>Oklahoma (OCC, calendar 2025)</div><div class="lg-row small">Circle size follows volume (about 1 thousand to 15 million). Unit not stated by the services; read as barrels. Texas, Canada: no per-well volumes.</div>'; } });
   reg({ id: 'pwdb', grp: 'Oil and gas', label: 'Produced-water salinity (USGS PWDB, 0.25° cells)', tag: 'OBSERVED', ids: ['pwdb-c'], hi: ['pwdb-c'],
     load: function () { return U.layer('pwdb_grid.json'); },
     build: function (g) {

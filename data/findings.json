@@ -26,7 +26,7 @@
  {
   "id": "tx_wells",
   "title": "Texas well records: 1,398,026 in the RRC layer",
-  "text": "By symbol class: 465,146 producing, 7,984 shut-in, 425,580 plugged, 41,857 injection or disposal and 457,458 other (RRC GIS symbols). Texas only; no complete North American well layer was collected.",
+  "text": "By symbol class: 465,146 producing, 7,984 shut-in, 425,580 plugged, 41,857 injection or disposal and 457,458 other (RRC GIS symbols). The densest layer in the atlas; NM, OK, Alberta, BC and Saskatchewan are separate layers.",
   "label": "OBSERVED",
   "sources": [
    "rrc"
@@ -36,12 +36,38 @@
  {
   "id": "tx_swd",
   "title": "Texas has 46,970 injection/disposal well records and 1,896 commercial disposal sites",
-  "text": "Counts include enhanced-oil-recovery injection, which the service does not separate from saltwater disposal. Per-well disposal volumes are not in the layer, so well counts are used as a proxy for produced-water handling activity (MODELED siting uses this proxy).",
+  "text": "Counts include enhanced-oil-recovery injection, which the service does not separate from saltwater disposal. The Texas RRC layers carry no per-well volumes, so well counts are used as a proxy for produced-water handling activity (MODELED siting uses this proxy).",
   "label": "OBSERVED",
   "sources": [
    "rrc"
   ],
   "asof": "2026-11-05T01:32:52Z"
+ },
+ {
+  "id": "na_wells",
+  "title": "North American well layers: 2,670,102 well records in 6 jurisdictions",
+  "text": "Texas 1,398,026; New Mexico 142,469; Oklahoma 457,402; Alberta 541,190; British Columbia 34,441; Saskatchewan 96,574. Together they hold 76,505 injection/disposal wells that are not abandoned (Texas counts the RRC injection layer). Mexico has no open coordinate registry reachable from this build (SENER completed-wells CSVs are denied to automated clients) and is shown only through CONAGUA water layers.",
+  "label": "OBSERVED",
+  "sources": [
+   "rrc",
+   "nm_ocd",
+   "ok_occ",
+   "ab_aer",
+   "bc_bcer",
+   "sk_er"
+  ],
+  "asof": "2026-11-05T02:47:53Z"
+ },
+ {
+  "id": "og_vol",
+  "title": "Reported injection volumes: New Mexico and Oklahoma publish per-well figures, Texas does not",
+  "text": "New Mexico 1,118,416,796 bbl (rolling 12 months; 2,946 wells with volume; saltwater-disposal wells alone 889,876,348 bbl); Oklahoma 1,778,356,622 bbl (calendar year 2025; 6,790 wells with volume; saltwater-disposal wells alone 734,135,678 bbl). The services do not state a unit; the magnitude (about 3.1 million bbl/day for NM and 4.9 million bbl/day for OK if read as barrels) is plausible for barrels (Permian produced water across Texas and New Mexico is about 20 million bbl/day per Texas Tech/TAWC), so the atlas reads them as barrels; the regulators have not confirmed the unit in the services. Totals include enhanced-oil-recovery injection unless marked saltwater disposal.",
+  "label": "ANALYTIC ASSESSMENT",
+  "sources": [
+   "nm_ocd",
+   "ok_occ"
+  ],
+  "asof": "2026-11-05T02:47:53Z"
  },
  {
   "id": "seis",

@@ -22,7 +22,10 @@ with sync_playwright() as p:
     pg.evaluate("""() => { const A = window.WTApp; ['wells','swd','dcs','npdes'].forEach(i => A.setLayer(i, true)); A.flyRegion('permian'); }""")
     pg.wait_for_timeout(9000)
     pg.screenshot(path=OUT + '/map_permian_layers.png')
-    pg.evaluate("() => { window.WTApp.flyRegion('na'); }")
+    # North America overview with every well layer on (new in the multi-jurisdiction build)
+    pg.evaluate("""() => { const A = window.WTApp; ['wells','swd','swd_vol'].forEach(i => A.setLayer(i, true)); A.flyRegion('na'); }""")
+    pg.wait_for_timeout(12000)
+    pg.screenshot(path=OUT + '/map_na_wells.png')
     # force lazy inits then screenshot each section
     pg.evaluate("() => { (window.WTU.lazy || []).forEach(f => f()); }")
     def shot(sel, name, wait=6000):
@@ -34,6 +37,12 @@ with sync_playwright() as p:
     shot('#network', 'network', 4000)
     shot('#flow', 'supply_flow', 5000)
     shot('#oilgas', 'na_oil_gas', 12000)
+    pg.evaluate("() => { const c = document.querySelector('input[data-d=\"ogMap:swd_vol\"]'); if (c && !c.checked) c.click(); }")
+    for reg, name in (('na', 'og_north_america'), ('newmexico', 'og_new_mexico'), ('oklahoma', 'og_oklahoma'), ('alberta', 'og_alberta')):
+        pg.evaluate("() => { const b = document.querySelector('#ogPreset button[data-r=\"" + reg + "\"]'); b.click(); }")
+        pg.evaluate("() => { const A = window.WTApp; }")
+        pg.wait_for_timeout(7000)
+        pg.query_selector('#ogMap').screenshot(path=OUT + '/' + name + '.png')
     shot('#samples', 'sample_explorer', 14000)
     shot('#siting', 'data_center_siting', 12000)
     shot('#charts', 'chart_builder', 4000)
