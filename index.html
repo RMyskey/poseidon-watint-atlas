@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Poseidon NARINT | WATINT Water Atlas (concept prototype)</title>
+<meta name="description" content="Poseidon NARINT concept prototype: open-data water intelligence for North America and the world. Water supply chains, produced water, oil and gas wells, wastewater, sample explorer and data-center water siting.">
+<meta name="theme-color" content="#060b14">
+<meta name="application-name" content="Poseidon NARINT WATINT">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/vendor/maplibre-gl-5.15.0/maplibre-gl.css">
+<link rel="preload" href="assets/fonts/web/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/app.css">
+<link rel="stylesheet" href="assets/css/wt.css">
+</head>
+<body>
+<div class="banner"><span>Concept prototype</span><i></i><span>Open unclassified data only</span><i></i><span id="bnAsof">WGS 84</span></div>
+<header class="top">
+  <a class="brand" href="#map" aria-label="Poseidon NARINT WATINT home">
+    <svg class="logo" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="pa" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38c7ff"/><stop offset="1" stop-color="#5b8def"/></linearGradient></defs><path d="M24 3 43 14v20L24 45 5 34V14z" fill="#0a1626" stroke="url(#pa)" stroke-width="2.4" stroke-linejoin="round"/><path d="M24 11c5 7 9 11.4 9 16.2A9 9 0 0 1 15 27.2C15 22.4 19 18 24 11z" fill="url(#pa)"/><circle cx="35.5" cy="15.5" r="2.4" fill="#f2b84b"/></svg>
+    <span class="brand-txt"><b>POSEIDON <em>NARINT</em></b><small>WATINT Water Atlas</small></span>
+  </a>
+  <nav class="nav" id="nav">
+    <a href="#map">Map</a><a href="#intel">Intel</a><a href="#network">Network</a><a href="#flow">Supply flow</a><a href="#oilgas">Oil &amp; gas</a><a href="#samples">Samples</a><a href="#siting">Siting</a><a href="#charts">Charts</a><a href="#data">Data</a><a href="#findings">Findings</a><a href="#method">Method</a><a href="#sources">Sources</a><a href="#about">About</a>
+  </nav>
+  <button class="nav-toggle" id="navToggle" aria-label="Menu" aria-expanded="false">☰</button>
+</header>
+<div class="filterbar" id="filterbar">
+  <button class="fb-toggle" id="fbToggle" aria-expanded="false">View <span id="fbCount"></span></button>
+  <div class="fb-body" id="fbBody">
+    <label>Region<select id="fRegion"></select></label>
+    <label>Go to<input id="fGo" type="text" placeholder="lat, lon (decimal)" autocomplete="off" aria-label="Go to coordinate"></label>
+    <button class="btn ghost" id="fGoBtn">Go</button>
+    <span class="fb-note" id="fbNote">Labels: <b>OBSERVED</b> source value · <b>MODELED</b> atlas score · <b>ANALYTIC ASSESSMENT</b> atlas arithmetic · <b>CURATED</b> analyst snapshot</span>
+  </div>
+</div>
+<main>
+<section id="kpi" class="band"><div class="kpis" id="kpis"></div></section>
+
+<section id="map" class="mapsec">
+  <div id="mapwrap" class="mapwrap">
+    <div id="mapcv" class="mapcv"></div>
+    <div class="m-search"><input id="search" type="search" placeholder="Search a data center, facility, community or lat, lon…" autocomplete="off" aria-label="Search"><div id="searchList" class="search-list" hidden></div></div>
+    <div class="m-left">
+      <div class="m-panel m-layers" id="layersPanel">
+        <button class="m-head" id="layersHead" aria-expanded="true">Layers &amp; basemap <span>▾</span></button>
+        <div class="m-body" id="layersBody">
+          <div class="seg" id="baseSeg"><button data-b="dark">Dark</button><button data-b="sat">Satellite</button><button data-b="topo">Topo</button></div>
+          <label class="chk"><input type="checkbox" id="lRef" checked> Reference labels &amp; borders</label>
+          <label class="chk"><input type="checkbox" id="lHill"> Hillshade relief</label>
+          <label class="chk"><input type="checkbox" id="l3d"> 3D terrain &amp; tilt</label>
+          <label class="chk"><input type="checkbox" id="lGlobe"> Globe projection</label>
+          <div id="layerList"></div>
+          <hr>
+          <div class="row2"><button class="btn" id="measureBtn">📏 Measure</button><button class="btn ghost" id="homeBtn">⌂ World</button></div>
+          <div class="row2"><button class="btn ghost" id="expGeo">⬇ View GeoJSON</button><button class="btn ghost" id="expCsv">⬇ View CSV</button></div>
+        </div>
+      </div>
+      <div class="m-panel m-legend" id="legend">
+        <button class="m-head" id="legendHead" aria-expanded="true">Legend <span>▾</span></button>
+        <div class="m-body" id="legendBody"></div>
+      </div>
+    </div>
+    <aside class="m-detail" id="detail" hidden></aside>
+    <div class="m-measure" id="measureBox" hidden></div>
+    <div class="m-readout" id="readout">Move the cursor over the map</div>
+  </div>
+</section>
+
+<section id="intel" class="sec">
+  <div class="sec-head">
+    <div><h2>Intel feed &amp; updates</h2><p>Machine-matched headlines (GDELT DOC, Google News RSS) on produced water, data-center water, contamination, drought, infrastructure and regulation, plus GDACS Orange/Red hazard alerts. Not analyst-verified: open the source before relying on an item. Items that would change a curated figure go to the review queue; feeds never overwrite curated data.</p></div>
+    <div class="seg" id="iWin"><button data-d="7">7 days</button><button data-d="30" class="on">30 days</button><button data-d="120">120 days</button></div>
+  </div>
+  <div class="intel-grid">
+    <div class="card intel-main">
+      <div class="ibar"><div class="chips" id="iCats"></div><div class="chips" id="iRegs"></div></div>
+      <div id="iList" class="ilist"></div>
+    </div>
+    <div class="intel-side">
+      <div class="card pad"><h3>Review queue <span class="badge" id="rCount">0</span></h3><div id="rList" class="rlist"></div></div>
+      <div class="card pad"><h3>Feed status</h3><div id="fStatus" class="fstatus"></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="network" class="sec">
+  <div class="sec-head">
+    <div><h2>Water network</h2><p>How water and wastewater move between the sources, treatment, utilities, end users and competing demands the atlas tracks. Node size follows the number of records the atlas holds (log scale). Edges are the atlas's relationships (ANALYTIC ASSESSMENT), each backed by the cited source.</p></div>
+    <div class="seg" id="gMode"><button data-m="all" class="on">All stages</button><button data-m="pw">Produced water focus</button></div>
+  </div>
+  <div class="card"><div id="graph" class="graph"></div><div class="glegend" id="gLegend"></div></div>
+</section>
+
+<section id="flow" class="sec">
+  <div class="sec-head"><div><h2>Supply flow</h2><p>Aquifers, basins and produced water, through treatment and utilities, to end users, with data centers and disposal as competing demands. Sankey values are published figures or stated arithmetic; stages without open data are marked, not estimated.</p></div></div>
+  <div class="grid2">
+    <div class="card pad"><h3 id="skATitle"></h3><div id="sankeyA" class="sankey"></div><p class="small" id="skANote"></p></div>
+    <div class="card pad"><h3 id="skBTitle"></h3><div id="sankeyB" class="sankey"></div><p class="small" id="skBNote"></p></div>
+  </div>
+  <h3 class="mt">Chain map: stages and open-data counts</h3>
+  <div class="chain" id="chain"></div>
+  <h3 class="mt">Produced water and data-center demand arithmetic <span class="lbl">ANALYTIC ASSESSMENT</span></h3>
+  <div class="card tablewrap"><table class="dt" id="pwTable"></table></div>
+  <p class="small" id="pwNote"></p>
+  <h3 class="mt">Supply-chain logistics: Texas data centers <span class="lbl">ANALYTIC ASSESSMENT</span></h3>
+  <p class="small">Straight-line distance from each Texas data center in the register to the nearest commercial disposal site and the nearest major POTW, plus injection/disposal wells within 25 and 50 km. Great-circle distances, not haul routes. Data-center coordinates have a stated location confidence and can be approximate.</p>
+  <div class="tbar"><input id="lgSearch" type="search" placeholder="Filter by name, county, operator…" aria-label="Filter logistics"><select id="lgStatus" aria-label="Status"></select><span class="tcount" id="lgCount"></span><button class="btn ghost" id="lgCsv">⬇ CSV</button></div>
+  <div class="card tablewrap"><table class="dt" id="lgTable"></table></div>
+</section>
+
+<section id="oilgas" class="sec">
+  <div class="sec-head"><div><h2>North America oil &amp; gas: wells, produced water, disposal, seismicity</h2><p>Texas wells by class (Railroad Commission of Texas), injection/disposal wells, USGS produced-water chemistry, and USGS earthquakes M2.5+ for North America. Only Texas has a well layer in this build; New Mexico, Oklahoma, Canada and Mexico well layers are listed as gaps in Method.</p></div>
+    <div class="seg" id="ogPreset"><button data-r="permian" class="on">Permian</button><button data-r="texas">Texas</button><button data-r="na">North America</button></div></div>
+  <div class="dash">
+    <div class="dmap"><div id="ogMap" class="mapcv"></div>
+      <div class="m-panel dlayers"><div class="m-body" id="ogLayers"></div></div>
+      <div class="m-readout" id="ogReadout">Move the cursor over the map</div></div>
+    <div class="dside">
+      <div class="card pad"><h3>Texas well records by class</h3><div id="ogBars" class="chart sm"></div><p class="small" id="ogBarsNote"></p></div>
+      <div class="card pad"><h3>Produced-water salinity by basin (USGS PWDB)</h3><div id="ogTds" class="chart sm"></div><p class="small">Median total dissolved solids, with the 10th to 90th percentile range. Log scale. EPA secondary limit for drinking water is 500 mg/L.</p></div>
+    </div>
+  </div>
+  <div class="grid2 mt">
+    <div class="card pad"><h3>Top disposal-density cells <span class="lbl">ANALYTIC ASSESSMENT</span></h3><table class="dt small" id="ogTop"></table><p class="small">Injection/disposal well records per 0.1 degree cell (about 11 km). The layer mixes EOR injection with disposal.</p></div>
+    <div class="card pad"><h3>Earthquakes M2.5+ near the Permian <span class="lbl">ANALYTIC ASSESSMENT</span></h3><div id="ogQuake" class="chart sm"></div><p class="small" id="ogQuakeNote"></p></div>
+  </div>
+</section>
+
+<section id="samples" class="sec">
+  <div class="sec-head"><div><h2>Sample &amp; well explorer</h2><p>Groundwater well chemistry from the Water Quality Portal (US, results since 2010), aggregated by county or HUC8 watershed, and Mexico RNMCA sites, compared with a limit you choose. Also the global well registries (IGRAC GGMN, UNEP GEMStat). Limits are reference values from the cited agency pages, not compliance determinations.</p></div></div>
+  <div class="ctl">
+    <label>Parameter<select id="sxParam"></select></label>
+    <label>Limit basis<select id="sxLimit"></select></label>
+    <label>Aggregate<select id="sxAgg"><option value="county">US county</option><option value="huc8">US HUC8 watershed</option></select></label>
+    <label>Statistic<select id="sxStat"><option value="median">Median result</option><option value="p90">90th percentile</option><option value="max">Maximum</option><option value="pct">% of results above limit</option></select></label>
+    <label class="chk"><input type="checkbox" id="sxMx" checked> Mexico RNMCA sites</label>
+    <label class="chk"><input type="checkbox" id="sxGg"> IGRAC GGMN registry (1 degree)</label>
+    <span class="small" id="sxLimitNote"></span>
+  </div>
+  <div class="dash">
+    <div class="dmap"><div id="sxMap" class="mapcv"></div><div class="m-panel dlegend" id="sxLegend"></div><div class="m-readout" id="sxReadout">Move the cursor over the map</div></div>
+    <div class="dside">
+      <div class="card pad"><h3 id="sxTitle">Most-affected states</h3><div id="sxBars" class="chart sm"></div><p class="small" id="sxNote"></p></div>
+      <div class="card pad"><h3>Highest individual sites</h3><div class="tablewrap short"><table class="dt small" id="sxTop"></table></div></div>
+    </div>
+  </div>
+  <div class="grid2 mt">
+    <div class="card pad"><h3>Why there is no complete global dataset <span class="lbl">OBSERVED</span></h3><div id="globalDoc"></div></div>
+    <div class="card pad"><h3>IGRAC GGMN registry by country (top 15)</h3><div id="ggChart" class="chart sm"></div><p class="small" id="ggNote"></p></div>
+  </div>
+</section>
+
+<section id="siting" class="sec">
+  <div class="sec-head"><div><h2>Data-center water siting <span class="lbl">MODELED</span></h2><p>A screening score for Texas that combines brackish groundwater, produced-water presence, water stress and data-center demand, inspired by the idea behind the UT Austin Sustainable Water Use Index (SWUI). It is <b>not</b> the paper's method (the full text was not accessed) and it is not a permitting, engineering or cost assessment. Change the weights to see how the ranking moves.</p></div></div>
+  <div class="dash">
+    <div class="dmap"><div id="stMap" class="mapcv"></div><div class="m-panel dlegend" id="stLegend"></div><div class="m-readout" id="stReadout">Move the cursor over the map</div></div>
+    <div class="dside">
+      <div class="card pad"><h3>Weights <button class="btn ghost sm" id="wReset">Reset</button></h3><div id="wSliders"></div>
+        <label class="chk"><input type="checkbox" id="stDc" checked> Show tracked Texas data centers</label>
+        <label class="chk"><input type="checkbox" id="stSwd"> Show injection/disposal density</label></div>
+      <div class="card pad callout2" id="lvCall"></div>
+    </div>
+  </div>
+  <div class="grid2 mt">
+    <div class="card pad"><h3>Top cells for the current weights</h3><table class="dt small" id="stTop"></table></div>
+    <div class="card pad"><h3>Model and method</h3><div id="stMethod"></div></div>
+  </div>
+</section>
+
+<section id="charts" class="sec">
+  <div class="sec-head"><div><h2>Chart builder</h2><p>Pick a dataset, then what to plot. Every dataset is a table from the atlas's layers, so the numbers match the maps and the register.</p></div></div>
+  <div class="presets" id="presets"></div>
+  <div class="builder">
+    <div class="card cb-controls" id="cbControls"></div>
+    <div class="card cb-chart"><div class="cb-title" id="cbTitle"></div><div id="chart" class="chart"></div><div class="cb-note" id="cbNote"></div></div>
+  </div>
+</section>
+
+<section id="data" class="sec">
+  <div class="sec-head"><div><h2>Data register</h2><p>Every layer the atlas serves: source, as-of date, record count, coordinate precision class and label. Files are plain JSON/GeoJSON under <code>data/layers/</code>.</p></div>
+    <div class="tbar"><input id="tSearch" type="search" placeholder="Search the register…" aria-label="Search the register"><span class="tcount" id="tCount"></span><button class="btn ghost" id="tCsv">⬇ CSV</button></div></div>
+  <div class="card tablewrap"><table class="dt" id="table"></table></div>
+</section>
+
+<section id="findings" class="sec">
+  <div class="sec-head"><div><h2>Key findings</h2><p>Numbers below are computed from the layers at build time; each carries its label, sources and as-of date.</p></div></div>
+  <div class="callout" id="findLead"></div>
+  <ol class="findings" id="findList"></ol>
+  <h3 class="mt">Reel claim check <span class="lbl">ANALYTIC ASSESSMENT</span></h3>
+  <p class="small" id="reelPaper"></p>
+  <div class="card tablewrap"><table class="dt" id="reelTable"></table></div>
+</section>
+
+<section id="method" class="sec">
+  <div class="sec-head"><div><h2>Methodology, precision and data gaps</h2></div></div>
+  <div class="grid2">
+    <div class="card pad" id="methodL"></div>
+    <div class="card pad"><h3>Coordinate precision</h3><p class="small" id="precText"></p><table class="dt small" id="precTable"></table>
+      <h3 class="mt">Labels</h3><table class="dt small" id="lblTable"></table></div>
+  </div>
+  <div class="card pad mt" id="gapList"></div>
+</section>
+
+<section id="sources" class="sec">
+  <div class="sec-head"><div><h2>Sources</h2></div></div>
+  <div class="srcgrid" id="srcList"></div>
+</section>
+
+<section id="about" class="sec about">
+  <div class="card pad about-card">
+    <svg class="logo big" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="pb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#38c7ff"/><stop offset="1" stop-color="#5b8def"/></linearGradient></defs><path d="M24 3 43 14v20L24 45 5 34V14z" fill="#0a1626" stroke="url(#pb)" stroke-width="2.4" stroke-linejoin="round"/><path d="M24 11c5 7 9 11.4 9 16.2A9 9 0 0 1 15 27.2C15 22.4 19 18 24 11z" fill="url(#pb)"/><circle cx="35.5" cy="15.5" r="2.4" fill="#f2b84b"/></svg>
+    <div>
+      <h2>About Poseidon NARINT / WATINT</h2>
+      <p><b>Poseidon NARINT</b> is a concept prototype for water intelligence (WATINT): who has water, who is polluting it, where produced and waste water goes, and what new demand such as data centers competes for. It mirrors the structure of the Millennium KI Strategic Minerals Atlas: static site, curated sources, scheduled feeds, review queue.</p>
+      <p class="small">Every figure carries its source and as-of date. Nothing here was invented or imputed; gaps are listed in Method. This is an analytic prototype built only from open, unclassified public data.</p>
+    </div>
+  </div>
+</section>
+</main>
+<footer class="foot"><div id="refreshLine" class="refresh"></div>Poseidon NARINT concept prototype: open, unclassified public data only. Not an official product of the Department of War, USACE, or the Army Geospatial Center.<br><span class="small">Map data: Esri, Maxar, Earthstar Geographics, HERE, Garmin; © OpenStreetMap contributors; Natural Earth; USGS; EPA; Railroad Commission of Texas; IGRAC; CONAGUA; ISC; ECCC · Built with MapLibre GL JS and Apache ECharts</span></footer>
+<div class="toast" id="toast" hidden></div>
+<script src="assets/vendor/maplibre-gl-5.15.0/maplibre-gl.js"></script>
+<script src="assets/vendor/echarts-5.6.0/echarts.min.js"></script>
+<script src="assets/js/geo.js"></script>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/core.js"></script>
+<script src="assets/js/layers.js"></script>
+<script src="assets/js/app.js"></script>
+<script src="assets/js/dash.js"></script>
+</body>
+</html>

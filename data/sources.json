@@ -1,0 +1,302 @@
+{
+ "cop": {
+  "name": "WATINT Global Threat COP snapshot (prior work)",
+  "publisher": "Poseidon NARINT prototype (Oct 23, 2026 snapshot) built on GDELT GKG, GDACS, WRI Aqueduct, INFORM, IPC, IOM DTM",
+  "url": "",
+  "role": "CURATED snapshot",
+  "cadence": "Snapshot, never auto-overwritten",
+  "layer": "cop",
+  "asof": "Oct 23, 2026, 12:05 PM MST (America/Phoenix)",
+  "records": 320
+ },
+ "gdacs": {
+  "name": "GDACS event list API",
+  "publisher": "UN OCHA / European Commission JRC",
+  "url": "https://www.gdacs.org/",
+  "role": "Global droughts, floods, tropical cyclones (live layer)",
+  "cadence": "daily",
+  "layer": "gdacs",
+  "asof": "2026-11-05T02:10:01Z",
+  "records": 64
+ },
+ "gdelt": {
+  "name": "GDELT DOC 2.0 API",
+  "publisher": "The GDELT Project",
+  "url": "https://blog.gdeltproject.org/gdelt-doc-2-0-api-debuts/",
+  "role": "Intel feed headlines (machine-matched, not verified)",
+  "cadence": "daily",
+  "layer": "updates",
+  "asof": null,
+  "records": null
+ },
+ "gnews": {
+  "name": "Google News RSS",
+  "publisher": "Google News",
+  "url": "https://news.google.com/",
+  "role": "Intel feed headlines (machine-matched, not verified)",
+  "cadence": "daily",
+  "layer": "updates",
+  "asof": null,
+  "records": null
+ },
+ "usgs_quakes": {
+  "name": "USGS Earthquake Catalog (ComCat) FDSN",
+  "publisher": "U.S. Geological Survey",
+  "url": "https://earthquake.usgs.gov/fdsnws/event/1/",
+  "role": "Global M4.5+ 30 days; North America M2.5+ 5 years (induced-seismicity context)",
+  "cadence": "daily",
+  "layer": "quakes",
+  "asof": "2026-11-05T02:10:01Z",
+  "records": 24071
+ },
+ "usdm": {
+  "name": "US Drought Monitor",
+  "publisher": "NDMC (UNL), USDA, NOAA",
+  "url": "https://droughtmonitor.unl.edu/",
+  "role": "Weekly US drought polygons D0-D4",
+  "cadence": "weekly",
+  "layer": "usdm",
+  "asof": "2026-10-27",
+  "records": 5
+ },
+ "rrc": {
+  "name": "Railroad Commission of Texas public GIS (wells, injection/disposal, commercial disposal)",
+  "publisher": "Railroad Commission of Texas",
+  "url": "https://gis.rrc.texas.gov/server/rest/services/rrc_public/RRC_Public_Viewer_Srvs/MapServer",
+  "role": "1.40 million Texas well records; 46,970 injection/disposal wells; 1,896 commercial disposal sites",
+  "cadence": "monthly",
+  "layer": "tx_wells_grid",
+  "asof": "2026-11-05T01:32:52Z",
+  "records": 1398026
+ },
+ "pwdb": {
+  "name": "USGS National Produced Waters Geochemical Database v3.0",
+  "publisher": "USGS (Blondes et al. 2019, rev. 2023-12-27)",
+  "url": "https://doi.org/10.5066/P9DSRCZJ",
+  "role": "Produced-water chemistry by basin and cell (113,135 records)",
+  "cadence": "annual",
+  "layer": "pwdb_basins",
+  "asof": "2023-12-27",
+  "records": 113135
+ },
+ "nbga": {
+  "name": "USGS Geochemical Database for the National Brackish Groundwater Assessment (dissolved solids)",
+  "publisher": "USGS (Qi and Harris 2017)",
+  "url": "https://doi.org/10.5066/F72F7KK1",
+  "role": "Brackish groundwater salinity (samples 1901-2013)",
+  "cadence": "annual",
+  "layer": "nbga_grid",
+  "asof": "2017-04-05",
+  "records": 379653
+ },
+ "echo_sdwa": {
+  "name": "EPA ECHO Safe Drinking Water Act (SDWIS Fed) REST services",
+  "publisher": "U.S. EPA",
+  "url": "https://echo.epa.gov/tools/web-services/facility-search-drinking-water",
+  "role": "US active public water systems: counts, source type, population served, health-based violation flag",
+  "cadence": "monthly",
+  "layer": "sdwa_state",
+  "asof": "2026-11-05T01:43:37Z",
+  "records": 142155
+ },
+ "echo_npdes": {
+  "name": "EPA ECHO Clean Water Act (ICIS-NPDES) REST services",
+  "publisher": "U.S. EPA",
+  "url": "https://echo.epa.gov/tools/web-services/facility-search-water",
+  "role": "Active major NPDES dischargers (POTW and industrial)",
+  "cadence": "monthly",
+  "layer": "npdes_majors",
+  "asof": "2026-11-05T01:32:36Z",
+  "records": 6991
+ },
+ "wqp": {
+  "name": "Water Quality Portal",
+  "publisher": "USGS, EPA, USDA-ARS",
+  "url": "https://www.waterqualitydata.us/",
+  "role": "Groundwater well chemistry since 2010 (TDS, chloride, nitrate, arsenic, PFOA, PFOS) aggregated by county and HUC8",
+  "cadence": "monthly",
+  "layer": "wqp_county",
+  "asof": "2026-11-05T01:58:57Z",
+  "records": 88787
+ },
+ "datacenters": {
+  "name": "FracTracker Alliance U.S. Data Centers Tracker (ArcGIS layer mirror)",
+  "publisher": "FracTracker Alliance; layer hosted by University of Oregon",
+  "url": "https://www.fractracker.org/",
+  "role": "US data center register (competing demand); third-party compiled",
+  "cadence": "daily",
+  "layer": "datacenters",
+  "asof": "2026-11-05T02:05:35Z",
+  "records": 1757
+ },
+ "conagua": {
+  "name": "CONAGUA Datos Abiertos (aquifer availability, water quality, treatment plants, drought, piezometric network)",
+  "publisher": "Comision Nacional del Agua (Mexico)",
+  "url": "https://sinav30.conagua.gob.mx:8080/",
+  "role": "Mexico aquifers, quality sites, plants, drought",
+  "cadence": "monthly (blocked from automation, see Method)",
+  "layer": "mx_aquifers",
+  "asof": "2023-11-09",
+  "records": 653
+ },
+ "isc_dwa": {
+  "name": "ISC long-term drinking water advisories (First Nations public systems)",
+  "publisher": "Indigenous Services Canada",
+  "url": "https://isc.gc.ca/eng/1620925418298/1620925434679",
+  "role": "Active and lifted long-term advisories, on-reserve only",
+  "cadence": "weekly",
+  "layer": "ca_dwa",
+  "asof": "2026-10-20",
+  "records": 39
+ },
+ "wser": {
+  "name": "ECCC Wastewater Systems Effluent Regulations reported data",
+  "publisher": "Environment and Climate Change Canada",
+  "url": "https://open.canada.ca/data/en/dataset/9e11e114-ef0d-4814-8d93-24af23716489",
+  "role": "Canadian wastewater systems: location, volume, treatment",
+  "cadence": "monthly",
+  "layer": "ca_wser",
+  "asof": "2026-09-28",
+  "records": 2537
+ },
+ "aqueduct": {
+  "name": "WRI Aqueduct 4.0 baseline water stress (province level)",
+  "publisher": "World Resources Institute (Kuzma et al. 2023), CC BY 4.0",
+  "url": "https://www.wri.org/data/aqueduct-global-maps-40-data",
+  "role": "Freshwater stress input to the siting model",
+  "cadence": "curated, annual",
+  "layer": "siting_tx",
+  "asof": null,
+  "records": null
+ },
+ "census": {
+  "name": "US Census cartographic boundary files 2023",
+  "publisher": "U.S. Census Bureau",
+  "url": "https://www.census.gov/geographies/mapping-files/time-series/geo/cartographic-boundary.html",
+  "role": "County and state polygons",
+  "cadence": "static",
+  "layer": "us_counties",
+  "asof": "2023",
+  "records": 3144
+ },
+ "igrac": {
+  "name": "IGRAC Global Groundwater Monitoring Network (GGMN) / GGIS",
+  "publisher": "International Groundwater Resources Assessment Centre (UNESCO)",
+  "url": "https://ggis.un-igrac.org/",
+  "role": "Global groundwater monitoring wells: bulk download requires a data request; SOS service blocks anonymous requests (HTTP 403)",
+  "cadence": "not scriptable",
+  "layer": "global_register",
+  "asof": "2026-11-05",
+  "records": 374934
+ },
+ "gemstat": {
+  "name": "UNEP GEMStat",
+  "publisher": "UNEP GEMS/Water Data Centre (ICWQ)",
+  "url": "https://gemstat.org/data-gemstat/data-portal/",
+  "role": "Global freshwater quality: no public API; data portal limited to 675 stations per request, otherwise custom request",
+  "cadence": "not scriptable",
+  "layer": "global_register",
+  "asof": null,
+  "records": null
+ },
+ "paper": {
+  "name": "Katakam, Arzumanyan, Lin, Bahadur. System-scale design and analysis of desalination systems for meeting water needs of data centers. Water Research 308, 126748",
+  "publisher": "Water Research (Elsevier)",
+  "url": "https://doi.org/10.1016/j.watres.2026.126748",
+  "role": "SWUI metric, Longview scenario (abstract and press coverage only; full text not accessed)",
+  "cadence": "reference",
+  "layer": "siting_tx",
+  "asof": "2026-11-05T02:10:12Z",
+  "records": 1036
+ },
+ "ut_news": {
+  "name": "UT Cockrell School of Engineering: Can Salty, Dirty Water Cool Data Centers? (Oct 8, 2026)",
+  "publisher": "UT Austin Cockrell School of Engineering",
+  "url": "https://cockrell.utexas.edu/news/can-salty-dirty-water-cool-data-centers/",
+  "role": "Primary press statement on the paper",
+  "cadence": "reference",
+  "layer": "siting_tx",
+  "asof": null,
+  "records": null
+ },
+ "paxton": {
+  "name": "Texas Attorney General press releases on data center water-use reporting (Sep 24 and Oct 15, 2026)",
+  "publisher": "Office of the Texas Attorney General",
+  "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-paxton-launches-landmark-investigation-hundreds-data-center-developments-texas",
+  "role": "Investigation of data centers that did not respond to the TWDB water-use survey",
+  "cadence": "reference",
+  "layer": "siting_tx",
+  "asof": null,
+  "records": null
+ },
+ "rrc_pw": {
+  "name": "Railroad Commission of Texas: Managing Water (produced water, 2025)",
+  "publisher": "Railroad Commission of Texas",
+  "url": "https://www.rrc.texas.gov/media/15ijqlop/rrc_managing-produced-water.pdf",
+  "role": "Texas produced water about 24 million barrels per day",
+  "cadence": "reference",
+  "layer": "flow",
+  "asof": null,
+  "records": null
+ },
+ "txpwc": {
+  "name": "Texas Produced Water Consortium (TxPWC) presentation to the Texas Legislature, Mar 2025",
+  "publisher": "Texas Tech University / TxPWC",
+  "url": "https://capitol.texas.gov/tlodocs/89R/handouts/C3902025030508001/44be8aa8-68d2-4293-adec-448f42cffbeb.PDF",
+  "role": "Up to 25 million bbl/day produced water in Texas; 50% recovery scenario",
+  "cadence": "reference",
+  "layer": "flow",
+  "asof": null,
+  "records": null
+ },
+ "b3": {
+  "name": "B3 Insight: Permian Water Market Trends and Forecast, 2H 2025 summary",
+  "publisher": "B3 Insight (industry consultancy)",
+  "url": "https://21663289.fs1.hubspotusercontent-na2.net/hubfs/21663289/B3%20Insight%20Permian%20Water%20Market%20Trends%20and%20Forecast%202H%202025%20Report%20Summary-1.pdf",
+  "role": "Permian 2025: about 20.7 million bpd produced water; basin split; injection and recycling",
+  "cadence": "reference",
+  "layer": "flow",
+  "asof": null,
+  "records": null
+ },
+ "ttu_leeds": {
+  "name": "Texas Tech / TAWC Water Conference 2025 presentation (Leeds): Permian produced water",
+  "publisher": "Texas Alliance of Water Conferences, Texas Tech University",
+  "url": "https://www.depts.ttu.edu/tawc/events/wc2025/leeds.pdf",
+  "role": "Permian about 20 million bpd; about 5.5 million bpd recycled; about 840 million gallons per day",
+  "cadence": "reference",
+  "layer": "flow",
+  "asof": null,
+  "records": null
+ },
+ "eesi": {
+  "name": "EESI: Data Centers and Water Consumption",
+  "publisher": "Environmental and Energy Study Institute",
+  "url": "https://www.eesi.org/articles/view/data-centers-and-water-consumption",
+  "role": "A large data center can use up to 5 million gallons per day",
+  "cadence": "reference",
+  "layer": "flow",
+  "asof": null,
+  "records": null
+ },
+ "lbnl": {
+  "name": "2024 United States Data Center Energy Usage Report",
+  "publisher": "Lawrence Berkeley National Laboratory",
+  "url": "https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report_1.pdf",
+  "role": "US data centers directly consumed about 66 billion litres (17.4 billion gallons) of water in 2023",
+  "cadence": "reference",
+  "layer": "flow",
+  "asof": null,
+  "records": null
+ },
+ "anthropocene": {
+  "name": "Anthropocene Magazine: Could dirty, salty wastewater quench data center thirst? (Oct 2026)",
+  "publisher": "Anthropocene Magazine",
+  "url": "https://www.anthropocenemagazine.org/2026/10/242893/data-centers-are-thirsty-could-desalination-quench-them/",
+  "role": "Secondary article that states about 8 billion gallons per day for the Permian (not supported by primary sources)",
+  "cadence": "reference",
+  "layer": "flow",
+  "asof": null,
+  "records": null
+ }
+}

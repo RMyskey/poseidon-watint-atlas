@@ -1,0 +1,93 @@
+{
+ "title": "Reel claim check (Instagram/Facebook reel posted 2026-10-23, captioned about data-center water and the UT Austin paper)",
+ "paper": {
+  "citation": "Katakam, A., Arzumanyan, M., Lin, S., Bahadur, V. System-scale design and analysis of desalination systems for meeting water needs of data centers. Water Research, vol. 308, article 126748 (online 2026-08-17; vol. 308 Part B).",
+  "doi": "10.1016/j.watres.2026.126748",
+  "url": "https://doi.org/10.1016/j.watres.2026.126748",
+  "abstract_finding": "Abstract and press coverage only; the full text was not accessed. The paper compares desalination-based water supply scenarios for data centers, introduces a Sustainable Water Use Index (SWUI), and reports that for a Longview, Texas case, brackish-groundwater supply with two-stage reverse osmosis scored best of the three scenarios studied.",
+  "press": [
+   {
+    "id": "ut_news",
+    "note": "UT Cockrell press release, Oct 8, 2026"
+   },
+   {
+    "id": "anthropocene",
+    "note": "Anthropocene Magazine, Oct 2026 (source of the '8 billion gallons per day' figure; not supported by primary sources)"
+   }
+  ]
+ },
+ "claims": [
+  {
+   "claim": "The Permian generates roughly 8 billion gallons of produced water every day.",
+   "verdict": "NOT SUPPORTED (about 10 times too high)",
+   "evidence": "Texas Tech/TAWC (2025) gives about 20 million bbl/day (840 million gal/day) and B3 Insight about 20.7 million bpd for 2025 (869 million gal/day). The Railroad Commission gives about 24 million bbl/day for all of Texas (1.0 billion gal/day). 8 billion gal/day would be about 190 million bbl/day.",
+   "sources": [
+    "ttu_leeds",
+    "b3",
+    "rrc_pw",
+    "anthropocene"
+   ],
+   "label": "ANALYTIC ASSESSMENT"
+  },
+  {
+   "claim": "That is about 1,200 Olympic-sized swimming pools every day.",
+   "verdict": "CONSISTENT with 0.84 billion gal/day, inconsistent with 8 billion",
+   "evidence": "840 million gallons / 660,430 gallons per 2,500 m3 pool is about 1,270 pools. 8 billion gallons would be about 12,100 pools. The reel's own pool figure matches the lower number.",
+   "sources": [
+    "ttu_leeds",
+    "ut_news"
+   ],
+   "label": "ANALYTIC ASSESSMENT"
+  },
+  {
+   "claim": "A large data center can use up to 5 million gallons a day.",
+   "verdict": "SUPPORTED as an upper bound",
+   "evidence": "EESI states that a large data center can consume up to 5 million gallons per day. LBNL reports US data centers directly consumed about 17.4 billion gallons (66 billion litres) in 2023, which is an average, not a per-site maximum.",
+   "sources": [
+    "eesi",
+    "lbnl"
+   ],
+   "label": "OBSERVED"
+  },
+  {
+   "claim": "Longview scored the best of anywhere tested.",
+   "verdict": "OVERSTATED",
+   "evidence": "The UT release and abstract describe Longview as the best of the three supply scenarios examined in a Longview case study (brackish groundwater with two-stage RO), not the best location among sites. This atlas's MODELED regional screen does not rank Longview first (see Siting).",
+   "sources": [
+    "ut_news",
+    "paper"
+   ],
+   "label": "ANALYTIC ASSESSMENT"
+  },
+  {
+   "claim": "The study is in Water Research 'this fall'.",
+   "verdict": "PARTLY ACCURATE",
+   "evidence": "The article is dated online 2026-08-17 (summer) and is in volume 308; UT's press release followed on Oct 8, 2026.",
+   "sources": [
+    "paper",
+    "ut_news"
+   ],
+   "label": "OBSERVED"
+  },
+  {
+   "claim": "Context (UT release, not a reel claim): disposal space for produced water may run short.",
+   "verdict": "SUPPORTED as a stated expectation",
+   "evidence": "The UT release quotes co-author Bahadur on running out of disposal space by as early as 2030. That is a researcher's projection, not a regulatory finding. B3 Insight reports about 2.8 million bpd already moved from New Mexico to Texas for disposal.",
+   "sources": [
+    "ut_news",
+    "b3"
+   ],
+   "label": "OBSERVED"
+  },
+  {
+   "claim": "The Texas Attorney General is scrutinising data center water use.",
+   "verdict": "SUPPORTED",
+   "evidence": "Press releases dated Sep 24 and Oct 15, 2026 describe an AG investigation of data center developments that did not respond to the TWDB water-use survey.",
+   "sources": [
+    "paxton"
+   ],
+   "label": "OBSERVED"
+  }
+ ],
+ "note": "Figures verified on 2026-11-04 against the linked pages. The reel itself was read from its caption metadata only."
+}

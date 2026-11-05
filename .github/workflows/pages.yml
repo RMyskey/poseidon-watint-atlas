@@ -1,0 +1,51 @@
+name: Deploy site to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  workflow_call:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages-deploy
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main   # always deploy the latest main (includes a data commit made earlier in the same run)
+      - uses: actions/configure-pages@v6
+      - name: Assemble static site
+        env:
+          MAPTILER_KEY: ${{ secrets.MAPTILER_KEY }}
+          ESRI_API_KEY: ${{ secrets.ESRI_API_KEY }}
+        run: |
+          mkdir -p _site
+          cp -r index.html .nojekyll assets data _site/
+          rm -rf _site/data/state
+          # Optional keyed map tiles. Keys stay out of git; they are written into the deployed config only.
+          if [ -n "$MAPTILER_KEY" ]; then
+            printf "window.WT_CONFIG = { liveFeeds: true, tiles: { provider: 'maptiler', esriApiKey: '', maptilerKey: '%s' } };\n" "$MAPTILER_KEY" > _site/assets/js/config.js
+          elif [ -n "$ESRI_API_KEY" ]; then
+            printf "window.WT_CONFIG = { liveFeeds: true, tiles: { provider: 'esri-key', esriApiKey: '%s', maptilerKey: '' } };\n" "$ESRI_API_KEY" > _site/assets/js/config.js
+          fi
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

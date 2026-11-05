@@ -1,0 +1,142 @@
+[
+ {
+  "id": "pw_scale",
+  "title": "Permian produced water is about 0.84 to 0.87 billion gallons a day, not 8 billion",
+  "text": "Texas Tech (about 20 million bbl/day) and B3 Insight (about 20.7 million bpd for 2025) convert to 840 and 869 million gallons a day. The Railroad Commission puts all of Texas at about 24 million bbl/day (1,008 million gal/day). A figure of 8 billion gallons a day for the Permian is about 9.5 times the Texas Tech number and would equal about 12,113 Olympic pools a day; the 1,200 pools a day quoted beside it matches the lower figure (about 1,272 pools).",
+  "label": "ANALYTIC ASSESSMENT",
+  "sources": [
+   "ttu_leeds",
+   "b3",
+   "rrc_pw",
+   "anthropocene"
+  ],
+  "asof": "2025 figures"
+ },
+ {
+  "id": "pw_vs_dc",
+  "title": "Produced water could in principle cover many data centers, but treatment and logistics are the constraint",
+  "text": "At the upper figure of 5 million gallons a day for one large data center (EESI), the Permian volume of about 840 million gallons a day equals about 168 such facilities. This ignores treatment cost, brine management, seasonality and where the water is relative to the load.",
+  "label": "ANALYTIC ASSESSMENT",
+  "sources": [
+   "eesi",
+   "ttu_leeds"
+  ],
+  "asof": "2025 figures"
+ },
+ {
+  "id": "tx_wells",
+  "title": "Texas well records: 1,398,026 in the RRC layer",
+  "text": "By symbol class: 465,146 producing, 7,984 shut-in, 425,580 plugged, 41,857 injection or disposal and 457,458 other (RRC GIS symbols). Texas only; no complete North American well layer was collected.",
+  "label": "OBSERVED",
+  "sources": [
+   "rrc"
+  ],
+  "asof": "2026-11-05T01:32:52Z"
+ },
+ {
+  "id": "tx_swd",
+  "title": "Texas has 46,970 injection/disposal well records and 1,896 commercial disposal sites",
+  "text": "Counts include enhanced-oil-recovery injection, which the service does not separate from saltwater disposal. Per-well disposal volumes are not in the layer, so well counts are used as a proxy for produced-water handling activity (MODELED siting uses this proxy).",
+  "label": "OBSERVED",
+  "sources": [
+   "rrc"
+  ],
+  "asof": "2026-11-05T01:32:52Z"
+ },
+ {
+  "id": "seis",
+  "title": "Permian-area earthquakes M2.5+ in the last five years: 3,091",
+  "text": "Count of USGS ComCat events in the box 30.0 to 33.5 N, 105.0 to 100.0 W (2021-11-06 to 2026-11-05), largest M5.4. USGS does not label events natural or induced; published studies link Delaware Basin seismicity to disposal, but this atlas does not attribute individual events.",
+  "label": "ANALYTIC ASSESSMENT",
+  "sources": [
+   "usgs_quakes"
+  ],
+  "asof": "2026-11-05T02:10:01Z"
+ },
+ {
+  "id": "pw_chem",
+  "title": "Permian produced water median TDS is about 82,048 mg/L",
+  "text": "USGS PWDB v3.0 reports 15,890 TDS values for the Permian (10th to 90th percentile 12,159 to 222,173 mg/L). That is about 164 times the EPA secondary limit of 500 mg/L, so reuse outside the oilfield needs desalination or blending.",
+  "label": "OBSERVED data; ratio is an ANALYTIC ASSESSMENT",
+  "sources": [
+   "pwdb",
+   "nbga"
+  ],
+  "asof": "2023-12-27"
+ },
+ {
+  "id": "us_cws",
+  "title": "US community water systems: 48,811 systems serving 328,254,147 people",
+  "text": "2,453 of them (5.0%) carry the ECHO health-based violation flag. Systems serving 3,300 people or fewer are 81% of community systems but 7.1% of people served. The flag marks systems with violations of health-based standards, not measured exposure.",
+  "label": "OBSERVED; shares are an ANALYTIC ASSESSMENT",
+  "sources": [
+   "echo_sdwa"
+  ],
+  "asof": "2026-11-05T01:43:37Z"
+ },
+ {
+  "id": "wqp",
+  "title": "Water Quality Portal groundwater results since 2010 compared with EPA reference values",
+  "text": "tds: 22,875 sites, 7,867 exceed the EPA reference value on a median basis; chloride: 30,603 sites, 2,839 exceed the EPA reference value on a median basis; nitrate: 13,756 sites, 1,459 exceed the EPA reference value on a median basis; arsenic: 20,748 sites, 2,963 exceed the EPA reference value on a median basis; pfoa: 429 sites, 213 exceed the EPA reference value on a median basis; pfos: 376 sites, 159 exceed the EPA reference value on a median basis. Counts are per monitoring site using the site median; sites are not a random sample of wells.",
+  "label": "ANALYTIC ASSESSMENT",
+  "sources": [
+   "wqp"
+  ],
+  "asof": "2026-11-05T01:58:57Z"
+ },
+ {
+  "id": "ca_dwa",
+  "title": "Canada: 39 active long-term drinking water advisories on First Nations public systems",
+  "text": "755 communities are covered by the ISC file; 37 have an active advisory. Provincial and municipal advisories are not aggregated here, so this is not a national count.",
+  "label": "OBSERVED",
+  "sources": [
+   "isc_dwa"
+  ],
+  "asof": "2026-10-20"
+ },
+ {
+  "id": "mx_aq",
+  "title": "Mexico: 284 of 653 aquifers show a negative availability (deficit)",
+  "text": "Total deficit across those aquifers 9,316 hm3 a year (CONAGUA DMA table, as published).",
+  "label": "OBSERVED",
+  "sources": [
+   "conagua"
+  ],
+  "asof": "2023-11-09"
+ },
+ {
+  "id": "ggmn",
+  "title": "No complete global well or sample dataset exists; IGRAC GGMN registers 374,934 points from 53 countries",
+  "text": "The three largest contributors (Netherlands 168,513, India 43,099, France 37,713) hold 66% of the registered points. The registry is contributed by national agencies, has no chemistry values in the open feed used here, and GEMStat (UNEP) offers no public bulk API. Coverage is a floor, not a census.",
+  "label": "OBSERVED; share is an ANALYTIC ASSESSMENT",
+  "sources": [
+   "igrac",
+   "gemstat"
+  ],
+  "asof": "2026-11-05"
+ },
+ {
+  "id": "longview",
+  "title": "Longview: this atlas's regional screen ranks the Longview cell 537 of 1,036, which does not reproduce the paper's result",
+  "text": "The MODELED regional score for the 0.25 degree cell containing Longview is 43.4 (top cell 65.6). The cell has little brackish groundwater in NBGA (4.3% of samples), while the paper's Longview scenario is a site-specific design comparison of three options with its own SWUI metric. The two are not comparable and the model was not tuned to match the paper. The paper's full text was not accessed.",
+  "label": "MODELED",
+  "sources": [
+   "paper",
+   "ut_news",
+   "nbga",
+   "pwdb",
+   "rrc"
+  ],
+  "asof": "2026-11-05T02:10:12Z"
+ },
+ {
+  "id": "dc",
+  "title": "Data center register: 1,757 US records, 244 in Texas",
+  "text": "Status mix (US): Proposed 793, Operating 541, Approved/Permitted/Under construction 186, Cancelled 80. The register is third-party compiled and carries no water-use data; cooling type is recorded for 133 US records.",
+  "label": "OBSERVED",
+  "sources": [
+   "datacenters"
+  ],
+  "asof": "2026-11-05T02:05:35Z"
+ }
+]

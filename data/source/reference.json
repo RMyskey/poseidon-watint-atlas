@@ -1,0 +1,213 @@
+{
+ "datum": "WGS 84 (EPSG:4326). MGRS computed from WGS 84 in-browser and in the pipeline.",
+ "brand": "Poseidon NARINT / WATINT",
+ "footer": "Poseidon NARINT concept prototype: open, unclassified public data only. Not an official product of the Department of War, USACE, or the Army Geospatial Center.",
+ "labels": {
+  "MODELED": "Computed by this atlas from open inputs with stated formulas and weights. It is a screening aid, not a measurement and not a published result of the cited paper.",
+  "ANALYTIC ASSESSMENT": "Arithmetic or comparison done by the atlas on cited figures (unit conversions, ratios, proximity). Inputs and method are shown beside it.",
+  "OBSERVED": "A value reported by the named source, shown as published with its as-of date.",
+  "CURATED": "Analyst-entered in data/source/. Never changed by feeds; feed findings go to the review queue."
+ },
+ "precision": {
+  "F": {
+   "label": "Facility / permit coordinate",
+   "ce_m": 100,
+   "desc": "Permit, well or discharge-point coordinate from EPA ECHO, Texas RRC, ECCC WSER or ISC. Nominal circular error about 100 m; actual quality varies by record."
+  },
+  "M": {
+   "label": "Monitoring-site coordinate",
+   "ce_m": 500,
+   "desc": "Sampling site from WQP or CONAGUA monitoring networks. Nominal about 500 m; WQP stations can carry a stated horizontal accuracy that this atlas does not republish."
+  },
+  "G": {
+   "label": "Grid cell aggregate",
+   "ce_m": 14000,
+   "desc": "Counts or medians in a 0.1 degree (about 11 km) or 0.25 degree (about 28 km) cell. Position is the cell centre."
+  },
+  "C": {
+   "label": "County, HUC8 or state aggregate",
+   "ce_m": 25000,
+   "desc": "Statistics for an administrative or hydrologic unit. HUC8 markers use the mean of site coordinates; counties use Census polygons."
+  },
+  "A": {
+   "label": "Approximate (centroid) location",
+   "ce_m": 25000,
+   "desc": "County-centroid or city-centroid positions, such as PWDB records flagged as approximate and the Longview callout."
+  },
+  "E": {
+   "label": "Event / news centroid",
+   "ce_m": 25000,
+   "desc": "GDACS event centroid or GDELT geocoded article cluster. Indicative only."
+  }
+ },
+ "limits": {
+  "note": "Reference limits for comparison, not compliance determinations. Units are mg/L unless noted. 'Aesthetic' / 'secondary' values are not health-based. Verified against the linked pages on 2026-11-04 (searches summarising the pages); confirm in the legal text before relying on them.",
+  "parameters": {
+   "tds": {
+    "label": "Total dissolved solids",
+    "unit": "mg/L",
+    "epa": {
+     "value": 500,
+     "type": "SMCL (secondary, non-enforceable)",
+     "url": "https://www.epa.gov/sdwa/secondary-drinking-water-standards-guidance-nuisance-chemicals"
+    },
+    "health_canada": {
+     "value": 500,
+     "type": "Aesthetic objective",
+     "url": "https://www.canada.ca/en/health-canada/services/environmental-workplace-health/reports-publications/water-quality/guidelines-canadian-drinking-water-quality-summary-table.html"
+    },
+    "nom127": {
+     "value": 1000,
+     "type": "Limite permisible",
+     "url": "https://dof.gob.mx/normasOficiales/9114/salud_1_C/salud_1_C.html"
+    }
+   },
+   "chloride": {
+    "label": "Chloride",
+    "unit": "mg/L",
+    "epa": {
+     "value": 250,
+     "type": "SMCL (secondary, non-enforceable)",
+     "url": "https://www.epa.gov/sdwa/secondary-drinking-water-standards-guidance-nuisance-chemicals"
+    },
+    "health_canada": {
+     "value": 250,
+     "type": "Aesthetic objective",
+     "url": "https://www.canada.ca/en/health-canada/services/environmental-workplace-health/reports-publications/water-quality/guidelines-canadian-drinking-water-quality-summary-table.html"
+    },
+    "nom127": {
+     "value": null,
+     "type": "No value verified in this build; check NOM-127-SSA1-2021 text",
+     "url": "https://dof.gob.mx/normasOficiales/9114/salud_1_C/salud_1_C.html"
+    }
+   },
+   "nitrate": {
+    "label": "Nitrate (as nitrogen)",
+    "unit": "mg/L as N",
+    "epa": {
+     "value": 10,
+     "type": "MCL (enforceable)",
+     "url": "https://www.epa.gov/ground-water-and-drinking-water/national-primary-drinking-water-regulations"
+    },
+    "health_canada": {
+     "value": 10.2,
+     "type": "MAC 45 mg/L as nitrate, equal to about 10.2 mg/L as N",
+     "url": "https://www.canada.ca/en/health-canada/services/environmental-workplace-health/reports-publications/water-quality/guidelines-canadian-drinking-water-quality-summary-table.html"
+    },
+    "nom127": {
+     "value": 11,
+     "type": "Limite permisible (as N)",
+     "url": "https://dof.gob.mx/normasOficiales/9114/salud_1_C/salud_1_C.html"
+    }
+   },
+   "arsenic": {
+    "label": "Arsenic",
+    "unit": "ug/L",
+    "epa": {
+     "value": 10,
+     "type": "MCL (enforceable)",
+     "url": "https://www.epa.gov/ground-water-and-drinking-water/national-primary-drinking-water-regulations"
+    },
+    "health_canada": {
+     "value": 10,
+     "type": "MAC",
+     "url": "https://www.canada.ca/en/health-canada/services/environmental-workplace-health/reports-publications/water-quality/guidelines-canadian-drinking-water-quality-summary-table.html"
+    },
+    "nom127": {
+     "value": 10,
+     "type": "Limite permisible (0.010 mg/L, with phased compliance from the earlier 0.025 mg/L)",
+     "url": "https://dof.gob.mx/normasOficiales/9114/salud_1_C/salud_1_C.html"
+    }
+   },
+   "pfoa": {
+    "label": "PFOA",
+    "unit": "ng/L",
+    "epa": {
+     "value": 4,
+     "type": "MCL (2024 rule; compliance date 2029-04-26; an extension to 2031 was proposed, not final, as of Oct 2026)",
+     "url": "https://www.epa.gov/sdwa/proposed-pfoa-and-pfos-compliance-extension-rule"
+    },
+    "health_canada": {
+     "value": null,
+     "type": "Objective of 30 ng/L applies to the SUM of 25 PFAS, not to PFOA alone",
+     "url": "https://www.canada.ca/en/health-canada/services/publications/healthy-living/objective-drinking-water-quality-per-polyfluoroalkyl-substances.html"
+    },
+    "nom127": {
+     "value": null,
+     "type": "No PFAS limit verified",
+     "url": ""
+    }
+   },
+   "pfos": {
+    "label": "PFOS",
+    "unit": "ng/L",
+    "epa": {
+     "value": 4,
+     "type": "MCL (2024 rule; compliance date 2029-04-26; an extension to 2031 was proposed, not final, as of Oct 2026)",
+     "url": "https://www.epa.gov/sdwa/proposed-pfoa-and-pfos-compliance-extension-rule"
+    },
+    "health_canada": {
+     "value": null,
+     "type": "Objective of 30 ng/L applies to the SUM of 25 PFAS, not to PFOS alone",
+     "url": "https://www.canada.ca/en/health-canada/services/publications/healthy-living/objective-drinking-water-quality-per-polyfluoroalkyl-substances.html"
+    },
+    "nom127": {
+     "value": null,
+     "type": "No PFAS limit verified",
+     "url": ""
+    }
+   }
+  }
+ },
+ "regions": {
+  "world": {
+   "center": [
+    10,
+    15
+   ],
+   "zoom": 1.6
+  },
+  "na": {
+   "center": [
+    -100,
+    38
+   ],
+   "zoom": 3.1
+  },
+  "permian": {
+   "center": [
+    -102.3,
+    31.8
+   ],
+   "zoom": 6.2
+  },
+  "texas": {
+   "center": [
+    -99.3,
+    31.4
+   ],
+   "zoom": 5.2
+  },
+  "mexico": {
+   "center": [
+    -102,
+    23.5
+   ],
+   "zoom": 4.4
+  },
+  "canada": {
+   "center": [
+    -98,
+    54
+   ],
+   "zoom": 3.0
+  },
+  "longview": {
+   "center": [
+    -94.74,
+    32.5
+   ],
+   "zoom": 8.2
+  }
+ }
+}

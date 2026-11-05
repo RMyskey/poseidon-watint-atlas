@@ -1,0 +1,616 @@
+{
+ "brand": "Poseidon NARINT / WATINT",
+ "datum": "WGS 84 (EPSG:4326). MGRS computed from WGS 84 in-browser and in the pipeline.",
+ "precision": {
+  "F": {
+   "label": "Facility / permit coordinate",
+   "ce_m": 100,
+   "desc": "Permit, well or discharge-point coordinate from EPA ECHO, Texas RRC, ECCC WSER or ISC. Nominal circular error about 100 m; actual quality varies by record."
+  },
+  "M": {
+   "label": "Monitoring-site coordinate",
+   "ce_m": 500,
+   "desc": "Sampling site from WQP or CONAGUA monitoring networks. Nominal about 500 m; WQP stations can carry a stated horizontal accuracy that this atlas does not republish."
+  },
+  "G": {
+   "label": "Grid cell aggregate",
+   "ce_m": 14000,
+   "desc": "Counts or medians in a 0.1 degree (about 11 km) or 0.25 degree (about 28 km) cell. Position is the cell centre."
+  },
+  "C": {
+   "label": "County, HUC8 or state aggregate",
+   "ce_m": 25000,
+   "desc": "Statistics for an administrative or hydrologic unit. HUC8 markers use the mean of site coordinates; counties use Census polygons."
+  },
+  "A": {
+   "label": "Approximate (centroid) location",
+   "ce_m": 25000,
+   "desc": "County-centroid or city-centroid positions, such as PWDB records flagged as approximate and the Longview callout."
+  },
+  "E": {
+   "label": "Event / news centroid",
+   "ce_m": 25000,
+   "desc": "GDACS event centroid or GDELT geocoded article cluster. Indicative only."
+  }
+ },
+ "labels": {
+  "MODELED": "Computed by this atlas from open inputs with stated formulas and weights. It is a screening aid, not a measurement and not a published result of the cited paper.",
+  "ANALYTIC ASSESSMENT": "Arithmetic or comparison done by the atlas on cited figures (unit conversions, ratios, proximity). Inputs and method are shown beside it.",
+  "OBSERVED": "A value reported by the named source, shown as published with its as-of date.",
+  "CURATED": "Analyst-entered in data/source/. Never changed by feeds; feed findings go to the review queue."
+ },
+ "footer": "Poseidon NARINT concept prototype: open, unclassified public data only. Not an official product of the Department of War, USACE, or the Army Geospatial Center.",
+ "built_at": "2026-11-05T02:10:13Z",
+ "feeds": {
+  "gdacs": {
+   "label": "GDACS drought/flood/cyclone events",
+   "cadence": "daily",
+   "url": "https://www.gdacs.org/gdacsapi/api/events/geteventlist/SEARCH",
+   "outputs": [
+    "gdacs.json"
+   ],
+   "status": "ok",
+   "last_attempt": "2026-11-05T02:10:01Z",
+   "items": 64,
+   "message": "GDACS events in 21 days",
+   "last_success": "2026-11-05T02:10:01Z"
+  },
+  "quakes": {
+   "label": "USGS earthquakes (global M4.5+, North America M2.5+)",
+   "cadence": "daily",
+   "url": "https://earthquake.usgs.gov/fdsnws/event/1/query",
+   "outputs": [
+    "quakes.json"
+   ],
+   "status": "ok",
+   "last_attempt": "2026-11-05T02:10:10Z",
+   "items": 727,
+   "message": "727 global M4.5+ in 30 d; 24071 North America M2.5+ in 5 y",
+   "last_success": "2026-11-05T02:10:10Z"
+  },
+  "gdelt": {
+   "label": "GDELT DOC 2.0 news alerts",
+   "cadence": "daily",
+   "url": "https://api.gdeltproject.org/api/v2/doc/doc",
+   "outputs": [],
+   "status_note": "not selected"
+  },
+  "gnews": {
+   "label": "Google News RSS alerts",
+   "cadence": "daily",
+   "url": "https://news.google.com/rss",
+   "outputs": [],
+   "status": "ok",
+   "last_attempt": "2026-11-05T02:05:32Z",
+   "items": 34,
+   "message": "15 queries; ",
+   "last_success": "2026-11-05T02:05:32Z",
+   "status_note": "not selected"
+  },
+  "usdm": {
+   "label": "US Drought Monitor weekly map",
+   "cadence": "weekly",
+   "url": "https://droughtmonitor.unl.edu/",
+   "outputs": [
+    "usdm.geojson"
+   ],
+   "status": "ok",
+   "last_attempt": "2026-11-05T02:05:35Z",
+   "items": 5,
+   "message": "map date 2026-10-27",
+   "last_success": "2026-11-05T02:05:35Z",
+   "status_note": "not selected"
+  },
+  "datacenters": {
+   "label": "FracTracker data center register",
+   "cadence": "weekly",
+   "url": "https://www.fractracker.org/",
+   "outputs": [
+    "datacenters.json"
+   ],
+   "status": "ok",
+   "last_attempt": "2026-11-05T02:05:35Z",
+   "items": 1757,
+   "message": "1757 records, 703 with MW",
+   "last_success": "2026-11-05T02:05:35Z",
+   "status_note": "not selected"
+  },
+  "isc_dwa": {
+   "label": "ISC First Nations drinking water advisories",
+   "cadence": "weekly",
+   "url": "https://isc.gc.ca/eng/1620925418298/1620925434679",
+   "outputs": [
+    "ca_dwa.json"
+   ],
+   "status": "ok",
+   "last_attempt": "2026-11-05T02:05:36Z",
+   "items": 39,
+   "message": "755 communities, 39 active advisories",
+   "last_success": "2026-11-05T02:05:36Z",
+   "status_note": "not selected"
+  },
+  "wser": {
+   "label": "ECCC WSER wastewater systems",
+   "cadence": "monthly",
+   "url": "https://open.canada.ca/data/en/dataset/9e11e114-ef0d-4814-8d93-24af23716489",
+   "outputs": [
+    "ca_wser.json"
+   ],
+   "status_note": "not selected"
+  },
+  "rrc": {
+   "label": "Texas RRC wells and injection/disposal (ArcGIS REST)",
+   "cadence": "monthly",
+   "url": "https://gis.rrc.texas.gov/server/rest/services/rrc_public/RRC_Public_Viewer_Srvs/MapServer",
+   "outputs": [
+    "tx_wells_grid.json",
+    "tx_swd.json"
+   ],
+   "status_note": "not selected"
+  },
+  "echo_sdwa": {
+   "label": "EPA ECHO / SDWIS public water systems",
+   "cadence": "monthly",
+   "url": "https://echo.epa.gov/tools/web-services/facility-search-drinking-water",
+   "outputs": [
+    "sdwa_state.json",
+    "sdwa_county.json"
+   ],
+   "status_note": "not selected"
+  },
+  "echo_npdes": {
+   "label": "EPA ECHO / ICIS-NPDES major dischargers",
+   "cadence": "monthly",
+   "url": "https://echo.epa.gov/tools/web-services/facility-search-water",
+   "outputs": [
+    "npdes_majors.json"
+   ],
+   "status_note": "not selected"
+  },
+  "wqp": {
+   "label": "Water Quality Portal groundwater aggregates (county, HUC8)",
+   "cadence": "monthly",
+   "url": "https://www.waterqualitydata.us/",
+   "outputs": [
+    "wqp_county.json",
+    "wqp_huc8.json",
+    "wqp_top_sites.json"
+   ],
+   "status_note": "not selected"
+  },
+  "igrac": {
+   "label": "IGRAC GGMN global monitoring registry (WFS)",
+   "cadence": "monthly",
+   "url": "https://ggis.un-igrac.org/",
+   "outputs": [
+    "ggmn_global.json"
+   ],
+   "status_note": "not selected"
+  },
+  "conagua": {
+   "label": "CONAGUA datos abiertos (Mexico)",
+   "cadence": "monthly",
+   "url": "https://sinav30.conagua.gob.mx:8080/docs/DatosAbiertos/",
+   "outputs": [
+    "mx_aquifers.geojson"
+   ],
+   "status_note": "not selected"
+  },
+  "pwdb": {
+   "label": "USGS Produced Waters Geochemical Database",
+   "cadence": "annual",
+   "url": "https://doi.org/10.5066/P9DSRCZJ",
+   "outputs": [
+    "pwdb_basins.json"
+   ],
+   "status_note": "not selected"
+  },
+  "nbga": {
+   "label": "USGS National Brackish Groundwater Assessment database",
+   "cadence": "annual",
+   "url": "https://doi.org/10.5066/F72F7KK1",
+   "outputs": [
+    "nbga_grid.json"
+   ],
+   "status_note": "not selected"
+  },
+  "boundaries": {
+   "label": "Census county/state boundaries",
+   "cadence": "annual",
+   "url": "https://www2.census.gov/geo/tiger/GENZ2023/",
+   "outputs": [
+    "us_counties.geojson"
+   ],
+   "status_note": "not selected"
+  },
+  "limits_watch": {
+   "label": "Watch: PFAS limits (Federal Register) and USGS dataset releases",
+   "cadence": "weekly",
+   "url": "https://www.federalregister.gov/",
+   "outputs": [],
+   "status": "ok",
+   "last_attempt": "2026-11-05T02:05:55Z",
+   "items": 0,
+   "message": "0 review items",
+   "last_success": "2026-11-05T02:05:55Z",
+   "status_note": "not selected"
+  },
+  "siting": {
+   "label": "DERIVED: Texas data-center siting model and logistics",
+   "cadence": "derived",
+   "url": "",
+   "outputs": [
+    "siting_tx.json",
+    "logistics_tx.json"
+   ],
+   "status": "ok",
+   "last_attempt": "2026-11-05T02:10:12Z",
+   "items": 1036,
+   "message": "Longview cell rank 537 of 1036; 238 Texas data centers in logistics",
+   "last_success": "2026-11-05T02:10:12Z"
+  }
+ },
+ "layers": [
+  {
+   "id": "tx_wells_grid",
+   "title": "Texas wells by 0.1 degree cell (producing, shut-in, plugged, injection/disposal, other)",
+   "file": "data/layers/tx_wells_grid.json",
+   "source": "rrc",
+   "precision": "G",
+   "label": "OBSERVED",
+   "records": 1398026,
+   "asof": "2026-11-05T01:32:52Z",
+   "size_kb": 157,
+   "note": "Counts per cell from RRC well locations. Texas only: NM, OK and Canada well layers are not in this build."
+  },
+  {
+   "id": "tx_swd",
+   "title": "Texas injection/disposal wells and commercial disposal sites",
+   "file": "data/layers/tx_swd.json",
+   "source": "rrc",
+   "precision": "F",
+   "label": "OBSERVED",
+   "records": 48866,
+   "asof": "2026-11-05T01:32:52Z",
+   "size_kb": 930,
+   "note": "Layer 4 includes EOR injection as well as saltwater disposal; the service does not separate them."
+  },
+  {
+   "id": "quakes",
+   "title": "USGS earthquakes: global M4.5+ 30 d; North America M2.5+ 5 y by 0.5 degree cell",
+   "file": "data/layers/quakes.json",
+   "source": "usgs_quakes",
+   "precision": "G",
+   "label": "OBSERVED",
+   "records": 24071,
+   "asof": "2026-11-05T02:10:01Z",
+   "size_kb": 1136,
+   "note": "Events are not labelled natural or induced by USGS."
+  },
+  {
+   "id": "pwdb_basins",
+   "title": "Produced-water chemistry by basin (USGS PWDB v3.0)",
+   "file": "data/layers/pwdb_basins.json",
+   "source": "pwdb",
+   "precision": "C",
+   "label": "OBSERVED",
+   "records": 113135,
+   "asof": "2023-12-27",
+   "size_kb": 19,
+   "note": "Medians of reported TDS and chloride per basin."
+  },
+  {
+   "id": "pwdb_grid",
+   "title": "Produced-water TDS by 0.25 degree cell",
+   "file": "data/layers/pwdb_grid.json",
+   "source": "pwdb",
+   "precision": "G",
+   "label": "OBSERVED",
+   "records": 110200,
+   "asof": "2023-12-27",
+   "size_kb": 103,
+   "note": ""
+  },
+  {
+   "id": "pwdb_points",
+   "title": "Produced-water sample points (TDS)",
+   "file": "data/layers/pwdb_points.json",
+   "source": "pwdb",
+   "precision": "A",
+   "label": "OBSERVED",
+   "records": 110200,
+   "asof": "2023-12-27",
+   "size_kb": 3009,
+   "note": "Many records carry county-centroid or approximate coordinates (flag in the file)."
+  },
+  {
+   "id": "nbga_grid",
+   "title": "Brackish groundwater salinity by cell (USGS NBGA)",
+   "file": "data/layers/nbga_grid.json",
+   "source": "nbga",
+   "precision": "G",
+   "label": "OBSERVED",
+   "records": 379653,
+   "asof": "2017-04-05",
+   "size_kb": 460,
+   "note": "Historical samples 1901-2013, 0.25 degree cells."
+  },
+  {
+   "id": "sdwa_state",
+   "title": "Public water systems by state (SDWIS via ECHO), plus size/source/violation flow table",
+   "file": "data/layers/sdwa_state.json",
+   "source": "echo_sdwa",
+   "precision": "C",
+   "label": "OBSERVED",
+   "records": 142155,
+   "asof": "2026-11-05T01:43:37Z",
+   "size_kb": 12,
+   "note": "Active systems: CWS, NTNCWS, TNCWS."
+  },
+  {
+   "id": "sdwa_county",
+   "title": "Community water systems by county",
+   "file": "data/layers/sdwa_county.json",
+   "source": "echo_sdwa",
+   "precision": "C",
+   "label": "OBSERVED",
+   "records": 3087,
+   "asof": "2026-11-05T01:43:37Z",
+   "size_kb": 68,
+   "note": "A system is attributed to every county in its FIPS list."
+  },
+  {
+   "id": "npdes_majors",
+   "title": "Active major NPDES dischargers (POTW and industrial)",
+   "file": "data/layers/npdes_majors.json",
+   "source": "echo_npdes",
+   "precision": "F",
+   "label": "OBSERVED",
+   "records": 6991,
+   "asof": "2026-11-05T01:32:36Z",
+   "size_kb": 734,
+   "note": "Major permittees only."
+  },
+  {
+   "id": "wqp_county",
+   "title": "WQP groundwater chemistry by county, 2010 onward",
+   "file": "data/layers/wqp_county.json",
+   "source": "wqp",
+   "precision": "C",
+   "label": "OBSERVED",
+   "records": 88787,
+   "asof": "2026-11-05T01:58:57Z",
+   "size_kb": 278,
+   "note": "Medians, maxima and exceedance counts against EPA limits; aggregation hides individual wells."
+  },
+  {
+   "id": "wqp_huc8",
+   "title": "WQP groundwater chemistry by HUC8 watershed",
+   "file": "data/layers/wqp_huc8.json",
+   "source": "wqp",
+   "precision": "C",
+   "label": "OBSERVED",
+   "records": 88787,
+   "asof": "2026-11-05T01:58:57Z",
+   "size_kb": 329,
+   "note": ""
+  },
+  {
+   "id": "wqp_top_sites",
+   "title": "WQP highest-result groundwater sites per parameter",
+   "file": "data/layers/wqp_top_sites.json",
+   "source": "wqp",
+   "precision": "M",
+   "label": "OBSERVED",
+   "records": 88787,
+   "asof": "2026-11-05T01:58:57Z",
+   "size_kb": 58,
+   "note": "Top 200 sites per parameter, individual results."
+  },
+  {
+   "id": "datacenters",
+   "title": "US data center register (FracTracker)",
+   "file": "data/layers/datacenters.json",
+   "source": "datacenters",
+   "precision": "A",
+   "label": "OBSERVED",
+   "records": 1757,
+   "asof": "2026-11-05T02:05:35Z",
+   "size_kb": 586,
+   "note": "Third-party compiled; no water-use figures."
+  },
+  {
+   "id": "siting_tx",
+   "title": "Texas data-center water siting score by 0.25 degree cell",
+   "file": "data/layers/siting_tx.json",
+   "source": "paper",
+   "precision": "G",
+   "label": "MODELED",
+   "records": 1036,
+   "asof": "2026-11-05T02:10:12Z",
+   "size_kb": 85,
+   "note": "MODELED screening inspired by the SWUI concept; not the published method."
+  },
+  {
+   "id": "logistics_tx",
+   "title": "Texas data centers: distance to disposal wells, commercial disposal and major POTWs",
+   "file": "data/layers/logistics_tx.json",
+   "source": "datacenters",
+   "precision": "A",
+   "label": "ANALYTIC ASSESSMENT",
+   "records": 238,
+   "asof": "2026-11-05T02:10:12Z",
+   "size_kb": 88,
+   "note": "Great-circle distances; not haul routes."
+  },
+  {
+   "id": "ca_dwa",
+   "title": "First Nations long-term drinking water advisories (Canada)",
+   "file": "data/layers/ca_dwa.json",
+   "source": "isc_dwa",
+   "precision": "F",
+   "label": "OBSERVED",
+   "records": 39,
+   "asof": "2026-10-20",
+   "size_kb": 18,
+   "note": "Active advisories shown; on-reserve public systems only."
+  },
+  {
+   "id": "ca_wser",
+   "title": "Canadian wastewater systems under WSER",
+   "file": "data/layers/ca_wser.json",
+   "source": "wser",
+   "precision": "F",
+   "label": "OBSERVED",
+   "records": 2537,
+   "asof": "2026-09-28",
+   "size_kb": 568,
+   "note": ""
+  },
+  {
+   "id": "mx_aquifers",
+   "title": "Mexico aquifer availability (DMA, hm3/yr)",
+   "file": "data/layers/mx_aquifers.geojson",
+   "source": "conagua",
+   "precision": "C",
+   "label": "OBSERVED",
+   "records": 653,
+   "asof": "2023-11-09",
+   "size_kb": 760,
+   "note": "Generalised polygons (about 2 km)."
+  },
+  {
+   "id": "mx_quality_sites",
+   "title": "Mexico RNMCA water-quality sites",
+   "file": "data/layers/mx_quality_sites.json",
+   "source": "conagua",
+   "precision": "M",
+   "label": "OBSERVED",
+   "records": 5548,
+   "asof": "2021 (groundwater campaign); surface results by site year",
+   "size_kb": 1031,
+   "note": "NOM-127 comparison in the explorer."
+  },
+  {
+   "id": "mx_plants",
+   "title": "Mexico treatment and potabilization plants by state",
+   "file": "data/layers/mx_plants.json",
+   "source": "conagua",
+   "precision": "C",
+   "label": "OBSERVED",
+   "records": 2927,
+   "asof": "2023",
+   "size_kb": 5,
+   "note": "State level only; the catalogues have no coordinates."
+  },
+  {
+   "id": "mx_drought",
+   "title": "Mexico drought monitor (municipalities by class, by state)",
+   "file": "data/layers/mx_drought.json",
+   "source": "conagua",
+   "precision": "C",
+   "label": "OBSERVED",
+   "records": 1308,
+   "asof": "2026-09-30",
+   "size_kb": 3,
+   "note": ""
+  },
+  {
+   "id": "mx_pressure",
+   "title": "Mexico water pressure index and basin deficits",
+   "file": "data/layers/mx_pressure.json",
+   "source": "conagua",
+   "precision": "C",
+   "label": "OBSERVED",
+   "records": 732,
+   "asof": "2014 (indicator)",
+   "size_kb": 2,
+   "note": "Indicator year 2014."
+  },
+  {
+   "id": "mx_piezo",
+   "title": "Mexico piezometric network stations",
+   "file": "data/layers/mx_piezo.json",
+   "source": "conagua",
+   "precision": "M",
+   "label": "OBSERVED",
+   "records": 15135,
+   "asof": "2023 (network map file)",
+   "size_kb": 258,
+   "note": "Locations only."
+  },
+  {
+   "id": "ggmn_global",
+   "title": "IGRAC Global Groundwater Monitoring Network registry (1 degree cells, country table)",
+   "file": "data/layers/ggmn_global.json",
+   "source": "igrac",
+   "precision": "G",
+   "label": "OBSERVED",
+   "records": 374934,
+   "asof": "2026-11-05",
+   "size_kb": 58,
+   "note": "A registry of participating monitoring points; not a complete global inventory."
+  },
+  {
+   "id": "gdacs",
+   "title": "GDACS drought, flood and cyclone events (21 days)",
+   "file": "data/layers/gdacs.json",
+   "source": "gdacs",
+   "precision": "E",
+   "label": "OBSERVED",
+   "records": 64,
+   "asof": "2026-11-05T02:10:01Z",
+   "size_kb": 22,
+   "note": ""
+  },
+  {
+   "id": "usdm",
+   "title": "US Drought Monitor current map",
+   "file": "data/layers/usdm.geojson",
+   "source": "usdm",
+   "precision": "C",
+   "label": "OBSERVED",
+   "records": 5,
+   "asof": "2026-10-27",
+   "size_kb": 447,
+   "note": "Generalised to about 5 km."
+  },
+  {
+   "id": "cop",
+   "title": "Global WATINT COP (Oct 23 snapshot + live GDACS)",
+   "file": "data/layers/cop.json",
+   "source": "cop",
+   "precision": "E",
+   "label": "CURATED",
+   "records": 320,
+   "asof": "Oct 23, 2026, 12:05 PM MST (America/Phoenix)",
+   "size_kb": 365,
+   "note": "Snapshot is never overwritten by feeds."
+  },
+  {
+   "id": "us_counties",
+   "title": "US county boundaries (Census 2023, 1:20m)",
+   "file": "data/layers/us_counties.geojson",
+   "source": "census",
+   "precision": "C",
+   "label": "OBSERVED",
+   "records": 3144,
+   "asof": "2023",
+   "size_kb": 1249,
+   "note": ""
+  },
+  {
+   "id": "us_states",
+   "title": "US state boundaries (Census 2023, 1:20m)",
+   "file": "data/layers/us_states.geojson",
+   "source": "census",
+   "precision": "C",
+   "label": "OBSERVED",
+   "records": 51,
+   "asof": "2023",
+   "size_kb": 201,
+   "note": ""
+  }
+ ],
+ "missing_layers": []
+}

@@ -1,0 +1,388 @@
+{
+ "items": [
+  {
+   "id": "46a0f6dbc4890e5b",
+   "feed": "gnews",
+   "date": "2026-11-05T00:13:42Z",
+   "title": "Google to Invest $15 Billion in Malaysia for AI Data Centers, 1GW+ of Clean Power and a Shared Water Facility",
+   "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0teWVGNUw2OTVBaXlHTXVwaG5MbmhOYTc0WFA3STdLX2NNd3VJSlMyeVNqTkJGb0VRczBqQ0NJLTE5WG1pXzZUcTEwLXRtellHZ2pXSzBXaUkwNDliTkl4b2duaWxaLVEzVGhQWHNZNXFHUjdxQ0E?oc=5",
+   "source": "XenoSpectrum",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "7e8fb7a07fb4084e",
+   "feed": "gnews",
+   "date": "2026-11-04T20:39:57Z",
+   "title": "Data center cooling explained: CRAC, CRAH & liquid cooling",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd2NsX0ZDY2syeEpFZkZmc3hlRXhaLUFmVkIxeG92M203bm9HRGRGUUtsY3RTdDRMX1NGNjJrWnF4bFdDdEhqbzVrcmNGN1l0ekhjQy0zbFNYZzByclpEU3E0YVpYREtpbk9fN2FUZWhiaTZYam1HeTRDeFFuVWdlSHN4Q1hfd0lZSURja2dhbTlGazV4amxz?oc=5",
+   "source": "mann+hummel",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "c4dd71d95cfe262c",
+   "feed": "gnews",
+   "date": "2026-11-04T20:25:46Z",
+   "title": "PFAS Solvents: Blank-safe for EPA Methods 533 and 537.1",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORDROTlFHN28xa0VYZlVEU2VnNTY1TlRDbEE5RFZkSFJHenlLNWU3TlhlSWlHMVVodjdaaGJ3QVhUVFVORkQ5VWFtVFNLZW5jZUlXd3kxMkdNVnZtbVJrdVFyeHdlZEl6V2RxMjhTSzR5eUFTejJodWJ0QWtnNGg2YXMxbTcwMGVnX0RJX1J5NVc?oc=5",
+   "source": "Lab Manager",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "097a18d1ec9b46d7",
+   "feed": "gnews",
+   "date": "2026-11-04T17:54:00Z",
+   "title": "3M reaches $7.35B settlement over PFAS firefighting foam",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYzhYQ0N5V29mRGdnaTB6ZTZ5dFo5UWVEcXRXT043RE1CMDh6MzFHLVpzNlI4SkJEUzNXUTBtWWxoSXlwb3p6LUJnUXN1NU1pZWlFNmgtQ2dkYUx2bFo0WlRfYUhDNFFjQjNUM2NxSDB6OXB5OTYwd2tIYmp0LTBCLVRsYUpGSElmQ25j?oc=5",
+   "source": "Plastics News",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "8a986a9088ddd0b0",
+   "feed": "gnews",
+   "date": "2026-11-04T17:49:57Z",
+   "title": "New AWWA Report Offers Water Utilities Resources for Weighing Data Center Plans",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUTFIZVJLcHNGOVB2T2NRbGx2RWpaOGF1azRwMl9nOTBCNVdaMGFPWTRKN2tlUXVXVGRkMmdhQ0h6ZUEtQU9acUZ6RzM5Y2RIQkJ0T1VWQUhuZWlCNUFvbmZ1VDdxWUhZaDQtTXFwRG1tOVBRRThnb1VoS3lGOHpnSXU3SE9RS2RMcDRlZHc4YmEybjZxczY5RDZBUVlYOGRsWHNvdjdhLV95dlJnN3VDSnFQV1l0MmNXbDlTRmdUeTdQZTg?oc=5",
+   "source": "Environmental Protection Online",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "f6b0df7affc09ad5",
+   "feed": "gnews",
+   "date": "2026-11-04T16:11:58Z",
+   "title": "Cooling the Cloud/Considerations for Water Utilities Evaluating Data Center Development: American Water Works Association Issues Report",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOdFJNTUVRcENOdWs4MmtjV3RsU05vU3NwSnIyWUFsSl80M1dpX2tfcFNKcU85dHVWM21acHFqR0NTaEdVbE1ERktnR1U3bW1kSVd0TGZORHlVSE0ySUE0Ri1rdW9ELWtRb3BoNEplWE4tWVdCdEh0V0pBbzR1U3M0Sm15RTg3Zw?oc=5",
+   "source": "JD Supra",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "551105e8e5e65d59",
+   "feed": "gnews",
+   "date": "2026-11-04T16:05:01Z",
+   "title": "Optimizing AI Data Center Cooling Efficiency",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQekZoamRGR2Z2bV94Y3lDSTFZSHVXa0REY1Eyb3NiVFVobUZHWHRuY3NGR1d4eTNMTVBfRWNBMjI1MktwMWdJMmtKMkFrY0lZYXFad0VqWTB4ZHlFNGN5eEJWal9URHpmZWEzWTlGdkRsRGtNZkoxblVJMXQzWjBIYTRCTE1ScGpaUmp3ek9feDdfR0NVNnloRHY1Q3pYSHkwUmJVMG1JcmF2UUtSVlV2M2hsN1pGQ0UwM0wzSGQzcjQwTWhEMzRMQV9OaE1BOFpaaGc?oc=5",
+   "source": "Bisnow",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "ec8b89aeff47a42f",
+   "feed": "gnews",
+   "date": "2026-11-04T14:17:07Z",
+   "title": "EPA Teams Up With State Health Officials To Tackle Drinking Water, Lead, And Smoke Threats",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSnpIc1V4R2JwMDkxU3FkRnZPN3Jjb2doa3pNcGJIQ09lWGpiNzZUdjBkY0VETHBFMEJWaEVudlloVWZLZm1fQWJEMUU1T0VDa0QzSTg4U0x3NVV6ZFpwZkx0bnhhdDJLeDVkU0xuVnpCM1B3LTU4UXQ0Y1A0YmJ3MWxVZGVNZ25mZmpHb0hEYTFOY2p5dzk0QkZvYjFSeHFiVWdSbHIwYW1NazROcHBpVkVFcw?oc=5",
+   "source": "Tampa Free Press",
+   "category": "regulatory",
+   "regions": []
+  },
+  {
+   "id": "246eae6d903b210e",
+   "feed": "gnews",
+   "date": "2026-11-04T14:17:00Z",
+   "title": "Does Nvidia's Liquid Cooling Make Data Centers Use Less Water?",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9iSHBrVG9sMVpfUU5US1pzZThQcGJfVWhVQU9hU29zUEdJUFFKLXF2VlRXZVNMYnV6LUw0aUdsVWJqOHhfbUFpdmw3RmZUTGlaYW0wQ1F1QV9obUN0cWZvMzVHcV92b1Q2cEFleUVaTm5leTNWZDRZMm5GRzU?oc=5",
+   "source": "BGR",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "47acd5c47ab08ef5",
+   "feed": "gnews",
+   "date": "2026-11-04T13:28:00Z",
+   "title": "Routine PFAS analysis using EPA Method 1633A - News-Medical",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPV1dWdDRuY0IwZndsRTRLQThERkhIbkZnLUZ6OHNHamhLREh4UHI0NFRnT3lqd21ONU5kVVAxZU1HOEl6OTR6MEtndkdKU0FpVklYbEdBUTZDTE5aTlNzZmlvNzRLZTYyOUtFWnhuLS1LWFp3WlRZTU5iZjF2VnlOT0NlRk12NllTdVpQSXY2ZDhSR2hhdDV2NUw3aENxMDA?oc=5",
+   "source": "News-Medical",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "86ad92b615e1fd49",
+   "feed": "gnews",
+   "date": "2026-11-04T11:37:42Z",
+   "title": "Boil water advisory in effect in Casey County",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FOVVXZ0VhaDJfNVU5TzROYjdFbV94VG5lT1V4d29oSkhqdlNjcGZlRTFWMkk5X19CWWhTMVlkSGY3VVhCcldNbUluQkczcWk2b3ViWmg1Nl95QlRBREN2cQ?oc=5",
+   "source": "Z93 Country",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "bd79523b356323db",
+   "feed": "gnews",
+   "date": "2026-11-04T10:12:09Z",
+   "title": "Omen AI Acquires Aquatic Labs in $16M Deal to Cut Water Use in AI Data Centers",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNd1dJb0VzMnJHTnJLVURtcG9Kd0hzZ2tncWJfcVpfQXF5UTV1TDhyYUN2SWpOdzViLUIwUElpNHJqOHZUaEUxTjJlbnFnb0paWDR5SmlOUDhvbExJZTVhTm03eVVXS3V5VENhbkdSME9pUzJjSGk3azU3VjNxWmNhSTlNRVZ2NWdSTml4SE5ETGRMOUYxUWZVcVBZVXRySEFKR3RqZURobDhXRlJfdmN3dnVzNnVjQQ?oc=5",
+   "source": "AI Insider",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "4d255958f2392693",
+   "feed": "gnews",
+   "date": "2026-11-04T08:31:06Z",
+   "title": "Hyosung to Supply Cooling Pumps for SKT’s Ulsan AI Data Center",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9hY2EtN1A3UHVnVm43SjdiZWRrUWRoYWUtdFJVOXlOU2RIUlBnWEgyNjVpNE56NVJwdDhGUlVielM3cm9JeTJEdnJNejR6WUdNSnZoZjljZzZhODRnLW96M09hXzQ0ejA?oc=5",
+   "source": "THE ELEC, Korea Electronics Industry Media",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "dd19c084855d724d",
+   "feed": "gnews",
+   "date": "2026-11-04T06:06:54Z",
+   "title": "South West reservoir levels 'recovering', water company says",
+   "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBUT2VzMGZUZlY5M3Nvaml1dHFIODF0LXQ5SmtOWURQbEhCbktqRkt2X254ckFKeUNfbUNYSWVWOU5BVk8wVlduSHlWQTlGMlZWRENtMFNka1FfQ0xvNmc?oc=5",
+   "source": "BBC",
+   "category": "drought",
+   "regions": []
+  },
+  {
+   "id": "e2b234a180702bc5",
+   "feed": "gnews",
+   "date": "2026-11-04T02:45:00Z",
+   "title": "Why Don't More Data Centers Use Liquid Nitrogen For Cooling?",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQQjNsQ2I4UlBVVURSdnM4SC1KbkFpd2JGdXEyMmplU1pEOUNJWF9idEJuNzZqYlVyell5LWtZZ1ZCQVp5MEF0ZlFZOEtlMHlBT1B6aHdIRnF6S0NNUjFheGxBLVpVakRRdjBRZHc5SWNPQ3VBck9LQTlBdlY4QzZzNUR2SThvMDhES05r?oc=5",
+   "source": "SlashGear",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "78c1afac875de5e4",
+   "feed": "gnews",
+   "date": "2026-11-04T02:28:35Z",
+   "title": "Why Do Data Centers Use So Much Water? (And Where Does It Actually Go?)",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSFhZUVFWLUdBZ0xoSG1rUDE2MnZ6eXRDVGZEbHdFQjE4bEx6TzJ1dHJKdEd5ZjRRVGdNalZ4X2VzQUtlRk5tYlY3YTJUSUZmNlN1Uko5SWtVMl9idFFRNmZmV09YNVJJdHF0SThQaVlmbGdkLVFDLVRXemVBd2RWblI3em9BVUtXN3NWbjF2OW5YNWM1bVBMT3JxNA?oc=5",
+   "source": "ScienceABC",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "c2fad2ff11c32886",
+   "feed": "gnews",
+   "date": "2026-11-03T20:04:54Z",
+   "title": "Urgent boil water advisory active for several Brevard County areas",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNQXlmSGh4V1haMldGazdPTS1DSDRLUGlOVll5QXgzbmJRVDMzX1NvdUw1cUxRQ056VV9QV3ZhQXI4eE1YNmxGUHZiamlMRUtib204dFVFaTBZdUtLYUFnY1lPNE9ET2pnNWdoSEpyQThUcjV0eFNnNE1wbzl6Q3JXTjQwY0w1Tkd1cnhpbA?oc=5",
+   "source": "Yahoo",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "10ad46a7780c1b5c",
+   "feed": "gnews",
+   "date": "2026-11-03T18:29:11Z",
+   "title": "Lagunitas Sued Over Alleged PFAS in Its Beer",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdWF3ZTNFUkc3SnozdzBJOGx5RXdNUWJRd0NvamFFVjR1bTJsLWdtZEpjRTA2czNuZHRMQjBVbGtCMy1Wb0VnNEVYTGVuUUp1U0c4R2ZHSWRyM0J6aXRpd19FaVlVWVNKTTFLZkpTZHZGaFdfdFhVbk1IV1RMeDVLNjNjVmRlYnpObGhSeUdPMkxBUm5xMElMNHp1cE9qV1NBVWh4MmFuSQ?oc=5",
+   "source": "openclassactions.com",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "954712c832c86132",
+   "feed": "gnews",
+   "date": "2026-11-03T17:31:00Z",
+   "title": "Beeville municipal supply remains separate from E. coli-impacted private wells",
+   "url": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPTE9CZkxDalB4LTFzWXlUX2ozY3VzbHNGVUtsVll4OHdlcDhZU0VBZVd2aVlsMjBwZkhJRlRiUGEwcW1VVTVvWEdLdnh4MGJXWk1HMkNialVONDViY25UVkpuanNvMTBvODREOUhhT0VuWGVXZDFkY0JrMzRlbzh4TjhhNjV6bmpGN190NzhQcXhwMmZiX2NWT04zc0ZsbUVvbk5EYWhiekRNVjMwbFlZT0dlbjctbHhldzZ3eWtHTjV2ektLRGU4UHNlX2dDVWpqdERpTElZRS1ralAtcldqYUdTSzUzYXZvdjhmZGxrajhOWm9SZFpYRlJzNTdFdE03THl4NGVmbG5VemtM?oc=5",
+   "source": "SouthTexasNews.com",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "f323815cde796723",
+   "feed": "gnews",
+   "date": "2026-11-03T16:41:00Z",
+   "title": "Biosolids rules vary across US states, as new PFAS treatments emerge",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZHVKd3F5RTA5VG95SnFmLXotZGpKMjlZWGNrdS1ScnI4aDFhZ2w0UlJrZW05S255ejNNSm9aT25kS25TZUhRR1ZzTmxfSkZNcDhSU3puTlpRcWtnM1FkQ2lvRGtMUGdwNjJUTmVpU2F1Wm4tYm1ZZVZtMFpHdjFEU3lRbFRueFFFZ0ZfVUhvamtIbGNkSUFGcmpOaUdhdlh1U0pITXhOeFRrZHczNkZUOE8tdw?oc=5",
+   "source": "Environment Analyst",
+   "category": "contamination",
+   "regions": [
+    "US other"
+   ]
+  },
+  {
+   "id": "274b02c41ea88196",
+   "feed": "gnews",
+   "date": "2026-11-03T14:19:07Z",
+   "title": "Power outage prompts boil water advisory in Putnam County",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSDB4Q1YwcGtYX3UxNklMcERkRm1WMWp5V05NVFgxUXZWNzVrWERJclJFdlQ1eDVZamRGLXFDR0RDLTlsRUs5Yk9SLWdLbkgwb1JGR01jbDlLQi1nQWY4UEcxY2tVQ3oycGVQZDFOd1RVdTJna1V0S0ppZjV4QXVhUmpGMG9kTzJwT003UFFhUzc2bEhWTS1kdGNLZDJLY0dka25Cd20ySGN3SzNRSkZDd1h5MWVOWkVub01iQTFYXzLSAdQBQVVfeXFMTUF6c0laMXBxWFo4Y3ZPczdscVNTemdZMkczeXI5eVhNcDk2S1BzcGhLWUN3a2F1d3FoeUZlVFEtLUNYY2drbEtlZ2x3Sm9OcGxXZ3k2STdkVVllQTc0YWJOMXJta0wzWWFqM002bEc0N3dubjdIenVLaDZiaFp4cDRhRjN3S2VsUVN2OUd4RkRFbUd4aHh5R2Q4WFMwTlhDbG5kbW1WeVNSY1UydVdyMHd6ZGRuOUl5QVIyZENlZjlTVldYa1hOUnpjMV85dG9hMXJ1Z2o?oc=5",
+   "source": "Action News Jax",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "ff1f1ed878d953e3",
+   "feed": "gnews",
+   "date": "2026-11-03T13:38:44Z",
+   "title": "Chemours unveils liquid cooling solution for high-performance computing, data centers",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVWlHbUpMWTV1X084SDJlMm4yM0xfS0VOMzRQbFc1Wl84MDdHanVDQWJIMzdyZ3JaQ01jU2JGeS1UR0ZLTlFla0tGMjE4WVRZRS16Z3JUVFA0cVdfZkZfbTFNUE9UNGJzWWZMS0hRTUwtaWRvZWFkTS1jdXpRWlN3UGdRbVVQd0h5RTQ1NU5Eb2s5dFVhQUV2bmNXYld4QQ?oc=5",
+   "source": "Yahoo Tech",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "fc0fe7eb20352eab",
+   "feed": "gnews",
+   "date": "2026-11-03T13:35:30Z",
+   "title": "Select Water closes US$700m purchase of Delaware Basin produced water firm Pilot",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOdk9ET2U2aVphVTJMTENWQ2dDd1FMNW5BZ1pRUFlzUVRIRVY3QXlXSGw0QXgzT09NaXQ5NWVLM0dQSDJzNlFiUzNuTkhjb1RGdFI0YVctYUdiMm1ucXBWY0EwamVxRmdvTnU5ZlVfSks2a0dPSWdZN1ZWUjRtYmF5b2JENWljVUFlTlR2THdta2NiWU5NWkxicHdrdGQ1cFpLcWtMU2tlcE9JRDlWMDhXZHhQdzd6RHFXckh6N3pOLVF6ZGVnQVN2WUxMNzdILVg1clE?oc=5",
+   "source": "Smart Water Magazine",
+   "category": "produced_water",
+   "regions": [
+    "New Mexico",
+    "US other"
+   ]
+  },
+  {
+   "id": "c6ef6a56594f749d",
+   "feed": "gnews",
+   "date": "2026-11-03T12:21:00Z",
+   "title": "Summer algae blooms blamed for Texas tap water complaints as officials prepare a new defense",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNOHVUaUtTdmp1NS1aQVVWZDVUTDlQVERXZ191YTdvbXJpLU96R09ZbU5TaGZkQ0c2dFBrTk9EZENKa0RLdjVsOC1oN3JBWEhBUkE0aXpmY0FvYWcyN05JYWZmYWtHZjNYaUtxTzZKaFVLaVE2T1hKd1p0d041ak1BeGQzSF9MRl9feVExN0kzVVpXUzVkTXhXWg?oc=5",
+   "source": "The Cool Down",
+   "category": "regulatory",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
+   "id": "6659303b3a3e8c9c",
+   "feed": "gnews",
+   "date": "2026-11-03T11:33:10Z",
+   "title": "Study: U.S. tap water PFAS may average twice official figures",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRzlOWF9tRkNwSl9PRXZqYkZtV0pfZ21ZRWZNMVY2eWZiT2tzd2RIc2xEZ3Q3aU1tUTJrWnB3VUdoTFg4Rk51SXBYTHp5aWViWTR0R05ZbVRiaU5nN0RIWlBOZk8zTlZoU0NIZFJSQ2VyM0c1YWhva2pRdlFEMDJWSkV2cFF0ZE94bzNmM3AyaTZSY1dXcldDTzB1SER6aEg3TC1CTg?oc=5",
+   "source": "NationofChange",
+   "category": "contamination",
+   "regions": [
+    "US other"
+   ]
+  },
+  {
+   "id": "cbd8de252e7ebecc",
+   "feed": "gnews",
+   "date": "2026-11-03T11:25:35Z",
+   "title": "Proposed Data Center Rules in Dallas Target Water Use, Noise, Neighborhood Impact",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNNHQxQ2lFckZfZTlzZlRMX3RuejIxVVBKQkZwU1prZlZPTWxESk91YmsxWmdyRHNqdXBwQmRjbFpBVWdUWGltUHcyOTY1QnZsOElkNzk0UmlFd2ZobnNuM0N2dUhFTXpRTlZZaFNMLWRta0NoU25HVWlZZEdCVktCRHdBeE02RzQwTUVVN1pUXzRpT19ZUnZwUjFOWS1vRTY4RjhBbE1VSm10Y2dURzBodGxjMTI?oc=5",
+   "source": "CandysDirt.com",
+   "category": "data_center",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
+   "id": "ab9301c9bef37367",
+   "feed": "gnews",
+   "date": "2026-11-03T09:19:31Z",
+   "title": "Hyosung Goodsprings Unveils Cooling Pump for Data Centers",
+   "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE53OFk4cDFYRjlqVmxYYjZKODJZeXNmQ3pqZzI2c0UwRHFxRFZJN2xBTmZ6dTBvMW9RRW9ycHNzUnQ1RFpPejlOcHBlZV9iNTQwV2xGWlNrR0ttODRsa3RPcXJjTG1rREU?oc=5",
+   "source": "THE ELEC, Korea Electronics Industry Media",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "68afb595751f4e9e",
+   "feed": "gnews",
+   "date": "2026-11-03T07:29:18Z",
+   "title": "PFAS in U.S. Tap Water May Average Twice Official Figures Because Low Test Results Are Counted as Zero",
+   "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQdHZFQlQ5RjRsenpaTEkwMFQ2aWVUWFM2dkoxcnlTcjRLZXNoMmV6NUJma203aWVIZTRhTWpHdy1YOTZfcHIwV2l2QS0wT2NyZFJpbFFocW9ZRDNqeG16X3l1eDBSaVYxVDFjdjQzQkthNFhDWjlaSEtEeWRhZmg3RkF6Wk5Uelc0c0FQcC1ZS0Jocm56Mk9CTmF0QUVxR1lFMVRIYWN6YWdOeDd6MmxBT1I1SlVma1o2TFkzTFZscWJiLU9ZNFdieTdfQWlyS0FmT000X0d3UFdGaTRtblllakhIbHhYZkZRb3c?oc=5",
+   "source": "Nature World News",
+   "category": "contamination",
+   "regions": [
+    "US other"
+   ]
+  },
+  {
+   "id": "31b4800270af3253",
+   "feed": "gnews",
+   "date": "2026-11-03T06:52:37Z",
+   "title": "AWWA report guides water utilities on data centre demands",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMnBDZ0JTMVRXVFgxRS1VM2JvcXBzWlluX2JrUWFpNVlPZkVXdHdKa25BLXdualNrTlF5VGRWVnExWm5faFVleUlnMFlzdXpoN2J4WE5mSHZ5NFFjTnpLUTg1RWwyOUhnZ0NibnNwMjBSZm9YbllrZ0VaSG55djVsYnVlRjVNMldtaEluRWhQUGxjSjdwY0VBdDlDY1Z3aHBFVVk2ajFQcDUzUVo5UGVxcy01U28yZ0U5dnM0WFlid2JoRWlpNHNYUlZ6U1EtQUoxbTdDc0JKRkhZQklDajRlOTBaWmjSAeoBQVVfeXFMTlpkNWZuMXc0QWl3OUpoOER3amtKNHA3dHpPdWpZVDdEUHMtQTFhSG5wanBIbzN1dlI5ODRPYmZHRXNUekNsYVpZSU9GQVA4X1JwM3gzM3k0UDNEQVZfWTNGM1AtVnFlWlpQU2ZJRnR3bWhNUW1zeEZmNDA1NjRkM3JqUjdPOTNUWl93MFIzSVgxYUtyRFYtMTFOUnlCSDE5Z0MzOWhGRVlMTjZLc3NhVS1SMFd4RThHRW1jcVdCMVFwNzgwMG1TZ3pBclF1QnFWamQ0Umd5YkRhcE9EcjRwOVFCVEo1UW8xekRB?oc=5",
+   "source": "ET Datacenters",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "a3a45fb1ee84e95d",
+   "feed": "gnews",
+   "date": "2026-11-03T06:35:07Z",
+   "title": "WABAG Bags Mega Order from Reliance Industries for 302 MLD Desalination Plant at Jamnagar",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNY3I0eEx1UG1XSTBKeVFtVEJxRjlBY0tkc29Renh4Q3FEbkZDVkxvRXlaZTJoLTc3a2taNlR6eGJZbmtiRnYyZ1NuYk9pQlJvblN0MWVzZjg3UWFhZjM2SlFoZXN4dW9BZEJxRnNkejVYWU45Uk50MUY2ZkFhZ3RrS3RyYklFNk85UkpyM3pLalNnYlFodUJFd29TRGZsaGlNTWhPZnpELUFEa2tfNUhDWWI2YmNNV1dKcl94M20tQlNIZw?oc=5",
+   "source": "https://smallcapspotlight.in/",
+   "category": "infrastructure",
+   "regions": []
+  },
+  {
+   "id": "6d3a15a6bf208cac",
+   "feed": "gnews",
+   "date": "2026-11-03T06:06:33Z",
+   "title": "Chemours Launches Faizeon Two-Phase Liquid Cooling Solutions for AI Data Centers",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQS2Q5QkktcWhPYVEtYzhxZHRkR3dteEZKdGc4WC1tM0hhd0N5anJWVGhkV19ycTE3STRhbWhhbVZXbkxCelpFeS1jUUtoTFdRQ3EyRHVXUWdpOEFGX01Qd2hGclFwWGQtYnJPTHg4Z3ItVmhuaTdic3Z1RTNZbmQ4eEtwcWNMTklkcHMzRHhBbl8xb1R2VUlIREVadVRCTnpneGN1eWxDR1VfMFFBTHdYSEZoZGo?oc=5",
+   "source": "World Business Outlook",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "960a671436f11f03",
+   "feed": "gnews",
+   "date": "2026-11-03T02:20:35Z",
+   "title": "Liquid cooling retrofits complex for existing data centers",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOVy1veExsM2lCSEN2UzdPNHF3ZDhoSVFHblhQSVhyV3U4UFpyTHM5R0FBTVoxcTRpUzA1REI5TEI1OEs0cEx4Qy1lVU1NUEJrV0M2cTA4R24zNVQ5czhPM0o0aUVwZ0RocjJaX2k1UnI3SnAtVmgya2tjXzBnSHBSTWctMnhaVkMtNVBfdE5vR3pOdERxWUprN2Jic1Fxc0tRZGRrUWdXLVM3TWZEZ1NQbDhnUGwycFNVdVZkQ0RPRlREQzdxdDBFUHpxNjFsNmREME1PZnRibkdWbGNZVnIxdi1OZGMxd0F4Qzl30gHrAUFVX3lxTE5XLW94TGwzaUJIQ3ZTN080cXdkOGhJUUduWFBJWHJXdThQWnJMczlHQUFNWjFxNGlTMDVEQjlMQjU4SzRwTHhDLWVVTU1QQmtXQzZxMDhHbjM1VDlzOE8zSjRpRXBnRGhyMlpfaTVScjdKcC1WaDJra2NfMGdIcFJNZy0yeFpWQy01UF90Tm9Hek50RHFZSms3YmJzUXFzS1FkZGtRZ1ctUzdNZkRnU1BsOGdQbDJwU1V1VmRDRE9GVERDN3F0MEVQenE2MWw2ZEQwTU9mdGJuR1ZsY1lWcjF2LU5kYzF3QXhDOXc?oc=5",
+   "source": "ET Datacenters",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "d6f3d601643c2cbf",
+   "feed": "gnews",
+   "date": "2026-11-03T02:15:00Z",
+   "title": "Officials: No boil water advisory after vehicle crash causes power outage, water failure - Richmond Times-Dispatch",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMnJUdENKMHJfQ1d5R2p5VHJXeENadnJwZE1GSi0xWlZCWnFmV1d2eGRPdWpmbm1jSmlBMFR1TEpyY2Z4bzczdnhBTDBUcE12dmdidVEzTjJSNEpEdnAwZlhaNUM4WmNheGRTOXVkWVZkRWFQbC1yWTROTXRoYURxVlM0UklyQXlLMHA3a1plQklObDRHZmZKV0NPbzlxMjRPYXpv?oc=5",
+   "source": "Richmond Times-Dispatch",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "gdacs-TC1001346",
+   "feed": "gdacs",
+   "date": "2026-11-01T00:00:00Z",
+   "title": "GDACS Red alert: Tropical Cyclone MURASU-26 (India)",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1001346&episodeid=10&eventtype=TC",
+   "source": "GDACS",
+   "category": "hazard",
+   "regions": []
+  },
+  {
+   "id": "gdacs-TC1001345",
+   "feed": "gdacs",
+   "date": "2026-10-26T00:00:00Z",
+   "title": "GDACS Red alert: Tropical Cyclone ARNAB-26 (India)",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1001345&episodeid=10&eventtype=TC",
+   "source": "GDACS",
+   "category": "hazard",
+   "regions": []
+  },
+  {
+   "id": "gdacs-TC1001338",
+   "feed": "gdacs",
+   "date": "2026-10-14T00:00:00Z",
+   "title": "GDACS Red alert: Tropical Cyclone CHAMPI-26 (Philippines, Guam, Northern Mariana Islands, Japan, China, South Korea)",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1001338&episodeid=46&eventtype=TC",
+   "source": "GDACS",
+   "category": "hazard",
+   "regions": []
+  },
+  {
+   "id": "gdacs-TC1001335",
+   "feed": "gdacs",
+   "date": "2026-10-07T00:00:00Z",
+   "title": "GDACS Orange alert: Tropical Cyclone SIMON-26 (México)",
+   "url": "https://www.gdacs.org/report.aspx?eventid=1001335&episodeid=38&eventtype=TC",
+   "source": "GDACS",
+   "category": "hazard",
+   "regions": []
+  }
+ ],
+ "generated_at": "2026-11-05T02:10:12Z"
+}

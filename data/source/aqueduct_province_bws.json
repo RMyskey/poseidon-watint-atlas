@@ -1,0 +1,497 @@
+{
+ "source": "WRI Aqueduct 4.0 baseline water stress (bws), total-demand weighted, province/state level; baseline 1979-2019",
+ "citation": "Kuzma, S., Bierkens, M.F.P., Lakshman, S., Luo, T., Saccoccia, L., Sutanudjaja, E.H., Van Beek, R. 2023. Aqueduct 4.0: Updated decision-relevant global water risk indicators. Technical Note. Washington, DC: World Resources Institute.",
+ "url": "https://www.wri.org/data/aqueduct-global-maps-40-data",
+ "license": "CC BY 4.0",
+ "file": "Aqueduct40_rankings_download_Y2023M07D05.xlsx (sheet province_baseline)",
+ "asof": "2023-07-05",
+ "score_scale": "0 (low) to 5 (extremely high); categories 0-4",
+ "data": {
+  "MEX": {
+   "Baja California Sur": {
+    "score": 5.0,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "Distrito Federal": {
+    "score": 4.997,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "Sonora": {
+    "score": 4.93,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "Coahuila": {
+    "score": 4.842,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "Sinaloa": {
+    "score": 4.8,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "Chihuahua": {
+    "score": 4.788,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "Colima": {
+    "score": 4.776,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "Aguascalientes": {
+    "score": 4.77,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "Durango": {
+    "score": 4.74,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "Baja California": {
+    "score": 4.67,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "Guanajuato": {
+    "score": 4.633,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "MÃ©xico": {
+    "score": 4.572,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "Zacatecas": {
+    "score": 4.472,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "Jalisco": {
+    "score": 4.467,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "QuerÃ©taro": {
+    "score": 4.4,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "MichoacÃ¡n": {
+    "score": 4.25,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "Morelos": {
+    "score": 4.081,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "Tamaulipas": {
+    "score": 3.829,
+    "cat": 3,
+    "label": "High (40-80%)"
+   },
+   "Nayarit": {
+    "score": 3.63,
+    "cat": 3,
+    "label": "High (40-80%)"
+   },
+   "Hidalgo": {
+    "score": 3.627,
+    "cat": 3,
+    "label": "High (40-80%)"
+   },
+   "Nuevo LeÃ³n": {
+    "score": 3.39,
+    "cat": 3,
+    "label": "High (40-80%)"
+   },
+   "San Luis PotosÃ­": {
+    "score": 3.082,
+    "cat": 3,
+    "label": "High (40-80%)"
+   },
+   "Tlaxcala": {
+    "score": 2.847,
+    "cat": 2,
+    "label": "Medium - High (20-40%)"
+   },
+   "Puebla": {
+    "score": 2.262,
+    "cat": 2,
+    "label": "Medium - High (20-40%)"
+   },
+   "YucatÃ¡n": {
+    "score": 1.062,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Guerrero": {
+    "score": 1.054,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Campeche": {
+    "score": 0.96,
+    "cat": 0,
+    "label": "Low (<10%)"
+   },
+   "Quintana Roo": {
+    "score": 0.864,
+    "cat": 0,
+    "label": "Low (<10%)"
+   },
+   "Oaxaca": {
+    "score": 0.569,
+    "cat": 0,
+    "label": "Low (<10%)"
+   },
+   "Veracruz": {
+    "score": 0.489,
+    "cat": 0,
+    "label": "Low (<10%)"
+   },
+   "Chiapas": {
+    "score": 0.4,
+    "cat": 0,
+    "label": "Low (<10%)"
+   },
+   "Tabasco": {
+    "score": 0.311,
+    "cat": 0,
+    "label": "Low (<10%)"
+   }
+  },
+  "USA": {
+   "Arizona": {
+    "score": 4.392,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "New Mexico": {
+    "score": 4.325,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "Colorado": {
+    "score": 4.281,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "Nebraska": {
+    "score": 4.159,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "California": {
+    "score": 4.026,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "Idaho": {
+    "score": 4.009,
+    "cat": 4,
+    "label": "Extremely High (>80%)"
+   },
+   "Wyoming": {
+    "score": 3.765,
+    "cat": 3,
+    "label": "High (40-80%)"
+   },
+   "Kansas": {
+    "score": 3.625,
+    "cat": 3,
+    "label": "High (40-80%)"
+   },
+   "Nevada": {
+    "score": 3.57,
+    "cat": 3,
+    "label": "High (40-80%)"
+   },
+   "Delaware": {
+    "score": 3.346,
+    "cat": 3,
+    "label": "High (40-80%)"
+   },
+   "Texas": {
+    "score": 3.33,
+    "cat": 3,
+    "label": "High (40-80%)"
+   },
+   "North Carolina": {
+    "score": 3.191,
+    "cat": 3,
+    "label": "High (40-80%)"
+   },
+   "Utah": {
+    "score": 3.166,
+    "cat": 3,
+    "label": "High (40-80%)"
+   },
+   "Florida": {
+    "score": 3.098,
+    "cat": 3,
+    "label": "High (40-80%)"
+   },
+   "South Carolina": {
+    "score": 2.714,
+    "cat": 2,
+    "label": "Medium - High (20-40%)"
+   },
+   "Montana": {
+    "score": 2.699,
+    "cat": 2,
+    "label": "Medium - High (20-40%)"
+   },
+   "Wisconsin": {
+    "score": 2.693,
+    "cat": 2,
+    "label": "Medium - High (20-40%)"
+   },
+   "Arkansas": {
+    "score": 2.619,
+    "cat": 2,
+    "label": "Medium - High (20-40%)"
+   },
+   "Virginia": {
+    "score": 2.562,
+    "cat": 2,
+    "label": "Medium - High (20-40%)"
+   },
+   "New Jersey": {
+    "score": 2.475,
+    "cat": 2,
+    "label": "Medium - High (20-40%)"
+   },
+   "Illinois": {
+    "score": 2.403,
+    "cat": 2,
+    "label": "Medium - High (20-40%)"
+   },
+   "Minnesota": {
+    "score": 2.266,
+    "cat": 2,
+    "label": "Medium - High (20-40%)"
+   },
+   "Georgia": {
+    "score": 2.22,
+    "cat": 2,
+    "label": "Medium - High (20-40%)"
+   },
+   "Rhode Island": {
+    "score": 2.188,
+    "cat": 2,
+    "label": "Medium - High (20-40%)"
+   },
+   "Indiana": {
+    "score": 2.001,
+    "cat": 2,
+    "label": "Medium - High (20-40%)"
+   },
+   "Massachusetts": {
+    "score": 1.887,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Oklahoma": {
+    "score": 1.789,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Pennsylvania": {
+    "score": 1.647,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Oregon": {
+    "score": 1.603,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Maryland": {
+    "score": 1.576,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "South Dakota": {
+    "score": 1.563,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Ohio": {
+    "score": 1.562,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Alaska": {
+    "score": 1.486,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Alabama": {
+    "score": 1.469,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "West Virginia": {
+    "score": 1.468,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Louisiana": {
+    "score": 1.445,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Missouri": {
+    "score": 1.433,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Tennessee": {
+    "score": 1.423,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "New Hampshire": {
+    "score": 1.374,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Kentucky": {
+    "score": 1.326,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "North Dakota": {
+    "score": 1.268,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "New York": {
+    "score": 1.224,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Washington": {
+    "score": 1.203,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Michigan": {
+    "score": 1.129,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Mississippi": {
+    "score": 1.116,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Iowa": {
+    "score": 1.082,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Connecticut": {
+    "score": 0.908,
+    "cat": 0,
+    "label": "Low (<10%)"
+   },
+   "District of Columbia": {
+    "score": 0.701,
+    "cat": 0,
+    "label": "Low (<10%)"
+   },
+   "Vermont": {
+    "score": 0.455,
+    "cat": 0,
+    "label": "Low (<10%)"
+   },
+   "Maine": {
+    "score": 0.21,
+    "cat": 0,
+    "label": "Low (<10%)"
+   },
+   "Hawaii": {
+    "score": -9999,
+    "cat": -9999,
+    "label": "NoData"
+   }
+  },
+  "CAN": {
+   "Alberta": {
+    "score": 2.729,
+    "cat": 2,
+    "label": "Medium - High (20-40%)"
+   },
+   "Saskatchewan": {
+    "score": 2.38,
+    "cat": 2,
+    "label": "Medium - High (20-40%)"
+   },
+   "Ontario": {
+    "score": 1.348,
+    "cat": 1,
+    "label": "Low - Medium (10-20%)"
+   },
+   "Manitoba": {
+    "score": 0.883,
+    "cat": 0,
+    "label": "Low (<10%)"
+   },
+   "QuÃ©bec": {
+    "score": 0.238,
+    "cat": 0,
+    "label": "Low (<10%)"
+   },
+   "New Brunswick": {
+    "score": 0.059,
+    "cat": 0,
+    "label": "Low (<10%)"
+   },
+   "Northwest Territories": {
+    "score": 0.05,
+    "cat": 0,
+    "label": "Low (<10%)"
+   },
+   "British Columbia": {
+    "score": 0.022,
+    "cat": 0,
+    "label": "Low (<10%)"
+   },
+   "Nunavut": {
+    "score": 0.017,
+    "cat": 0,
+    "label": "Low (<10%)"
+   },
+   "Yukon": {
+    "score": 0.0,
+    "cat": 0,
+    "label": "Low (<10%)"
+   },
+   "Newfoundland and Labrador": {
+    "score": 0,
+    "cat": 0,
+    "label": "Low (<10%)"
+   },
+   "Nova Scotia": {
+    "score": 0,
+    "cat": 0,
+    "label": "Low (<10%)"
+   },
+   "Prince Edward Island": {
+    "score": 0,
+    "cat": 0,
+    "label": "Low (<10%)"
+   }
+  }
+ }
+}

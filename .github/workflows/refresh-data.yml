@@ -1,0 +1,54 @@
+name: Refresh data feeds and deploy
+
+on:
+  schedule:
+    - cron: '0 6 * * *'   # daily 06:00 UTC; weekly/monthly/annual feeds self-schedule via data/meta.json
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Run every feed now, ignoring cadence (long: WQP, GGMN, RRC, ECHO)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: data-refresh
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180   # monthly heavy feeds (WQP state-by-state, ECHO, GGMN WFS) need well over 30 min
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: pip install -r scripts/requirements.txt
+      - name: Run pipeline
+        env:
+          WT_USER_AGENT: ${{ secrets.WT_USER_AGENT }}   # optional contact string, e.g. "Org name contact@domain"
+        run: python scripts/pipeline.py ${{ inputs.force && '--force' || '' }}
+      - name: Commit refreshed data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data assets/js/data.js
+          if git diff --cached --quiet; then
+            echo "No data changes."
+          else
+            git commit -m "Poseidon NARINT data: automated refresh $(date -u +%Y-%m-%dT%H:%MZ)"
+            git push
+          fi
+  deploy:
+    needs: refresh
+    uses: ./.github/workflows/pages.yml
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    secrets: inherit
