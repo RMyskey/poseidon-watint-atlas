@@ -25,28 +25,28 @@
  },
  {
   "id": "tx_wells",
-  "title": "Texas well records: 1,398,026 in the RRC layer",
-  "text": "By symbol class: 465,146 producing, 7,984 shut-in, 425,580 plugged, 41,857 injection or disposal and 457,458 other (RRC GIS symbols). The densest layer in the atlas; NM, OK, Alberta, BC and Saskatchewan are separate layers.",
+  "title": "Texas well records: 1,398,101 in the RRC layer",
+  "text": "By symbol class: 465,169 producing, 7,991 shut-in, 425,609 plugged, 41,854 injection or disposal and 457,477 other (RRC GIS symbols). The densest layer in the atlas; NM, OK, Alberta, BC and Saskatchewan are separate layers.",
   "label": "OBSERVED",
   "sources": [
    "rrc"
   ],
-  "asof": "2026-11-05T01:32:52Z"
+  "asof": "2026-11-06T13:43:22Z"
  },
  {
   "id": "tx_swd",
-  "title": "Texas has 46,970 injection/disposal well records and 1,896 commercial disposal sites",
+  "title": "Texas has 46,951 injection/disposal well records and 1,896 commercial disposal sites",
   "text": "Counts include enhanced-oil-recovery injection, which the service does not separate from saltwater disposal. The Texas RRC layers carry no per-well volumes, so well counts are used as a proxy for produced-water handling activity (MODELED siting uses this proxy).",
   "label": "OBSERVED",
   "sources": [
    "rrc"
   ],
-  "asof": "2026-11-05T01:32:52Z"
+  "asof": "2026-11-06T13:43:22Z"
  },
  {
   "id": "na_wells",
-  "title": "North American well layers: 2,670,102 well records in 6 jurisdictions",
-  "text": "Texas 1,398,026; New Mexico 142,469; Oklahoma 457,402; Alberta 541,190; British Columbia 34,441; Saskatchewan 96,574. Together they hold 76,505 injection/disposal wells that are not abandoned (Texas counts the RRC injection layer). Mexico has no open coordinate registry reachable from this build (SENER completed-wells CSVs are denied to automated clients) and is shown only through CONAGUA water layers.",
+  "title": "North American well layers: 2,670,177 well records in 6 jurisdictions",
+  "text": "Texas 1,398,101; New Mexico 142,469; Oklahoma 457,402; Alberta 541,190; British Columbia 34,441; Saskatchewan 96,574. Together they hold 76,486 injection/disposal wells that are not abandoned (Texas counts the RRC injection layer). Mexico has no open coordinate registry reachable from this build (SENER completed-wells CSVs are denied to automated clients) and is shown only through CONAGUA water layers.",
   "label": "OBSERVED",
   "sources": [
    "rrc",
@@ -56,7 +56,7 @@
    "bc_bcer",
    "sk_er"
   ],
-  "asof": "2026-11-05T02:47:53Z"
+  "asof": "2026-11-06T13:43:52Z"
  },
  {
   "id": "og_vol",
@@ -67,17 +67,17 @@
    "nm_ocd",
    "ok_occ"
   ],
-  "asof": "2026-11-05T02:47:53Z"
+  "asof": "2026-11-06T13:43:52Z"
  },
  {
   "id": "seis",
-  "title": "Permian-area earthquakes M2.5+ in the last five years: 3,091",
-  "text": "Count of USGS ComCat events in the box 30.0 to 33.5 N, 105.0 to 100.0 W (2021-11-06 to 2026-11-05), largest M5.4. USGS does not label events natural or induced; published studies link Delaware Basin seismicity to disposal, but this atlas does not attribute individual events.",
+  "title": "Permian-area earthquakes M2.5+ in the last five years: 3,092",
+  "text": "Count of USGS ComCat events in the box 30.0 to 33.5 N, 105.0 to 100.0 W (2021-11-07 to 2026-11-06), largest M5.4. USGS does not label events natural or induced; published studies link Delaware Basin seismicity to disposal, but this atlas does not attribute individual events.",
   "label": "ANALYTIC ASSESSMENT",
   "sources": [
    "usgs_quakes"
   ],
-  "asof": "2026-11-05T02:10:01Z"
+  "asof": "2026-11-06T13:32:09Z"
  },
  {
   "id": "pw_chem",
@@ -153,7 +153,7 @@
    "pwdb",
    "rrc"
   ],
-  "asof": "2026-11-05T14:26:21Z"
+  "asof": "2026-11-06T13:43:56Z"
  },
  {
   "id": "dc",

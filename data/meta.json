@@ -40,7 +40,7 @@
   "CURATED": "Analyst-entered in data/source/. Never changed by feeds; feed findings go to the review queue."
  },
  "footer": "Poseidon NARINT concept prototype: open, unclassified public data only. Not an official product of the Department of War, USACE, or the Army Geospatial Center.",
- "built_at": "2026-11-05T14:26:22Z",
+ "built_at": "2026-11-06T13:43:57Z",
  "feeds": {
   "gdacs": {
    "label": "GDACS drought/flood/cyclone events",
@@ -50,11 +50,10 @@
     "gdacs.json"
    ],
    "status": "ok",
-   "last_attempt": "2026-11-05T02:10:01Z",
+   "last_attempt": "2026-11-06T13:32:09Z",
    "items": 64,
    "message": "GDACS events in 21 days",
-   "last_success": "2026-11-05T02:10:01Z",
-   "status_note": "not due"
+   "last_success": "2026-11-06T13:32:09Z"
   },
   "quakes": {
    "label": "USGS earthquakes (global M4.5+, North America M2.5+)",
@@ -64,11 +63,10 @@
     "quakes.json"
    ],
    "status": "ok",
-   "last_attempt": "2026-11-05T02:10:10Z",
-   "items": 727,
-   "message": "727 global M4.5+ in 30 d; 24071 North America M2.5+ in 5 y",
-   "last_success": "2026-11-05T02:10:10Z",
-   "status_note": "not due"
+   "last_attempt": "2026-11-06T13:32:17Z",
+   "items": 724,
+   "message": "724 global M4.5+ in 30 d; 24072 North America M2.5+ in 5 y",
+   "last_success": "2026-11-06T13:32:17Z"
   },
   "gdelt": {
    "label": "GDELT DOC 2.0 news alerts",
@@ -76,10 +74,10 @@
    "url": "https://api.gdeltproject.org/api/v2/doc/doc",
    "outputs": [],
    "status": "partial",
-   "last_attempt": "2026-11-05T13:54:32Z",
-   "items": 0,
-   "message": "2/5 queries ok; HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc",
-   "last_success": "2026-11-05T13:54:32Z"
+   "last_attempt": "2026-11-06T13:39:30Z",
+   "items": 3,
+   "message": "4/5 queries ok; HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc",
+   "last_success": "2026-11-06T13:39:30Z"
   },
   "gnews": {
    "label": "Google News RSS alerts",
@@ -87,11 +85,10 @@
    "url": "https://news.google.com/rss",
    "outputs": [],
    "status": "ok",
-   "last_attempt": "2026-11-05T02:05:32Z",
-   "items": 34,
+   "last_attempt": "2026-11-06T13:40:03Z",
+   "items": 31,
    "message": "15 queries; ",
-   "last_success": "2026-11-05T02:05:32Z",
-   "status_note": "not due"
+   "last_success": "2026-11-06T13:40:03Z"
   },
   "usdm": {
    "label": "US Drought Monitor weekly map",
@@ -146,7 +143,8 @@
    "last_attempt": "2026-11-05T13:54:33Z",
    "items": 2538,
    "message": "2538 systems, 2537 with coordinates",
-   "last_success": "2026-11-05T13:54:33Z"
+   "last_success": "2026-11-05T13:54:33Z",
+   "status_note": "not due"
   },
   "rrc": {
    "label": "Texas RRC wells and injection/disposal (ArcGIS REST)",
@@ -156,11 +154,12 @@
     "tx_wells_grid.json",
     "tx_swd.json"
    ],
-   "status": "error",
-   "last_attempt": "2026-11-05T13:55:31Z",
-   "items": 0,
-   "message": "Showing previous data. HTTPError: <urlopen error [Errno 111] Connection refused> for https://gis.rrc.texas.gov/server/rest/services/rrc_public/RRC_Public_Viewer_Srvs/MapServer/1/query",
-   "stale": true
+   "status": "ok",
+   "last_attempt": "2026-11-06T13:43:51Z",
+   "items": 1398101,
+   "message": "1398101 wells, 46951 injection/disposal, 1896 commercial disposal",
+   "stale": true,
+   "last_success": "2026-11-06T13:43:51Z"
   },
   "og_nm": {
    "label": "New Mexico OCD wells and injection volumes (ArcGIS REST)",
@@ -243,7 +242,7 @@
    "url": "https://www.datos.gob.mx/dataset/coordenadas_pozos_terminados_2026",
    "outputs": [],
    "status": "error",
-   "last_attempt": "2026-11-05T13:55:31Z",
+   "last_attempt": "2026-11-06T13:43:52Z",
    "items": 0,
    "message": "RuntimeError: SENER completed-wells CSV not retrievable: HTTP 403 for https://repodatos.atdt.gob.mx/api_update/sener/coordenadas_pozos_terminados_2026/dgace_pozos_terminados_ago"
   },
@@ -259,7 +258,8 @@
    "last_attempt": "2026-11-05T13:57:00Z",
    "items": 142155,
    "message": "142155 systems (48811 CWS), 51 states, 0 state errors",
-   "last_success": "2026-11-05T13:57:00Z"
+   "last_success": "2026-11-05T13:57:00Z",
+   "status_note": "not due"
   },
   "echo_npdes": {
    "label": "EPA ECHO / ICIS-NPDES major dischargers",
@@ -272,7 +272,8 @@
    "last_attempt": "2026-11-05T13:59:19Z",
    "items": 6991,
    "message": "6991 major permittees, 0 state errors",
-   "last_success": "2026-11-05T13:59:19Z"
+   "last_success": "2026-11-05T13:59:19Z",
+   "status_note": "not due"
   },
   "wqp": {
    "label": "Water Quality Portal groundwater aggregates (county, HUC8)",
@@ -287,7 +288,8 @@
    "last_attempt": "2026-11-05T14:25:12Z",
    "items": 78618,
    "message": "57 state/parameter pulls failed",
-   "last_success": "2026-11-05T14:25:12Z"
+   "last_success": "2026-11-05T14:25:12Z",
+   "status_note": "not due"
   },
   "igrac": {
    "label": "IGRAC GGMN global monitoring registry (WFS)",
@@ -300,7 +302,8 @@
    "last_attempt": "2026-11-05T14:25:45Z",
    "items": 374934,
    "message": "374934 GGMN points",
-   "last_success": "2026-11-05T14:25:45Z"
+   "last_success": "2026-11-05T14:25:45Z",
+   "status_note": "not due"
   },
   "conagua": {
    "label": "CONAGUA datos abiertos (Mexico)",
@@ -310,7 +313,7 @@
     "mx_aquifers.geojson"
    ],
    "status": "error",
-   "last_attempt": "2026-11-05T14:25:45Z",
+   "last_attempt": "2026-11-06T13:43:52Z",
    "items": 0,
    "message": "Showing previous data. RuntimeError: CONAGUA files unavailable: Acuiferos_Disponibilidad_09-11-2023.zip (HTTP Error 403: Forbidden for https://sinav30.conagua.gob.mx); Datos_de_calidad_del_agua_de_5000_sitios_de_monitoreo.zip (HTTP Error 302: The HTTP server returned a redirect error th); Resultados_de_calidad_del_agua_de_5000_sitios_de_monitoreo.zip (HTTP Error 302: The HTTP server returned a red",
    "stale": true
@@ -326,7 +329,8 @@
    "last_attempt": "2026-11-05T14:25:54Z",
    "items": 113135,
    "message": "113135 records, 71 basins",
-   "last_success": "2026-11-05T14:25:54Z"
+   "last_success": "2026-11-05T14:25:54Z",
+   "status_note": "not due"
   },
   "nbga": {
    "label": "USGS National Brackish Groundwater Assessment database",
@@ -339,7 +343,8 @@
    "last_attempt": "2026-11-05T14:26:11Z",
    "items": 379653,
    "message": "379653 TDS samples",
-   "last_success": "2026-11-05T14:26:11Z"
+   "last_success": "2026-11-05T14:26:11Z",
+   "status_note": "not due"
   },
   "boundaries": {
    "label": "Census county/state boundaries",
@@ -352,7 +357,8 @@
    "last_attempt": "2026-11-05T14:26:12Z",
    "items": 1,
    "message": "boundaries rebuilt",
-   "last_success": "2026-11-05T14:26:12Z"
+   "last_success": "2026-11-05T14:26:12Z",
+   "status_note": "not due"
   },
   "limits_watch": {
    "label": "Watch: PFAS limits (Federal Register) and USGS dataset releases",
@@ -375,10 +381,10 @@
     "logistics_tx.json"
    ],
    "status": "ok",
-   "last_attempt": "2026-11-05T14:26:22Z",
+   "last_attempt": "2026-11-06T13:43:57Z",
    "items": 1036,
    "message": "Longview cell rank 537 of 1036; 238 Texas data centers in logistics",
-   "last_success": "2026-11-05T14:26:22Z"
+   "last_success": "2026-11-06T13:43:57Z"
   }
  },
  "layers": [
@@ -389,8 +395,8 @@
    "source": "rrc",
    "precision": "G",
    "label": "OBSERVED",
-   "records": 1398026,
-   "asof": "2026-11-05T01:32:52Z",
+   "records": 1398101,
+   "asof": "2026-11-06T13:43:22Z",
    "size_kb": 157,
    "note": "Counts per cell from RRC well locations (the densest well layer). Other jurisdictions are separate layers below."
   },
@@ -401,8 +407,8 @@
    "source": "rrc",
    "precision": "F",
    "label": "OBSERVED",
-   "records": 48866,
-   "asof": "2026-11-05T01:32:52Z",
+   "records": 48847,
+   "asof": "2026-11-06T13:43:22Z",
    "size_kb": 930,
    "note": "Layer 4 includes EOR injection as well as saltwater disposal; the service does not separate them."
   },
@@ -533,8 +539,8 @@
    "source": "rrc",
    "precision": "C",
    "label": "ANALYTIC ASSESSMENT",
-   "records": 2670102,
-   "asof": "2026-11-05T02:47:53Z",
+   "records": 2670177,
+   "asof": "2026-11-06T13:43:52Z",
    "size_kb": 5,
    "note": "Cross-jurisdiction table built from the layers above; volume totals only for NM and OK."
   },
@@ -545,8 +551,8 @@
    "source": "usgs_quakes",
    "precision": "G",
    "label": "OBSERVED",
-   "records": 24071,
-   "asof": "2026-11-05T02:10:01Z",
+   "records": 24072,
+   "asof": "2026-11-06T13:32:09Z",
    "size_kb": 1136,
    "note": "Events are not labelled natural or induced by USGS."
   },
@@ -690,7 +696,7 @@
    "precision": "G",
    "label": "MODELED",
    "records": 1036,
-   "asof": "2026-11-05T14:26:21Z",
+   "asof": "2026-11-06T13:43:56Z",
    "size_kb": 85,
    "note": "MODELED screening inspired by the SWUI concept; not the published method."
   },
@@ -702,7 +708,7 @@
    "precision": "A",
    "label": "ANALYTIC ASSESSMENT",
    "records": 238,
-   "asof": "2026-11-05T14:26:21Z",
+   "asof": "2026-11-06T13:43:56Z",
    "size_kb": 88,
    "note": "Great-circle distances; not haul routes."
   },
@@ -822,7 +828,7 @@
    "precision": "E",
    "label": "OBSERVED",
    "records": 64,
-   "asof": "2026-11-05T02:10:01Z",
+   "asof": "2026-11-06T13:32:09Z",
    "size_kb": 22,
    "note": ""
   },

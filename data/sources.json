@@ -16,7 +16,7 @@
   "role": "Global droughts, floods, tropical cyclones (live layer)",
   "cadence": "daily",
   "layer": "gdacs",
-  "asof": "2026-11-05T02:10:01Z",
+  "asof": "2026-11-06T13:32:09Z",
   "records": 64
  },
  "gdelt": {
@@ -46,8 +46,8 @@
   "role": "Global M4.5+ 30 days; North America M2.5+ 5 years (induced-seismicity context)",
   "cadence": "daily",
   "layer": "quakes",
-  "asof": "2026-11-05T02:10:01Z",
-  "records": 24071
+  "asof": "2026-11-06T13:32:09Z",
+  "records": 24072
  },
  "usdm": {
   "name": "US Drought Monitor",
@@ -66,8 +66,8 @@
   "role": "1.40 million Texas well records; 46,970 injection/disposal wells; 1,896 commercial disposal sites",
   "cadence": "monthly",
   "layer": "tx_wells_grid",
-  "asof": "2026-11-05T01:32:52Z",
-  "records": 1398026
+  "asof": "2026-11-06T13:43:22Z",
+  "records": 1398101
  },
  "pwdb": {
   "name": "USGS National Produced Waters Geochemical Database v3.0",
@@ -206,7 +206,7 @@
   "role": "SWUI metric, Longview scenario (abstract and press coverage only; full text not accessed)",
   "cadence": "reference",
   "layer": "siting_tx",
-  "asof": "2026-11-05T14:26:21Z",
+  "asof": "2026-11-06T13:43:56Z",
   "records": 1036
  },
  "ut_news": {

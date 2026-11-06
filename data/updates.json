@@ -1,12 +1,278 @@
 {
  "items": [
   {
+   "id": "a931886b68befce2",
+   "feed": "gnews",
+   "date": "2026-11-06T13:27:08Z",
+   "title": "US Data Center Cooling Market to Reach Investments of USD 29.43 Billion by 2031 | Arizton",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS29XZkdvOEpDTjVLa1NuT2dMUGRjcS1pS2RSTlllclUwV2R0OHU3bURjdjVnNm9MM0luYWZLaVNycVlWcWhHUndBU1owbkoxMlQ1UDBwX1VTdG85b0NUWTNJc0Z1cTJBTWdNTk9OZzhyOGM3SWtjX2kxLUYzd0NTQ0hUaXY3UUFaY3I0VWRlMFNneThsOG5PZ2pOSV9jcV8w?oc=5",
+   "source": "openPR.com",
+   "category": "data_center",
+   "regions": [
+    "US other"
+   ]
+  },
+  {
+   "id": "bc9f66eb760d3e26",
+   "feed": "gdelt",
+   "date": "2026-11-06T12:30:00Z",
+   "title": "Leaders of powerful energy industry prepare to work with Democrat on Texas Railroad Commission",
+   "url": "https://www.gilmermirror.com/2026/11/06/leaders-of-powerful-energy-industry-prepare-to-work-with-democrat-on-texas-railroad-commission/",
+   "source": "gilmermirror.com",
+   "category": "regulatory",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
+   "id": "51968af2cb208825",
+   "feed": "gnews",
+   "date": "2026-11-06T12:13:33Z",
+   "title": "Data Center Water Use: 17B Gallons, Hard to Track [2026]",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSVRzUTA4RS0xVnpaLVFyN2huVmpoQlZRVnhHZXpUbVVYUldiX1hncm16UWNQYWtaYnM3T3FQazEwdi0xX1lTd0dsMC1xMXZqY0VSQVBCbHo0Yl8zQ0RtbVVfQU1za0hOX0xwOUJVQkZYcjRUdGd0NlRXdU5lcVM4NFpYT0lISFNTdE5HYg?oc=5",
+   "source": "shattered.io",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "280ab973040eb3fb",
+   "feed": "gnews",
+   "date": "2026-11-06T10:26:11Z",
+   "title": "Assembly passes measure to examine impact of data centers on N.J.’s water supply and usage - ROI-NJ",
+   "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNTXVVeUZtRHpucDY2TUtWaVBHaUdnYTVCUHlhY3dfeHhpN2JpN0hPSWx4T1gzMWMwenlRaEJpd29NcmUwU3RROE82ZTRNSmtobHhpUUtoeFRONFZfMjU3c1gtVkIzX3B0Y1RkV1BRMjY3SnkwME81T3BkOExILWJBOVJQTVZyWVFXOW50c05kdEFNem9RWV9NQnY5QTVDa1h6bXlLd3FNSkd6bXpaYzRfd25UY2M1cFNYRm5BYWwyTHZ0em9KazlMMlFub1dXUXpaV1dqbEtidFhqRjlUUGNGUF8xeWg?oc=5",
+   "source": "ROI-NJ",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "d2d74ed4386960e2",
+   "feed": "gnews",
+   "date": "2026-11-06T10:23:35Z",
+   "title": "Can Nvidia's Liquid Cooling Solve the AI Data Center Water Crisis?",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUVBqNm5ial9zREtKQ0dMZzJzbEw2ek4yTUI2SE5BZWdyMDlQLU1ZMTFqdXBMdkRFempVMlpMY1kzejNnOUM5X2p1QmVlU3RiaEh4cW1Tbm83SnpuWE1rQVZuWTE1QnpWMWl6SV9tMUwtMmtVcXY1T0xOUl9oeURsTzlTenBpbzNCQjY3ZVVFMGZ4ZURuUkQ5MDJpZWxyenA5aVRESGZ3bEhmU01mVXAyc01oZnFVOFI3QWhJV2dDYTB2YnNUakJpMDB0QlDSAcwBQVVfeXFMUFFQajZuYmpfc0RLSkNHTGcyc2xMNnpOMk1CNkhOQWVncjA5UC1NWTExanVwTHZERXpqVTJaTGNZM3ozZzlDOV9qdUJlZVN0YmhIeHFtU25vN0p6blhNa0FWblkxNUJ6VjFpeklfbTFMLTJrVXF2NU9MTlJfaHlEbE85U3pwaW8zQkI2N2VVRTBmeGVEblJEOTAyaWVscnpwOWlUREhmd2xIZlNNZlVwMnNNaGZxVThSN0FoSVdnQ2EwdmJzVGpCaTAwdEJQ?oc=5",
+   "source": "Artificial Intelligence News & Cryptocurrency News: Latest Trends | Analytics Insight",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "517201072e302544",
+   "feed": "gnews",
+   "date": "2026-11-06T09:03:00Z",
+   "title": "3M settles PFAS cancer lawsuits for $7.3B. How it's touched Fall River",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaktwVXBfSEl0VEdKOW9Ka2kwV0dLNXB1eUtEWEtWUmxaQnFhVUNXMlhoWHlIN3p5aDNNVUFUSGpWYURJTzVkRnAtV0k3bXRMVjBIekJGUmpYY09GNjByWnRiWG8wdGM4Q1piQkprR0QxaUJlNm5Zc05DejBQQUVGZHZGQVhwalV3Z1dWZElWa3ZEX1FQU2pNQVRsb1FTM2tDX3Q0ZzBlMldaUGFZLU84emhZaW1zSm1uWHc?oc=5",
+   "source": "Fall River Herald News",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "10150d608f66d311",
+   "feed": "gdelt",
+   "date": "2026-11-06T07:15:00Z",
+   "title": "Bank donates thousands to Washington County volunteer fire departments",
+   "url": "https://www.kbtx.com/2026/11/06/bank-donates-thousands-washington-county-volunteer-fire-departments/",
+   "source": "kbtx.com",
+   "category": "regulatory",
+   "regions": []
+  },
+  {
+   "id": "2829bd0b6d711597",
+   "feed": "gnews",
+   "date": "2026-11-06T05:42:00Z",
+   "title": "DFW’s Fight Between Data Centers and Clean Water",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ3hyYl9Wd1NNeWZONHBTVlF4UVB1OEZoNDY1alJXSU42Zm1GMENoTjdzaS1rQmpZX0NZSy1BV2lENDcyR3Qxcnl3XzJvOGxtR3ROcVVlekluVDZkc25YZlR2S29hRWpXUUhCSGxiTlduRzYweFUwZW05NjlXemNOZFJQTWNLTmNDd3pjdWtCLUJ3OUl3?oc=5",
+   "source": "EIN News",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "7ac6d3fc1d03fabb",
+   "feed": "gnews",
+   "date": "2026-11-05T22:10:00Z",
+   "title": "Garrett Motion to Supply Oil-Free Compressors for Data Center Cooling in Asia-Pacific",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWFRBMDVCM2dGOXNCdE9tVmFCamhoOEpWX2hjTTBWdXZOUW81S0pLUTRyYjhnQTU0Um0zcWFYeHY3MUdaUUpNN1JkcU1vYXYzQWdWVWhGem9mNHNwdmdoYU9fQzdHWG1oRHVXeHpOU1oyb2NZNUlDQVBwdjROVGRaMWFGY0tZbHRiQ3hheGxhQkMtMEVSMXh1UlNZNkw3X3RhcFlJWlBWNXlOVGJKa3BhaXU3QnVaZw?oc=5",
+   "source": "Refindustry",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "df4da9a55347dc1e",
+   "feed": "gnews",
+   "date": "2026-11-05T22:07:30Z",
+   "title": "My Turn: Preparing for data centers in Beaufort County, part one",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOcTduUlpiaDFiMGxDSW4xc2FiekxzLXQ5Mm1pYW5WeGVVbHNlaHNHbzVVbHF1cl9wMjJUQUVGeWRPVkVJeDNvZjMxT2Vxc21MTnhCSG84eFUwdTR3WU56Qm5hR25jbzBtbFkwTGl0aU82eWd3V0EzV1pwbnJ0WC1iTVg4R1VMTHVBNkNVczFWa3p0TDI4YzZfWnFFQ0poUHhXai1oSllJa0l6N3V3eGpobWN1WXplT2IzYlE?oc=5",
+   "source": "The Washington Daily News",
+   "category": "regulatory",
+   "regions": []
+  },
+  {
+   "id": "992d957e594aec7c",
+   "feed": "gnews",
+   "date": "2026-11-05T22:05:55Z",
+   "title": "EPA Proposes Comprehensive Reform for Crude Oil and Natural Gas Sector",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQYkpSV0hpRnF4blhVSHZtVWE3U1MyekR5T2NsUXRQem1wSWdLMDUyY0ZLeUs4aDhrdzdfVFJDOThaM2tSMWRkdUViY3Z3OVplcEY5d01IelBQRWFqSDBJaVAxSVB2SEF3VTVOdktGd01HbEd6a3dBNXl5V1NyZzh2ZmFlMmwxZ0JXV1N6V1Q3bzQ?oc=5",
+   "source": "Pillsbury Winthrop Shaw Pittman",
+   "category": "regulatory",
+   "regions": []
+  },
+  {
+   "id": "8865593e1fd1ceac",
+   "feed": "gdelt",
+   "date": "2026-11-05T22:00:00Z",
+   "title": "Brazos Valley drought continues into November",
+   "url": "https://www.kbtx.com/2026/11/05/brazos-valley-drought-continues-into-november/",
+   "source": "kbtx.com",
+   "category": "drought",
+   "regions": []
+  },
+  {
+   "id": "60275038885e6164",
+   "feed": "gnews",
+   "date": "2026-11-05T20:00:00Z",
+   "title": "AMC calls for investigation into 9.8-million-litre Red River sewage spill",
+   "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOQXB4cmdibndGdEV4eTM0YWlfcmstZkNKZ2l6Tkg1c0dFUDN3NTRJS1FGUGJVMVdONVpZMTFPQ1dVTkx1eG1yR2VtSHB5OU8yeHNkY21OUmNuaG14blVKc29VUGJIdU1nYkdQUjg5RTVQTU1QNHJXNkZLMUVZNlhLMzRZMUNrT3NURVRxUlNRckJSWVFEbjMzRXZMWHFqbTlkbXlMcEEtclVfZVpoSDBGLUlKcHB2UmU0RmJ6aldHWDhSNmtvUTQ1RmlVSjRjQTMxNm1XemRYeGNLUUU0eWt4cnVxSVhXUQ?oc=5",
+   "source": "Winnipeg Sun",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "1229bff076f4a677",
+   "feed": "gnews",
+   "date": "2026-11-05T18:04:30Z",
+   "title": "Clark County Pilot Tests Groundwater for Las Vegas Water Supply",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbDBuYmt0dmNZYzAyajRTYlN4XzFHYXBIUXl1LVhoZnh0ZENkNU1yejBWUlN0d2RTVS1IaGtnU3VwblpvcFJ2d3d1ZFhfWTR2dEFWMUo5TnlHRFl2STVoZkNscktYa2drTHMydUVpY0hGV3VqQlE4Q3NGYTI5VE1ZcC13LXhNaVFDZlJGZERMUWUyMkxiZnNNREFMdWVfaURuSl8xdlY2czROU24zQWQ0bWlPNDU?oc=5",
+   "source": "Hoodline",
+   "category": "infrastructure",
+   "regions": []
+  },
+  {
+   "id": "1d70751325bb6adb",
+   "feed": "gnews",
+   "date": "2026-11-05T15:51:09Z",
+   "title": "Historic Texas Election Signals Changes in Environmental Regulation, Permitting, Enforcement, and Judicial Review",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVEx1cXFUME55V2NYTzh4eG1SMWlYMHA5elpWRC1nZE81R1FWWEZOVTh0RkhTVlgybWVlNTRxQnBJbXB4VmZxdnlxUS04TWVpVWFjN1FIRDBNZXhiMjctUHQ0R0FSOHFKTExLOExPbE5hclVnZGpTVjRHM1Bpd0FNV2dxdkFmQWdtS0ZURlotT1pmd29GTnhMRHZ3UU5rT2pwMXFpYVA5cFItQkVob0FMNVFB0gGyAUFVX3lxTE5UTHVxcVQwTnlXY1hPOHh4bVIxaVgwcDl6WlZELWdkTzVHUVZYRk5VOHRGSFNWWDJtZWU1NHFCcEltcHhWZnF2eXFRLThNZWlVYWM3UUhEME1leGIyNy1QdDRHQVI4cUpMTEs4TE9sTmFyVWdkalNWNEczUGl3QU1XZ3F2QWZBZ21LRlRGWi1PWmZ3b0ZOeExEdndRTmtPanAxcWlhUDlwUi1CRWhvQUw1UUE?oc=5",
+   "source": "The National Law Review",
+   "category": "regulatory",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
+   "id": "6a8e901a26658179",
+   "feed": "gnews",
+   "date": "2026-11-05T14:54:55Z",
+   "title": "Chemours Launches Faizeon Two-Phase Liquid Cooling Solutions for AI Data Centers",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQmVXYVM5V0x4X2VQWm1rMFpDUW5ydERacVE1QVh4NDdlSzFmcmh4NzNIZzFrNkJBVDBtRHhIVTZ4eTRvWGhzWm82blV2TmVubHFnZ1dlSjZsMEhFVlVOWmJtVmJFTDNPc0U1VVRjZlpRS0hwT3I5eE9CVlcwWGxJWEE0Xy16MzhhRGFueENYVkJtR21mYU9Lb3pST1ZsZDY4QVJSVTJwNGYzbTVUTkZSMV9pS0xyR2t0UGc?oc=5",
+   "source": "HPCwire",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "8c4ad55a4b4c0f37",
+   "feed": "gnews",
+   "date": "2026-11-05T14:46:00Z",
+   "title": "CC Launches Faizeon Cooling Solutions to Meet AI Data Center Demand",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQVGo5QUJPU2ZNRlFDT3Ywby1SYVA3SU1mZEszdmZYOURXalMxVjM1SnFHR2M0bDdyN3U2M1ZyQ1hBa2w3R1N0dzl6S2pVcHFEa2Z0UVY4WE15U0VKOVpSWDZBbTV2MVV5aUVKa0ZWX2V1bzBlOE5ZSmtwdzlVcnZCRXZTLWYzRVgzZnR5TE5FdlBoU21pa1dHUkJLX2ZRdTV2Vmh5MEc1UzJwTG1wWmw2SWgzTUl4b1BkbEZ3NmxBWUQ?oc=5",
+   "source": "TradingView",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "19855c5eeba4b9f0",
+   "feed": "gnews",
+   "date": "2026-11-05T14:34:38Z",
+   "title": "Data Center Water Usage: 40 of 41 Curbs Passed [2026] - https://tech-insider.org/",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSnQ2aXdXQlFmZUI4LVdvX0RudE5jakgtc3h1MXJ0dHhOSUh0NG5RZWZKZ2M0QjU0X0IxNnN1RjZLSUg3Q1RYMEpWa1F4NG9tUTRFRzNTLTh1TDM1THVpR2JCbEh2VTV3RlpLekNJZDVjUk5ZRnZNRlphVE9PNWZESnFiRG51WGxaUDlTbXRXMA?oc=5",
+   "source": "https://tech-insider.org/",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "dfabb53e40134111",
+   "feed": "gnews",
+   "date": "2026-11-05T14:05:26Z",
+   "title": "3M Agrees to Pay More Than $7 Billion to Settle 'Forever Chemical' Contamination Claims",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPeFpLUDduQXNpSmFPTnVCVUNIWmYyN2lDUFkxbV9nTkFCNDlRMlBZQjFfWWxJRnluNnViOThxRktJNUd5eWJNaHZ5V3gwb05NZXU2Uy1acW1ONWUybDVIdkRuOVJIZUVvMFZ2aEJJT2JGeEd4Vk9IRlZDMGZYVWZ1R0czNWU4ZEdpbERsZnZBS3RKZEhCVUdjUDhUcmphRVVEUUlxZzc3MmxmbGExRDVCeThIenhfcGs?oc=5",
+   "source": "Morning Ag Clips",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "443540b92be1371b",
+   "feed": "gnews",
+   "date": "2026-11-05T13:24:56Z",
+   "title": "When the lights go out: are you prepared?",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBNdjJEaTBiS0JCZFRGN3RXYWFzMldNVzBUaUJDdk9Jamt3Q2hTM25FeTZwb3hRLUVSZlBRSi05RUY1UFhaWXQ0bkdLNFNXdjN2V29tVkprWThiemd6cXFrcmVRQS1QM21yby16R2RXMlFSbmFs?oc=5",
+   "source": "Lockhart Post Register",
+   "category": "regulatory",
+   "regions": []
+  },
+  {
+   "id": "35f7d44d19a35194",
+   "feed": "gnews",
+   "date": "2026-11-05T13:00:01Z",
+   "title": "Voters rejected AI data centers over resource concerns. Here's why measuring water usage is hard",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSElxVG9yQnBRbVdSTkxabDRKWUFDb2d4STE0ZElpaEZEd1dUS3RLLUdaN1NRN3paOFV1NjAzaWUtSEJERUx5MGgzS2NnbW01aGZXa0I0RnhWVG5yNHBmLXVaN2tHc25CNW1pdVBrNzlvWGZxcnV1bTNOTzN5RXhpX0xHQzdNZE5oeG85dU50OUpwX0szMHF3WEQ5dnQ2cndNeXRiS2tB0gGrAUFVX3lxTE5xRXQwaXRkaUt3UFoxZmZJSllEUFllY1loWjBvNkNJcEQ4Mm5QZlZuOUJsS3dNWUY5MldSMUwwNWN0Y2otZ3RmaWw3V0dvUUZnbGdqVjVwSGRjU2EzUS1vX3ZKQk0tbkFkNEphSklLWFcwYXZHRFJGUEczcEhxcXJmYkFISDFMLWZoNGZ0SHZGTEIwODVrMGlWTWZueVRqemEzZUxJcjhmaVJlNA?oc=5",
+   "source": "CNBC",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "08b904a3dfd20928",
+   "feed": "gnews",
+   "date": "2026-11-05T12:40:39Z",
+   "title": "The less water AI data centers use, the more power they consume. Here’s why.",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNDJzMGs2OWVaRnI4RW83SDNEVDBXWUxYZlRkMFlrR2pxNHZRS3I4MnVEcGFUWlh1Vjh3ekU1NUN2Ymh6YlBUSlRKMHIzMWNCZ1p5ZEI3cjNDbG5TTWxSQTBQMXBMc2dvZ1lEN0lOdEZkWlpYaGYxYkhqamM2NnJuV0tVY1NHRlpudklrQ1Z1R0xtX1BEX1F1UnpRUk5tbkVyVldhZThxdVBENGtVYkxQZUNn?oc=5",
+   "source": "CNBC",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "6d4408d9149393c7",
+   "feed": "gnews",
+   "date": "2026-11-05T11:37:32Z",
+   "title": "McGrail To Serve On EPA Subcommittee",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNYVdxY1p5dl8tOWk1WWxKbWdtcE1DczlhS1BUelhpS3g4M1htN183aFVPU3FUc2JDaDhmbTctUGpaSnV1SG5mNUtFb0RlQmdiclIybHRtVmZYa2VUc05yT0Rsck52NllrOHh3aEwwQkdUNEpnUDZsUHl3aVZISHBLeXMzSDExV2Z4SEliZVU5dFhCQQ?oc=5",
+   "source": "Cape Cod Chronicle",
+   "category": "regulatory",
+   "regions": []
+  },
+  {
+   "id": "fcd86be11879c5d9",
+   "feed": "gnews",
+   "date": "2026-11-05T09:19:31Z",
+   "title": "Trane Technologies: Minimising Water Usage in Data Centres",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUWVjbXNwSk85VUFDRkl3VTBxQmZFek82dHVBN212VnVoMFpOa0g1ekwxT3I5RE9TLXUxM2owcFFqUnVLSGh6VE9nazNCYjkzUllpRU5yLWVjVDZNckR2dklVRWRLSm1McFBHcElZZzM0bWJUTDlDVS1DY1hPaEhvb1NhRnJRWVRYS3Mwb0dDOWU4VVFCV0lzbg?oc=5",
+   "source": "Data Centre Magazine",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "c4dd71d95cfe262c",
+   "feed": "gnews",
+   "date": "2026-11-05T02:41:32Z",
+   "title": "PFAS Solvents: Blank-safe for EPA Methods 533 and 537.1",
+   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORDROTlFHN28xa0VYZlVEU2VnNTY1TlRDbEE5RFZkSFJHenlLNWU3TlhlSWlHMVVodjdaaGJ3QVhUVFVORkQ5VWFtVFNLZW5jZUlXd3kxMkdNVnZtbVJrdVFyeHdlZEl6V2RxMjhTSzR5eUFTejJodWJ0QWtnNGg2YXMxbTcwMGVnX0RJX1J5NVc?oc=5",
+   "source": "Lab Manager",
+   "category": "contamination",
+   "regions": []
+  },
+  {
    "id": "46a0f6dbc4890e5b",
    "feed": "gnews",
    "date": "2026-11-05T00:13:42Z",
    "title": "Google to Invest $15 Billion in Malaysia for AI Data Centers, 1GW+ of Clean Power and a Shared Water Facility",
    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0teWVGNUw2OTVBaXlHTXVwaG5MbmhOYTc0WFA3STdLX2NNd3VJSlMyeVNqTkJGb0VRczBqQ0NJLTE5WG1pXzZUcTEwLXRtellHZ2pXSzBXaUkwNDliTkl4b2duaWxaLVEzVGhQWHNZNXFHUjdxQ0E?oc=5",
    "source": "XenoSpectrum",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "7806f2010eb53a3d",
+   "feed": "gnews",
+   "date": "2026-11-04T22:10:00Z",
+   "title": "AHRI Highlights Data Center Cooling and HVACR Certification in Korea and India",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQYmhUUUR4dEZUcmdpTkZkUE1yWlpBQW9xUXd6T29nZTBya2V0Wk1FbU12dU56QkR2WUM2UHdVdmJmNTZtMHhrNDZ3UWFremZqOFI3QUxlc29yTmxBYmFyWFVuVkxhSHVZalFjckJ4MDVRRnd4V25VLW96OFRYNVk5NGtMLXNCUkwxVWhkeUdqYVVwWEpQUjJ0ejNfZEUyQkNaaVhJdVo5ekhldklV?oc=5",
+   "source": "Refindustry",
    "category": "data_center",
    "regions": []
   },
@@ -18,16 +284,6 @@
    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPd2NsX0ZDY2syeEpFZkZmc3hlRXhaLUFmVkIxeG92M203bm9HRGRGUUtsY3RTdDRMX1NGNjJrWnF4bFdDdEhqbzVrcmNGN1l0ekhjQy0zbFNYZzByclpEU3E0YVpYREtpbk9fN2FUZWhiaTZYam1HeTRDeFFuVWdlSHN4Q1hfd0lZSURja2dhbTlGazV4amxz?oc=5",
    "source": "mann+hummel",
    "category": "data_center",
-   "regions": []
-  },
-  {
-   "id": "c4dd71d95cfe262c",
-   "feed": "gnews",
-   "date": "2026-11-04T20:25:46Z",
-   "title": "PFAS Solvents: Blank-safe for EPA Methods 533 and 537.1",
-   "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORDROTlFHN28xa0VYZlVEU2VnNTY1TlRDbEE5RFZkSFJHenlLNWU3TlhlSWlHMVVodjdaaGJ3QVhUVFVORkQ5VWFtVFNLZW5jZUlXd3kxMkdNVnZtbVJrdVFyeHdlZEl6V2RxMjhTSzR5eUFTejJodWJ0QWtnNGg2YXMxbTcwMGVnX0RJX1J5NVc?oc=5",
-   "source": "Lab Manager",
-   "category": "contamination",
    "regions": []
   },
   {
@@ -314,16 +570,6 @@
    "regions": []
   },
   {
-   "id": "6d3a15a6bf208cac",
-   "feed": "gnews",
-   "date": "2026-11-03T06:06:33Z",
-   "title": "Chemours Launches Faizeon Two-Phase Liquid Cooling Solutions for AI Data Centers",
-   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQS2Q5QkktcWhPYVEtYzhxZHRkR3dteEZKdGc4WC1tM0hhd0N5anJWVGhkV19ycTE3STRhbWhhbVZXbkxCelpFeS1jUUtoTFdRQ3EyRHVXUWdpOEFGX01Qd2hGclFwWGQtYnJPTHg4Z3ItVmhuaTdic3Z1RTNZbmQ4eEtwcWNMTklkcHMzRHhBbl8xb1R2VUlIREVadVRCTnpneGN1eWxDR1VfMFFBTHdYSEZoZGo?oc=5",
-   "source": "World Business Outlook",
-   "category": "data_center",
-   "regions": []
-  },
-  {
    "id": "960a671436f11f03",
    "feed": "gnews",
    "date": "2026-11-03T02:20:35Z",
@@ -384,5 +630,5 @@
    "regions": []
   }
  ],
- "generated_at": "2026-11-05T14:26:22Z"
+ "generated_at": "2026-11-06T13:43:57Z"
 }

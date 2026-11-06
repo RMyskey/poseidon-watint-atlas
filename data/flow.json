@@ -303,7 +303,7 @@
      },
      {
       "label": "Texas injection/disposal wells (incl. EOR)",
-      "n": 46970,
+      "n": 46951,
       "src": "rrc",
       "layer": "tx_swd"
      },
@@ -318,5 +318,5 @@
   ],
   "label": "ANALYTIC ASSESSMENT (stage assignment is the atlas's); counts are OBSERVED from each source"
  },
- "generated_at": "2026-11-05T14:26:22Z"
+ "generated_at": "2026-11-06T13:43:57Z"
 }
