@@ -1,6 +1,154 @@
 {
  "items": [
   {
+   "id": "329c0aeb5d267f73",
+   "feed": "gnews",
+   "date": "2026-11-07T11:32:09Z",
+   "title": "Forever chemicals found in water serving 197 million as EPA eyes rollbacks",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVGlsQTJpdmZydEF3cDBQWER1MFZZeUZuX2ZXT0pLZmVvWGFpOVdEaUVUVEtpdEZmZGRkSjNtLXJUUi1lMm5mNlp6Vkw0eGFxdWQyZ21YTms3S0tuYktLamQxdWh0R1BoQWl5N1NGR2RUOUE0NUtEN29JY282bXlDTkR3?oc=5",
+   "source": "WRAL",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "4be8f81441fdbd8d",
+   "feed": "gdelt",
+   "date": "2026-11-07T02:00:00Z",
+   "title": "CU Buffs vs . Arizona State preview : a lead , a drought , a plan",
+   "url": "https://www.timescall.com/2026/11/06/cu-buffs-big-12-road-drought-arizona-state/",
+   "source": "timescall.com",
+   "category": "drought",
+   "regions": [
+    "US other"
+   ]
+  },
+  {
+   "id": "a5c899f9c832fc67",
+   "feed": "gdelt",
+   "date": "2026-11-07T02:00:00Z",
+   "title": "Rain boosts Lake Powell and Lake Mead . Here why drought concerns remain",
+   "url": "https://www.azfamily.com/2026/11/06/rain-boosts-lake-powell-lake-mead-heres-why-drought-concerns-remain/",
+   "source": "azfamily.com",
+   "category": "drought",
+   "regions": []
+  },
+  {
+   "id": "60698cc342f7a3a7",
+   "feed": "gnews",
+   "date": "2026-11-06T23:31:00Z",
+   "title": "Rain boosts Lake Powell and Lake Mead. Here’s why drought concerns remain",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOaGhscDNMV0VQdFVmbVBGT1l6MEpGZmk5R1NCSkJxT2tBTGZYZjBla0N1LXRTb2J0MXk4Y09nTXNXZGFkcjhfSXlwOHpFU01POVRKdk5uakpNX0RaY1pRbFZ2QnZLdXFMSmVjUWE1SzFUZmNJZTN1OHdpYkVKUl9Mdk1pbXJwZkljNGJPNDZPQTJoM2FJZ2d2aHNIQnoySTFpdk8ycHYtd9IBuwFBVV95cUxONkczeWNBREgzME9iZEJHYjFjTDZsY3Q4OGJzRkZad3R3M0pmMDBFZHN4Rm85Q0tJTEU5MnIzMEZ3TDdwNUQ5WnN5UWhSdGs2TG50Mkt1dlZxS2tEemYxcXAyM2JfdEFOTG4yTjRzVk1MX1NYN183dHVYekd2aGRNRTBKd0pZem4tN1lwUGUwdTB5bGlfTThXdGh3UTdIbnE3VTZpMnhBQ1pSXzF6UDMwMURqcEQ0eXJKMnpV?oc=5",
+   "source": "AZ Family",
+   "category": "drought",
+   "regions": []
+  },
+  {
+   "id": "2bdea3cd8b8152cb",
+   "feed": "gnews",
+   "date": "2026-11-06T22:56:55Z",
+   "title": "EPA Launches PFAS TECH Strategy to Spur Innovation in Research and Technology to Address PFAS",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc3VMalQxd3FNcjJUdm1xRE1aUENVWjNPeGxTeG53bDYwODdLdnZkbjVORTZwMldSRm9HemROYVRzMFJwUlUyNjJvam5jQmU4Tm1xejlReVpmUzlVSVpqMEZMT1dEQmpwbDJLZ2pkdEZFdUh3QkRRS2NDNDhtVEVUY3hFNEZySjd3TERQa1l0b3JZUUFXWndoT000QWt0VDlVZF85Rk03aWJOVjRlaUhaYVZn0gG3AUFVX3lxTE9XMkN4OW9DREpQY1RUT0lQMUFidDhFSGozQ09YUENrSU5idncwOElkbGVVZzA4Uk5nZ2lnMXBfUFpCRDdoWFNkWU83LTF0MVRKUG5xaGtuMzJWc3VFT2pMR0xZUWNOZXlZWFpYN1FObHBETUFWTVpDVVVKb3c4bzBzNFh2cDd0QnJhUk82b3FNVjBMTWN6Ml9VOUY4Z0paQy0wS2dQVV9kNmZhOEhLOW04WWVoQmZGZw?oc=5",
+   "source": "The National Law Review",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "e4b96107d0eeeada",
+   "feed": "gnews",
+   "date": "2026-11-06T22:46:49Z",
+   "title": "SpaceXAI started Southaven data center construction without water permits, Mississippi alleges",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQdE1uNllsTVZFNzdxejdCVFg1NXNOdmlsUjlPVUZRVkJGOTBJVkdmNzZrWXMtdDkzNGdPczIzZ3pEUC0tQzFKNW1UdU5iNmZ3LTNFREROUVh2UDhsUFJibmFVdGlPNDFXV2ljZVY5Q2l3b3hoNzlWRVM1TFhwNkVybllUVUZoeVN0bGt5WjVhOVZvTjhSa1Zid1FXdzVlZHBoelFYVkJZSm0yVTdkelhqd2ZtUl9sMzZ5d3F1RUtMZFBnZGtPSGR4Sm1FaEk4bDVrM2djTXNVY2dZcnB3Y0Y2cnIwaHEwbnhZdVJUZ2phalJTTWEyVUpzUVdoMDR5VnVHbTRRYS1SMjFSVGZSMFE?oc=5",
+   "source": "Athens Daily Review",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "9907944c64fd3076",
+   "feed": "gnews",
+   "date": "2026-11-06T21:27:13Z",
+   "title": "DFW’s Fight Between Data Centers and Clean Water",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORWRyVjZxSER2NFFKTnY3dTc5QjNvQ0xHWnROOVJLSC1lRDdsRzZ6S1RHNGxRZDUwSk85UExtcU9NdGV6NmtoX2x0NTd6N3JCUjgxUWNOdUlxSUJuUU5sT0pxMldxanNtTlVxeFZUOHZyY3JvNGhNZDBuQ0x5a2dQeERNSEdsVGxyRHp0amhlRXFoR0VrczVDTjJWWnNyaDlNbTNkSFRB?oc=5",
+   "source": "The Detroit News",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "e861b0567ef07e0a",
+   "feed": "gnews",
+   "date": "2026-11-06T21:15:12Z",
+   "title": "2026 election results: Data center talks shift focus to water use",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNa2NhR3ZpeFlEdFI3SXI5ckkzUTFqRTRqQlphUlE1dGRRRUl3Q21vb3pJTnpMaFdpUGRCMURhTXVzN0dhY3VzY1JKWlhieVloZm5lVkM5SHE5elQ1U3hNaTJyT1lGY3Z4ekduYWNLTGhzaHF4RlJCMV9oT0dSRkNRbmxkekRDeVpXVXllVExJTUcycmg5RlIxSXBrMVJKSGNJbDEwTFRDeUh4bjNCWkxlMWNEYXB1ZjFB?oc=5",
+   "source": "WaterWorld",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "bef7cdea25132532",
+   "feed": "gnews",
+   "date": "2026-11-06T18:13:00Z",
+   "title": "Arizona storms boost Colorado River reservoirs, but drought persists",
+   "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPdjh4TEFrX1FIY0UtQ3Bvb0dCbFpTZTVnallsY2NFeEpLMmVDc2dqZDJXMzNENE45Y2JXc1pZdjRoc2tRZ3ZsS0toUndhb2NYTmR3RUJQdHM1a1RIWVVZamNlelR5Q1JlbFFJaXBPaFlkUmtrRktRdWV0b1hHcTc4RmZCQTR4T1JyQVByTlRNb0RGaUdHeEdrdllTODc0eTZ2TjFtTTdQQWZlaDlkVng3Z0tZWFc4Z2laMENEaGsxY3VkSjNJLThZam9rUUNqM0hJNmRqZ2pSOG01bU1FM1JXZzdyTQ?oc=5",
+   "source": "Havasu News",
+   "category": "drought",
+   "regions": [
+    "US other"
+   ]
+  },
+  {
+   "id": "e50bf2c86e2615e3",
+   "feed": "gnews",
+   "date": "2026-11-06T17:58:16Z",
+   "title": "Melbourne lifts its boil-water notice following water main repairs",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQOTVXLUpJMlRRTjdpSEtOUEowQUZITEdIMmVwc01NUXhjdEhQMTRQdk1vX0s0RzQwTEhGSklmM0ZLMHZrbFZmYUZqY3hoVkFJRE9KTy1rRjNBT0UxTXhMbENZRmhLeXFzTC15SzFYTFk3SFM2ZS1KLXE3eWRVOVV1S25VdEh4RUp4S3FabXhySGE4bzIydEhiMVpoWGxuZUswQWRR?oc=5",
+   "source": "Yahoo",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "f9e7e9ad5f215380",
+   "feed": "gnews",
+   "date": "2026-11-06T17:58:00Z",
+   "title": "Boil water notice issued for parts of Coahoma",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUWE3cFFRN05Ua0k0Tm5xMFNmcUhzN0xjSjczZ0VqZXhEdlJuYWNaRTdwQzhDN29JbVdzU1lSU2pTRGFLanViUzljWlNVYXROaXN1UGN0ZzBER1FUWTNqVmt1MkVXc2RpQ2RSTDJqS0cwbFdaTW5DSjR4d0RZSzRyOVlJQVPSAZgBQVVfeXFMT05HSFlDTFlzXy1IdndHVDAxZTlNTmQxVzhZYm5SSTNCdjdqbHlfUjJySEpnVld6TmE2ekZVekNwS21RZjN5WjQ1X2JiUWo1UU83OXVKRWgxREhQc1llOFNhRjZrOWpCUXhZYktjSVRiSHAxbklfelpIX0RHT1dvR0N1VEFKUFo4cjFXdmtFZVVnYzFxZGc3LVo?oc=5",
+   "source": "CBS7",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "03e0385627b5dc81",
+   "feed": "gnews",
+   "date": "2026-11-06T17:11:00Z",
+   "title": "Boil-water notice issued for certain Killeen streets",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOM1JuWTBxVXZ3dk1HQ0IwdHRFOHdfMlRWSm92c2w0UjFzOTZKMmdHSWVObWRYdFJrR2I0VTdhWTR1N3FyTnp3NG1LU3l4V252NU9pOXFMYlBjYUdCdFlCdU1NUVpudzFnSVVBblhZczNXOVVYZFlWd0lHeVdnQXN5Z254TWZDemc1MTZNMzhlYncxZ1ZoV1pQalY3WTF4NkRsWTlTUXNpMmdDSnNBMUZPcndSYjJVeFhCemd4VEt6WjZvWngyeUxvUkZSWmcxZw?oc=5",
+   "source": "The Killeen Daily Herald",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "20eb4e4b3653ea4b",
+   "feed": "gnews",
+   "date": "2026-11-06T14:16:26Z",
+   "title": "Leaders of powerful energy industry prepare to work with Democrat on Texas Railroad Commission",
+   "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNVUV2SThFaU5ZUHpqMXFUeXVZbW5CS1daTW5QeVBWVlFhQXN6RkJ2dkkwdDhZWDM2cFFTd1o5YUxGWnl0RXJxaGhvMEdvQWI4NW1Xc0V1YmdWenNZSzBsYlpNOG9oQV8yWHFuVGxmYzg0YkNET0J1akJBWFhxdjIwcEdLYzdHS280UlVIZk50bVg3Vmp0MjVJUmpTcUhHRVdud0VLaFRlZW9sQWlKdjVDRkVfOFJkNzNOYzBfRVlQbVVzaEc3UThNY0plM3VDSHRPYWtzS1l0NVRDaFU5Wk9NNnF3ZkNYRVZPZTBZNDFUTnpEOWYteVUzeEFmY3dfOWxhWkdvSU52ZHIzVjNsa0lQajQ2RjB1d9IBlgJBVV95cUxNVUV2SThFaU5ZUHpqMXFUeXVZbW5CS1daTW5QeVBWVlFhQXN6RkJ2dkkwdDhZWDM2cFFTd1o5YUxGWnl0RXJxaGhvMEdvQWI4NW1Xc0V1YmdWenNZSzBsYlpNOG9oQV8yWHFuVGxmYzg0YkNET0J1akJBWFhxdjIwcEdLYzdHS280UlVIZk50bVg3Vmp0MjVJUmpTcUhHRVdud0VLaFRlZW9sQWlKdjVDRkVfOFJkNzNOYzBfRVlQbVVzaEc3UThNY0plM3VDSHRPYWtzS1l0NVRDaFU5Wk9NNnF3ZkNYRVZPZTBZNDFUTnpEOWYteVUzeEFmY3dfOWxhWkdvSU52ZHIzVjNsa0lQajQ2RjB1dw?oc=5",
+   "source": "Houston Public Media",
+   "category": "regulatory",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
+   "id": "6d408ad6af024c05",
+   "feed": "gnews",
+   "date": "2026-11-06T13:40:11Z",
+   "title": "Portion of Summerville under boil water advisory, city says",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNQ1BwZ2ZHcGZzWEZKbWtuVUsxVUFBZHRXMWR3Y0hPaUxIaEx5RTlwcS1EY2V1NVh1eG9HVWI3aUZRNDhPdERKN3B5Z256WjhzREhqdGI4R0tiUDNFdzRFZzAyeEp5R0RmckpnQ052Qm4zUll5c0dqcENCbms2OHhHLUw5dDJWa1hFOE41b0drOVNjby1nbEplbw?oc=5",
+   "source": "Houston Herald • Houston, MO",
+   "category": "contamination",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
    "id": "a931886b68befce2",
    "feed": "gnews",
    "date": "2026-11-06T13:27:08Z",
@@ -13,18 +161,6 @@
    ]
   },
   {
-   "id": "bc9f66eb760d3e26",
-   "feed": "gdelt",
-   "date": "2026-11-06T12:30:00Z",
-   "title": "Leaders of powerful energy industry prepare to work with Democrat on Texas Railroad Commission",
-   "url": "https://www.gilmermirror.com/2026/11/06/leaders-of-powerful-energy-industry-prepare-to-work-with-democrat-on-texas-railroad-commission/",
-   "source": "gilmermirror.com",
-   "category": "regulatory",
-   "regions": [
-    "Texas"
-   ]
-  },
-  {
    "id": "51968af2cb208825",
    "feed": "gnews",
    "date": "2026-11-06T12:13:33Z",
@@ -33,6 +169,18 @@
    "source": "shattered.io",
    "category": "data_center",
    "regions": []
+  },
+  {
+   "id": "83db37f9555c09bb",
+   "feed": "gnews",
+   "date": "2026-11-06T11:00:00Z",
+   "title": "Texas oil industry welcomes Railroad Commissioner Jon Rosenthal",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcWdYVkpVQVRWSEhNbTdDaHJaZjlTNFQ2azg1QzFyOUMteFpJZGRDNUV6VVNOYi0ydTNTVlJ2UkpCWW8yR2NCajBEQ1BkZHRUSnBuc0E3bmg0UW9Ua3l5RDNkUFhzeUpUR1FIRVRjN08xMVdaUklIM1pZWXhodi10MjBWMDdqS2t1N0ZBYjVuU3pTenh3M1Q4UWtub0NSc2xsQXc2X0Zn?oc=5",
+   "source": "The Texas Tribune",
+   "category": "regulatory",
+   "regions": [
+    "Texas"
+   ]
   },
   {
    "id": "280ab973040eb3fb",
@@ -65,6 +213,16 @@
    "regions": []
   },
   {
+   "id": "f0155ebbfc7b6c70",
+   "feed": "gnews",
+   "date": "2026-11-06T08:23:41Z",
+   "title": "2026 State AG Elections: What Businesses Should Expect From State Enforcement in 2027",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNMWFFY01aVXNrYnpWM19PS3h2WTQtcEh0SDFjSFlURGdJSElkYVlZY1lNaEQyU2RpY3hFUjBhQlotVG1uSHVKY2FsSFpNbmltNlRJeTdncXh5R3VmaFNPakdDLThSZS0yMUlvOXktM0VoeDYxS2dMaHF5VnkzMnJSWm43QTBBUWJNemxrbENXN0RtRVlvc2ZIdkhQWnJZSWpGQWdEY0Z6U21WOFRxa25GWFlXZDVtNERR?oc=5",
+   "source": "Crowell & Moring LLP",
+   "category": "regulatory",
+   "regions": []
+  },
+  {
    "id": "10150d608f66d311",
    "feed": "gdelt",
    "date": "2026-11-06T07:15:00Z",
@@ -75,14 +233,16 @@
    "regions": []
   },
   {
-   "id": "2829bd0b6d711597",
+   "id": "885a6c027b36adf8",
    "feed": "gnews",
-   "date": "2026-11-06T05:42:00Z",
-   "title": "DFW’s Fight Between Data Centers and Clean Water",
-   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOQ3hyYl9Wd1NNeWZONHBTVlF4UVB1OEZoNDY1alJXSU42Zm1GMENoTjdzaS1rQmpZX0NZSy1BV2lENDcyR3Qxcnl3XzJvOGxtR3ROcVVlekluVDZkc25YZlR2S29hRWpXUUhCSGxiTlduRzYweFUwZW05NjlXemNOZFJQTWNLTmNDd3pjdWtCLUJ3OUl3?oc=5",
-   "source": "EIN News",
-   "category": "data_center",
-   "regions": []
+   "date": "2026-11-06T01:22:32Z",
+   "title": "Neuralix Applies AI and Operational Intelligence to Produced Water Operations in the Permian Basin",
+   "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRHJ2ZVF5MHltN1ZiaGVDOHdKRUsxcTQwUjVlM2U3UmN0SVRLaFpKSVpTVzRhZjRjazBVbmFHNkpMMC1sR3I4M1pKWG9MTjVSTHp4b2cxNmtuMzBKNGE1VUc0NVNZU1dTYXV6UDZ5QURibHRSVDlCNnkzTUNkX1lmYVhCLTAxLUJPdXQ0X3J5QndONzlRaHV4OUYwWjdSZDc5eURlcklIUDlEZEJ0djhpVW4xUTY?oc=5",
+   "source": "The National Law Review",
+   "category": "produced_water",
+   "regions": [
+    "Texas"
+   ]
   },
   {
    "id": "7ac6d3fc1d03fabb",
@@ -135,6 +295,18 @@
    "regions": []
   },
   {
+   "id": "17f1e2c04cca2f57",
+   "feed": "gnews",
+   "date": "2026-11-05T18:06:02Z",
+   "title": "Historic Texas Election Signals Changes in Environmental Regulation, Permitting, Enforcement, and Judicial Review",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTWhXOV9ySUtVbmM5SU1IU08ydGpnekktLW5rLW91SVh0M1FHZFVWYnQtMmJwMDU5S2duaHZCQ0ZtVVpPM19tX2dQOERvMXZ6UllyYjJNM0pZU2tIbndtNWlELUNZeWtyY0UtNVNZdjBBMGw3eHpOTW5pMFhLRXlwWExUMldabFJZY0E?oc=5",
+   "source": "JD Supra",
+   "category": "regulatory",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
    "id": "1229bff076f4a677",
    "feed": "gnews",
    "date": "2026-11-05T18:04:30Z",
@@ -145,15 +317,25 @@
    "regions": []
   },
   {
-   "id": "1d70751325bb6adb",
+   "id": "76b3889470b9e0f0",
    "feed": "gnews",
-   "date": "2026-11-05T15:51:09Z",
-   "title": "Historic Texas Election Signals Changes in Environmental Regulation, Permitting, Enforcement, and Judicial Review",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVEx1cXFUME55V2NYTzh4eG1SMWlYMHA5elpWRC1nZE81R1FWWEZOVTh0RkhTVlgybWVlNTRxQnBJbXB4VmZxdnlxUS04TWVpVWFjN1FIRDBNZXhiMjctUHQ0R0FSOHFKTExLOExPbE5hclVnZGpTVjRHM1Bpd0FNV2dxdkFmQWdtS0ZURlotT1pmd29GTnhMRHZ3UU5rT2pwMXFpYVA5cFItQkVob0FMNVFB0gGyAUFVX3lxTE5UTHVxcVQwTnlXY1hPOHh4bVIxaVgwcDl6WlZELWdkTzVHUVZYRk5VOHRGSFNWWDJtZWU1NHFCcEltcHhWZnF2eXFRLThNZWlVYWM3UUhEME1leGIyNy1QdDRHQVI4cUpMTEs4TE9sTmFyVWdkalNWNEczUGl3QU1XZ3F2QWZBZ21LRlRGWi1PWmZ3b0ZOeExEdndRTmtPanAxcWlhUDlwUi1CRWhvQUw1UUE?oc=5",
-   "source": "The National Law Review",
-   "category": "regulatory",
+   "date": "2026-11-05T16:31:18Z",
+   "title": "City of Howardwick boil water notice lifted – KAMR",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSVFJWVZ3WFJURHVUQVNUOU8yaGtmRl9McUFGcW9LUnJFdnJFX1dfYUxkci1rRWpaSUhBVW56RlVJcUJ6eEpqNVlicVZkdDkwSjgwanRwMUpVcmY4eWtxejhQSWdmU2VVQWZReWZhdHVRZ19TODdWNVV1WFRINW13ZnpVVW8yV21lYWNVb2lwM0xiUQ?oc=5",
+   "source": "MyHighPlains.com",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "f53b3c889ed0840d",
+   "feed": "gnews",
+   "date": "2026-11-05T15:39:21Z",
+   "title": "Beltway Banter | What’s Changing in Federal PFAS Regulations? 3 US EPA Developments to Watch",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcG54UWx3VG5wYkUtaDljU21tTVFZRzZEZjY0bXpiNnhRWVNsTVVtXzZuRmNUbEVJazg5NUphTm4yanRQLWFjSVpJSnZKV1o1WHdhdnF6a2J1MzM1Z2ptOW5wYmxhZnB5R1lsM0JFZDREeEhQaHRwSDFqdGFtV0Y3X3RhclRqclE2dE15S2hINkVRVkdKTFpsc2xHQ0hHQUR4TDZxLVE4anVKaG1weEctamxGdWQ3RzF3MG9rVzc4ZTc4MVBJ?oc=5",
+   "source": "Hunton Andrews Kurth LLP",
+   "category": "contamination",
    "regions": [
-    "Texas"
+    "US other"
    ]
   },
   {
@@ -630,5 +812,5 @@
    "regions": []
   }
  ],
- "generated_at": "2026-11-06T13:43:57Z"
+ "generated_at": "2026-11-07T12:18:54Z"
 }
