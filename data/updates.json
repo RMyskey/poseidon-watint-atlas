@@ -1,13 +1,129 @@
 {
  "items": [
   {
-   "id": "329c0aeb5d267f73",
+   "id": "def81e03d086b5db",
    "feed": "gnews",
-   "date": "2026-11-07T11:32:09Z",
-   "title": "Forever chemicals found in water serving 197 million as EPA eyes rollbacks",
-   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVGlsQTJpdmZydEF3cDBQWER1MFZZeUZuX2ZXT0pLZmVvWGFpOVdEaUVUVEtpdEZmZGRkSjNtLXJUUi1lMm5mNlp6Vkw0eGFxdWQyZ21YTms3S0tuYktLamQxdWh0R1BoQWl5N1NGR2RUOUE0NUtEN29JY282bXlDTkR3?oc=5",
-   "source": "WRAL",
+   "date": "2026-11-08T11:04:33Z",
+   "title": "What data centers need to consider when storing produced water",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZG53dDM3RFdfdFRJTngtSzg0aXhjbUktdGJGWURydmx0bWRCSXBNRzJUMDlWcUM5aVBXc1BKeFFYOFlRLVViTkpsNDVERW9kYTctczNmSGxjTFhrN2hUUmk0VUlLZFJmQ1ZsamUwdWFIY0JrV01uY1RUVmJLbUdoUmdRNFFuREpScG1QUzRNOFY4NDhNQVg3cFBrX1VoaWRQUThjWWRmTG1tVV9xd2lF?oc=5",
+   "source": "Data Center Dynamics",
+   "category": "produced_water",
+   "regions": []
+  },
+  {
+   "id": "6d164f598bc8ac31",
+   "feed": "gnews",
+   "date": "2026-11-08T10:58:53Z",
+   "title": "Data Centers Face Growing Backlash in Southeast Asia Amid Water Shortages and Protests",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0xWk0yZlVkM2VqOUFVY1l1SW5fTzQ3aTFkRHVfMHdMMFNwVnh4X0U0UWpxMVRhVFNMcEwtOGQtd3hGMDZFd1FiNXRiVHNSNmVQeVNrQS1uOVFzbmpfdFpHaVJORHc4TTR5STVFbVNB?oc=5",
+   "source": "news.sbs.co.kr",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "6d330c23233eb8cf",
+   "feed": "gnews",
+   "date": "2026-11-08T09:08:47Z",
+   "title": "Batam Residents Protest Data Centers as Water Outages Disrupt Daily Life",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQSXp5eE00OUpJeWl1cWhWN1RmZE5DYWVVc05jc1Bxd0FZYTJ4VGZJVmRsWUlNbTgyR3JBbU9pcFV5Tkkydm1valR1SWNiSnZYaERDWHloOGc5czhSNlV6MEIyX1Bwc2hyQjY0ekdWNmRrcWFuampJdUF1U0RDaTk5WE9vWnF3dEpycFQ2SG1MSU1ucVE?oc=5",
+   "source": "JournalArta",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "ba4b9c3159acdb2a",
+   "feed": "gnews",
+   "date": "2026-11-08T08:59:16Z",
+   "title": "US agriculture industry at risk as drought conditions worsen - ABC News",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbU5uWFE2alliSG4ycGdMOE5ZUlNYRndxelBzbG52UlRJNm1HelNkbGNHSW5RTXR1MTBuVWEza0RNMklNazRhbjNadVJjY1VibmUxS29adndiTWZPWlRwYmEySnlmMnphWm12bUZzLThtellZcmhac2NiN1ZteURJU3lDaGhXaFZXSzlkZjdjeS1pZlhDTTRWajhIS0jSAaIBQVVfeXFMUDg0VFZkaTd2d2trTzF1cjFuRlNSVTJtUFd6a3Q1WFVUNnc1QkFFeUxVX3N5YjlQeUZPSmtaVnBTeXFCbWoyYnV0SW5XbldNWDU2OW0yVHR4d19yLWdBVllrMWpKcmFRRnlMZlFNVWMyN091bnRqVjZhQTg2MFR3X0tJbFlMM25JaDY0c3hQS2VjLUV5dURfN1F4bk5aU3JtZ25R?oc=5",
+   "source": "ABC News - Breaking News, Latest News and Videos",
+   "category": "drought",
+   "regions": [
+    "US other"
+   ]
+  },
+  {
+   "id": "e0f3feb71428a962",
+   "feed": "gnews",
+   "date": "2026-11-08T07:03:38Z",
+   "title": "Bastrop Water Control: 'perfect storm' caused boil water notice",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUjBjb2JyWFVqX1JQblRIUVlhU05HOHlkSTExeEJDZXgtcFZ6SEFZWnhMNHdvcC1fSHpzS3BGaU9pTjV4VlpfRUtyZlpQY00zRzA2ZXJpWkI4V3djNnZWaXhvWXJ3VVhhak5sTGZlZkZiMG9qd0tBZTVKTHJEQ2xhVklldWpfemtpbzNFeXY4SERGZXM5WldqUFRQQUgxZnFSLXV1Ul94OGJoclE2SkE?oc=5",
+   "source": "KEYE",
    "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "a176ce7075f1828e",
+   "feed": "gnews",
+   "date": "2026-11-08T02:16:00Z",
+   "title": "Brenham boil water notice remains in effect after water main break",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNSTliZHRWMnNnQy02U2UwMDJkM0hIM1lWaVVsZDhBQzRXVnhvYmVaOXZKenpxb1dqclBBbllSZGtFdnFWYkVQbGt6N2pjZWwwN052QXRjdUR3UmEwV1dUcFdjZURNX2dLNGtNXzZhTDlZYUhGNXpIZkdYQTBfbFBtYklZR2poVkM1Qkl2MjdDclNIMTFNN1RwUnFyTVjSAbABQVVfeXFMUHJmcFVmUDd0UXlBU2NwVjVkTXlqMTJXMmdST3ZxSDdDOEs3WlhzSHlNWkt0c3dzU2JWQXdDSWpwNS1aZ1U4RDlSOUlJX1hsZGdobC15VWc1R0FUVXM2NW5RRXlYQW5fdlBiZFZPWWlKNGVvN3dXUW5UanE0T3MxYUw2X0VybE0zVmJKbU01bWxwSzVUVHFyaU1oRTE3MkNhUldTd1FwNlBWN3A5WGR4QzY?oc=5",
+   "source": "KBTX News 3",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "5dae062abf0a1738",
+   "feed": "gnews",
+   "date": "2026-11-08T01:35:12Z",
+   "title": "Brenham, Texas, Boil-Water Notice Remains in Effect After Water Service Restored",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNcmFxX2FDckpoUXk4RWJvTjFZQXA3a2liZUNpa08wVnpKOUJvZEtJTEhxSHdLeUNkNVRxNmZSa3ZGbGN2RTF5OU4zdXdUOWhaVzJRMktEcVBiT09IcXppVkxpakhWNjVlTlJDVjdMaXdkc0ZfX19hNERMWFYyUUZpOGwxRTRyQTZFQzJVUFZEOTlyWGNLeFl1OUZPVHNCOS1aaXg4WGVTdFJuNXVBaDlNcV9ha0luWlcyWmtz?oc=5",
+   "source": "cedarnews.net",
+   "category": "contamination",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
+   "id": "a39309df31eb470a",
+   "feed": "gnews",
+   "date": "2026-11-08T00:56:38Z",
+   "title": "Brenham under boil-water notice after water main leak, city says",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRkNkMk5SU1R6eXNCS2t1di1Mek9ReXBKNV9YN21RcG5XcF9xQkFydENTQll5Um9HbzRqM3dLdjJFeUxZQms5NFBrY0QtUDlRWjl1aUEwVV9yaDdjV0kzLWxPWXhYSm5oNDZuOGJQdkg3ZzQyengweTFJMzdQUklSeHN2RG9YZDRMNy1ldl9FZFJCNTNVdWZHYmNKYURTWTVyUTdoOWpabWRDa3ZNT3M1UjNueFROOE5NakRxaFV1aW1WNE04?oc=5",
+   "source": "KHOU",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "44b2afb1e14f5485",
+   "feed": "gnews",
+   "date": "2026-11-08T00:34:15Z",
+   "title": "Brenham issues boil-water notice for all city residents",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRGtidk52dkRaalJfOG1SNFJ0c0IzM1FwRmQ5eXFFNW45MERxcmNCTzZvSVk4TFd0QTVRamdxR2VIbzdZS2YzcjJvcEtRRlJUZ1h0MWE2b3ZnNmJMMGlLWEVEWHduNFM5elRmbmpGU2Q0Y2kybFA5RDRmV0E0S1FjQm5vWHpNUDl4LXQwbGV2eWRJck5BR2hGeFNSYlBsMEZ4bHdud3Eta0Q4Z1Z3?oc=5",
+   "source": "Click2Houston",
+   "category": "contamination",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
+   "id": "738116fe4645692b",
+   "feed": "gnews",
+   "date": "2026-11-07T19:10:27Z",
+   "title": "Starbucks Lawsuit Chemicals 2026: What You Need to Know",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE91VWNrSmktWjhtUGlfdjE3SW1TcGVnY19zX1U2Qm1IWE9EU0FvdTVXclEzWmVxalJDYnM2VXJraldNSUsxSXZZUHpzU1Ntdk9lWHJYWjh0TmVSYUh5?oc=5",
+   "source": "LawFold.com",
+   "category": "regulatory",
+   "regions": []
+  },
+  {
+   "id": "d90638c653e82dec",
+   "feed": "gnews",
+   "date": "2026-11-07T16:45:06Z",
+   "title": "EPA's New Database Tool And Grant Funding Drive Agency-Wide Push To Destroy PFAS Contamination",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOWJKMWd1X0phUnNIbERZNmZQX2Z0RDFyLVRLTlJ5Wm9maXdYbm1ia21PVDN1U1lsVUtxSlFtLVFvWWk2NkhEY19JT3MwbTdhX0Z2emtaVVhQU0h2UkJjOXNUYXBSZWpYbEVpLWtLRUtXZ3RXR1lyY0pnVWN6RXlwa0ZKWTRyRGlnVXVtQjBXVU9GMF9QTjRtakxSenhQeXgzOTVXX1NvLXZPTVdWNE54cnU5NjJKQzBOc3l0anplaw?oc=5",
+   "source": "London Insider",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "410b2a8c06c8be14",
+   "feed": "gnews",
+   "date": "2026-11-07T06:34:16Z",
+   "title": "FEMA says it's providing water trailers to Puerto Rico amid water crisis - ABC News",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQUoySU8zSkk2VGJ2SVpYWWZsSHZRVXdjcEd3V1dnamFFVWprdWFsSU90bWV3ODctdUVuZkVyWXRYTUloMWNteHhUNVF5UW53M2oyeHhyZ29pMjVpcTBSQnlhRzhxWEwxNkJEQ0NzZ2xHUzl1anFWcHFoMEd2ZGE1a2ZlbkZPUnI3dktIT3VKa0ZUamo5aDJZNFVOZThlUmJ5Q1HSAacBQVVfeXFMTmVWemJMNFJvVVRNWkNybDlwb3o5V0V3VU12ZFN1WkhKdmdtY3dnUDN6SFJ2RWFzSC1GRDNQNHVMbXFIdlFSUVJRVE9JYnFQV21WZHJnbTNIUkw4RVVvd3k4REZTU3hLZTdPa2hyYUttSENHZFZNMHpnbHhLU1ZWSUpFUm8zeHZINDZpSy1SdzBSWjV4dzVJZXZOUmxLQldqcFFmY09wLXc?oc=5",
+   "source": "ABC News - Breaking News, Latest News and Videos",
+   "category": "drought",
    "regions": []
   },
   {
@@ -43,6 +159,16 @@
    "regions": []
   },
   {
+   "id": "329c0aeb5d267f73",
+   "feed": "gnews",
+   "date": "2026-11-06T23:26:52Z",
+   "title": "Forever chemicals found in water serving 197 million as EPA eyes rollbacks",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVGlsQTJpdmZydEF3cDBQWER1MFZZeUZuX2ZXT0pLZmVvWGFpOVdEaUVUVEtpdEZmZGRkSjNtLXJUUi1lMm5mNlp6Vkw0eGFxdWQyZ21YTms3S0tuYktLamQxdWh0R1BoQWl5N1NGR2RUOUE0NUtEN29JY282bXlDTkR3?oc=5",
+   "source": "WRAL",
+   "category": "contamination",
+   "regions": []
+  },
+  {
    "id": "2bdea3cd8b8152cb",
    "feed": "gnews",
    "date": "2026-11-06T22:56:55Z",
@@ -63,16 +189,6 @@
    "regions": []
   },
   {
-   "id": "9907944c64fd3076",
-   "feed": "gnews",
-   "date": "2026-11-06T21:27:13Z",
-   "title": "DFW’s Fight Between Data Centers and Clean Water",
-   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORWRyVjZxSER2NFFKTnY3dTc5QjNvQ0xHWnROOVJLSC1lRDdsRzZ6S1RHNGxRZDUwSk85UExtcU9NdGV6NmtoX2x0NTd6N3JCUjgxUWNOdUlxSUJuUU5sT0pxMldxanNtTlVxeFZUOHZyY3JvNGhNZDBuQ0x5a2dQeERNSEdsVGxyRHp0amhlRXFoR0VrczVDTjJWWnNyaDlNbTNkSFRB?oc=5",
-   "source": "The Detroit News",
-   "category": "data_center",
-   "regions": []
-  },
-  {
    "id": "e861b0567ef07e0a",
    "feed": "gnews",
    "date": "2026-11-06T21:15:12Z",
@@ -80,6 +196,26 @@
    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNa2NhR3ZpeFlEdFI3SXI5ckkzUTFqRTRqQlphUlE1dGRRRUl3Q21vb3pJTnpMaFdpUGRCMURhTXVzN0dhY3VzY1JKWlhieVloZm5lVkM5SHE5elQ1U3hNaTJyT1lGY3Z4ekduYWNLTGhzaHF4RlJCMV9oT0dSRkNRbmxkekRDeVpXVXllVExJTUcycmg5RlIxSXBrMVJKSGNJbDEwTFRDeUh4bjNCWkxlMWNEYXB1ZjFB?oc=5",
    "source": "WaterWorld",
    "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "cbe9feb8db9afe92",
+   "feed": "gnews",
+   "date": "2026-11-06T19:38:27Z",
+   "title": "DFW’s Fight Between Data Centers and Clean Water",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMnV6c1lKOW1kU2RPRk81eVRHY3JUcDVnNmt0Y1d4VnBwdk5XQU81ZHNoTTNnUkxEMzJhYmQzYTZPVmFSQWhHZkUtS3FvRUlZelZlVnNvVFI1MTlFcnA5SS1sTHdEX3c2U01BUmRjT2tUYzhNT0Ezb0I0cXk1dDVfbXpBQklndVFnUU1LeVlRc2gzZ3YyRG1BVG8xSkdjM2p6NlE?oc=5",
+   "source": "The Columbus Dispatch",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "4784f11168805595",
+   "feed": "gnews",
+   "date": "2026-11-06T18:23:00Z",
+   "title": "3M’s PFAS Deal Promises Cash, But Not Clean Water, For Wisconsin Families",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQYVhpXzdVakJUNG9FV1kwZWVIWTZWejlGbF83ZmlTRUhhMlVhNVZQU015VVUwWlBwTkVqUlZ4cjN0cTI1RlRXckZpdDhYWnJDTzF4eTVRb2Zybk8zTEtGUzdYRVNEOUZ0TVVqUGN2bHpMNTJvNVBLbjVIMWRXWGhnVW9mcy1SbVFMRkkyNXBxalJyVDhrTDU2THpmb2dwZDM5Z2JUNzk3SHZta2lFS0E?oc=5",
+   "source": "Urban Milwaukee",
+   "category": "contamination",
    "regions": []
   },
   {
@@ -115,6 +251,16 @@
    "regions": []
   },
   {
+   "id": "51968af2cb208825",
+   "feed": "gnews",
+   "date": "2026-11-06T17:27:24Z",
+   "title": "Data Center Water Use: 17B Gallons, Hard to Track [2026]",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSVRzUTA4RS0xVnpaLVFyN2huVmpoQlZRVnhHZXpUbVVYUldiX1hncm16UWNQYWtaYnM3T3FQazEwdi0xX1lTd0dsMC1xMXZqY0VSQVBCbHo0Yl8zQ0RtbVVfQU1za0hOX0xwOUJVQkZYcjRUdGd0NlRXdU5lcVM4NFpYT0lISFNTdE5HYg?oc=5",
+   "source": "shattered.io",
+   "category": "data_center",
+   "regions": []
+  },
+  {
    "id": "03e0385627b5dc81",
    "feed": "gnews",
    "date": "2026-11-06T17:11:00Z",
@@ -125,11 +271,31 @@
    "regions": []
   },
   {
-   "id": "20eb4e4b3653ea4b",
+   "id": "23e3f23370a64f0c",
+   "feed": "gnews",
+   "date": "2026-11-06T15:42:15Z",
+   "title": "Meta’s $1.5 billion Huntsville data center draws local talent, keeps power and water commitments on track",
+   "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZ2c3dUZGYTVQbDZsaXFSTjlCOG5oU3Zfa0JkbENlYTF2eUduZl81Qzg2RVhBbFJCOFlmcHIxTVE5UWV2cWVrbW54eEJTTzlPeG90SGdNdWJnQUcwS3FES0gyb1ZqQzhkUmk0cXZ3QzdEWUY2Uy1fS2dPcEFuVVBxOXRJYzZoSHExSWt5NFRqRm5mZkZLbHM0cGlNNjV3bzVWNTJaZXpSbkJjTTRHTTFObkoxTlotaksxRDNWZmRrZkFYczV5ZzhuakdzdjI?oc=5",
+   "source": "Yellowhammer News",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "517201072e302544",
+   "feed": "gnews",
+   "date": "2026-11-06T15:09:00Z",
+   "title": "3M settles PFAS cancer lawsuits for $7.3B. How it's touched Fall River",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaktwVXBfSEl0VEdKOW9Ka2kwV0dLNXB1eUtEWEtWUmxaQnFhVUNXMlhoWHlIN3p5aDNNVUFUSGpWYURJTzVkRnAtV0k3bXRMVjBIekJGUmpYY09GNjByWnRiWG8wdGM4Q1piQkprR0QxaUJlNm5Zc05DejBQQUVGZHZGQVhwalV3Z1dWZElWa3ZEX1FQU2pNQVRsb1FTM2tDX3Q0ZzBlMldaUGFZLU84emhZaW1zSm1uWHc?oc=5",
+   "source": "Fall River Herald News",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "b31a7db20cfd097d",
    "feed": "gnews",
    "date": "2026-11-06T14:16:26Z",
    "title": "Leaders of powerful energy industry prepare to work with Democrat on Texas Railroad Commission",
-   "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxNVUV2SThFaU5ZUHpqMXFUeXVZbW5CS1daTW5QeVBWVlFhQXN6RkJ2dkkwdDhZWDM2cFFTd1o5YUxGWnl0RXJxaGhvMEdvQWI4NW1Xc0V1YmdWenNZSzBsYlpNOG9oQV8yWHFuVGxmYzg0YkNET0J1akJBWFhxdjIwcEdLYzdHS280UlVIZk50bVg3Vmp0MjVJUmpTcUhHRVdud0VLaFRlZW9sQWlKdjVDRkVfOFJkNzNOYzBfRVlQbVVzaEc3UThNY0plM3VDSHRPYWtzS1l0NVRDaFU5Wk9NNnF3ZkNYRVZPZTBZNDFUTnpEOWYteVUzeEFmY3dfOWxhWkdvSU52ZHIzVjNsa0lQajQ2RjB1d9IBlgJBVV95cUxNVUV2SThFaU5ZUHpqMXFUeXVZbW5CS1daTW5QeVBWVlFhQXN6RkJ2dkkwdDhZWDM2cFFTd1o5YUxGWnl0RXJxaGhvMEdvQWI4NW1Xc0V1YmdWenNZSzBsYlpNOG9oQV8yWHFuVGxmYzg0YkNET0J1akJBWFhxdjIwcEdLYzdHS280UlVIZk50bVg3Vmp0MjVJUmpTcUhHRVdud0VLaFRlZW9sQWlKdjVDRkVfOFJkNzNOYzBfRVlQbVVzaEc3UThNY0plM3VDSHRPYWtzS1l0NVRDaFU5Wk9NNnF3ZkNYRVZPZTBZNDFUTnpEOWYteVUzeEFmY3dfOWxhWkdvSU52ZHIzVjNsa0lQajQ2RjB1dw?oc=5",
+   "url": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOWmg1dTF5dV9fYzExN3A3MFFZS2sxT20zLVpTZmJOM3k2OVAyX0k5SU10bm9HRVY5VFZEM3JRVTd1RnkxazNIQmhpblRGcmtoNUZPWnhQcTZ1S3NONU1YOGx6VWVGbW92bjVHbEVKSmtkOVQ2U0JIbEdDTnJudDVpdF9NX3g4ek5RUkxPb3NTeG9wY0VMMkc2ZkxyMzJsdFFMQ28yNjJGUTlfRHlxak1mZFFmdWVWcEtyRkNDX3F3YUppQlVoSE1VWGQxX2I2bmtqUUdtYnpBQ1FpMkpQdVNSaGh1ZjRmaU40QnFteTN2emQ5bDVZUU5uVkVyeWhhOW9aZUxyWG5wekNURWw5dnfSAZYCQVVfeXFMTVVFdkk4RWlOWVB6ajFxVHl1WW1uQktXWk1uUHlQVlZRYUFzekZCdnZJMHQ4WVgzNnBRU3daOWFMRlp5dEVycWhobzBHb0FiODVtV3NFdWJnVnpzWUswbGJaTThvaEFfMlhxblRsZmM4NGJDRE9CdWpCQVhYcXYyMHBHS2M3R0tvNFJVSGZOdG1YN1ZqdDI1SVJqU3FIR0VXbndFS2hUZWVvbEFpSnY1Q0ZFXzhSZDczTmMwX0VZUG1Vc2hHN1E4TWNKZTN1Q0h0T2Frc0tZdDVUQ2hVOVpPTTZxd2ZDWEVWT2UwWTQxVE56RDlmLXlVM3hBZmN3XzlsYVpHb0lOdmRyM1YzbGtJUGo0NkYwdXc?oc=5",
    "source": "Houston Public Media",
    "category": "regulatory",
    "regions": [
@@ -161,16 +327,6 @@
    ]
   },
   {
-   "id": "51968af2cb208825",
-   "feed": "gnews",
-   "date": "2026-11-06T12:13:33Z",
-   "title": "Data Center Water Use: 17B Gallons, Hard to Track [2026]",
-   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSVRzUTA4RS0xVnpaLVFyN2huVmpoQlZRVnhHZXpUbVVYUldiX1hncm16UWNQYWtaYnM3T3FQazEwdi0xX1lTd0dsMC1xMXZqY0VSQVBCbHo0Yl8zQ0RtbVVfQU1za0hOX0xwOUJVQkZYcjRUdGd0NlRXdU5lcVM4NFpYT0lISFNTdE5HYg?oc=5",
-   "source": "shattered.io",
-   "category": "data_center",
-   "regions": []
-  },
-  {
    "id": "83db37f9555c09bb",
    "feed": "gnews",
    "date": "2026-11-06T11:00:00Z",
@@ -200,16 +356,6 @@
    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUVBqNm5ial9zREtKQ0dMZzJzbEw2ek4yTUI2SE5BZWdyMDlQLU1ZMTFqdXBMdkRFempVMlpMY1kzejNnOUM5X2p1QmVlU3RiaEh4cW1Tbm83SnpuWE1rQVZuWTE1QnpWMWl6SV9tMUwtMmtVcXY1T0xOUl9oeURsTzlTenBpbzNCQjY3ZVVFMGZ4ZURuUkQ5MDJpZWxyenA5aVRESGZ3bEhmU01mVXAyc01oZnFVOFI3QWhJV2dDYTB2YnNUakJpMDB0QlDSAcwBQVVfeXFMUFFQajZuYmpfc0RLSkNHTGcyc2xMNnpOMk1CNkhOQWVncjA5UC1NWTExanVwTHZERXpqVTJaTGNZM3ozZzlDOV9qdUJlZVN0YmhIeHFtU25vN0p6blhNa0FWblkxNUJ6VjFpeklfbTFMLTJrVXF2NU9MTlJfaHlEbE85U3pwaW8zQkI2N2VVRTBmeGVEblJEOTAyaWVscnpwOWlUREhmd2xIZlNNZlVwMnNNaGZxVThSN0FoSVdnQ2EwdmJzVGpCaTAwdEJQ?oc=5",
    "source": "Artificial Intelligence News & Cryptocurrency News: Latest Trends | Analytics Insight",
    "category": "data_center",
-   "regions": []
-  },
-  {
-   "id": "517201072e302544",
-   "feed": "gnews",
-   "date": "2026-11-06T09:03:00Z",
-   "title": "3M settles PFAS cancer lawsuits for $7.3B. How it's touched Fall River",
-   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQaktwVXBfSEl0VEdKOW9Ka2kwV0dLNXB1eUtEWEtWUmxaQnFhVUNXMlhoWHlIN3p5aDNNVUFUSGpWYURJTzVkRnAtV0k3bXRMVjBIekJGUmpYY09GNjByWnRiWG8wdGM4Q1piQkprR0QxaUJlNm5Zc05DejBQQUVGZHZGQVhwalV3Z1dWZElWa3ZEX1FQU2pNQVRsb1FTM2tDX3Q0ZzBlMldaUGFZLU84emhZaW1zSm1uWHc?oc=5",
-   "source": "Fall River Herald News",
-   "category": "contamination",
    "regions": []
   },
   {
@@ -812,5 +958,5 @@
    "regions": []
   }
  ],
- "generated_at": "2026-11-07T12:18:54Z"
+ "generated_at": "2026-11-08T12:38:55Z"
 }
