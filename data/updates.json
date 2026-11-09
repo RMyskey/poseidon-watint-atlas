@@ -1,6 +1,116 @@
 {
  "items": [
   {
+   "id": "4a38a5ff7f19eb18",
+   "feed": "gnews",
+   "date": "2026-11-09T14:32:33Z",
+   "title": "1 in 4 data centers run in areas with stressed water supply, study finds",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbTNpdW9fT2plc2o1NjA3X0cydkozVHJyaHQxR2NGeWgwZHlxeFNaTW9DcVNVMUhkMW9XZ2RMQkdweFY5amMxaVVFcUUyLUFMaTU5YVZBRERpdVAzb3VVeXZIX0pfUGxXTkpxbURKZmhDVVZZT195ZF9meEFPV3BIcldzb1NOaktBTkNDckFuVkF3VU9jSlJ3RU9XdVJTSW1nNUhCRHVNRU9rXzBPQzV6R3VMaUdVWVljbjlXY0l6cnA1cmVacW9v?oc=5",
+   "source": "The Washington Post",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "873e8f3226b087c6",
+   "feed": "gnews",
+   "date": "2026-11-09T14:30:33Z",
+   "title": "Something’s Brewing: PFAS Class Actions Reach Food, Beverage and Alcohol Companies",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTmxGYkJNLUxzOUFlNUpFNFFtNEJsU2YxUGl1aVVZdVVnOFVqbk9La19TR0NueUE3MUVZY0h5SjBDcVpPRWN1azllQ3F6MjlMdDRSYkE0QVU4RWZ6eVVGeFA1SGdwQVRPa2dhcHZJbmdXc0FGbURpdHFfc2lFbFJOZXdoeTh2czhuYTZ0d19Da2F4ajJ6eWFqdFFB?oc=5",
+   "source": "Pillsbury Winthrop Shaw Pittman",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "390007c55ec8467a",
+   "feed": "gnews",
+   "date": "2026-11-09T13:11:37Z",
+   "title": "New Bedford Slams the Door on AI Data Centers as Power, Water, Neighborhood Fears Force Citywide Freeze",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSXhiRTJoMFdtQjdDV3R6RjhiWHJLX1dMXzlPc2NZM2p0dGoxYThNSk9LY2FZakNCbGc2QTcxMnZ4QUdndk9XMjdhYmxIS1pUSGx6UWtuRFNhb0FwOGppUHg1Yzl2aUpJeEppeHp2RG1MajExY00wVDdacHlUUlpjZXk1SVF0V0RYQ1VMY2FaOEFCZzRIcVppTnE1NGdNcTl1LVh2Wko0SXAyRVB3M0M0dU9SMEVlNHJpcFE2TFNEYWpQdUlMM3doZ0FuektuUmc?oc=5",
+   "source": "New Bedford Guide",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "ba4bb4a837f44589",
+   "feed": "gnews",
+   "date": "2026-11-09T11:54:00Z",
+   "title": "AI Data Centers: Who Controls Land, Water and Electricity, and Who Answers to the Public?",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPS2JvUHN3TFVnM044QzlmZ3NzZ29ZaVZfYzNXTzd5TGpqZ1Y2R2lrM2cyUmdtTWdzQWlOX3JtTzFPNGpOMzJOb1JBZEhadzZxbkFxanM4ekxMVFlkQ2pJNWRVNGxuc1ZvNmNsaGV0MDZJZTNlWElhMUx6ODVNU3FqYkF4a3ZMek1VQXlPRkc1Vko2MFY4MjEyX3RqRC1ueDBzRGlNT0hUSlhCOWhwS1VZZEtpY3dITjRlaHpYX3pOb2JmNTBBLWxjSw?oc=5",
+   "source": "Digital Information World",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "c477573bcec5e204",
+   "feed": "gnews",
+   "date": "2026-11-09T10:34:11Z",
+   "title": "Your data center may be halfway to waterless",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOTEZYUDc5a0MyeFNvdGJmNjhQX29CVmtvbTk0RU1UZXZDQnpQMUlYQVdSRUw2anljcjllMXg2NlpSY0RUYTNUdk1NTlBmTHoyN0I5MUU1OWthNGlpUEJuOW5QQ2JiNzlPM1ozcGpZVW5SQnJiMU4wNXJyemlKOU1WWkRIYjFvUkhnd1ZWbW1zQWF5Wjl4VW5HMk5iMA?oc=5",
+   "source": "Data Center Dynamics",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "b8f81c46db9dab93",
+   "feed": "gnews",
+   "date": "2026-11-09T09:43:05Z",
+   "title": "Heavy Rains Replenish Crete’s Reservoirs After Drought",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObjYxYTVONUZCZ3gzdjFIdGRicThTV0Q3TmdaZ0RaNTFTS3ptbG9OQ2JrLXFaRGNaSDQ2YWVWR2NMc1FUU3g5TEx2eG9DdTFWX2J6eGVqdVZMNEsxYldiTmdPaGNXMkpLYVpFNmNEeUVoNHdhZXpacWRtRFg4OFR1NmExMnJXY1g4LV9ndFRR?oc=5",
+   "source": "tovima.com",
+   "category": "drought",
+   "regions": []
+  },
+  {
+   "id": "c9f4634b88245a9d",
+   "feed": "gnews",
+   "date": "2026-11-09T07:15:00Z",
+   "title": "1 in 4 data centers sits in a water-stressed area — here’s what that means for nearby communities",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQR0hsZlNibjdhN0lLZ1ltcUtUdnA4YV94ZzBGaWo5SU9EUTB1MVlScVZzMnFYeEZnUW13ZU9IQS04VFpHckZickR5SXNBdk5nMndtaE9fUzdDWmIyVEZHRE5mNUlXVzg1WlhpSEd4RzZPMUpZM09RUHVFdF9iYW92dXBsX1pTZzA?oc=5",
+   "source": "Yahoo",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "c4ddfcd90fbda191",
+   "feed": "gnews",
+   "date": "2026-11-09T02:00:00Z",
+   "title": "Batam Water Crisis: Residents Blame Data Centers as Taps Run Dry",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOTjBnRW5LcmsyRWNqd2p4Mi1wWlhseVdnbHlvazlJTVhQaEU2ZmRsMmVuU0ZOcGVqZ1NFcWJKUXB2REltM2M2NmJjQlJ0bUZoMF9QRm02YWQyQ0daOTVkWDVJS1FXRG02dDNGbzJPYXlLSlZxNV83NXdzTlc2X1RXSWw0ZTlZbVhnSnJ4SW5KWTJvWS02NnBIdU5qOFBJTlM3WlpB?oc=5",
+   "source": "Batam News Asia",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "86ad92b615e1fd49",
+   "feed": "gnews",
+   "date": "2026-11-08T13:31:23Z",
+   "title": "Boil water advisory in effect in Casey County",
+   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FOVVXZ0VhaDJfNVU5TzROYjdFbV94VG5lT1V4d29oSkhqdlNjcGZlRTFWMkk5X19CWWhTMVlkSGY3VVhCcldNbUluQkczcWk2b3ViWmg1Nl95QlRBREN2cQ?oc=5",
+   "source": "Z93 Country",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "0a5b253208991bf2",
+   "feed": "gdelt",
+   "date": "2026-11-08T13:30:00Z",
+   "title": "PFAS are turning up in the Great Lakes , putting fish and water supplies at risk – here how they get there",
+   "url": "http://www.t-g.com/premium/theconversation/stories/pfas-are-turning-up-in-the-great-lakes-putting-fish-and-water-supplies-at-risk-heres-how,237780",
+   "source": "t-g.com",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "2de81da01b1093d1",
+   "feed": "gnews",
+   "date": "2026-11-08T12:52:16Z",
+   "title": "AI Data Center Water Use: What the Numbers Count",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxORWdlSTFIUUNIaGI3RnZ6c2x2MVFEeXZuV1lJOHBPM01Uc1Fta2hPNXVkQ0pVdHREYjV5cTN3WTlxRHJnSHJrdXRQQnF4MmxNRDVMc01GZURuMmNTWU1vcmhNOUYzZnVzMlhSbVU5cHV3TDM5TGZDNEZKYWJ0SFdmSllqTVJfQ1lnR1lmUHQ3ME9feUVhWk5QUF8tek5JSGItTDU0?oc=5",
+   "source": "NeoTeo",
+   "category": "data_center",
+   "regions": []
+  },
+  {
    "id": "def81e03d086b5db",
    "feed": "gnews",
    "date": "2026-11-08T11:04:33Z",
@@ -63,6 +173,16 @@
    "regions": []
   },
   {
+   "id": "454635288191fc4f",
+   "feed": "gnews",
+   "date": "2026-11-08T01:41:41Z",
+   "title": "CompTox Dashboard: EPA Data & Batch Workflows",
+   "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9pb1pZUVdzRlFjYVdvVE9NUmNQWTdYX0VOdHg5S1lUTFJzMkRHYXdaOG55eVhmUndWT2lKdU8zVFNWOV9ZaEhiWg?oc=5",
+   "source": "CASRAI",
+   "category": "regulatory",
+   "regions": []
+  },
+  {
    "id": "5dae062abf0a1738",
    "feed": "gnews",
    "date": "2026-11-08T01:35:12Z",
@@ -87,8 +207,8 @@
   {
    "id": "44b2afb1e14f5485",
    "feed": "gnews",
-   "date": "2026-11-08T00:34:15Z",
-   "title": "Brenham issues boil-water notice for all city residents",
+   "date": "2026-11-08T00:32:27Z",
+   "title": "Brenham updates boil-water notice, now applies to specific areas",
    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRGtidk52dkRaalJfOG1SNFJ0c0IzM1FwRmQ5eXFFNW45MERxcmNCTzZvSVk4TFd0QTVRamdxR2VIbzdZS2YzcjJvcEtRRlJUZ1h0MWE2b3ZnNmJMMGlLWEVEWHduNFM5elRmbmpGU2Q0Y2kybFA5RDRmV0E0S1FjQm5vWHpNUDl4LXQwbGV2eWRJck5BR2hGeFNSYlBsMEZ4bHdud3Eta0Q4Z1Z3?oc=5",
    "source": "Click2Houston",
    "category": "contamination",
@@ -114,6 +234,16 @@
    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOOWJKMWd1X0phUnNIbERZNmZQX2Z0RDFyLVRLTlJ5Wm9maXdYbm1ia21PVDN1U1lsVUtxSlFtLVFvWWk2NkhEY19JT3MwbTdhX0Z2emtaVVhQU0h2UkJjOXNUYXBSZWpYbEVpLWtLRUtXZ3RXR1lyY0pnVWN6RXlwa0ZKWTRyRGlnVXVtQjBXVU9GMF9QTjRtakxSenhQeXgzOTVXX1NvLXZPTVdWNE54cnU5NjJKQzBOc3l0anplaw?oc=5",
    "source": "London Insider",
    "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "144bed4ad654aece",
+   "feed": "gnews",
+   "date": "2026-11-07T16:08:40Z",
+   "title": "Water stewardship starts with design, not offsets",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWEhuLWg1N3p6U3lTdWtPRGR2TkF2OFlILWpDUjNUVTJPMVNDNEJGVkhTWDhpSkV2LVhOQVFBRGZFQUp1TTA4TURDR2lmdDJVQ185LXc1TzRtZDQ3UjBhTGZxTXRkcUlsZFVscVZkSUZqd3FDSElLdmxIUzZ6TTJ4bnprRV9OOVZCQlcxdndGRTN0SU9QdnEyQ3VWdjQ?oc=5",
+   "source": "Data Center Dynamics",
+   "category": "data_center",
    "regions": []
   },
   {
@@ -685,16 +815,6 @@
    "regions": []
   },
   {
-   "id": "86ad92b615e1fd49",
-   "feed": "gnews",
-   "date": "2026-11-04T11:37:42Z",
-   "title": "Boil water advisory in effect in Casey County",
-   "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5FOVVXZ0VhaDJfNVU5TzROYjdFbV94VG5lT1V4d29oSkhqdlNjcGZlRTFWMkk5X19CWWhTMVlkSGY3VVhCcldNbUluQkczcWk2b3ViWmg1Nl95QlRBREN2cQ?oc=5",
-   "source": "Z93 Country",
-   "category": "contamination",
-   "regions": []
-  },
-  {
    "id": "bd79523b356323db",
    "feed": "gnews",
    "date": "2026-11-04T10:12:09Z",
@@ -958,5 +1078,5 @@
    "regions": []
   }
  ],
- "generated_at": "2026-11-08T12:38:55Z"
+ "generated_at": "2026-11-09T14:57:16Z"
 }
