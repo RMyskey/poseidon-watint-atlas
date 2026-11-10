@@ -1,9 +1,230 @@
 {
  "items": [
   {
+   "id": "b3a4586bbe381182",
+   "feed": "gnews",
+   "date": "2026-11-10T12:38:08Z",
+   "title": "Thailand approves first noise, heat and water limits for data centers",
+   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1ZOE90ckppQVBKb25Nb0xqVzlDX2RtTjc1QmdEOHFhd0lSbEFHVEFIY2JyTjlVbXNjZHliMFM4QzV5M1pYb0ZpMnNZVXN4Z3otUkwtcDNORVJaWFlqdE9HQXBFRDk5bF9zQlQ1VmZra3Y0UDFq?oc=5",
+   "source": "Quartz",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "4757b913f29da518",
+   "feed": "gnews",
+   "date": "2026-11-10T11:15:00Z",
+   "title": "Thailand sets noise, water-use limits for data centers",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd0ZhZFdiY24xR2l0a25IOUpiZ21UT0tCelEyWGtKeWswUGNxUjJZeGJBZjEyMnRzd0FRdFRpTExuS1dmSkxiYWt2ZWNwN00yb3Z3UUQ5dGV0QkRoT0UtbmYtNVVSX3FLeXM3UTYwX1dKU0tkZHJLSWxUYzh2bUNKNDl0X1FGTmFFUkRGNWVoT29KUEkzT18tcERUcWdmT19IWlJLUkRmRmtIYXl2MDBEQzRoeGJYVkJtTTYw0gHAAUFVX3lxTE4yU3J0NHRnQjdycWhSVDZQSTB6d3NTUXZIbnZrajlqSVVmY3lvNGFJWkY0LXBNUERPUEdfcTdqcXZJcUtJQ3hsQU5TWS1NUEtObjlrYm1kT0xFQ3FIckVqMmFhaUV3S0tWS0FIVlhLZThXYTlseWtWS3MwRUFWU2JOWll0OFB6SnJ3STMybG5GRjZUODRFRk9DQnlNYWlwYVF1RjZ3QWNLZGdLT3JqVHRtMFJyZTRLb3JGai1YS1dDQg?oc=5",
+   "source": "The Manila Times",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "4848137815d03eaa",
+   "feed": "gnews",
+   "date": "2026-11-10T09:25:00Z",
+   "title": "LibertyStream secures first produced water site in North Dakota to feed commercial plant",
+   "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNYmI0R29uVE1xZmJmUDdkV2h3Nm8wZ0FQUGFuXzlLR2p0dlFYQnF5UGtMWTNfaURuOFBGVEtEVUhoRnl2UDlPSDMxMGJZSlUzS1NoSk52ZG9FaTU1TzY5WXZHRmdhMmM5RXJrY2VpaUgxY3VWcjZVMmVaMjRWeHJYZEZFRzFqeTA5cThQdU1vWGV3a0pJYTMzekxqN0hjbkdKSV8xZEV1Tjc1YkJmWXNTa1N3SFRIZXF3azByVm5naTBZNDdmMHNmZklTZndNNGdNTFE?oc=5",
+   "source": "Mining Weekly",
+   "category": "produced_water",
+   "regions": []
+  },
+  {
+   "id": "4ac8a334b824707e",
+   "feed": "gnews",
+   "date": "2026-11-10T08:11:48Z",
+   "title": "Lagunitas Beer Lawsuit Alleges “Forever Chemicals”",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZVllNTFfMVJtX1lEX1ZZNFNOLTk5VzV6bTlvbE5MX1ptdENROGxYZmJ0OWVweHpwaVRlbjlrWTVYQmxkRF9kanRzclVFNVN5X2VhTGo0cDJpdlJqc0tLLW1YTnJzRnVjNm56bnJGNVdCV1ZYUWVjVFBvTV91bUlZSHp3?oc=5",
+   "source": "American Craft Beer",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "44af846d78c8c809",
+   "feed": "gnews",
+   "date": "2026-11-10T06:47:46Z",
+   "title": "Waterloo innovation could make cooling AI data centers cheaper and more efficient",
+   "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1HN3I2ZmlLWTVndDFtUTgwTkJiNTl2cGhEYUp0clBDd3pzN3ptZEdyZ1p6S1FxUGhmWWV3akI5dVRUTmhKdXF2d1ZrSXpvZVZiaTBEWVl1bzRWU2k4?oc=5",
+   "source": "EurekAlert!",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "f9f4b0c9faaa9f06",
+   "feed": "gnews",
+   "date": "2026-11-10T05:21:50Z",
+   "title": "NC AG Jackson, DEQ reach $590M settlement with chemical firms over PFAS",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSTdWUURxa2JNdDIzUm84dERCMTNySGtIWUpMcGY4ZEFkYlpoWlFGb3ZiOTBNNUhFeHprX3Bvek8yMlppdm5haTc1SDA1OWJ0OEtydFFYS3Y5WlRRNjk0cHAwZFhRSjhMMG11VTl2cXJ1VmxDOUljYU1YMldLZzd5dWF4bHRDTURfRzR4a3lMaURvSm5WM3puWHNxcXc2Y055OWctRF96c0Y0Zw?oc=5",
+   "source": "News From The States",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "f478d3f39c428742",
+   "feed": "gnews",
+   "date": "2026-11-10T04:11:00Z",
+   "title": "Major water main break near Statesville leads to boil water advisory",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPM2lxVkFQV1E2NXBlZjB6Q2JCcFo4S3BpaC1BN25KMUsxU2VFWThSd0h3ZFpvNVZiX2FSTmVsSVk1bldYVGVfYm5BV2JBUHJvZVYxR0kzUE8xbmZ1cWlMdk5BZnRGRXJEY3N1OTVWTGdkS1dld09RUUMyQVA3bmdyM2dzT3lOZDR4X2VvY1V5OW9vMnlXUVE?oc=5",
+   "source": "Yahoo",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "78d6982045787f87",
+   "feed": "gnews",
+   "date": "2026-11-10T00:48:50Z",
+   "title": "Stormwater leaving Richmond International Airport has carried PFAS – the persistent “forever chemicals” long used in firefighting foam – in every sample tested during a nearly two-and-a-half-year study, according to a March report prepared for the Capital Reg",
+   "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1NRHhKOW9XSnNYcmdibXhOV1R1S1QtVE5SOHRrVnRNaldFQllFaUFKTkRQcXlKM3VvaHprQ1NjX1BsMnZ0ZDRHZnIybFZ1VHFkdGc?oc=5",
+   "source": "Instagram",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "1b4f109b42e41ad6",
+   "feed": "gdelt",
+   "date": "2026-11-10T00:30:00Z",
+   "title": "Opinion : Desalination can provide New Mexico water for economic growth",
+   "url": "https://www.abqjournal.com/opinion/opinion-providing-new-water-for-nm-future-economic-development/3156071",
+   "source": "abqjournal.com",
+   "category": "infrastructure",
+   "regions": [
+    "New Mexico",
+    "Mexico"
+   ]
+  },
+  {
+   "id": "83384574a017c0e4",
+   "feed": "gnews",
+   "date": "2026-11-10T00:07:17Z",
+   "title": "Boil water advisory declared in LaPlace",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY0h3X21BVFF5Y1Z0Y25laG8zZ3VjV2wzUjNMMkttUWttZ1VSQjZOeUNQWXIxS2VTV3Vvdm50ckhuMXNvMVpnRy1rc3RZVzhtck16cXBZdTRDN2ZkU3pRYnFUeEVwWElvcFlXbUtGUGI2cF9MMlYzczNQTldWczhPLU5XZC10YnE5UjBsaUpCQ0dPMllCZlF4RkpWR0lnWmU50gGmAUFVX3lxTE9xX3R3WGVQaG5kcGJsU1M3LTJxNGZNcUF3NnU4MlptV0M3WU5IMzdjMTZZRUhmNVdOZGZnVFJZX2RBczdicUUwN0ZpdG9ySXR5Q0Z5QzJvaEVJaWI4RmpGVnBGdEtGWWtodEdXZXpxM0QzTkRzOGU3NDdVb3VMQTVhRDZkVTduN0dKMkFtRkhLTlNBYU4tdUZmNDJNRkloaGtweVJ2OXc?oc=5",
+   "source": "WGNO",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "893d17cbb08e6521",
+   "feed": "gnews",
+   "date": "2026-11-10T00:04:00Z",
+   "title": "Record rainfall in Norfolk doesn't end Hampton Roads drought as Western Branch Reservoir remains low",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWUV3ZFNGM3pUTGU5MTUyUjJLWkdNNGxYb3ZvNk92T0ZNTHRtZktMUjNBWDVEcVA1MGRsMmZGODdkMnRlSnZDWF81b2ZLUDVadThORXVCZ3NnVV9nUFM2YWstWkhObVhKT1duWWVOb3NteDZzeS16U0cyMTh3YVB6bEJwU2hNV3NvQURrQ0xaQm5xeTJCd1FJQ1haTms1WFk?oc=5",
+   "source": "Yahoo",
+   "category": "drought",
+   "regions": []
+  },
+  {
+   "id": "58f893902889cf5f",
+   "feed": "gdelt",
+   "date": "2026-11-10T00:00:00Z",
+   "title": "Drought , water quality concerns keep Hedley under boil - water notice",
+   "url": "https://abc7amarillo.com/news/local/drought-water-quality-concerns-keep-hedley-under-boil-water-notice-donley-county-greenbelt-municipal-and-industrial-water-authority-sylvester-castillo-city-of-hedley-mayor-jacob-fangman",
+   "source": "abc7amarillo.com",
+   "category": "drought",
+   "regions": []
+  },
+  {
+   "id": "8cb25c8d2d58b0d1",
+   "feed": "gnews",
+   "date": "2026-11-09T23:28:36Z",
+   "title": "After days of rain, where does Corpus Christi's water supply stand?",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcDA1NGl1djJTejk4dWI3aDh4V3g5X3k2Q3AzRy1ub290YzgxS2FPMEs3MEZVNlo4dk5HT1JabTZMOW1SM1JMeDVZcGJKeTUxRzMySDlrNlc5dGFyUFRVRWhBeHdCNnBwNHNBV2FkRlE3Q0gyaHllc09xcFdSTzRZVm5GRGppcTNqS2tDRmdDZERYRGhFcWVPN2tDMy1HQWw5?oc=5",
+   "source": "KRIS 6 News Corpus Christi",
+   "category": "infrastructure",
+   "regions": []
+  },
+  {
+   "id": "ec372b112b744ab7",
+   "feed": "gnews",
+   "date": "2026-11-09T22:37:09Z",
+   "title": "Boil water notice issued for parts of Panama City Beach",
+   "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOY0xrNkhPdER5VWNVM3IzeXp2SXhyR21FcnNQY2h5LWZLeDJxQjQ0ZURXaEJnd05NN2RwcUpxYTFRQ0REbnFyMnQxajdZRTZ2bUxZamNneTBsTWlzR25KZXctVGVMSnVTOGdQNXB6SkxXWS1YQXZ5ZTRwbzhOLU9WMmZ1Zng2anBi?oc=5",
+   "source": "Yahoo",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "656b78f8148a167d",
+   "feed": "gnews",
+   "date": "2026-11-09T22:31:39Z",
+   "title": "McCaysville, Georgia issues boil water advisory as mayor urges water conservation",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOeF9XWDFfalhVQk1yTG04Y2FuVVJMVzB5Ym5udEllejRrcE5NV2FyYnJoc1E0YWt1V1hySVc3RjRJRm0wRHpCSmpUcklPQnAwU2NfRGpLWmRRQTlOQVF5R191MWJUd0xxa0ppLWFLR0VBb3d0SDc5YWNTbDFQUmFYai1GblByRHlRMXk1TEtfSDMySDdiY2RjcjBFVTNqM2VVcjZheWx0T1N5bUFWd3ZtUHFpbURxcy1JOEE?oc=5",
+   "source": "wtvcfox",
+   "category": "contamination",
+   "regions": [
+    "US other"
+   ]
+  },
+  {
+   "id": "9f741aabbcd5f32b",
+   "feed": "gnews",
+   "date": "2026-11-09T22:15:00Z",
+   "title": "Stunning satellite images reveal Colorado lake dramatically shrinking amid severe drought",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPdy1adGl6OEFONnZTMlVvRGtoeEs2SjFHVmtjdEhJcFM1SHJVeng0aTdLcXk5T2ZpMlZhX25lamlVa29CZWJuMGdDNjVFaEU1WmN3S0ZrSVpyS2ZSRmt0NHZLZkY1MzFqSlpqV0lfVnc4VTRLUlRtMmJqZTgwLUh5aGhsVmhqdlFOZkpDTXNwNG80eUR6VlFaWE5INHhiWFFrb05WYXRSanVDTGxmVk53c2d2SE9LTEHSAbwBQVVfeXFMTVIydkMwY1cyMGlWRlVYUk04bUVUaUdGRUhSb1RLa3pNZEU1X1BqTTBvNE1aRExPOEdoSWxIMlBRQkZnYUFrYmlQZ1EtcXNiR05fdFhaSXV6S2toM2tRM0g3SzFyb1ZMZFRVUUlXb0ZMQzVmbjRyb2VEWTBnN1hsOTVHU1JSYldYbWhlQllObnpvOWpHTjJkRkhmLWxGd1NGcVZpV3hoZGlacXVLckVSakJtbVE0aHJBc0pLMk8?oc=5",
+   "source": "FOX Weather",
+   "category": "drought",
+   "regions": []
+  },
+  {
+   "id": "9ec07aee61e39c51",
+   "feed": "gnews",
+   "date": "2026-11-09T21:50:58Z",
+   "title": "Historic Texas Election Signals Changes in Environmental Regulation, Permitting, Enforcement, and Judicial Review",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNQ2czZFhhbzBfR29GRDlBRXVRTWZaZzdKalVyeFJQSDEtMjlKTmNnaTdYQ0lNZ0VnaGcyd205MUs1WXlIMnBieU9FTGw0NU53c3FBYUJFcVZMMkdiMzViQVVFMWJpWkF0RkhyOXJ6QmdhS2diTzVFVS00YTEzM3c5aUVaNjNUZDAzV1RINm5kMzNQaXZ0SS12R2c3X2JxTE1DVzF5b3JOZy1OM3dY0gGyAUFVX3lxTE5UTHVxcVQwTnlXY1hPOHh4bVIxaVgwcDl6WlZELWdkTzVHUVZYRk5VOHRGSFNWWDJtZWU1NHFCcEltcHhWZnF2eXFRLThNZWlVYWM3UUhEME1leGIyNy1QdDRHQVI4cUpMTEs4TE9sTmFyVWdkalNWNEczUGl3QU1XZ3F2QWZBZ21LRlRGWi1PWmZ3b0ZOeExEdndRTmtPanAxcWlhUDlwUi1CRWhvQUw1UUE?oc=5",
+   "source": "The National Law Review",
+   "category": "regulatory",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
+   "id": "4fdfa329977ddc81",
+   "feed": "gnews",
+   "date": "2026-11-09T21:50:30Z",
+   "title": "Richmond Airport PFAS: DEQ Weighs New Stormwater Permit",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYnE5cE9tX3FvWHVsU3J5Yzc4V1BMeENLMkdsRVh3VWhYc2RvNVRpeXNYdF9ocjNDd2NMa25GNEtGWnFTaHl3TWlrd0VoZEJ3bHpYTjlOaW9FYUhNb3F3SjlESzFUc3NLY0l0anVrYXZVaWhlbEFRRm9RenZXLVhsT1VRUzZCZmh1aFBWQm1DN2MzcUlrY2xUR2tiMU80UFVlUVBET29hZnByaUY3dlpmYw?oc=5",
+   "source": "Hoodline",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "ea6e00dd2221167c",
+   "feed": "gnews",
+   "date": "2026-11-09T19:50:30Z",
+   "title": "DEQ weighs new PFAS requirements for Richmond airport as residents seek tougher limits",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxON292cDJxU192MjhhV1pEQk9JRng4RkdqRnczbFVyR2ZvNTlwMEJ3WkRkNE1EcEM2ZHdDdUl6enZFV0doclU0ZUVpTkFlZDBaVS1QS3pITnRVQV80WkRveTlZMW9mTEJ3WU9HSTAtcF9kZGtqN1k2Mk9hTEVfblIxNlpybWdOdlBLU0JwWnJnSXBRWnl4LWlCMk1xVlE4N2VIVzg0ZVhKc2k5S3l0RVVGdmJTTDlmS3owOGc?oc=5",
+   "source": "Henrico Citizen",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "74b2d2d1eba9da2b",
+   "feed": "gnews",
+   "date": "2026-11-09T19:48:49Z",
+   "title": "Lane Kiffin says LSU’s loss to Alabama is unacceptable as Tigers prepare for Texas",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQa19EVXBxWm9UOFg5bVIyWF9lUnNSVjMyS3k4VlpqU3lCRkR0RjBVLTlmcC1yU1AwRjNLUkFhZHJRTGpsMy1PakJPbjBpZDZyZlp5NHlhcl9SLU55azZ0c2wzM19oR28zZGVrZXIxMWxJZDJiSURLT1V1bkFxRHF4LW13a2t5cFZObnFqM2F4QzRnTkZRSEFpblJadThDY09sa3Nqa2ZyNDJjQ3plUHlpM29VSl9XbW9uTmh5ZjJVd1_SAcABQVVfeXFMUGtfRFVwcVpvVDhYOW1SMlhfZVJzUlYzMkt5OFZaalN5QkZEdEYwVS05ZnAtclNQMEYzS1JBYWRyUUxqbDMtT2pCT24waWQ2cmZaeTR5YXJfUi1OeWs2dHNsMzNfaEdvM2Rla2VyMTFsSWQyYklES09VdW5BcURxeC1td2treXBWTm5xajNheEM0Z05GUUhBaW5SWnU4Q2NPbGtzamtmcjQyY0N6ZVB5aTNvVUpfV21vbk5oeWYyVXdf?oc=5",
+   "source": "FOX 8 Local First",
+   "category": "regulatory",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
+   "id": "40c709616d20197e",
+   "feed": "gnews",
+   "date": "2026-11-09T19:21:00Z",
+   "title": "Drought conditions update in Texas",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNN2d6dWU0RWhwUGwyOENiVjROVjVWR0U4bG1DNWNLZzRKQ1ZpT3pDRTV4MFgwOGFaUnhvLWpkZDRmS3kwV1NaQWZRZXZwR3dsd1BndnAtZDI1UnZlX0JrNDFPQVlwTU9pdm9JYmlsU3cwN3NHXzA4MlBQREFIRjBMR2U3YjJaOTI1QzZnVjg4Qjdabjd2ZVQ3dEYycE52c01vTUJPdmxaenRfUEwzNVphcGF0clU2Z0xBOUdDUUJ3?oc=5",
+   "source": "crossroadstoday.com",
+   "category": "drought",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
    "id": "4a38a5ff7f19eb18",
    "feed": "gnews",
-   "date": "2026-11-09T14:32:33Z",
+   "date": "2026-11-09T18:00:00Z",
    "title": "1 in 4 data centers run in areas with stressed water supply, study finds",
    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbTNpdW9fT2plc2o1NjA3X0cydkozVHJyaHQxR2NGeWgwZHlxeFNaTW9DcVNVMUhkMW9XZ2RMQkdweFY5amMxaVVFcUUyLUFMaTU5YVZBRERpdVAzb3VVeXZIX0pfUGxXTkpxbURKZmhDVVZZT195ZF9meEFPV3BIcldzb1NOaktBTkNDckFuVkF3VU9jSlJ3RU9XdVJTSW1nNUhCRHVNRU9rXzBPQzV6R3VMaUdVWVljbjlXY0l6cnA1cmVacW9v?oc=5",
    "source": "The Washington Post",
@@ -11,9 +232,62 @@
    "regions": []
   },
   {
+   "id": "b7a108fbd78c4f95",
+   "feed": "gnews",
+   "date": "2026-11-09T17:55:55Z",
+   "title": "EPA’s new PFAS strategy reveals focus on downstream cleanup",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUThmRUl6NnJzYzN0c0MyWDdhUy1hU1BWVVQ3ZGFncndmcHk1WHpHeHNQRXVQdGZfXzB1am12U2FWT3R1VGJSaW4wZ0MyTjJZd0Q2MjhxVDlFQWdTbnJDYXJsNExBdUJ1VUNFZ0txa29XVzhJOGVBRUJUcjYtOE04Y3YydDV0YjlKeWhZMUJXZURza2xlOXFkamk0RUFhUQ?oc=5",
+   "source": "Waste Dive",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "d4c493a088f9fccc",
+   "feed": "gnews",
+   "date": "2026-11-09T17:36:00Z",
+   "title": "Turkey boil water notice rescinded",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQaGJuMUtjek9DLTVQeUZxWmpNUktjV3oyZVBXaTNjVmdURzhtQUMtYnpSMjEyb0hXbk5Kd0NpNFJjUXZtamk2YWM4UEtSd0dPU3Y2S0dtSHM5c09OeWY5OFUzNkdHMEZ6ZUVBbGhSN0Qwa3k5RVRWSGxUdV9BX3BzTnp30gGWAUFVX3lxTE9LSkRjN25MU2NzVU9pSVp3Y1FWVXU4NFVEQ01JTjZhY2xpdXptN2tDMnRMMWt6RVZMQ3Q1dWFuWVZiVjQxaWVxSHl3aHY3RFk0dTVrRElhcTZTSW93YXhOTDJEWHFtY0dDQW1jbGFhZEVVMUFCbE9jOFVxM09kQzJqZzFuSjFvNENmUnRhaHVYYUwzWWk4QQ?oc=5",
+   "source": "NewsChannel 10",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "1b89a742343dc0f0",
+   "feed": "gnews",
+   "date": "2026-11-09T17:13:00Z",
+   "title": "LaPlace under boil water advisory due to water leak",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeWl4SDQ0NFJuTF9HcDVyZFR2TVFjc3RMLW85LVlJQWt2Q2xmajNJYVJpeUxJdkVWNWx1UzUzcEotZm94Z0p1U0gtMXcyUG90NXkwb1ZzLU5QcEM5b1BnUlhkMklnelJwXzJsN1BTX1JqMUd2WUZVemFMY21kMlJXRHpn?oc=5",
+   "source": "WDSU",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "02102cbdd2717864",
+   "feed": "gnews",
+   "date": "2026-11-09T16:48:52Z",
+   "title": "Texas Tech University and Caprock CEO Jonathan Grammer File For Ground-Breaking US Patent on Lithium Extraction from Produced Water",
+   "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPOTVDWlNRelFMdGRhRmtReENHQ21YRWM2bVd4RVJlVDBxT1JzWE5yZWw1OElNTTJkazdUV2VnVTlqUGx3UzBlVmFkNEtDWjUzbWpoeFdUTnE5RnhFRVI4LS1GX2N6ZzRDNHZzcFFTS0o1Z3EwZnoxQ0U2ZXJCSk5ZOThaejdJOW1UV21IS3N3T0VESmtxTDVYODRQbFFaUmFNOUxKdE9QTWc3cXlUa1pVVmRpM2JoWWZjeVlFS3hFMURxMnVaeGtKdXpPVUM0VWpaMl9lRDEzbEtoQXp2OEt1TnptNHFpT2xVUTRyQlppcw?oc=5",
+   "source": "Batteries News",
+   "category": "produced_water",
+   "regions": [
+    "Texas",
+    "US other"
+   ]
+  },
+  {
+   "id": "ccd487d4371f3b35",
+   "feed": "gnews",
+   "date": "2026-11-09T16:23:51Z",
+   "title": "EPA Launches PFAS TECH Strategy to Spur Innovation in Research and Technology to Address PFAS",
+   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNMTNhV0RwZ0trQmxDNVRJaUVIYTdSRXo5Z0pqSGg5NWlFV2RhT3JBU05TWVFwelNDd1JXYmQxZGhyVmZtMVByQjlPQjQ1STZ4YU5wT0Fyd2M2ZllxMnNQbzlBTEFwTmQ1dUtmTkZrcFBEX2xveVllWDVOdzZ4dUhaVV84Y2NBSGY5Q2c?oc=5",
+   "source": "JD Supra",
+   "category": "contamination",
+   "regions": []
+  },
+  {
    "id": "873e8f3226b087c6",
    "feed": "gnews",
-   "date": "2026-11-09T14:30:33Z",
+   "date": "2026-11-09T14:40:23Z",
    "title": "Something’s Brewing: PFAS Class Actions Reach Food, Beverage and Alcohol Companies",
    "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTmxGYkJNLUxzOUFlNUpFNFFtNEJsU2YxUGl1aVVZdVVnOFVqbk9La19TR0NueUE3MUVZY0h5SjBDcVpPRWN1azllQ3F6MjlMdDRSYkE0QVU4RWZ6eVVGeFA1SGdwQVRPa2dhcHZJbmdXc0FGbURpdHFfc2lFbFJOZXdoeTh2czhuYTZ0d19Da2F4ajJ6eWFqdFFB?oc=5",
    "source": "Pillsbury Winthrop Shaw Pittman",
@@ -28,6 +302,16 @@
    "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSXhiRTJoMFdtQjdDV3R6RjhiWHJLX1dMXzlPc2NZM2p0dGoxYThNSk9LY2FZakNCbGc2QTcxMnZ4QUdndk9XMjdhYmxIS1pUSGx6UWtuRFNhb0FwOGppUHg1Yzl2aUpJeEppeHp2RG1MajExY00wVDdacHlUUlpjZXk1SVF0V0RYQ1VMY2FaOEFCZzRIcVppTnE1NGdNcTl1LVh2Wko0SXAyRVB3M0M0dU9SMEVlNHJpcFE2TFNEYWpQdUlMM3doZ0FuektuUmc?oc=5",
    "source": "New Bedford Guide",
    "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "07dd865901e2eb73",
+   "feed": "gnews",
+   "date": "2026-11-09T12:26:00Z",
+   "title": "Boil water advisory affecting all of LaPlace, St. John Parish says",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTTB0bWJqaS1mbGloc0dzU2V3cDhROUxTMHRFeEpqUXNiYWR1aDViSGhNdWRJX091dGhTaEd2aEYyWjVaTmpGbUlDbEJwUTBFUGhvN3Q0N1k3Q25oaGRTZWY3TVdQaFZRZnJWdlM1ZFZTdS04Qm9ydE9tbk1TVW9NWDNiQ2hVamlIT3JHXy1aMkNORkdvejd6TmxhNmZJU0nSAbMBQVVfeXFMUE1JZWE1dkJaVjV0XzAzYlkzRlNsTlg3eEJVS0VQZFkwMHRhT3BONHk0ZnJKY2xZckQtQ1gwNFlhOWF0YVRVd1pTeUFNZ09uMHFWR2hsaWNLT2YyVDhtaGxWcUktcXBwMUNvSXV3b0lMd0lJeDlMVHQ2bm82TzNhWVdVcG1sQWVFRGc3UW1qYlBaNFY2Q2p6NmZOWjJUNE4wOVYtNFBZb1hDVXllUEgwOTVwY3M?oc=5",
+   "source": "FOX 8 Local First",
+   "category": "contamination",
    "regions": []
   },
   {
@@ -61,12 +345,12 @@
    "regions": []
   },
   {
-   "id": "c9f4634b88245a9d",
+   "id": "d0a94118bc8bccaf",
    "feed": "gnews",
    "date": "2026-11-09T07:15:00Z",
    "title": "1 in 4 data centers sits in a water-stressed area — here’s what that means for nearby communities",
-   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQR0hsZlNibjdhN0lLZ1ltcUtUdnA4YV94ZzBGaWo5SU9EUTB1MVlScVZzMnFYeEZnUW13ZU9IQS04VFpHckZickR5SXNBdk5nMndtaE9fUzdDWmIyVEZHRE5mNUlXVzg1WlhpSEd4RzZPMUpZM09RUHVFdF9iYW92dXBsX1pTZzA?oc=5",
-   "source": "Yahoo",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOOGNXWWlVU3RMNDZERVJIUDZDNlVMTTVqaUQ2ZllDRU1WX1NqeDFTT3JzV2wtSzJxVlFDTVNBZktkRmk0OFZzSmlBOF9fLXJseGFFU1NLUTZrSWJHT1g1Q2pMVzJPUE9xWkdGaEppTHJuR1hkZGUtTWs4eDUtNXpQWUlXUmxhXzVFYl9sM0J3NmxnNXdqYUZyMEZPSjM1WG9TYk1DSnNubmxaZWxuUzlMbUxKcWZBQVpvd3VZYk1MdF8?oc=5",
+   "source": "Tom's Guide",
    "category": "data_center",
    "regions": []
   },
@@ -295,16 +579,6 @@
    "title": "Forever chemicals found in water serving 197 million as EPA eyes rollbacks",
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVGlsQTJpdmZydEF3cDBQWER1MFZZeUZuX2ZXT0pLZmVvWGFpOVdEaUVUVEtpdEZmZGRkSjNtLXJUUi1lMm5mNlp6Vkw0eGFxdWQyZ21YTms3S0tuYktLamQxdWh0R1BoQWl5N1NGR2RUOUE0NUtEN29JY282bXlDTkR3?oc=5",
    "source": "WRAL",
-   "category": "contamination",
-   "regions": []
-  },
-  {
-   "id": "2bdea3cd8b8152cb",
-   "feed": "gnews",
-   "date": "2026-11-06T22:56:55Z",
-   "title": "EPA Launches PFAS TECH Strategy to Spur Innovation in Research and Technology to Address PFAS",
-   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc3VMalQxd3FNcjJUdm1xRE1aUENVWjNPeGxTeG53bDYwODdLdnZkbjVORTZwMldSRm9HemROYVRzMFJwUlUyNjJvam5jQmU4Tm1xejlReVpmUzlVSVpqMEZMT1dEQmpwbDJLZ2pkdEZFdUh3QkRRS2NDNDhtVEVUY3hFNEZySjd3TERQa1l0b3JZUUFXWndoT000QWt0VDlVZF85Rk03aWJOVjRlaUhaYVZn0gG3AUFVX3lxTE9XMkN4OW9DREpQY1RUT0lQMUFidDhFSGozQ09YUENrSU5idncwOElkbGVVZzA4Uk5nZ2lnMXBfUFpCRDdoWFNkWU83LTF0MVRKUG5xaGtuMzJWc3VFT2pMR0xZUWNOZXlZWFpYN1FObHBETUFWTVpDVVVKb3c4bzBzNFh2cDd0QnJhUk82b3FNVjBMTWN6Ml9VOUY4Z0paQy0wS2dQVV9kNmZhOEhLOW04WWVoQmZGZw?oc=5",
-   "source": "The National Law Review",
    "category": "contamination",
    "regions": []
   },
@@ -569,18 +843,6 @@
    "source": "Winnipeg Sun",
    "category": "contamination",
    "regions": []
-  },
-  {
-   "id": "17f1e2c04cca2f57",
-   "feed": "gnews",
-   "date": "2026-11-05T18:06:02Z",
-   "title": "Historic Texas Election Signals Changes in Environmental Regulation, Permitting, Enforcement, and Judicial Review",
-   "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTWhXOV9ySUtVbmM5SU1IU08ydGpnekktLW5rLW91SVh0M1FHZFVWYnQtMmJwMDU5S2duaHZCQ0ZtVVpPM19tX2dQOERvMXZ6UllyYjJNM0pZU2tIbndtNWlELUNZeWtyY0UtNVNZdjBBMGw3eHpOTW5pMFhLRXlwWExUMldabFJZY0E?oc=5",
-   "source": "JD Supra",
-   "category": "regulatory",
-   "regions": [
-    "Texas"
-   ]
   },
   {
    "id": "1229bff076f4a677",
@@ -1078,5 +1340,5 @@
    "regions": []
   }
  ],
- "generated_at": "2026-11-09T14:57:16Z"
+ "generated_at": "2026-11-10T14:12:00Z"
 }

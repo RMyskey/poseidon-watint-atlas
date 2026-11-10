@@ -40,7 +40,7 @@
   "CURATED": "Analyst-entered in data/source/. Never changed by feeds; feed findings go to the review queue."
  },
  "footer": "Poseidon NARINT concept prototype: open, unclassified public data only. Not an official product of the Department of War, USACE, or the Army Geospatial Center.",
- "built_at": "2026-11-09T14:57:16Z",
+ "built_at": "2026-11-10T14:12:01Z",
  "feeds": {
   "gdacs": {
    "label": "GDACS drought/flood/cyclone events",
@@ -50,10 +50,10 @@
     "gdacs.json"
    ],
    "status": "ok",
-   "last_attempt": "2026-11-09T14:49:54Z",
+   "last_attempt": "2026-11-10T14:02:18Z",
    "items": 67,
    "message": "GDACS events in 21 days",
-   "last_success": "2026-11-09T14:49:54Z"
+   "last_success": "2026-11-10T14:02:18Z"
   },
   "quakes": {
    "label": "USGS earthquakes (global M4.5+, North America M2.5+)",
@@ -63,10 +63,10 @@
     "quakes.json"
    ],
    "status": "ok",
-   "last_attempt": "2026-11-09T14:49:59Z",
-   "items": 659,
-   "message": "659 global M4.5+ in 30 d; 24071 North America M2.5+ in 5 y",
-   "last_success": "2026-11-09T14:49:59Z"
+   "last_attempt": "2026-11-10T14:02:24Z",
+   "items": 663,
+   "message": "663 global M4.5+ in 30 d; 24079 North America M2.5+ in 5 y",
+   "last_success": "2026-11-10T14:02:24Z"
   },
   "gdelt": {
    "label": "GDELT DOC 2.0 news alerts",
@@ -74,10 +74,10 @@
    "url": "https://api.gdeltproject.org/api/v2/doc/doc",
    "outputs": [],
    "status": "partial",
-   "last_attempt": "2026-11-09T14:56:36Z",
-   "items": 1,
-   "message": "2/5 queries ok; HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc",
-   "last_success": "2026-11-09T14:56:36Z"
+   "last_attempt": "2026-11-10T14:11:20Z",
+   "items": 2,
+   "message": "1/5 queries ok; HTTP 429 for https://api.gdeltproject.org/api/v2/doc/doc",
+   "last_success": "2026-11-10T14:11:20Z"
   },
   "gnews": {
    "label": "Google News RSS alerts",
@@ -85,10 +85,10 @@
    "url": "https://news.google.com/rss",
    "outputs": [],
    "status": "ok",
-   "last_attempt": "2026-11-09T14:57:12Z",
-   "items": 24,
+   "last_attempt": "2026-11-10T14:11:53Z",
+   "items": 36,
    "message": "15 queries; ",
-   "last_success": "2026-11-09T14:57:12Z"
+   "last_success": "2026-11-10T14:11:53Z"
   },
   "usdm": {
    "label": "US Drought Monitor weekly map",
@@ -243,7 +243,7 @@
    "url": "https://www.datos.gob.mx/dataset/coordenadas_pozos_terminados_2026",
    "outputs": [],
    "status": "error",
-   "last_attempt": "2026-11-09T14:57:12Z",
+   "last_attempt": "2026-11-10T14:11:54Z",
    "items": 0,
    "message": "RuntimeError: SENER completed-wells CSV not retrievable: HTTP 403 for https://repodatos.atdt.gob.mx/api_update/sener/coordenadas_pozos_terminados_2026/dgace_pozos_terminados_ago"
   },
@@ -314,7 +314,7 @@
     "mx_aquifers.geojson"
    ],
    "status": "error",
-   "last_attempt": "2026-11-09T14:57:13Z",
+   "last_attempt": "2026-11-10T14:11:56Z",
    "items": 0,
    "message": "Showing previous data. RuntimeError: CONAGUA files unavailable: Acuiferos_Disponibilidad_09-11-2023.zip (HTTP Error 403: Forbidden for https://sinav30.conagua.gob.mx); Datos_de_calidad_del_agua_de_5000_sitios_de_monitoreo.zip (HTTP Error 302: The HTTP server returned a redirect error th); Resultados_de_calidad_del_agua_de_5000_sitios_de_monitoreo.zip (HTTP Error 302: The HTTP server returned a red",
    "stale": true
@@ -382,10 +382,10 @@
     "logistics_tx.json"
    ],
    "status": "ok",
-   "last_attempt": "2026-11-09T14:57:16Z",
+   "last_attempt": "2026-11-10T14:12:00Z",
    "items": 1036,
    "message": "Longview cell rank 537 of 1036; 238 Texas data centers in logistics",
-   "last_success": "2026-11-09T14:57:16Z"
+   "last_success": "2026-11-10T14:12:00Z"
   }
  },
  "layers": [
@@ -552,8 +552,8 @@
    "source": "usgs_quakes",
    "precision": "G",
    "label": "OBSERVED",
-   "records": 24071,
-   "asof": "2026-11-09T14:49:54Z",
+   "records": 24079,
+   "asof": "2026-11-10T14:02:18Z",
    "size_kb": 1132,
    "note": "Events are not labelled natural or induced by USGS."
   },
@@ -697,7 +697,7 @@
    "precision": "G",
    "label": "MODELED",
    "records": 1036,
-   "asof": "2026-11-09T14:57:16Z",
+   "asof": "2026-11-10T14:12:00Z",
    "size_kb": 85,
    "note": "MODELED screening inspired by the SWUI concept; not the published method."
   },
@@ -709,7 +709,7 @@
    "precision": "A",
    "label": "ANALYTIC ASSESSMENT",
    "records": 238,
-   "asof": "2026-11-09T14:57:16Z",
+   "asof": "2026-11-10T14:12:00Z",
    "size_kb": 88,
    "note": "Great-circle distances; not haul routes."
   },
@@ -829,7 +829,7 @@
    "precision": "E",
    "label": "OBSERVED",
    "records": 67,
-   "asof": "2026-11-09T14:49:54Z",
+   "asof": "2026-11-10T14:02:18Z",
    "size_kb": 23,
    "note": ""
   },
