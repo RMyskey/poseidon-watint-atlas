@@ -1,6 +1,332 @@
 {
  "items": [
   {
+   "id": "bf07bf6407e307b0",
+   "feed": "gnews",
+   "date": "2026-11-11T10:15:00Z",
+   "title": "Researchers Identify Novel Mechanism for Destroying, Not Just Removing, PFAS in Water",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT1ZxeUlhbmRNR2lpQkxrV01EOEhjaXpCaFlqdHRHeXNadjNXMDVpVzJMZVNKQkF4MlAwTFB3WFpvLUxTS0VFRkNnRlo1UDNlM25kLU5zRFdGQ1Jma25OeGx3aDA2Z243Zk9wMWl5d0NyZkRPUlJlaXpPelVLNGJRaTRMWm9iZlAteF9vdVhzcllTNUQ4cXhDZnFxMDhmWDAxc1c3ZHVDU0gyN2tXVmU4d1l2d2Z5VWQ0ZXFoYjZhMXJSaHRZ?oc=5",
+   "source": "Food Safety Magazine",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "42973660bd55d176",
+   "feed": "gnews",
+   "date": "2026-11-11T10:00:00Z",
+   "title": "Five Point to sell 70% stake in Permian Basin water company to Diamondback and KKR",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNOFhISTdrWG9ZcFFwam4wWXNObVdLY29YRUJ3SkJGal8ycVIybC14c2JxQ2pXOFFRRDVycnB1V0dPQXc0RmJDU0N0eVhlS0tydmNSY2dPd0NDMUVydnVXVFhFcFRGbXRubGJ5R3ItYk15ZEI1YV9zejcyWXZZa0djZUlwb1RYTTBUYk10NXdIdDF4ZTdaOFhEVzdnOG5jekVKenkwYjducXpobVU?oc=5",
+   "source": "The Business Journals",
+   "category": "produced_water",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
+   "id": "17222e6113949b22",
+   "feed": "gnews",
+   "date": "2026-11-11T07:40:00Z",
+   "title": "Massachusetts town waited 2 days to issue E. coli water alert, and some homes never got calls",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQb1hlWW02b3ZjbjZWM3k1cVNFemhJa0JjclU0NkVoRDdGemZndUx2ekROMUQyQnlWdjZGd2FmVW9BTTBNcllBem9sc290bVMzQjF5V0loNktCWXlmU3pnTlN2akFhZy1OdE5xM3RDM0hFay10Q0hyVTFpRGtkeDE1eQ?oc=5",
+   "source": "The Cool Down",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "a5c3f347f66b6c26",
+   "feed": "gnews",
+   "date": "2026-11-11T07:22:55Z",
+   "title": "Opposition to Data Centers Grows as Thailand Sets Regulations on Noise, Temperature, and Water Use",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1xNTRMZ1RwNWcwYl9oZEg5Z2ZhMk9tbmR0WUl2ZUZGVzRBWmNzVjNjMDVSRzZXMWZNQmxWdmYxeUJEU3gwQ0dSanV0bVM0dV9xbzFma251d0RFenJwTzFvNTlndGMyaTlPU3NmV25n?oc=5",
+   "source": "news.sbs.co.kr",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "0dae1aa829cf3b2f",
+   "feed": "gnews",
+   "date": "2026-11-11T07:00:55Z",
+   "title": "Hochul should sign PFAS bill",
+   "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUVIzMUs1dk00ZUdPRzRuWkFyQmRWVjdTS19ObWU5V0tCQS1qVmRHbGZXZlpLU28tckE5Sm4xN3I5WkJUdU1idzJuOG16eGg4YTZKREVydFBQOGIybklSZXVPMU1wa3FqNll5T2I4anQ2SHJ3LW8wTF9ta2x5VmlmMTRDSldqQQ?oc=5",
+   "source": "Newsday",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "00d480bc5fc54992",
+   "feed": "gnews",
+   "date": "2026-11-11T06:32:17Z",
+   "title": "Boil Water Advisory in Wekweeti",
+   "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA2dzNrczN2c014VVR6dGVzWG4zOGtDTEpvUTZoYXM2OWp3RkZaZFN5bzhZYk5nbHEycm1hMXB4em1qbUJrYWJCMnNIUEdyd3R3SXBEMjJ2QUhmQjFZbkVMX1B2TGRtOUZ2dHI5YWJPTlAxWkU?oc=5",
+   "source": "CKLB Radio",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "ab10d860025d06f0",
+   "feed": "gnews",
+   "date": "2026-11-11T06:18:44Z",
+   "title": "Fort Worth data center commission tackles water, noise, power, job growth concerns - Fort Worth Star-Telegram",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE13LVdLYkg5VGszR0l3R05kdjVQSUhMWVdGRFB5bzVvOUZHRS1qSGpTWmZiVHhnVWVBUzVWRG9EUmN5bEx4Y04tbzlYdnV5ako1TmN0UXRDRTBaWGdJdkdCaWRidFd6OEtDWkNVdnFRTXRrMW5GMUN6Y0tScTRtQdIBfkFVX3lxTE5LanlNcUQzQXZFNVc0eVpIb3FBMWMwNDRGRzk3TGRVRXU0dzhRbDJNRVo1dkNSdzhGeW5xRms0TVJucXVqUkJRdUZCZmREeVJuQzVuVWhQM194Y3ZLdTI0VFphVl9ETW9aYVJ0dDE5ZmdoOU5uN3BsZFJUZEdwUQ?oc=5",
+   "source": "Fort Worth Star-Telegram",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "05255ce594b82537",
+   "feed": "gnews",
+   "date": "2026-11-11T05:58:00Z",
+   "title": "PFAS Testing Market to Reach USD 2.32 Billion by 2035 as Stricter",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNSG9pMGFnYmRJbFBnTkF0LTAxWlNLZjQxTlBDVUl3Zlg3Y1lOSEVtNkZfUFRsa1Z1MkQ0REdUQl9rcmJSeXhVcmpVVERJSEFXNzBEZ2ZHUUhwcXVzSHF1VV91TWM4SmptTlFUU0pvaWJTWEY1UWxsci1LaVZyNDJLLS1MYS1qQlU5TjlkNVJkdUZwcGxCaG1YZ3luckpzcU5fcENn?oc=5",
+   "source": "openPR.com",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "4fc7709c722fe7d3",
+   "feed": "gnews",
+   "date": "2026-11-11T03:46:00Z",
+   "title": "Phoenix prepares for water cuts: Here’s what customers can expect",
+   "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWVd4RzczUG5qc2FMYlNMQ181WG9DNVBlRGZnV0M3Q2h1OXd1bWlqbmUzUTBKQ29XMWVuVEFVb1M4Q2xpbmx3cENYZWhrTUZ5Yy0wY3dXRUllR2tWRGd6SEw0ZHlzZ1k2bU1ILVlEang3Y0RFTVBhSTIwTGgzUDVfSU9NM1VGX0tkUVR3dk5fbm1SVEpZa2cwaFVEQVN5T3I2ZkV5b3BlUDBTYzNha3Jzd9IBsAFBVV95cUxNWVd4RzczUG5qc2FMYlNMQ181WG9DNVBlRGZnV0M3Q2h1OXd1bWlqbmUzUTBKQ29XMWVuVEFVb1M4Q2xpbmx3cENYZWhrTUZ5Yy0wY3dXRUllR2tWRGd6SEw0ZHlzZ1k2bU1ILVlEang3Y0RFTVBhSTIwTGgzUDVfSU9NM1VGX0tkUVR3dk5fbm1SVEpZa2cwaFVEQVN5T3I2ZkV5b3BlUDBTYzNha3Jzdw?oc=5",
+   "source": "AZ Family",
+   "category": "regulatory",
+   "regions": []
+  },
+  {
+   "id": "f50225b00adadcf6",
+   "feed": "gnews",
+   "date": "2026-11-11T02:34:00Z",
+   "title": "Thailand approves new data center rules on noise, heat, zoning, and cooling",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOUV9IaWhid2d2b2VyS3JNd2JVY2IyWWZZYXRxYi1sSXY1SVd3MDgzR3BBUmVVZmFiT0RBcGlTcGdhU2V4dEhZWTNONnZNaGZQb1JDRVBJZWxqWnNpQXozRkRLRjB1S1RJYjF5SUpxektldk04SndfNjVlNlI1d0ZSeVRZZWJFc1F5bzZxV3Rza3JvaUE?oc=5",
+   "source": "W.Media",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "a4930a2945e38963",
+   "feed": "gnews",
+   "date": "2026-11-11T01:50:00Z",
+   "title": "Boil water advisory repealed for part of Upstate town",
+   "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOV3FYeEx6RW9QZ2k0WWZXbklqaVlvdUF0X3hNaHJJWTJrcFBmazBLd0M3ZllIaHpWNzBKdGpQSkU5Y0F2VlNReEh2TGNkZ1dlekZ3MjZpR2t1dUpBaFFfV0tveFpuM2d6c1JhNTlkY2F0Nm9JcThqRDdWcTRPb0FLSmFyWVR5ZDR4aUt6Xw?oc=5",
+   "source": "Yahoo",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "d9512554ec6ecaaf",
+   "feed": "gnews",
+   "date": "2026-11-11T00:49:35Z",
+   "title": "Texas bills target Flock cameras, THC workplace rules, school funding and data center water use",
+   "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNLVNUNjQzcDctd1d5eGdkRUVobVZJekJQLUdDWDNBZkN6Um53WUpBeWJGbDY3RTBPT19CdVlZVFhPWmJyaHJkVFMwQUNSdG1CM3Y0MXYzcE1DRjFQZ3NFU3NrdkJqQnVUQXFWQk5CM3lqbW5YZHhWLUQzSXF5WEdad0wxOElFeTNhZC1mbEtreVVzd0hYLXE2N25sLWFlY0tMRXdYLWQteHc3OW1WbG1LOVNyWmJFMVEzQk5yQUllNnM?oc=5",
+   "source": "FOX 26 Houston",
+   "category": "data_center",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
+   "id": "85cc2e7d29dcdd36",
+   "feed": "gnews",
+   "date": "2026-11-11T00:01:00Z",
+   "title": "Cooling AI: The water and energy demands behind data centers",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONFZVRG1JS2RnYjl5Z0ZKaU9FZWlGMlZDNWlIMzhMWE1lQ2MxZzZScEduR3h6UmtyUHBMREozYzU5SlExWDhSNmRvNE04aEp3RXl6VkU0Y2F5eF9KaUhienZ4YXozOGlFWjU0SFFWUlJSVENOQjJ5WFVweEVVMFRibDlvRFRBRFVHWUpyeUdfSV8wZGdpWVRuWQ?oc=5",
+   "source": "WGAL",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "00b5c536ccd22c30",
+   "feed": "gnews",
+   "date": "2026-11-10T23:24:31Z",
+   "title": "Hereford seeks water rights to secure long-term supply as aquifer declines",
+   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOdVpXVHpBY2FpSjM5WDFnNUQ4OVBTbE9uczdHSEJNLU5yRmFsemFHc0xxaTVTU2p3VzA1SEtld1lSV1JUZi1jX1N5UHByLWtEV2Q5VWpoSVVBamxMV3VuZDVfTmc3MTRZbDVJZHNZVlI0QlRaVTQ2MjExcGxTOGJ4cG0zcHlVVUJ3bndkZG5rYnN1N2dMenNBUDZVajdiMWpBRDY2YVFFaVVqV0ticmxrUTFwNWFkUGxaX0JaZE5aNDJPWDlXWVRIbThvUk1QRGVrdzV0UkRvWmJXM25OMXVfQ1RyS2JKRmxuWWdrMWpyb1czdkd5amFtcFZMQWJKelVBNGVXeENJRFdZQ29jWDR3?oc=5",
+   "source": "KVII",
+   "category": "drought",
+   "regions": []
+  },
+  {
+   "id": "937eb37e6c6c2442",
+   "feed": "gnews",
+   "date": "2026-11-10T23:24:18Z",
+   "title": "Boil water notice for Seminole County, temporarily closes Sanford Chick-fil-A",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQb0tfWHNSa3diQWY2eGJjakE4a01lOGxQQ25meVJnM0NjU2NwaXFjUUZvc3BXQ2h3LVM5ZkFqNDlZSjRBaUs0djBYVThseHFfVmhkNk5SRGtJRkk3b3U3WE1TMGFSVUxWbnl4U0NZUUZyR2h3MFZCN3FEcWtoRHZmX3ZWbEJuc0FzQV9MX0NtMjhTa3k5NW1SMVpWOW1DdUt6QV9LeUMxajNHQQ?oc=5",
+   "source": "FOX 35 Orlando",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "a8475d09460da712",
+   "feed": "gnews",
+   "date": "2026-11-10T22:34:51Z",
+   "title": "A Permian oil well lifts almost 5 barrels of produced water for every barrel of crude and the cheapest place to put that water is a hole in the ground, but the hole has been building pressure",
+   "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9UN1hlc2dLb3BXZEhUaHVpN0E5RjlJNHhFb2VHYl93RHpTMGYxZG0zbHNYb3JYYVVPMW1ucEdSeDcwX0ozV3c5elFGeU41Q2ZvX1NUTHpPT2pLcHF0UDVGTV9TUFBORzFfdUhqTHM0SURxek1uQmsxdzI2OFQ?oc=5",
+   "source": "Energies Media",
+   "category": "produced_water",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
+   "id": "74f5b6aa824ff123",
+   "feed": "gnews",
+   "date": "2026-11-10T22:00:00Z",
+   "title": "BRIEFLY: Boil water notice in effect in Belton neighborhood; fire department extinguishes fire in north Killeen",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWjZybEVCZFhGcXMwbU1QMDQ2R0xnZ0lTNjFzemJUQUVDb215STNoQ2tiN0pYeXNkdWpOdHdZa1gwcFV5UlVwLURyN1dKVGN2NElZTk1JcUFTQ3lMUVhQZ0FuXzVmQ0EzMGZ6Y0dnLVdBZDUzaHc4clVtRlRiRXJqZE5QWDFHRVpBbWtvVU1JRVJYaDcxTFRtbFVJWU5YQQ?oc=5",
+   "source": "Temple Daily Telegram",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "fb1b7df47e1a2575",
+   "feed": "gnews",
+   "date": "2026-11-10T21:43:03Z",
+   "title": "Diamondback and KKR expand Permian water investment with Deep Blue acquisition",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOc0x2b25YdXdkVGRna1dUSGZiSHZ2SWFGdjE2NElyMFNwbFljRXpyc2dQZGtRaTlzY0l0dlMzaUItejFfYTd3XzdVRU4zRXFoa0dMZllET0JmT2xBZVlGOEhtSHhxVnZIRE5FOHg4RmtsOU1faWx3ODAwUzFPRHppQ2FNbTMzLXp3cm1RZkpUWm1ZREdWX0prV1lrel90ekxYUmlRTFB6TXVXWWRk?oc=5",
+   "source": "Oil & Gas 360",
+   "category": "produced_water",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
+   "id": "fac527007aada556",
+   "feed": "gnews",
+   "date": "2026-11-10T21:20:42Z",
+   "title": "Diamondback, KKR Deal Targets Permian Water Control",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQckdfbnUwR0dNM1Ztenl1VVNMblIzQzdYa0JrTm5kX3kybVE2ODFhR0RMZzd3dnM3TTJWWVoxSzVhYWZrNFFpVDVQeWJhdGVXRnMwS1B2UVROcEhrUF92V2VXbFlHR0c4REtDLUlJT1hCRjdmT2pjeUFfTHpGRXB2bnU4ZF9UaHBkejdJYWg3aWR2emFmdkdycXJ6LWFRMWtUaWw0d1NCbXZuVDd0c2puVTF4ZXZyRy1kSzNJZVFFd2lIUWM?oc=5",
+   "source": "Hart Energy",
+   "category": "produced_water",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
+   "id": "5217b31636ebdfe8",
+   "feed": "gnews",
+   "date": "2026-11-10T19:37:45Z",
+   "title": "Floods swept through the drought-stricken Southwest. Where did all that water go?",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPdEt2RTJzbWc5MnpxWmNzc3RzZmVfdFNrQU1qOHUyd1cwLW1FcEpadnM0VHYyODRDOWdxbDhZbTVsT2FhWXdHc2NXU1pSa1RHeFd6SlN2WUpETjB0cW5KMmpTbVpRM2V2XzdycWhPLUx1WFR6QU9sc1RKQUdoS1RqS2FNdWhUSllKRlQ4ZW4yanpxU3NUQTRDMFdBVEhOUDNyZWxSVnFaSlowSkVKb2ltejJxSk1IQ0VTQTlGSFlyLU5taG5S?oc=5",
+   "source": "AccuWeather",
+   "category": "drought",
+   "regions": []
+  },
+  {
+   "id": "adf9780a91863d84",
+   "feed": "gnews",
+   "date": "2026-11-10T19:27:39Z",
+   "title": "Legislative committee backs groundwater study, rejects water limits for data centers",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxONHoxNWJsZVZ5NzBYNDN4YzBoSmtiN3l3elBCcW1KSTJtd2dRQWZfUzN0Nk5Ram1lRWlqTV9UVHYxeEw5Ui1SVkpjanpNWi1ncGdfNUJ3d1duN01OTmVvaXVEazlOM1B6ejJscWh3X2VWc0N3dmJfdzdSa3hHRGNGaVRFVnJwaWZyMDh5NTBFNWdWcWVvSW5Gc2FwV0NGYlBrbURNU1ctMzA?oc=5",
+   "source": "County 10",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "2a4dc7d93c914c45",
+   "feed": "gnews",
+   "date": "2026-11-10T19:11:59Z",
+   "title": "Diamondback And KKR Team Up On Permian Water Infrastructure",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQN0gzN240THV2RTFfQ2VhZy1XZ2NZd0YxbXREZDZsQUhWSl9HQ3p3UFhqM2g0eGswQWVPYW42eWVkN3ZDMUo1MmhJeGlhbWVpbjkzQXZyRmlnVTFGSVFsMUVVT3JMQldrVGc5SHZvNDNkdzNRcXVuay1UdEFsZG1Mb2E1ZWEtRTQ1cEtQd0Jjb2QtZw?oc=5",
+   "source": "Finimize",
+   "category": "produced_water",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
+   "id": "5ab0d1f14d20d63d",
+   "feed": "gnews",
+   "date": "2026-11-10T18:59:27Z",
+   "title": "Bossier Parish Police Jury issues boil water advisory for Princeton",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbW9hN1phSzd5S29yOTlPZk5SWTU2TjVtVU9VcGpibnpQa0dmZWNGTzJMU3pxMGFDR3p6N2VTZEE2MUhLU1BnVDdhZXdvQ3JOQ2JHOXZSejBRR0RXVHA2Q2ZFSXlVaGNVUW45WmpCSlkwdVdzTVVLMHNsMEFqN1JmOdIBgAFBVV95cUxNbW9hN1phSzd5S29yOTlPZk5SWTU2TjVtVU9VcGpibnpQa0dmZWNGTzJMU3pxMGFDR3p6N2VTZEE2MUhLU1BnVDdhZXdvQ3JOQ2JHOXZSejBRR0RXVHA2Q2ZFSXlVaGNVUW45WmpCSlkwdVdzTVVLMHNsMEFqN1JmOQ?oc=5",
+   "source": "KTALnews.com",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "9fd4767495d78ebb",
+   "feed": "gnews",
+   "date": "2026-11-10T18:33:25Z",
+   "title": "Boil water advisory issued for Heflin and Ringgold",
+   "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5SdUZIQm1KMUE3dGpaOG1nd2NmaTZtZWpVbHQxWmltcWFDNWJqUHBYY1pnbVRpZWNad1lSWk5Qc1NTRF9waUUyTG9peFhURlZocGdrOVdPOFVuTTUteEI5cS1vME5jX2p3TmVwWlVCOVB3N3VXYU51SGN3Y3JSd9IBfkFVX3lxTE5SdUZIQm1KMUE3dGpaOG1nd2NmaTZtZWpVbHQxWmltcWFDNWJqUHBYY1pnbVRpZWNad1lSWk5Qc1NTRF9waUUyTG9peFhURlZocGdrOVdPOFVuTTUteEI5cS1vME5jX2p3TmVwWlVCOVB3N3VXYU51SGN3Y3JSdw?oc=5",
+   "source": "KTALnews.com",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "b71b300c469fe1b4",
+   "feed": "gnews",
+   "date": "2026-11-10T18:03:00Z",
+   "title": "Brenham lifts boil water notice",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE92YlR2a3QtdjMyeXpja2tyV1RLMjdxdEFoVUotTU1Yd1dTQXd3eXNqVDVDNXVTMXkyQWtoS1dIb1BfQXp1Y2dnTmdVUEkxaGFWUkVBYnZ2SEpfOU4tdkg1bjhFWUdvcEdzSWJnQnZpVEZCUQ?oc=5",
+   "source": "KBTX News 3",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "7aa4fefe812ed157",
+   "feed": "gnews",
+   "date": "2026-11-10T16:48:31Z",
+   "title": "Boil water notice issued for Town of Bude",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQWlRY2lXdk8wZDEzczdEbEI4Tmt2MlZRWS1jRUJUdklNcm5tX1ZLNmU0VW5hRWlLVHdhTG44bjhjM2xUc241WmRIbGM4aXBaRjUyeG1ySm5tMTMzeWxBTnVLdV9iSWZReUdZNWNkSDZxY21wQlJxVTJ0RTBPazAzTzlLaGR0VUE?oc=5",
+   "source": "Yahoo",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "64eeb90c30de4348",
+   "feed": "gnews",
+   "date": "2026-11-10T16:46:57Z",
+   "title": "Paid PFAS Pilots Grow as 3M Commits US$7.35B to Settle Claims",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTmlfRHpCcnhQZWFsWnUwSU1TSGZmdlh4a2otM0tyU19uM0tUTDJmR2ZXbWFJbDhxQXY4SjNvWHZTai05US1nanY4ZlNJU2JsaktuTk5Uc2tCMUlVcVBpRkxFYk9UZnlrUDRYcjI5cjZvdjZfc0lDRHhvTFdUcWhMd3JYeDlxckRZOUJNSU1hS3V1S3p6Q3ZwX0tpU3NGQ2R3b01jWGVGWExBM0Q3Q2FBUzBtY3hqMTlZRG9Z?oc=5",
+   "source": "Streetwise Reports",
+   "category": "contamination",
+   "regions": [
+    "US other"
+   ]
+  },
+  {
+   "id": "daf8dc17549155c9",
+   "feed": "gnews",
+   "date": "2026-11-10T16:35:00Z",
+   "title": "NGL Energy Partners Accepts TCEQ Draft Permit for West Texas Produced Water Treatment",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPaUJ1NHlIZGozQlpUc3NTcVA3d2liUUFjNk14b1prU3dqUEwxaC1sNXNBaVlKM1o0NUhZTTU4THBCY1BtR0RYNFFMMG9xU2NsZVBlMkZxZWlyTzVoMV9yUkIxTWE2WEFrWUFsS1A5WjhRb1RmZUhVZUE1LTR1Z2lBbWhwV3pCRFZkNUV4eVhmTVlzTWtMV01fS2RQTHBMcDhKdU5tV1dkRElrVlFxRkJhZkRRaE1Cb1BJYVR4UGpuWWRKVUZWUk1ITlFJVm9fa3hkQUtUMDN1UU5nQQ?oc=5",
+   "source": "Business Wire",
+   "category": "produced_water",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
+   "id": "1ea802e344913f7d",
+   "feed": "gnews",
+   "date": "2026-11-10T15:15:00Z",
+   "title": "'The Propaganda Machine Is in Full Swing': North Carolina Locals Slam Wave of Data Center Ads as Drought Concerns Grow",
+   "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOSU5KVmZVSXlSelVZTEZWTzdmSUlxRHRwNkVMTC1fMEU5dV83OHNZOEUtNi1JRkNjSnFjSmpPNXlnQ0pzN2FncWhZNlZ3RE1UX290SjdQWDAzNUVJbFlkTUc3ZW12OWRsOXFsTlM5YU9kazRJeGZlQnJ1Z3dEZHhpMXotY0FkYnR2Y1ZBMmRTUEJhbUNEd2g5WUdJdFFkM0lqajVLX2d0bHlROHJoaVRxdnVQbjZuazBvb05sclFXLTdkNE1kcGdJeWtJZl9UY2ZwZ1I2RlBXaEo?oc=5",
+   "source": "The Nerd Stash",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "9197c026dffdc75c",
+   "feed": "gnews",
+   "date": "2026-11-10T14:40:05Z",
+   "title": "Hybrid system could make cooling AI data centers cheaper and more efficient",
+   "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE83RVA4d3lzeTBXaFV0dndkMjhUWHY0bzhwYmNSVDRNX1VTUF90YU9BMklHNUl4TUh4T0FwQ0FVd0pVYmJoRzlvYlZad3lOaURjWEdTTFdLOGVHSWRRZTRZRGVyX3l4Nl9pcFhnT0l2aG9ZcFNYaWFraTZHMHN6MVE?oc=5",
+   "source": "Tech Xplore",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "d249822fdc5ece71",
+   "feed": "gnews",
+   "date": "2026-11-10T14:30:00Z",
+   "title": "Membrane Water and Wastewater Treatment WWT Market to Reach USD",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY1RoNFNaTmFiNjBkV3g0M2VRMWpFYlV0UjJ0XzJuQ3RSZnh2TjFmei15bkRIU2dLTG5SUTlrcFgzd2Q0VHRkZHRMT216TlBYOUZCRXdaNmRlemJsY2hvUGFZWE5udWJiX1AwbFkxeG1FbHZEMU9RX2lXSVVCUUxMV0VKc0ZvczRSYzdVMEJOYVdTcjJzdVFib2paQk4zOGJu?oc=5",
+   "source": "openPR.com",
+   "category": "infrastructure",
+   "regions": []
+  },
+  {
    "id": "b3a4586bbe381182",
    "feed": "gnews",
    "date": "2026-11-10T12:38:08Z",
@@ -11,14 +337,36 @@
    "regions": []
   },
   {
-   "id": "4757b913f29da518",
+   "id": "0ffcc15dd6b86e1c",
    "feed": "gnews",
-   "date": "2026-11-10T11:15:00Z",
-   "title": "Thailand sets noise, water-use limits for data centers",
-   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQd0ZhZFdiY24xR2l0a25IOUpiZ21UT0tCelEyWGtKeWswUGNxUjJZeGJBZjEyMnRzd0FRdFRpTExuS1dmSkxiYWt2ZWNwN00yb3Z3UUQ5dGV0QkRoT0UtbmYtNVVSX3FLeXM3UTYwX1dKU0tkZHJLSWxUYzh2bUNKNDl0X1FGTmFFUkRGNWVoT29KUEkzT18tcERUcWdmT19IWlJLUkRmRmtIYXl2MDBEQzRoeGJYVkJtTTYw0gHAAUFVX3lxTE4yU3J0NHRnQjdycWhSVDZQSTB6d3NTUXZIbnZrajlqSVVmY3lvNGFJWkY0LXBNUERPUEdfcTdqcXZJcUtJQ3hsQU5TWS1NUEtObjlrYm1kT0xFQ3FIckVqMmFhaUV3S0tWS0FIVlhLZThXYTlseWtWS3MwRUFWU2JOWll0OFB6SnJ3STMybG5GRjZUODRFRk9DQnlNYWlwYVF1RjZ3QWNLZGdLT3JqVHRtMFJyZTRLb3JGai1YS1dDQg?oc=5",
-   "source": "The Manila Times",
+   "date": "2026-11-10T12:00:00Z",
+   "title": "Two ‘forever chemicals’ linked to an aggressive type of breast cancer, NIH study finds",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOMWNmeFN1UktGeFVBUUNVLVJVOHRMLTJJWGNESEJuNmYwQXZUa1dfM2gwMW1nXzVWeE9jbnJZbGZkQVBUekFTMTRGRmtKNWN6clVkRWFqaWd4QW9mZHJMRlNvYnIxb3dNZGF1V0tTdm9vQWc1RU12aXVZVGloS08xU0RmejhqN0VTRzJzWEZLejZpd1dZaE8zbzhQWUZzY1VwT0dpTkJZWW9GMWRITnJpdFIzTC1aQQ?oc=5",
+   "source": "Environmental Working Group",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "1dc51fe49299883a",
+   "feed": "gnews",
+   "date": "2026-11-10T11:16:02Z",
+   "title": "Thailand sets noise, water use limits for data centers",
+   "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFAwREtoMVByWG0wejVHVlc4ZndPaGJvTFI4U01PZ0JuWDlVcU5qUXlHN3REaU5yZ1pPcG5jMmwxUEgxOXBTcGw0cW84QV9GN3daZzZJT2czVQ?oc=5",
+   "source": "The Korea Herald",
    "category": "data_center",
    "regions": []
+  },
+  {
+   "id": "c0eca0c3df9a9ca8",
+   "feed": "gnews",
+   "date": "2026-11-10T10:35:43Z",
+   "title": "Texas wastewater: A new weapon against data center water woes",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPN08zLWdPd05FZXFhZ0x3OVNHTEtfQnNKZ1ZCcWw4REZLNi1pcGZaU050STN2VWVreHJiMjlRS2xmVm1xcDNEV3Y0cDIwNXE5LThuZTVQbGpCNTJ5Z3pObTFFT05pZnB2YkhaQmJVUU93WEtJc013N2Q3WXE5SnRabTU5OGQ1Ry1FczJ6NWdtemtndXNxMktYUElycW1aRmNCWmdoaVVtVmZzelJ4WmQ3MjZ3?oc=5",
+   "source": "Electronics360",
+   "category": "data_center",
+   "regions": [
+    "Texas"
+   ]
   },
   {
    "id": "4848137815d03eaa",
@@ -38,6 +386,16 @@
    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNZVllNTFfMVJtX1lEX1ZZNFNOLTk5VzV6bTlvbE5MX1ptdENROGxYZmJ0OWVweHpwaVRlbjlrWTVYQmxkRF9kanRzclVFNVN5X2VhTGo0cDJpdlJqc0tLLW1YTnJzRnVjNm56bnJGNVdCV1ZYUWVjVFBvTV91bUlZSHp3?oc=5",
    "source": "American Craft Beer",
    "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "6776a072267bd188",
+   "feed": "gnews",
+   "date": "2026-11-10T07:15:15Z",
+   "title": "Data Centers Threaten Farmland and Water",
+   "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE05UGpfWGVMd3o2ZWNEOWxIUzROREFYS1I0OWttNElVQzF6MnluQW9LVUd0VVFxbU80MEtHYmxYVk1BbEpqUm9Ob1FxUHBYUVl1Y1Y3ai1uRTVyTE4yYjFJOWpWSUpTUXcy?oc=5",
+   "source": "Engineerine",
+   "category": "data_center",
    "regions": []
   },
   {
@@ -114,13 +472,13 @@
    "regions": []
   },
   {
-   "id": "58f893902889cf5f",
-   "feed": "gdelt",
-   "date": "2026-11-10T00:00:00Z",
-   "title": "Drought , water quality concerns keep Hedley under boil - water notice",
-   "url": "https://abc7amarillo.com/news/local/drought-water-quality-concerns-keep-hedley-under-boil-water-notice-donley-county-greenbelt-municipal-and-industrial-water-authority-sylvester-castillo-city-of-hedley-mayor-jacob-fangman",
-   "source": "abc7amarillo.com",
-   "category": "drought",
+   "id": "081d34eaefc24c55",
+   "feed": "gnews",
+   "date": "2026-11-09T23:38:16Z",
+   "title": "Drought, water quality concerns keep Hedley under boil-water notice",
+   "url": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxNcUstWkVwbVhMRU5hVkhzTEU4ZERiN1dqdnhzUzE2OUQ1THRPLTdUT3BfNE9NREhzOEtJdXFhT05zZ0pqcFJ0bUJsRDNsTHZjM2xReGl0dERHQk9wa1EwVUhITTI1Wm5EWmRNUTRKNWxvZEc5ZmdRRUpieXV1QlFoeGdyNS1aNUhWX1RQbENtSXhXMy1aQ0RhbEhWRXJqWWJqTHNtR3o3enVVcXVXdmMwR3VrZnRnVDlMb29tdUV1bVFoZzhId3FwRUQxa0xJa0g0NEdMLWE4OGJsWU02WGc1N1pENGNDQzVtcFlqQWItOUF0VW9FdXJtdUpMcHgzV1QwVE03Tks4VEJtT1oydEFjU1poWll3eTkyZndieEhDdWRfN29HeEtOeHNGajFGUXFYbktNR0ltaDc3c3NVZVFjX1JkSQ?oc=5",
+   "source": "KVII",
+   "category": "contamination",
    "regions": []
   },
   {
@@ -131,6 +489,16 @@
    "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPcDA1NGl1djJTejk4dWI3aDh4V3g5X3k2Q3AzRy1ub290YzgxS2FPMEs3MEZVNlo4dk5HT1JabTZMOW1SM1JMeDVZcGJKeTUxRzMySDlrNlc5dGFyUFRVRWhBeHdCNnBwNHNBV2FkRlE3Q0gyaHllc09xcFdSTzRZVm5GRGppcTNqS2tDRmdDZERYRGhFcWVPN2tDMy1HQWw5?oc=5",
    "source": "KRIS 6 News Corpus Christi",
    "category": "infrastructure",
+   "regions": []
+  },
+  {
+   "id": "46f53d5455699e0c",
+   "feed": "gnews",
+   "date": "2026-11-09T23:21:58Z",
+   "title": "CITY OF BRENHAM ISSUES BOIL WATER NOTICE",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE81ejBlU2F0bUJLYThHY2tnS0tlZHBtQ0JVcURFX2ZLc1ptOVZyMEZoOXhUQXJoV1o5THJ1UHE1cVl4c1JIQzY2ZU52MXpMQ0FXY3FSaE1NTDdlbHV0RjlyUDdpMk5YdFpCMTZDczN3U1RxRDdGZHpjYWR3WQ?oc=5",
+   "source": "KWHI.com",
+   "category": "contamination",
    "regions": []
   },
   {
@@ -188,6 +556,16 @@
    "regions": []
   },
   {
+   "id": "e04a690946619d49",
+   "feed": "gnews",
+   "date": "2026-11-09T20:51:00Z",
+   "title": "Israel Delays Gaza Sewage Plant Repairs Despite Board of Peace Pressure",
+   "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQOW8zTnNQUVl2MjZTcE03UE8wMEZiS2oya1pUNXZFS20zd0ZNNi1hYzNxdExlS2RtUm1mbzV1TzJKdmVRU1JXeGcxR1NkcWliaWZPVk8zcXN3cEM3cWN2VVpoYXNiR05XWDZvYTZFVU9XNTl0SmpLXzJ2d0VqZ2g1X1BNZEhrM00wMTdVaDJHQ2lCeE1qR2V1STM2WHlaMndfOUY4YS1qU043MmZ5YkpZcy1VblJWdmI3a00xWGZkTUlJSUtxSU1XcEUzYVc5S1UyenpuQWhPUFFYOWtNUkpVWVRMQTNCM1RnNi1TUU5WWG5aNmhwSU0tOUtwcVQ?oc=5",
+   "source": "Haaretz",
+   "category": "regulatory",
+   "regions": []
+  },
+  {
    "id": "ea6e00dd2221167c",
    "feed": "gnews",
    "date": "2026-11-09T19:50:30Z",
@@ -220,6 +598,16 @@
    "regions": [
     "Texas"
    ]
+  },
+  {
+   "id": "96ae7b05fcb46d2e",
+   "feed": "gnews",
+   "date": "2026-11-09T18:30:00Z",
+   "title": "'It's truly staggering': There's a bigger problem with data centres than water or power, warn experts",
+   "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPb2FjUjJQRXVGTDh6bWVZb29HSkxIM3hkRGF3NjRoSXVVYzVIMGdNWU5nMEhXcVUzWnh5eEZBMzZsQzVEWWpCQ01fX1hlRjNZSXBuZHlROXc1WUZaM0FWNGhMMGx4Vi1JcmQ5Wmh5N2FIQXhGZk1JSlE4VDMycGowV0dWa2paY1h6SGpWVlZTTEU5aThIUnQ2dzQxNlVqbjNrTzNqNGpiVzZyV3dGSmtTWmxZMUdsZ2xFZlB6aUpLWFpxMHIzRmlNNGRFWDJRakIyUHdDNlFBb3ExZw?oc=5",
+   "source": "BBC Science Focus Magazine",
+   "category": "data_center",
+   "regions": []
   },
   {
    "id": "4a38a5ff7f19eb18",
@@ -1340,5 +1728,5 @@
    "regions": []
   }
  ],
- "generated_at": "2026-11-10T14:12:00Z"
+ "generated_at": "2026-11-11T13:27:36Z"
 }
