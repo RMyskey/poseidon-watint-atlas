@@ -72,12 +72,12 @@
  {
   "id": "seis",
   "title": "Permian-area earthquakes M2.5+ in the last five years: 3,087",
-  "text": "Count of USGS ComCat events in the box 30.0 to 33.5 N, 105.0 to 100.0 W (2021-11-12 to 2026-11-11), largest M5.4. USGS does not label events natural or induced; published studies link Delaware Basin seismicity to disposal, but this atlas does not attribute individual events.",
+  "text": "Count of USGS ComCat events in the box 30.0 to 33.5 N, 105.0 to 100.0 W (2021-11-13 to 2026-11-12), largest M5.4. USGS does not label events natural or induced; published studies link Delaware Basin seismicity to disposal, but this atlas does not attribute individual events.",
   "label": "ANALYTIC ASSESSMENT",
   "sources": [
    "usgs_quakes"
   ],
-  "asof": "2026-11-11T13:19:23Z"
+  "asof": "2026-11-12T14:24:00Z"
  },
  {
   "id": "pw_chem",
@@ -143,8 +143,8 @@
  },
  {
   "id": "longview",
-  "title": "Longview: this atlas's regional screen ranks the Longview cell 537 of 1,036, which does not reproduce the paper's result",
-  "text": "The MODELED regional score for the 0.25 degree cell containing Longview is 43.4 (top cell 65.6). The cell has little brackish groundwater in NBGA (4.3% of samples), while the paper's Longview scenario is a site-specific design comparison of three options with its own SWUI metric. The two are not comparable and the model was not tuned to match the paper. The paper's full text was not accessed.",
+  "title": "Longview: this atlas's regional screen ranks the Longview cell 507 of 1,036, which does not reproduce the paper's result",
+  "text": "The MODELED regional score for the 0.25 degree cell containing Longview is 43.4 (top cell 65.5). The cell has little brackish groundwater in NBGA (4.3% of samples), while the paper's Longview scenario is a site-specific design comparison of three options with its own SWUI metric. The two are not comparable and the model was not tuned to match the paper. The paper's full text was not accessed.",
   "label": "MODELED",
   "sources": [
    "paper",
@@ -153,7 +153,7 @@
    "pwdb",
    "rrc"
   ],
-  "asof": "2026-11-11T13:27:35Z"
+  "asof": "2026-11-12T14:31:59Z"
  },
  {
   "id": "dc",
@@ -163,6 +163,6 @@
   "sources": [
    "datacenters"
   ],
-  "asof": "2026-11-05T02:05:35Z"
+  "asof": "2026-11-12T14:31:52Z"
  }
 ]

@@ -16,8 +16,8 @@
   "role": "Global droughts, floods, tropical cyclones (live layer)",
   "cadence": "daily",
   "layer": "gdacs",
-  "asof": "2026-11-11T13:19:23Z",
-  "records": 64
+  "asof": "2026-11-12T14:24:00Z",
+  "records": 66
  },
  "gdelt": {
   "name": "GDELT DOC 2.0 API",
@@ -46,8 +46,8 @@
   "role": "Global M4.5+ 30 days; North America M2.5+ 5 years (induced-seismicity context)",
   "cadence": "daily",
   "layer": "quakes",
-  "asof": "2026-11-11T13:19:23Z",
-  "records": 24068
+  "asof": "2026-11-12T14:24:00Z",
+  "records": 24058
  },
  "usdm": {
   "name": "US Drought Monitor",
@@ -56,7 +56,7 @@
   "role": "Weekly US drought polygons D0-D4",
   "cadence": "weekly",
   "layer": "usdm",
-  "asof": "2026-10-27",
+  "asof": "2026-11-10",
   "records": 5
  },
  "rrc": {
@@ -126,7 +126,7 @@
   "role": "US data center register (competing demand); third-party compiled",
   "cadence": "daily",
   "layer": "datacenters",
-  "asof": "2026-11-05T02:05:35Z",
+  "asof": "2026-11-12T14:31:52Z",
   "records": 1757
  },
  "conagua": {
@@ -206,7 +206,7 @@
   "role": "SWUI metric, Longview scenario (abstract and press coverage only; full text not accessed)",
   "cadence": "reference",
   "layer": "siting_tx",
-  "asof": "2026-11-11T13:27:35Z",
+  "asof": "2026-11-12T14:31:59Z",
   "records": 1036
  },
  "ut_news": {
