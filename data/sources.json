@@ -16,8 +16,8 @@
   "role": "Global droughts, floods, tropical cyclones (live layer)",
   "cadence": "daily",
   "layer": "gdacs",
-  "asof": "2026-11-12T14:24:00Z",
-  "records": 66
+  "asof": "2026-11-13T13:42:36Z",
+  "records": 68
  },
  "gdelt": {
   "name": "GDELT DOC 2.0 API",
@@ -46,8 +46,8 @@
   "role": "Global M4.5+ 30 days; North America M2.5+ 5 years (induced-seismicity context)",
   "cadence": "daily",
   "layer": "quakes",
-  "asof": "2026-11-12T14:24:00Z",
-  "records": 24058
+  "asof": "2026-11-13T13:42:36Z",
+  "records": 24051
  },
  "usdm": {
   "name": "US Drought Monitor",
@@ -206,7 +206,7 @@
   "role": "SWUI metric, Longview scenario (abstract and press coverage only; full text not accessed)",
   "cadence": "reference",
   "layer": "siting_tx",
-  "asof": "2026-11-12T14:31:59Z",
+  "asof": "2026-11-13T13:48:32Z",
   "records": 1036
  },
  "ut_news": {
