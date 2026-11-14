@@ -1,6 +1,300 @@
 {
  "items": [
   {
+   "id": "52d2f86dadc8d5f2",
+   "feed": "gnews",
+   "date": "2026-11-14T08:50:34Z",
+   "title": "Drought reduces hydropower output across the US Southwest",
+   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE8wN1F3dnhQT01KQktNUTVlYmdiOTZZUGhMV29GcUkxUHdOamh6cm5jdHJXSUlmU0w1eVFLREV2SnVTSDlCc0t2eXd4NUotcDRuS0l5cy1mNkFDLU9fMHJGbzhSQVVuQWQzaG8zU2RSeXQ1Zw?oc=5",
+   "source": "finway.com.ua",
+   "category": "drought",
+   "regions": [
+    "US other"
+   ]
+  },
+  {
+   "id": "548cf3dab0e04bbb",
+   "feed": "gnews",
+   "date": "2026-11-14T03:18:25Z",
+   "title": "City of Quanah lifts Boil Water Notice – KAMR",
+   "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPVFlYczQzN25fTlkyNHJMazZDMFRUVnNqd1E4aXJoMG9uSlF3eFM3N3BIUjB1Sk14aXNCR2NPd1J0RDctckJiNmZCS1NueDBfNXczREd5Rlp2dnE0QUt4VUJrQXQxeG01VC03V0FXeTNfRGtvNTNTUE9fV21oWlc3TnRZUUlPUGxfaHdR?oc=5",
+   "source": "MyHighPlains.com",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "5323e67e03eb0f80",
+   "feed": "gnews",
+   "date": "2026-11-14T02:24:46Z",
+   "title": "South Newton Water Supply customers under boil water notice after contractor cuts line",
+   "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQ25LTTFRcl9fMS1kTWRmckNDZUhLREI2c2dlTjFmSnhWQVl3aGxZZU9YdnlUOTV1UGlJY2p5a3RFeDBSUE4tWkpibkZOOVNyTXBISHEtSGNrQVYyRGdjZFFoRkRXdHRaQ1J1RTM3U3dmN1dpc0JhZHpuRW1fSXlwTmZOYm1yYnRZN2ZWdUVqYjVoRVBwVXg2SGNRVzJnbm13S1YtZU5nWkJwampjTXB0RHEwbzJ0WmpIcWJzWlpaNGg2cGk0UG5YczlSazBoTUt0UkZDRlJiRzZTUzhNbFJYeXlvbGZPS3VXS0I0bGNhMDhGYkNtaC05NzFB?oc=5",
+   "source": "12newsnow.com",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "fc1aa1820ba81544",
+   "feed": "gnews",
+   "date": "2026-11-14T01:26:03Z",
+   "title": "Tulia boil water notice lifted after waterline break",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMGtWMlZWSl9ydFBrX05wOGNBU3NEV1BEakxNX0xaVHJzWFJQSVBSUVdteGt6VUppQU9rdVVqQ05Sa2NlTFJtZEYwZzZMcGQwR3JwdEZxZEpadUdJNzdDYzhaYThvZndrZVlIX2JaRnRVQmdTVE9uVVdSM21aNHd3T0xJODNkenBtRlVZQTZPU2hVZw?oc=5",
+   "source": "KVII",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "29f529c4ddd74d32",
+   "feed": "gnews",
+   "date": "2026-11-14T00:09:00Z",
+   "title": "City of Quanah lifts Boil Water Notice",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBDSG91eTJDZUhMWUVmVjM3aW9HVUZuSG9obmJadVRlTnBrQkVUc1Y1czVyV3VaUnp3TlprWXR6WDR0OUxLV2FHTEFvYlZCMDVWbThDODJyYm0wYjczQzlJckdrSEVoLUtPMjJodG930gFzQVVfeXFMTWM1RkxSdXljQ0xjclAtdzNfNHBZdzY3d01XMVV5T2JUNWdEem9ERUJsaEo1T1M2TkV6VUJ1YmJGVDNWejZjQ1FXTzV1UkJ2bUhKT0k1cnZKeEw4RWZQSlQ1b2lYVVgxcjRNLUEtMGFsTHJSMA?oc=5",
+   "source": "MyHighPlains.com",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "7623832c46a1f40d",
+   "feed": "gnews",
+   "date": "2026-11-14T00:03:00Z",
+   "title": "Crewe boil water advisory expected to last through weekend",
+   "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdkNYOFFEYzVKMElQMkUzSzZ2Um1NdnRLNHNvdDI2VjBsRERCZ0ZWYUVObWdRYU5rLUhzcFNBRDNDd1dxUnpxY3FDVDFBVzVsSVlMUkhVbXFiY0hUOHN2RUk0Zkl0NVltVnlkaEQ5UVR0TC1qU3JLYkpwRDhzT1dxVVdnUHJwc1pvOXlpRWdfYm4wWklQbXZqOUNqeWvSAbABQVVfeXFMTnVubW5NNVdKYWIybTgzNmtDOHpUVDVTa2FyWXMtdVlqbE1PQjFNeGE3cDZtcjFDRzF3U0pTU1R6NkxzYm9SWGFqaTRER3lQR3Q5aFlFNllGSVJ6WlhmTWpLczYwUk5GcjZ5OWJleGpmVmsxMXJibndRZ3BvY3cyWmNzalBScUNtRmtMUEtCMHR1VFBTVU84SFlDQm1TazlFUDV6T3FOd2hBem1pelcwcFg?oc=5",
+   "source": "WWBT",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "fbea437e6f5e4a8c",
+   "feed": "gnews",
+   "date": "2026-11-13T22:47:31Z",
+   "title": "EWG analysis reveals more PFAS contamination nationwide - 47abc",
+   "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcmktSzctbC13Snd3TVNHZUlHSGVRUlNrLVBFbUE1Z0xWbzIzOUVUdFBhOFNmVWNoRUxtVXJyOXFtQjZ4T3BVODZPZTNqSXJIZVVmVDhoLUpkMXNnUUZJSnBSNHNlLTUyVjRBaFlrOUNTSmNicXFDWHRkNFJTX1FDYjNLc2cwSjVqYThrMFFR?oc=5",
+   "source": "WMDT",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "846799a17e161ef2",
+   "feed": "gnews",
+   "date": "2026-11-13T22:32:00Z",
+   "title": "Seadrift boil-water notice remains in effect as crews replace reverse-osmosis membranes",
+   "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxNTEE2TWZWT2YxZ3RjUEt4d2xZSk1zWVo2V19pNWY2YnRHLWpJSmxGR004QXhQOElxU3IwZzYzMnN6UmxIbFFCUzlKMHFHTzVqQnN5ZEt0RXc2NlI5ZTg2YnBOaktPN0tzYVZUNVFYcUJvRHBzS2FyQjlIZzlMWExhMU1CRFM4eVNyRzVNczFqRTBac2tTVm9pRnNUS3dfVnlfN0pfWDBXVUxoTU1TQS1kNmV1YklzaW5ObTk4SWdSNWxpZGpSNXM4STJQRmFTU3lJWDdLd0d3YW5rREhMYS12MUl2VDNRMnRpNnNOS0x5VFNGcXg4ZmkwSkFiMjgyVW0wM2taWGNQMzBONEtYM3NyYjAtYw?oc=5",
+   "source": "crossroadstoday.com",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "330d5f0a36a2b290",
+   "feed": "gnews",
+   "date": "2026-11-13T22:00:00Z",
+   "title": "North Carolina drought: Durham maintains water restrictions while Raleigh holds larger reserves",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTTNSY1VmZnFBM2FENjR3a0hnTVltV2JoajdRdlRUTWtkSXF6UVdWcFdNcTZUWnV2cFUtMmlDdHg0ZlU0djY4empURzlSZ040ZkpOeTJFX2ZVTVhsXzFZaGswbXd3bWloRW9lbV9HclVuOXZjMGdycUtlZlFSUkxUYjlVSk1WV1oxYTBLRTZBelhybDRFc0E4c3JFTU9sVmtrNFhYNTZDTDBJV0V2LU5lcFhrSmdHN0VFS25RU3Mzck5xb1E?oc=5",
+   "source": "Enlace Latino NC",
+   "category": "drought",
+   "regions": []
+  },
+  {
+   "id": "e4c50c1587439a4b",
+   "feed": "gnews",
+   "date": "2026-11-13T21:52:51Z",
+   "title": "Desalination and Cooling System: BITS Hyderabad Prototype",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNS1RTby1iVzMtMmJQcVZseGxXTkdmRU1iRGFFTXlJZ3ZvaWo4N1lMbEtSdlQwajFtalk0VGc3cHN4WDFWYktSTG1PLXVydlhLMmNtb0ktOC1GODVlUXBHVUI3dnlIaDg1UEtvTFJUcEs3MUNWV0lYakMySGNsenAtQThxR0ZRekMxX25EekoxQWhjY2VT?oc=5",
+   "source": "Urban Acres",
+   "category": "infrastructure",
+   "regions": []
+  },
+  {
+   "id": "7802b26fe04bf98e",
+   "feed": "gnews",
+   "date": "2026-11-13T21:32:41Z",
+   "title": "Texas Water Board Approves $3M for San Angelo Water System Inventory",
+   "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTUZ1R09LTktHbEYxcG4zYU5XRGlYQnlycEl5ZVhmRkg1REdqRVFKZVpKWVJ5TlkzSGtpQlNUZnhyM1M4Y2dfdWQ4Y2hBMXA3UUdFbk1GVG5tdXVTcjgwNGYwdVhWeW5CdjRZdllsMF92dG5JcVNaT21HMVNqR1htWWdCSDhQU1djVmozM1oxY2ZHNTA1Q0ltVTdCbmJBNXpEY3VwcVJMUTNCNnA0S0l2a2lJZ0MzTEE?oc=5",
+   "source": "San Angelo LIVE!",
+   "category": "infrastructure",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
+   "id": "f9ba61d38575a481",
+   "feed": "gnews",
+   "date": "2026-11-13T20:38:00Z",
+   "title": "City of Tulia lifts boil water notice",
+   "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcF8tcmdvcFAzek1peEFkUDgydS1ydUQwZTJYcDRUZ2RUNFcwclVZNWhwbE4tbHhRZS04YThDZUxNaDFqbXdGc0doaktrdWVibTlNUFEwQjFWNmhGZmtwWXp1ZjNDNmFIajdPaXBhclF0UEN6RlctRThpeXB4TDhXNm93?oc=5",
+   "source": "KFDA | NewsChannel 10",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "1bfbb18cf5f33f8c",
+   "feed": "gnews",
+   "date": "2026-11-13T20:19:54Z",
+   "title": "Texas Water Development Board approves $1 million for Plainview water system improvement funding",
+   "url": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOZlhEc1ZZazZYeU1kNDdPQ1lELTFra2ZDdGItdWFSaFZ2c1FlR25uS0VtTVA3V3d2eXpoOWtoQ3FkaWRrLWhFSzNLX19lcHRKWUR1S1V6ZWxYRmRzYURVSnN4OXZYdF9BYjFId0tNZUl4d3k0MXJLemFUTWtiNjFiS284UXlLRmhYdVFWbkRWbzJ1aFJNNnZxbWtYbm5YRUhObjJxNHV3UGMwVGJxRmdUN3AwWDB2WnNSVFBRUUd3dUVELXNBRk5scWowbWEyQmIxMmQ5QjdXdzdqcDVqR3ZCbjY3UXF6cVZTYjE5UWJHeTliVWZf0gH6AUFVX3lxTE12dlNLdlJDN19sSnJMNDFUOVZpOHdqQ2xxWVVfSUxWMkdOSkRUVjFfSVJoaS1xQTBpVmVWdFFJSWVaSlV3SVdkUjdkc0NWTFFrQjVQVGRxNDhoOURNQlFnM0dqLWVxRG9UYWp4T2xMQjc4U1pDQmdvSDlxUWV0MXF3Mzl4ZTMya3lRNkZkWENnbFpWN1JRdW1WaFppSUFabUtNdC1fTUI0WVdtUE14Z0VOdVhNU0EtWm85SndHX3VJV3p5ejBOZzBXR0NoMXNneVFWLXFEcXlqLXdjSTJjSUdzTFpQTk5LcVVYUU1UbUFRSlhQYmRscUxZa0E?oc=5",
+   "source": "MyHighPlains.com",
+   "category": "infrastructure",
+   "regions": [
+    "Texas"
+   ]
+  },
+  {
+   "id": "86059e653740a29c",
+   "feed": "gnews",
+   "date": "2026-11-13T20:11:37Z",
+   "title": "A Lawsuit Claims Lagunitas Beer Contains 'Forever Chemicals.' Its Most Alarming Number Leaves Out a Crucial Detail",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQVktLd1ZxeHRZN3Y0V1l2bnJWbk5yZjhOWG1lLXhCNWdPS3FuM2JxUXdSMExkR0V0NUJYQVU2cWstYXAyTzJwVmY2SmlmcjVQNDdMM05nVFdqSnMzVGZYSjF6SURhMHExTXlMNFlJMHhUU3kxYUVVWEN0dWNFcm9fdmNjUFVNZjg0NjlaVlNva1dOR1VHNnd6eFlsSTNOX2pxYkdFMC0za2xJSW1FUWQ5NkJNa1hSWlZRZUxRM0pibHN1T1JY?oc=5",
+   "source": "Inc.com",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "17fb59ea95ca10fa",
+   "feed": "gnews",
+   "date": "2026-11-13T20:08:07Z",
+   "title": "Ocean Shores, WA on boil water advisory. What residents should know",
+   "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFA0bjhMTm9BUXRpbWVHMVdrclkzdzJxZDZiRDJUWWJFUjhIYXBVODRMMmtjZ3FPMEhuaHZtNWQ1WHR0TVhVX21jY2RiUXpHNVdzZkhiQ1lfV2syTVBBYWZOM0NzMTM4YThwcXEwbzhZRGtWNkgxUC1tZw?oc=5",
+   "source": "FOX 13 Seattle",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "6d0173edc0d0a26a",
+   "feed": "gnews",
+   "date": "2026-11-13T19:57:00Z",
+   "title": "Andrews rescinds boil water notice after water line repairs",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPTjVFRXdUWEVSYmo4bEktSDEySHc2OV80Q2dHQkVkODgtVzVBUkFJbkk0ZjdTSFpraE9XdUVHQjZCWE1nVTdJNzI1di1WZkhWMnNqTXAzS3ZsX3dURVYzX1dKaTlaVnlBYUV5QVFWdkNNMkdvMGc5Z2xCTWtlX1U0QmpFbDJDMHNTYy1ncDJNRGZkWXM3Qy1LUHVEQ1RBSC120gG0AUFVX3lxTFBjd3lIZjdMMzZTMGptVnVzb2NsLWI0c3JRSWdteUMxekVqY19WOVNKQnpld0d6dGVsbFl3S2V4REN0emhFTFo5SW81aFl3T3ZvQ1hkdW0zQTVKaE5kSUVQcHdKMzlJS3JVUHN5b3ZTUGlwRklkY2RfQldTTHBYUzlxbVNaT3RDTTNUVU1qbi1VaHg1VkxIZUVVSFYtcC1yWTdrdjF3emFnNGZhVHczZU1SdkpKNg?oc=5",
+   "source": "CBS7",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "941afd9d9a18baac",
+   "feed": "gnews",
+   "date": "2026-11-13T19:49:30Z",
+   "title": "Jon Rosenthal names Railroad Commission transition team, priorities in first address",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQb2hFbzlVZTdqbXRUY05GVmpFZkc5MUdyRFEwaG04eU5RODBJcDVrb3dXSVJ2MXZfSW9Jb2JZSllzUHV2OW5HekpkbFRwdGEtNTdfVGhCQUJCMUdYcWdiSTlFMzRIM25UMTNMMnl5MS1wZmpmcVFZZEJiNUZrLXZGODFhaXRzSjI0bnNOZEY2MWxia0dVWUxrVS1iTXBfMVhUcU9mZjZVYTJINHlFUjdVZXYxSGZ0Qjd1R1FkbE5iZlRpQU9OS3c?oc=5",
+   "source": "KSAT",
+   "category": "regulatory",
+   "regions": []
+  },
+  {
+   "id": "e9c36b098af08893",
+   "feed": "gnews",
+   "date": "2026-11-13T19:02:33Z",
+   "title": "Heavy rains bring dramatic drought relief to New Mexico",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMlVqWTBWTFRTamlwZGtJUTl6RHlfb0ZLRTFhVURLZkF5Y2hyZXRPeFh5bGhKeUJIclJGVVUzNy1lVlVlbWNPeGVkR25fZ2pQLUU3R2JfMXJDM252LWRvRXY0OEEySVRRRTZpVG5YR0Fnd05aRUZFTHRKTGdPT0dYck1UQ1k2WGZfeTk2cHVNRHRXSDh2MVNuMFFrbTR3ZnpIMTVLcVFfRVYwNTZRbmFoMTNYMi1WeHRISjVYZ2JuRHVjbEY2T184?oc=5",
+   "source": "Albuquerque Journal",
+   "category": "drought",
+   "regions": [
+    "New Mexico",
+    "Mexico"
+   ]
+  },
+  {
+   "id": "e0c72298886a0ce1",
+   "feed": "gnews",
+   "date": "2026-11-13T18:34:23Z",
+   "title": "β12 borophene as a next-generation platform for PFAS adsorption: a DFT investigation | Scientific Reports",
+   "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FZVhsWDd0SThNSUMxSE5jbFFRdFJrREhEOUpkMFp4MGJTZkVDMjJsQjFGcmNTT2Q5UUNtclN2Q0FQM1FybUt1ZEpRYWJHRlRIV2hpXzlSOE5ncG5wS1BR?oc=5",
+   "source": "Nature",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "b584869c6dace652",
+   "feed": "gnews",
+   "date": "2026-11-13T18:21:20Z",
+   "title": "Nuevo Leon Data Centers Face Water, Power Constraints",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNMXgwV01QdWV4REZFQWU2UG5pNC1DX0JLX25CVjlUQkw1Q2NVZGp1WFNYc19nYWItaUJ1d2pIS1JpeDBUTEZPNm9TQWNlNU1JME02Smxtd2JLbUtUUExnMmxndmNPcjZDQ3pwdkc2LThKOGlUbk1SQUo5RzFaTENLb19TcGczOWNtbFhEMGFwRzBNYlUxWXVfTzJQem40YWtCd1E?oc=5",
+   "source": "Mexico Business News",
+   "category": "data_center",
+   "regions": [
+    "Mexico"
+   ]
+  },
+  {
+   "id": "70c4e34a4d87322f",
+   "feed": "gnews",
+   "date": "2026-11-13T17:57:23Z",
+   "title": "New Mexico Brackish Water Survey Targets Drought Relief",
+   "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS2pZYlQwWHhGTXE5bnA5MWNELXZNa056UU9OR0xVQ3BpWVllbVpTeXJmVjJONkYwYWVPYURCMEEtQUdWdlBXYXh4eG1OSURfNXMyQ0Q3MEhnZWs2NGtQSW92ZjZMLU1xLVZ3TU9oMHd6X0ZwTWxES2hkVjNZdDFuZVFjV1c1QlBxSjlXNmZySlRhWmtwaHA3NU8wYVF4LTI3YVdiQnhhSXZqZw?oc=5",
+   "source": "Hoodline",
+   "category": "drought",
+   "regions": [
+    "New Mexico",
+    "Mexico"
+   ]
+  },
+  {
+   "id": "2fdfb40b6931e931",
+   "feed": "gnews",
+   "date": "2026-11-13T17:45:00Z",
+   "title": "Brown water expected to clear in Crewe; boil-water advisory remains",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQWFdHSUpwejhuaC1ZLXJVRDRnS0ZSWlRkaVczX3U5NU9hWm4tTkRuU2MyTDNJY3lLbUwzNmVWSkhLdDFOb0dRUFdaZ0NSajVvM0JDdGRjd0xZSVJNX1E2TXF1am9iVTBqZnhOZ05FdHNKZVNuV1ViTGJSMjhJbkUySE1tZzh1RG82dWh2LXNLX2ZRbFc2ZVVGTmtqN3dQTGd5a0NV?oc=5",
+   "source": "WWBT",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "f0e19284dd4decc9",
+   "feed": "gnews",
+   "date": "2026-11-13T16:38:48Z",
+   "title": "Data center expansion raises questions about water quality",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYXNqZDA4dXNWb3doUVp1M1BLMVJXbkdzb3FKYXJVMW5aWGZBbUhhaEJPbGxPc2F3THVpZlFGaTRyMlNSUG5hS252NGg2ckpkZ3pQcFRGeGNCclFNLWlRVU4tVmZ0c3REMXZBQ2RiM0RNVDgwejRUWHloZEstbkp4RGMxcEJ0X2JNZ0tOLThKaHQ3QVlDOV9Ubg?oc=5",
+   "source": "Brownfield Ag News",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "57aa5beb681d0f91",
+   "feed": "gnews",
+   "date": "2026-11-13T16:06:10Z",
+   "title": "Why AI infrastructure must rethink facility water loop management",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRnJhd0IzelVKemRlYmdKQWlKSjJLQXBYYWJabFhfN2JlX3RnRFFHaFVJSVhveGVRZjV2YXlxRE1VeHAzYkZDaG9fN3FYWjRObEw1TnBRS3FZNkljNDNHYzJkQ2pNdVIxS25mQ1Nhb2Q2YjhmaWQ2aVgyLUdSc1J6RVdlbk5kVm1RM3pSV3pKVFlMZkZyR2ZLUUhfZEJCeDY3SFRQcEFCUFl4a2pZd1NKV1NvOA?oc=5",
+   "source": "Data Center Dynamics",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "ed23fcaa1d3213c7",
+   "feed": "gnews",
+   "date": "2026-11-13T15:45:00Z",
+   "title": "World’s largest inland desalination plant in El Paso to expand",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQU5GRDdxeDNxWmpCMVlPWGhwenZfU2FLUTctYlI0VDNvNlM5dG1QOU95aUd2d1VXdWotVlVHcjcyNmtvVmUyR3NPNlNqQ19QdVhrTnlBQmtaZ3pQaG5MZlZEVy10c20tMGNfQ05Lc25XdjZsRHN0bjRUbTdzWU5zRVJlNjBSUmtUNm9WV3hEZE9NcG5BWmFvR3daWXVwU29fVHFtdGlSOXZ0Zi0yWlhIUkJOeWVzZw?oc=5",
+   "source": "Spectrum News",
+   "category": "infrastructure",
+   "regions": []
+  },
+  {
+   "id": "e0e4c14dc2a8f3a0",
+   "feed": "gnews",
+   "date": "2026-11-13T15:00:42Z",
+   "title": "Boil Water Advisory Rescinded for the Rolling Hills Landowners Assn., Seward County",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdGM0U1piaC12ZlRHWlBFMkM0Rkg0al85X0F3U0tpb0VTZGUzb0hsbEtabkF6Njh1SGJwMlhiVnVvNmpLdDZHcmlzYkNlY1pkNHJ5TXhlRVVaU3NYaFhHT1l3a3g4T2ZHQXdHbV9wMDBkTC0yZF9CV0tNclNwbGI0R29TQWJ2czJFWXVqZ3VUanBub3dITWFiMk84am9yRjYwcmhSUkI1UWphSVdjRWxRQ25GMWpfUTNJVEl4Sw?oc=5",
+   "source": "KSCB News.net",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "1894068756989361",
+   "feed": "gnews",
+   "date": "2026-11-13T15:00:00Z",
+   "title": "Drought in North Carolina: Durham maintains water restrictions while Raleigh conserves larger reserves",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOWm1oTGp2c1NMUFhYX21iMnViWGdCWDZtcGh0X196YW1SbE16QW9SOUxhNjl4UXh5dzhsQVhpT2pNS25OdWlBeGo4T0Q2eWo1NU5CdHhGS3hkaGFVVGlYMGRNSVV2emN1X0VaVU10STJDZmk1QVdaN3BMLWtTVXI1Yk5URWJTSzN0azBzSlpNM2RyX1dia0ZUd3Z0eTVkTFNqM0luSVV4ajZ1OGw3RkRIWXBHUG9tM3AtRnlMMVB2d3JoSU5fYVk4?oc=5",
+   "source": "Enlace Latino NC",
+   "category": "drought",
+   "regions": []
+  },
+  {
+   "id": "5949de131dc92c8e",
+   "feed": "gnews",
+   "date": "2026-11-13T14:58:04Z",
+   "title": "Boil Water Notice for some customers in Deweyville, Orange County",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNQi1adHhiTHZvekV1bThjRno3OVpJdDdRM01pc0NJQjhwUTJVLTdNN1pQN1FkUzZHWENwUzVpMnRyZlFIUkJVUE42aWxUWVNXZWY5NVNHYUdKTDUwX0RESl92a0N5NElwVDZmRnZ6ZjVjZUV2ZXFpWDVqMWJSeXNGTmdMYWNOLWtZNkVuT09kQ3Yxem5HT21B?oc=5",
+   "source": "KFDM",
+   "category": "contamination",
+   "regions": []
+  },
+  {
    "id": "6f401afa39a5eb7b",
    "feed": "gnews",
    "date": "2026-11-13T10:46:52Z",
@@ -8,6 +302,26 @@
    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBVQ2xRUGJ5TWxMU1F3V044VEVLam9WRmhtZ0VaWUkwWEdRV1dSV1ZhVnBWamdlVVNUQ2taSFdfSi02bU9Cck41MG5xS2NjSEoweVhIRHpfM0hEWlJLM2JLdzR2MW8yeVN3S1lSRGt3?oc=5",
    "source": "Techgenyz",
    "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "4023cb31085d1694",
+   "feed": "gnews",
+   "date": "2026-11-13T10:00:00Z",
+   "title": "New Research Puts Data Center Water Demands in Perspective",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTENSTFZ2VUZ2UmdfUk0waEQzVkdGUElEald3UmtTOTg4dnVoQWlaMElPSS1GSk1JR1R0Ri1XYllmUGhvZTBpRElHZmhnZW1wUlpEdDlwb01FZmtwTkhlVklQcHFHYVFDTS1KYXBVb0JCVXVlUkxYUWNsMmVVSmNDZ1NQNU5kT2dDaVBPSHhrX3d2b0gxZXFB?oc=5",
+   "source": "Yahoo Finance",
+   "category": "data_center",
+   "regions": []
+  },
+  {
+   "id": "d76db9618298c400",
+   "feed": "gnews",
+   "date": "2026-11-13T06:15:00Z",
+   "title": "Plant update highlights ongoing PFAS cleanup in Brookings - Brookings Register -",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNjItQnVnbDBzMEx2d2Z1dUV0U3VjMG5wUmI3Q2pPbXl2dkJibVBVMWxsd2tXTlB5OERaS1FXeWZsVnlxSmhjb0VxUlJjd05wYldscV9qMHVyVllzWjI5ajJQZTRCVDFzVmQzZ29DRW5OLUVRTmdtM2FZM01ZWnl3VTd0eFJUUEhOZzVWcGxxNWZ1VjVWYzVHNm02cXdVUQ?oc=5",
+   "source": "Brookings Register -",
+   "category": "contamination",
    "regions": []
   },
   {
@@ -33,16 +347,6 @@
    ]
   },
   {
-   "id": "45bf2aed135dc856",
-   "feed": "gnews",
-   "date": "2026-11-13T02:01:47Z",
-   "title": "Liquid cooling crucial for India's sustainable data centers",
-   "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQM0tZNUoxVjBLa2MzR2x5cThLYl9rYXhRQTBBampQZ05KQzVhaTRCWlNwTUFLYmRCX3VZSWNfREhaSDh4dV9wNnJpREtkcW5td3A4dDdQZHVETkhuVzFTbkp6YUIteFd0b0J3OUVib2lPREtlQTZxME1uMnRwd3h1eFVHRlp5RDR4U0dxNkp2dlBwX1pKcjhPY012OTVPT0cxMnNBdHk4WGhuaUtuX19SLUJpS2t3NmlFU1BwWFlDQjlXTXgwcGR0U3VodEo0TnpwOER0UVNOSm9vUnByTDNJUUpla0xzX2PSAesBQVVfeXFMUHE2TDNvZkZLVUF4aS1tLU5SR0JoWmZqMVNOQ0kyN210YnVOVnR1Y0VfTHFfbzhZRE9OMHphSVFiVkloQ2dRaXhZUGZjM1E0VHBnUFJrQVhfbVRWUU9LY1MweFYxbjEzU19jZ0l6RW9KbXc3aE9rbVhPRFNWZm90M2FkZmJiY1lpbHkyYXF0N0xHTGdLTk4xbjZfWC1QUzBoLVpGdGg3U1BQSjNQU2dBYV9LZG1RSTVKMFljcUZnUHpObmozc0ZtdTF6bnBpYzZFMnlPUXBuTzNlQTk1WURDRlNxTXlDcWtwTlREcw?oc=5",
-   "source": "ET Datacenters",
-   "category": "data_center",
-   "regions": []
-  },
-  {
    "id": "5c52ffe28e92be2d",
    "feed": "gnews",
    "date": "2026-11-13T01:58:33Z",
@@ -53,12 +357,32 @@
    "regions": []
   },
   {
+   "id": "4b860e7a8a13d0d9",
+   "feed": "gnews",
+   "date": "2026-11-13T01:56:03Z",
+   "title": "Liquid cooling crucial for India's sustainable data centers",
+   "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQcTZMM29mRktVQXhpLW0tTlJHQmhaZmoxU05DSTI3bXRidU5WdHVjRV9McV9vOFlET04wemFJUWJWSWhDZ1FpeFlQZmMzUTRUcGdQUmtBWF9tVFZRT0tjUzB4VjFuMTNTX2NnSXpFb0ptdzdoT2ttWE9EU1Zmb3QzYWRmYmJjWWlseTJhcXQ3TEdMZ0tOTjFuNl9YLVBTMGgtWkZ0aDdTUFBKM1BTZ0FhX0tkbVFJNUowWWNxRmdQek5uajNzRm11MXpucGljNkUyeU9RcG5PM2VBOTVZRENGU3FNeUNxa3BOVERz0gHrAUFVX3lxTFBxNkwzb2ZGS1VBeGktbS1OUkdCaFpmajFTTkNJMjdtdGJ1TlZ0dWNFX0xxX284WURPTjB6YUlRYlZJaENnUWl4WVBmYzNRNFRwZ1BSa0FYX21UVlFPS2NTMHhWMW4xM1NfY2dJekVvSm13N2hPa21YT0RTVmZvdDNhZGZiYmNZaWx5MmFxdDdMR0xnS05OMW42X1gtUFMwaC1aRnRoN1NQUEozUFNnQWFfS2RtUUk1SjBZY3FGZ1B6Tm5qM3NGbXUxem5waWM2RTJ5T1Fwbk8zZUE5NVlEQ0ZTcU15Q3FrcE5URHM?oc=5",
+   "source": "ET Datacenters",
+   "category": "data_center",
+   "regions": []
+  },
+  {
    "id": "2f2264a2222be6a2",
    "feed": "gnews",
    "date": "2026-11-13T00:05:00Z",
    "title": "Crewe staff raise tank water levels significantly; boil water notice remains in effect",
    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNzNFZ0hjY3A2eUxNQkN5Q2VXWWM5VEVZcjhYaEo3ck9uV1loMDRnZGU2WEVqa3lMQ0o0blpfc0FldzNGXzhNN1lydVlJMEdZSENvLV9xMEZpbnV3Rjd5c1Bjb0JNQ2NmbzR4Uzl4dUZuZjJuX2hPWTVoeGl1NXJRdGVDUkl1UkljbS1NZm40eUNfRFhkN0JjS3NLSGhDQXdKZUoyLTJVcHJSeW40QnR6NFlzM2ZveXA0ZnZFRkRDU2Y2eWxzcXRXUQ?oc=5",
    "source": "WWBT",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "45132fbca843ab10",
+   "feed": "gnews",
+   "date": "2026-11-12T22:37:47Z",
+   "title": "San Martin residents seek answers after E. coli detected in drinking water",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTWZEQ3hNVzNzNUNXRFN0alo2WWtfZFRQY1RLSDBIUGtTSXJoeUF0M2RZdUwwSmN2MlhUbXBBWmJ4NU92OTVHdFJmdWFhQ2FoN2xCTVpCYVJyN2VBLWw1dDl1Um9kc1Y2cENNZFRBQXd1UUFBLUZ2cmJCeVJwS1llTFFUU01CTnVpTUQwdUcxZktYU2Y0aEdGM1A1VnZ2X3Y1SzdaUEdLVjNLRURva0Qw0gG0AUFVX3lxTE93ZXJqWGNQZmZHa1Nhc1Q4Y2ZHWWRuTkF0TW9vRllNUzlTeTNDWW5zTVY3YzlHeWJUZFRYdG1uZGZtQVRJOGVDU2VPT2pqbWdEZzRLUGF6VTNpZ09PZy0yOEZLUVAwR0JTMVpWSTJYRkNxcV9tTTNTeU9jdnJpblRSZnM2VkRnb0RHUnJYdGtxY1hSNWdESFVMaXRCczl0M21jdDhMWXcybTBWZWhhamFUM3JkNA?oc=5",
+   "source": "KRON4",
    "category": "contamination",
    "regions": []
   },
@@ -73,6 +397,26 @@
    "regions": []
   },
   {
+   "id": "7b17a001259c52f4",
+   "feed": "gnews",
+   "date": "2026-11-12T21:01:04Z",
+   "title": "Antiscalants (RO/NF) Market To 2035: Desalination Boom Supports Forward Growth - News and Statistics",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPemZKYUtjM0owWkVabFgtY1M0bXJIaUVNNkdlazdveGd3SFppNFFhSVM0ZmhEajdQQ3lid1RLVVhjZWdQdkh4dnZVcXdkOTBUSnVTeUpaU3kzOFlud0JxVC1yc1JiUXhocVdKU1RGbVFlTUxGVzQwYlFsNDhvV1NRWUtHb3ZWZGJ2cW5kNDZaVXdwT0ZQU2RjVEJobXNONmtWYjdRUUl4VDdBZlA1SktRSGVjakhfN2ZkejZVY19R?oc=5",
+   "source": "IndexBox",
+   "category": "infrastructure",
+   "regions": []
+  },
+  {
+   "id": "5e993c8baf4fee7d",
+   "feed": "gnews",
+   "date": "2026-11-12T20:23:59Z",
+   "title": "SpaceX Plans $74 Billion in A.I. Data Centers, Pitching Water and Jobs",
+   "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRm9sdTI0VXpvREpyOExEVWRyVjJyRXVpT1NLcHlNbThLYmp3ZFFMYjdYOXZSMmJIRTVDdDJEdWxfdHBJRTlNSU12bHlkSUhNbGxoZnJ6OGxScGV6NUlwWFF6VFFOVV9OQUctSURFMDJxWFpMaVVjc0JvbUVUUVNQQUgwRlQ?oc=5",
+   "source": "www.trendingtopics.eu",
+   "category": "data_center",
+   "regions": []
+  },
+  {
    "id": "3b50bd6f5988fa27",
    "feed": "gnews",
    "date": "2026-11-12T19:12:44Z",
@@ -80,6 +424,16 @@
    "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxNRENXN1JEZzVXNHZpTmZBejFBV2oya0VPNm5wVl84dmt1VU02NXBLOE5nLWoyd295WERCd1d6X090U2k4RkZHWnR5Sk40RVUyUXkzX28wNDl0b2wyc1lrWGZGTHEzaHFUVE1sQ1NPYVAyb19nbXVpMWs4SlYwVEZWcEw1YWhzVmVydVFHNDlOeE9PNWx5UmJha29JMzJyOHFFN3lPNXZuSFVjUnJhU3lXcW5oNldlUTRLVGRqTkkyQ253SE43ZG41MmRYMVlFTl9RS011Yll2VHJtX00?oc=5",
    "source": "Earth.com",
    "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "cc44561bf0c19872",
+   "feed": "gnews",
+   "date": "2026-11-12T18:38:34Z",
+   "title": "From AI to Front Royal: Virginia Author Examines Data Centers, Water, and the Future of Local Communities",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZUNjZ0xpSEhIamloYjNGVlNMRkp5Q1g1TkwxVk11ci1Eck9tc0VmREY5MGdTbWpyQW9aRmRPMFlodlVGdzNtVXdwSFA5U1FESmxUWWlUME1jUlozcW9taWNlQzN5YWtYbjJUTnIxaGFrUlRoUUdQRFpCTi05Qk1QYUpGQ2Vjb2RSR3ZuRTU0Z3hPRU5EaDJpazFsa2NodzVNVEhSLTJySnZrR3RCNmJJZ2dUSWVaRmNseXlEMHFpZk1rOG1USjlueA?oc=5",
+   "source": "Royal Examiner",
+   "category": "data_center",
    "regions": []
   },
   {
@@ -103,6 +457,16 @@
    "regions": []
   },
   {
+   "id": "c2c24d4a4be46b03",
+   "feed": "gnews",
+   "date": "2026-11-12T16:50:12Z",
+   "title": "McCaysville reopens two roads to through traffic after flooding; boil water advisory remains",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNeWRhT0ZKN0FfZWQyREhwNWl3RTdlRnM4dC05UlRKRE5uX1NVcUcxcUQwRUtTQUdmWkFjSmhqX3J5T3dWUEhRMWp5Ri10YTM3UTZmaWJxLWk1VEtWbHdva3R2RmFmdm0zQzBkVXB5NlhReHlLYV9MRnUzTlExRURNajRZZ3dsUDFmWkFobjhTMWhlNW1vVmMwWUZUaEZ0VkVfdnFqZ0dCTDZBQTluUnRoY3NVdVoxVFZQSzRxalUzZHlIQUpldWhzbg?oc=5",
+   "source": "CBS News",
+   "category": "contamination",
+   "regions": []
+  },
+  {
    "id": "b2d43d1af3d4aebc",
    "feed": "gnews",
    "date": "2026-11-12T16:49:12Z",
@@ -110,6 +474,26 @@
    "url": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxQR0VWY0hicVpBb1luV0d2aG00WVBzZXZXMmFJd2ZPZEdIa2xVVHFQcVF5Q0xJbWFORWVxS3BVVm8yNzZaYTVWVnQzQ2ZtUUpSaW56Qm9Md3BEeUV1ZHlmbk9YaVZtSV9sQmdfUFdUTkxNRHZCaWlJdGN1eHhjOVRDNm5lRWR6eVU2ckR1Zjl5RFY1SWhMVEI1dnByX0VESXU4d3pnb0FYNTVJVTY4cEdpdmJueGRlNkowWXRjc3RCNTBzY1c5bmZ2U0dnNmNLaXVseERBeGdMLVo3TGhzSnprNlpNTjZFMDEwcGl4bVdaQnNLaHJNQi16VDBibU1fRm9ZQlZjRmw0MDB1ZGc5MnFGdXVHeDVfVHR3c2kyaW1nUmxvaUVvYWNVLUJ6bVU0a3N3RGF4Y0JqUUJDNFVob0U5WllCdmgtc3dfMGpfeXUxbk4?oc=5",
    "source": "coyotegulch.blog",
    "category": "drought",
+   "regions": []
+  },
+  {
+   "id": "2a8ca179b75fcc35",
+   "feed": "gnews",
+   "date": "2026-11-12T16:21:55Z",
+   "title": "Researchers Demonstrate Tools That Could Help Water Systems Find Lead Service Lines",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQd3EtNU9pRUc5bEJOT0k4dTFodk5ETEcxZm5kTjU1SnVrOWJQLWl1bEpwdnFrSFF4aUxMSjB0ZF81YU43YVhKSWVhMnNjX2N0YV9ScDRXaHhNaFZjV19uaS1wLU9xemRwY0x0cnFWMFJ2WkZIdmZfcmVOQndFZG5xUjl3SUJaTTZoZGc5Z1FsQllQYjItb1BNdml3OVVBTzZ1dWNuSERSUDgyeUdxbnpfMzBfWWM5cHlRc1k0SVdidE50YU9LY253dA?oc=5",
+   "source": "Environmental Protection Online",
+   "category": "contamination",
+   "regions": []
+  },
+  {
+   "id": "2136b88acfbe026e",
+   "feed": "gnews",
+   "date": "2026-11-12T16:09:07Z",
+   "title": "Cooling orchestration software: A welcome addition to AI data center operations",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNRkIxSGxnbFFTS295T1ZwdGpOZXlhdjhNQVZkOWZqR3ZzOG10dFhRdFM5S3FDT0ZTUjh3SzdwcnNzMjhsVk84UWk5cWdfMVBoeFpwQThvLVNjNG9MMmVvelJ2ZHJma2tDM1FyWGtTMXQwRXhFdGw5bTVyRTRpQ1NxVDd6bGdCRlJKWTg3akxuLVNpQkcwemZ3QlF2V0lsWkl1aU81LWJlYVhLTktpeWZ1c0VOZTAxVEdlT3VIUkRmTjZUZ2p1?oc=5",
+   "source": "Data Center Dynamics",
+   "category": "data_center",
    "regions": []
   },
   {
@@ -2096,5 +2480,5 @@
    "regions": []
   }
  ],
- "generated_at": "2026-11-13T13:48:32Z"
+ "generated_at": "2026-11-14T12:54:07Z"
 }
